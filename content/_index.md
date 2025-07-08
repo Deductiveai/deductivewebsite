@@ -1,16 +1,12 @@
 ---
 title: Home
+# TODO: Replace placeholder logo with actual software logos
+# Download and add these logos to /static/images/logos/:
+# - github.png, azure.png, langchain.png, langsmith.png, openai.png, anthropic.png
+# Then update the logo paths below to use the actual filenames
 client_logos:
-  - name: "Customer 1"
+  - name: "Placeholder"
     logo: "/images/logos/customer-1.png"
-  - name: "Customer 2"
-    logo: "/images/logos/customer-2.png"
-  - name: "Customer 3"
-    logo: "/images/logos/customer-3.png"
-  - name: "Customer 4"
-    logo: "/images/logos/customer-4.png"
-  - name: "Customer 5"
-    logo: "/images/logos/customer-5.png"
 testimonials:
   - name: "John Smith"
     title: "CTO at TechStartup"
@@ -39,7 +35,7 @@ testimonials:
     gradient-angle="180"
 >}}
 
-{{< client-logos animate="true" >}}
+{{< client-logos animate="true" title="Software die wij vertrouwen" >}}
 
 {{< features-section 
     title="Modern Features for Modern Websites"

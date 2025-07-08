@@ -1,6 +1,6 @@
 baseURL = "https://saasify-demo.chaoming.li/"
 languageCode = "en-us"
-title = "Saasify"
+title = "Deductive"
 
 # Theme Config
 theme = "hugo-saasify-theme"
@@ -26,16 +26,16 @@ paginatePath = "page"
 
 [params]
   description = ""
-  author = "Chaoming Li"
-  logo = "/images/logo.svg"
+  author = "Deductive"
+  logo = "/logo.png"
   
   # Global CTA Configuration
   [params.cta]
     enable = true
     title = "Ready to Build Your SaaS Website?"
     description = "Join companies already using our theme to create beautiful, high-performance websites."
-    gradient_from = "#2563eb"  # Indigo-600
-    gradient_to = "#7c3aed"    # Purple-600
+    gradient_from = "#4534da"  # Primary purple/blue
+    gradient_to = "#08d5f9"    # Secondary light blue
     gradient_angle = 30
     [params.cta.primary_button]
       text = "Get Started Free"
@@ -52,12 +52,12 @@ paginatePath = "page"
   
   [params.header]
     # Header background and border styles (optional)
-    background = "bg-white/80 backdrop-blur-sm"
-    border = "border-b border-gray-100"
+    background = "bg-white"
+    border = "border-b border-gray-200"
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/logo.png"
     
     # Menu configuration
     [params.header.menu]
@@ -80,13 +80,13 @@ paginatePath = "page"
     [params.header.buttons]
       # Sign In button
       [params.header.buttons.signIn]
-        text = "Sign in"
-        url = "/signin"
+        text = "Klantportaal"
+        url = "https://agentfrontend.onrender.com"
       
       # Get Started button
       [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "/get-started"
+        text = "Contact"
+        url = "/contact"
 
   # Blog configuration
   [params.blog]

@@ -5,7 +5,7 @@ layout: "simple"
 
 ## Introduction
 
-At Saasify, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
+At Deductive, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
 
 ---
 
@@ -82,7 +82,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have questions about this Privacy Policy, please contact us at:
 
-* **Email:** privacy@saasify.com
+* **Email:** privacy@deductive.com
 * **Address:** 123 Tech Street, San Francisco, CA 94105
 
 *Last Updated: January 2024*

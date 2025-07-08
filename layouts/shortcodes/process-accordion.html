@@ -1,0 +1,312 @@
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4">{{ .Get "title" | default "Interactieve AI-Implementatie Guide" }}</h2>
+            <p class="text-xl text-gray-600">{{ .Get "description" | default "Klik op elke fase om meer te ontdekken" }}</p>
+        </div>
+        
+        <div class="space-y-4">
+            <!-- Phase 1 -->
+            <div class="accordion-item border-2 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:border-primary-300">
+                <div class="accordion-header bg-gradient-to-r from-primary-50 to-primary-100 p-6 cursor-pointer select-none" onclick="toggleAccordion(1)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                                1
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Discovery & Analyse Fase</h3>
+                                <p class="text-gray-600">Strategie ontwikkeling en requirement gathering</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-sm text-primary-600 font-semibold mr-4">1-2 weken</span>
+                            <svg class="w-6 h-6 text-primary-600 transform transition-transform duration-300" id="arrow-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300" id="content-1">
+                    <div class="p-6 border-t border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Wat we doen:</h4>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">Stakeholder interviews en workshops</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">Huidige proces mapping en analyse</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">Technical feasibility assessment</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-primary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">ROI projecties en business case</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Deliverables:</h4>
+                                <div class="space-y-3">
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">AI Strategy Document</div>
+                                        <div class="text-sm text-gray-600">Volledige strategie en implementatie roadmap</div>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">Technical Architecture</div>
+                                        <div class="text-sm text-gray-600">Systeem architectuur en technische specificaties</div>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">Project Timeline</div>
+                                        <div class="text-sm text-gray-600">Gedetailleerde planning en milestones</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 2 -->
+            <div class="accordion-item border-2 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:border-secondary-300">
+                <div class="accordion-header bg-gradient-to-r from-secondary-50 to-secondary-100 p-6 cursor-pointer select-none" onclick="toggleAccordion(2)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-secondary-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                                2
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Proof of Concept Fase</h3>
+                                <p class="text-gray-600">Rapid prototyping en validatie</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-sm text-secondary-600 font-semibold mr-4">2-3 weken</span>
+                            <svg class="w-6 h-6 text-secondary-600 transform transition-transform duration-300" id="arrow-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300" id="content-2">
+                    <div class="p-6 border-t border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Wat we doen:</h4>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-secondary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">MVP ontwikkeling met core features</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-secondary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">User testing en feedback verzameling</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-secondary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">Performance benchmarking</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="w-2 h-2 bg-secondary-600 rounded-full mt-2 mr-3"></div>
+                                        <span class="text-gray-700">Iteratie en refinement</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Success Metrics:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">Accuracy Rate</span>
+                                        <span class="font-bold text-secondary-600">≥ 85%</span>
+                                    </div>
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">Response Time</span>
+                                        <span class="font-bold text-secondary-600">< 2 sec</span>
+                                    </div>
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">User Satisfaction</span>
+                                        <span class="font-bold text-secondary-600">≥ 4.5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 3 -->
+            <div class="accordion-item border-2 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:border-green-300">
+                <div class="accordion-header bg-gradient-to-r from-green-50 to-green-100 p-6 cursor-pointer select-none" onclick="toggleAccordion(3)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                                3
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Productie Implementatie</h3>
+                                <p class="text-gray-600">Volledige uitrol en systeemintegratie</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-sm text-green-600 font-semibold mr-4">4-8 weken</span>
+                            <svg class="w-6 h-6 text-green-600 transform transition-transform duration-300" id="arrow-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300" id="content-3">
+                    <div class="p-6 border-t border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Implementation Phases:</h4>
+                                <div class="space-y-3">
+                                    <div class="border-l-4 border-green-600 pl-4">
+                                        <div class="font-medium text-gray-900">Week 1-2: Development</div>
+                                        <div class="text-sm text-gray-600">Full-scale feature development</div>
+                                    </div>
+                                    <div class="border-l-4 border-green-600 pl-4">
+                                        <div class="font-medium text-gray-900">Week 3-4: Integration</div>
+                                        <div class="text-sm text-gray-600">System integration en testing</div>
+                                    </div>
+                                    <div class="border-l-4 border-green-600 pl-4">
+                                        <div class="font-medium text-gray-900">Week 5-6: Training</div>
+                                        <div class="text-sm text-gray-600">Staff training en documentatie</div>
+                                    </div>
+                                    <div class="border-l-4 border-green-600 pl-4">
+                                        <div class="font-medium text-gray-900">Week 7-8: Go-Live</div>
+                                        <div class="text-sm text-gray-600">Production deployment</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Quality Assurance:</h4>
+                                <div class="space-y-3">
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">🔍 Uitgebreid testen</div>
+                                        <div class="text-sm text-gray-600">Unit, integration en end-to-end testing</div>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">🛡️ Security audit</div>
+                                        <div class="text-sm text-gray-600">Volledige security en compliance check</div>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                        <div class="font-medium text-gray-900">⚡ Performance optimization</div>
+                                        <div class="text-sm text-gray-600">Load testing en performance tuning</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 4 -->
+            <div class="accordion-item border-2 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:border-purple-300">
+                <div class="accordion-header bg-gradient-to-r from-purple-50 to-purple-100 p-6 cursor-pointer select-none" onclick="toggleAccordion(4)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                                4
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Optimalisatie & Support</h3>
+                                <p class="text-gray-600">Continue verbetering en monitoring</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-sm text-purple-600 font-semibold mr-4">Doorlopend</span>
+                            <svg class="w-6 h-6 text-purple-600 transform transition-transform duration-300" id="arrow-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300" id="content-4">
+                    <div class="p-6 border-t border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Monitoring Dashboard:</h4>
+                                <div class="space-y-3">
+                                    <div class="bg-purple-50 p-4 rounded-lg">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <span class="font-medium text-gray-900">Performance Metrics</span>
+                                            <span class="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded">Real-time</span>
+                                        </div>
+                                        <div class="text-sm text-gray-600">24/7 monitoring van alle AI-systemen</div>
+                                    </div>
+                                    <div class="bg-purple-50 p-4 rounded-lg">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <span class="font-medium text-gray-900">Usage Analytics</span>
+                                            <span class="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded">Weekly</span>
+                                        </div>
+                                        <div class="text-sm text-gray-600">Gedetailleerde gebruiks- en performance rapporten</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg mb-3 text-gray-900">Support Levels:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">🔥 Critical Issues</span>
+                                        <span class="font-bold text-purple-600">< 1 uur</span>
+                                    </div>
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">⚠️ High Priority</span>
+                                        <span class="font-bold text-purple-600">< 4 uur</span>
+                                    </div>
+                                    <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+                                        <span class="text-gray-900">📝 General Support</span>
+                                        <span class="font-bold text-purple-600">< 24 uur</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CTA Section -->
+        <div class="mt-16 text-center bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-xl">
+            <h3 class="text-2xl font-bold mb-4">Klaar om te beginnen?</h3>
+            <p class="text-gray-600 mb-6">Start vandaag nog met uw AI-transformatie journey</p>
+            <button class="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200">
+                Plan een Discovery Sessie
+            </button>
+        </div>
+    </div>
+    
+    <script>
+        function toggleAccordion(phase) {
+            const content = document.getElementById(`content-${phase}`);
+            const arrow = document.getElementById(`arrow-${phase}`);
+            const isOpen = content.style.maxHeight !== '0px' && content.style.maxHeight !== '';
+            
+            // Close all other accordions
+            for (let i = 1; i <= 4; i++) {
+                if (i !== phase) {
+                    const otherContent = document.getElementById(`content-${i}`);
+                    const otherArrow = document.getElementById(`arrow-${i}`);
+                    otherContent.style.maxHeight = '0px';
+                    otherArrow.style.transform = 'rotate(0deg)';
+                }
+            }
+            
+            // Toggle current accordion
+            if (isOpen) {
+                content.style.maxHeight = '0px';
+                arrow.style.transform = 'rotate(0deg)';
+            } else {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                arrow.style.transform = 'rotate(180deg)';
+            }
+        }
+    </script>
+</section>

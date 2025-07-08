@@ -33,14 +33,18 @@ jobs:
           extended: true
       - name: Build
         run: |
+          echo "Current directory contents:"
+          ls -la
+          echo "Theme directory check:"
+          ls -la themes/hugo-saasify-theme/layouts/
+          echo "Building with Hugo..."
           hugo --minify --baseURL "https://deductiveai.github.io/deductivewebsite/"
+          echo "Build complete. Generated files:"
           ls -la public/
-          echo "Contents of public directory:"
+          echo "HTML files generated:"
           find public/ -name "*.html" | head -10
           echo "Checking if index.html exists:"
           ls -la public/index.html || echo "index.html not found!"
-          echo "First 50 lines of index.html:"
-          head -50 public/index.html || echo "Could not read index.html"
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:

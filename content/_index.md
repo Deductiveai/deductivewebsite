@@ -94,4 +94,9 @@ testimonials:
     background-color="#f1f5f9"
 >}}
 
+{{< terminator-ascii 
+    title="AI TERMINATOR MODE"
+    description="Waar logica menselijkheid ontmoet"
+>}}
+
 {{< cta >}}

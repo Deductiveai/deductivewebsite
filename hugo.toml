@@ -63,7 +63,7 @@ paginatePath = "page"
     
     # Logo configuration
     [params.header.logo]
-      src = "/logo.png"
+      src = "logo.png"
     
     # Menu configuration
     [params.header.menu]
@@ -134,10 +134,7 @@ paginatePath = "page"
         placeholder = "Enter your email"
         disclaimer = "We respect your privacy. Unsubscribe at any time."
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.80.0"
+# Module configuration removed - using traditional theme approach
 
 [build]
   writeStats = true

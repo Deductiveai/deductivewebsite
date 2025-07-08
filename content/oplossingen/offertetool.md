@@ -15,7 +15,7 @@ features:
     description: "Geoptimaliseerd voor hogere acceptatiepercentages met data-gedreven presentatie en timing."
 demo:
   description: "Ontdek hoe onze offertetool uw verkoopproces kan versnellen."
-  image: "/images/feature-3.svg"
+  image: "images/feature-3.svg"
 ---
 
 ## Intelligente Offertetool

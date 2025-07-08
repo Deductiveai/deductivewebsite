@@ -5,7 +5,7 @@ author: "Deductive Team"
 description: "Een complete gids voor het succesvol implementeren van AI-oplossingen in uw bedrijf, van strategie tot uitvoering."
 categories: ["AI-Implementatie"]
 tags: ["ai-implementatie", "digitale-transformatie", "bedrijfsstrategie", "change-management"]
-featured_image: "/images/blog/blog-4.jpg"
+featured_image: "images/blog/blog-4.jpg"
 ---
 
 {{< toc >}}

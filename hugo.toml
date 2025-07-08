@@ -27,7 +27,7 @@ paginatePath = "page"
 [params]
   description = ""
   author = "Deductive"
-  logo = "/logo.png"
+  logo = "logo.png"
   
   # Global CTA Configuration
   [params.cta]

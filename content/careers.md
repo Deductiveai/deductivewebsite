@@ -6,7 +6,7 @@ layout: "career"
 # Commented out sections for future use when hiring resumes
 # culture_section:
 #   title: "Onze Cultuur"
-#   image: "/images/team.jpg"
+#   image: "images/team.jpg"
 #   image_alt: "Ons Team"
 #   image_caption: "Word onderdeel van ons geweldige team!"
 #   values:

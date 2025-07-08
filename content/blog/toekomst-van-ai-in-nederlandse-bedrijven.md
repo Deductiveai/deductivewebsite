@@ -5,7 +5,7 @@ author: "Deductive Team"
 description: "Ontdek de belangrijkste AI-trends die Nederlandse bedrijven zullen beïnvloeden en hoe u zich kunt voorbereiden op de toekomst."
 categories: ["AI-Trends"]
 tags: ["ai-trends", "nederlandse-bedrijven", "toekomst", "digitalisering", "innovatie"]
-featured_image: "/images/blog/blog-5.jpg"
+featured_image: "images/blog/blog-5.jpg"
 ---
 
 {{< toc >}}

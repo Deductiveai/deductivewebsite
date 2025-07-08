@@ -5,7 +5,7 @@ author: "Deductive Team"
 description: "Ontdek hoe een AI-gedreven offertetool uw verkoopproces kan automatiseren en uw conversiepercentages kan verbeteren."
 categories: ["Verkoop"]
 tags: ["offertetool", "verkoopautomatisering", "ai-verkoop", "conversieoptimalisatie"]
-featured_image: "/images/blog/blog-3.jpg"
+featured_image: "images/blog/blog-3.jpg"
 ---
 
 {{< toc >}}

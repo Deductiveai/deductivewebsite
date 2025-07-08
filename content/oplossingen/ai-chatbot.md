@@ -15,7 +15,7 @@ features:
     description: "Integreert naadloos met uw bestaande CRM, helpdesk en bedrijfssystemen voor complete ondersteuning."
 demo:
   description: "Ontdek hoe onze AI-chatbot uw klantenservice kan transformeren."
-  image: "/images/feature-1.svg"
+  image: "images/feature-1.svg"
 ---
 
 ## Intelligente Chatbot-Oplossingen

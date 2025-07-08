@@ -5,7 +5,7 @@ author: "Deductive Team"
 description: "Ontdek hoe intelligente AI-chatbots de klantenservice revolutioneren met 24/7 ondersteuning en gepersonaliseerde ervaringen."
 categories: ["Klantenservice"]
 tags: ["ai-chatbots", "klantenservice", "automatisering", "klantervaring"]
-featured_image: "/images/blog/blog-2.jpg"
+featured_image: "images/blog/blog-2.jpg"
 ---
 
 {{< toc >}}

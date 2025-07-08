@@ -5,7 +5,7 @@ author: "Deductive Team"
 description: "Ontdek waarom AI-agents de toekomst van bedrijfsautomatisering zijn en hoe ze verschillen van traditionele automatisering."
 categories: ["AI-Technologie"]
 tags: ["ai-agents", "automatisering", "bedrijfsprocessen", "kunstmatige-intelligentie"]
-featured_image: "/images/blog/blog-1.jpg"
+featured_image: "images/blog/blog-1.jpg"
 ---
 
 {{< toc >}}

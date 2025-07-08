@@ -15,7 +15,7 @@ features:
     description: "AI-agents worden beter naarmate ze meer data verwerken en ervaring opdoen met uw specifieke bedrijfsprocessen."
 demo:
   description: "Zie hoe onze AI-agents uw bedrijfsprocessen kunnen transformeren."
-  image: "/images/feature-2.svg"
+  image: "images/feature-2.svg"
 ---
 
 ## Autonome AI-Agents

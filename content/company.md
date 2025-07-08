@@ -24,13 +24,13 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive"
             {{< team-member 
                 name="Daan Slurink"
                 title="Co-founder & Platform Development"
-                image="/images/company/exec-1.svg"
+                image="images/company/exec-1.svg"
                 linkedin="#"
             >}}
             {{< team-member 
                 name="Paul van Glabbeek"
                 title="Co-founder & AI Development"
-                image="/images/company/exec-2.svg"
+                image="images/company/exec-2.svg"
                 linkedin="#"
             >}}
         </div>
@@ -41,10 +41,10 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive"
     <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-12">Technologie Partners</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            {{< investor-logo name="Microsoft Azure" image="/images/company/investor-1.svg" >}}
-            {{< investor-logo name="OpenAI" image="/images/company/investor-2.svg" >}}
-            {{< investor-logo name="Anthropic" image="/images/company/investor-3.svg" >}}
-            {{< investor-logo name="LangChain" image="/images/company/investor-4.svg" >}}
+            {{< investor-logo name="Microsoft Azure" image="images/company/investor-1.svg" >}}
+            {{< investor-logo name="OpenAI" image="images/company/investor-2.svg" >}}
+            {{< investor-logo name="Anthropic" image="images/company/investor-3.svg" >}}
+            {{< investor-logo name="LangChain" image="images/company/investor-4.svg" >}}
         </div>
     </div>
 {{< /section-container >}}

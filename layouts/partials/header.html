@@ -2,7 +2,7 @@
 {{ $dropdownConfig := $headerConfig.menu.dropdown }}
 <div class="mobile-menu-wrapper">
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <header class="fixed w-full top-0 z-50 {{ with $headerConfig.border }}{{ . }}{{ else }}border-b border-gray-100{{ end }}" style="background: linear-gradient(180deg, #dbeafe, #f3e8ff)">
+    <header class="fixed w-full top-0 z-50 bg-gray-900 border-b border-gray-700">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <nav class="flex items-center justify-between h-20">
                 <!-- Logo Only -->
@@ -10,7 +10,7 @@
                     {{ with $headerConfig.logo }}
                         <img src="{{ .src | relURL }}" alt="{{ $.Site.Title }}" class="{{ with .class }}{{ . }}{{ else }}h-12{{ end }}">
                     {{ else }}
-                        <span class="text-3xl font-bold text-gray-900">{{ .Site.Title }}</span>
+                        <span class="text-3xl font-bold text-white">{{ .Site.Title }}</span>
                     {{ end }}
                 </a>
 
@@ -19,7 +19,7 @@
                     {{ range .Site.Menus.main }}
                         {{ if .Params.has_submenu }}
                         <div class="relative group">
-                            <button class="flex items-center {{ with $headerConfig.menu.linkClass }}{{ . }}{{ else }}text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200{{ end }}">
+                            <button class="flex items-center {{ with $headerConfig.menu.linkClass }}{{ . }}{{ else }}text-base text-white hover:text-secondary-100 font-bold transition duration-200{{ end }}">
                                 {{ .Name }}
                                 <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                         {{ else }}
-                        <a href="{{ .URL }}" class="{{ with $headerConfig.menu.linkClass }}{{ . }}{{ else }}text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200{{ end }}">{{ .Name }}</a>
+                        <a href="{{ .URL }}" class="{{ with $headerConfig.menu.linkClass }}{{ . }}{{ else }}text-base text-white hover:text-secondary-100 font-bold transition duration-200{{ end }}">{{ .Name }}</a>
                         {{ end }}
                     {{ end }}
                 </div>
@@ -43,7 +43,7 @@
                 {{ if not $headerConfig.hideButtons }}
                 <div class="hidden md:flex items-center space-x-4">
                     {{ with $headerConfig.buttons.signIn }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-400 text-white hover:border-secondary-100 hover:text-secondary-100{{ end }}">
                         {{ .text | default "Sign in" }}
                     </a>
                     {{ end }}
@@ -58,8 +58,8 @@
 
                 <!-- Mobile Menu Toggle -->
                 <div class="md:hidden">
-                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 transition-colors cursor-pointer">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-secondary-100 focus:ring-offset-2 transition-colors cursor-pointer">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </label>
@@ -68,27 +68,27 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div class="nav-content md:hidden w-full fixed left-0 right-0 top-20 bg-white border-t border-gray-100 shadow-lg">
+        <div class="nav-content md:hidden w-full fixed left-0 right-0 top-20 bg-gray-900 border-t border-gray-700 shadow-lg">
             <div class="w-full px-6 py-4">
                 {{ range .Site.Menus.main }}
                     {{ if .Params.has_submenu }}
                     <div class="py-2">
-                        <div class="text-xl text-gray-900 font-bold mb-2">{{ .Name }}</div>
+                        <div class="text-xl text-white font-bold mb-2">{{ .Name }}</div>
                         <div class="pl-4">
                             {{ range .Params.submenu }}
-                            <a href="{{ .url }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ .name }}</a>
+                            <a href="{{ .url }}" class="block text-gray-300 hover:text-secondary-100 py-2">{{ .name }}</a>
                             {{ end }}
                         </div>
                     </div>
                     {{ else }}
-                    <a href="{{ .URL }}" class="{{ with $headerConfig.menu.mobileLinkClass }}{{ . }}{{ else }}block text-xl text-gray-900 hover:text-primary-600 font-bold transition duration-200 py-2{{ end }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" class="{{ with $headerConfig.menu.mobileLinkClass }}{{ . }}{{ else }}block text-xl text-white hover:text-secondary-100 font-bold transition duration-200 py-2{{ end }}">{{ .Name }}</a>
                     {{ end }}
                 {{ end }}
                 
                 {{ if not $headerConfig.hideButtons }}
                 <div class="pt-4 space-y-4">
                     {{ with $headerConfig.buttons.signIn }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-400 text-white hover:border-secondary-100 hover:text-secondary-100{{ end }}">
                         {{ .text | default "Sign in" }}
                     </a>
                     {{ end }}

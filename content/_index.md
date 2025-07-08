@@ -8,27 +8,27 @@ client_logos:
   - name: "Placeholder"
     logo: "/images/logos/customer-1.png"
 testimonials:
-  - name: "John Smith"
-    title: "CTO at TechStartup"
+  - name: "Sarah van der Berg"
+    title: "CTO bij TechCorp Nederland"
     avatar: "/images/testimonial-1.svg"
-    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
-  - name: "Sarah Johnson"
-    title: "Founder at WebFlow"
+    quote: "Deductive heeft onze klantenservice volledig getransformeerd. De AI-agent behandelt nu 85% van alle vragen automatisch."
+  - name: "Marco Hendriks"
+    title: "Operations Director bij LogiFlow BV"
     avatar: "/images/testimonial-1.svg"
-    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
-  - name: "Michael Chen"
-    title: "Lead Developer at CloudTech"
+    quote: "De procesautomatisering heeft onze efficiëntie dramatisch verbeterd. We kunnen nu meer doen met minder resources."
+  - name: "Linda Bakker"
+    title: "CEO bij DataInsight Solutions"
     avatar: "/images/testimonial-1.svg"
-    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
+    quote: "De AI-oplossingen van Deductive geven ons realtime insights die voorheen onmogelijk waren."
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
-    primary_button_text="Get Started Free"
-    primary_button_url="#"
-    secondary_button_text="View Demo"
-    secondary_button_url="#"
+    headline="Van Idee naar Intelligente AI-Agents"
+    sub_headline="Deductive ontwikkelt AI-software die autonoom werkt, leert en groeit met jouw bedrijf. Specialist in AI-agents en maatwerk oplossingen."
+    primary_button_text="Ontdek Onze Oplossingen"
+    primary_button_url="/oplossingen"
+    secondary_button_text="Plan een Demo"
+    secondary_button_url="/contact"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
@@ -38,51 +38,58 @@ testimonials:
 {{< client-logos animate="true" title="Software die wij vertrouwen" >}}
 
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Onze AI-Expertise"
+    description="Ontdek hoe onze AI-oplossingen uw bedrijf kunnen transformeren."
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
-    badgeColor="#2563eb"
+    title="AI Chatbot"
+    description="Intelligente chatbot-oplossingen die 24/7 klantondersteuning bieden met geavanceerde AI-technologie."
+    badge="Chatbot"
+    badgeColor="#4534da"
     image="/images/feature-1.svg"
-    buttonText="Learn More"
-    buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    buttonText="Meer Informatie"
+    buttonLink="/oplossingen/ai-chatbot/"
+    features="24/7 Beschikbaarheid,Meertalige Ondersteuning,Contextbewuste Gesprekken,Systeemintegratie"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-    badge="Design"
-    badgeColor="#7c3aed"
+    title="AI-Agents"
+    description="Autonome AI-agents die complexe taken uitvoeren, processen automatiseren en intelligent beslissingen nemen."
+    badge="AI-Agents"
+    badgeColor="#08d5f9"
     image="/images/feature-2.svg"
-    buttonText="Learn More"
-    buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    buttonText="Meer Informatie"
+    buttonLink="/oplossingen/ai-agents/"
+    features="Autonome Werking,Procesautomatisering,Realtime Besluitvorming,Lerende Systemen"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
+    title="Offertetool"
+    description="Intelligente offertetool die automatisch gepersonaliseerde offertes genereert en het verkoopproces optimaliseert."
+    badge="Offertetool"
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
-    buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    buttonText="Meer Informatie"
+    buttonLink="/oplossingen/offertetool/"
+    features="Automatische Offertes,Dynamische Prijsberekening,Gepersonaliseerde Presentatie,Conversie-optimalisatie"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
+{{< process-timeline 
+    title="Ons Bewezen Proces"
+    description="Van idee tot implementatie: zo transformeren we uw bedrijf met AI"
+>}}
+
+{{< process-demo-buttons >}}
+
 {{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
+    title="Wat Onze Klanten Zeggen"
+    description="Ontdek hoe bedrijven hun processen transformeren met onze AI-oplossingen."
     animate="true"
     background-color="#f1f5f9"
 >}}

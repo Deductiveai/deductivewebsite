@@ -1,42 +1,75 @@
 ---
-title: "Join Our Team"
-description: "Be part of a team that's revolutionizing the SaaS industry with innovative solutions and a people-first culture."
+title: "Vacatures"
+description: "Ontdek hoe je onderdeel kunt worden van ons innovatieve AI-team bij Deductive."
 layout: "career"
 
-culture_section:
-  title: "Our Culture"
-  image: "/images/team.jpg"
-  image_alt: "Our Team"
-  image_caption: "Join our amazing team!"
-  values:
-    - icon: "🌟"
-      title: "Innovation First"
-      description: "We encourage creative thinking and empower our team to push boundaries and explore new possibilities."
-    - icon: "🤝"
-      title: "Collaborative Spirit"
-      description: "We believe in the power of teamwork and foster an environment where everyone's voice is heard and valued."
-    - icon: "🌱"
-      title: "Growth Mindset"
-      description: "We invest in our team's development and provide opportunities for continuous learning and advancement."
+# Commented out sections for future use when hiring resumes
+# culture_section:
+#   title: "Onze Cultuur"
+#   image: "/images/team.jpg"
+#   image_alt: "Ons Team"
+#   image_caption: "Word onderdeel van ons geweldige team!"
+#   values:
+#     - icon: "🌟"
+#       title: "Innovatie Eerst"
+#       description: "We moedigen creatief denken aan en geven ons team de ruimte om grenzen te verleggen en nieuwe mogelijkheden te verkennen."
+#     - icon: "🤝"
+#       title: "Samenwerkingsgeest"
+#       description: "We geloven in de kracht van teamwork en creëren een omgeving waar ieders stem wordt gehoord en gewaardeerd."
+#     - icon: "🌱"
+#       title: "Groeimindset"
+#       description: "We investeren in de ontwikkeling van ons team en bieden kansen voor continue leren en vooruitgang."
 
-benefits_section:
-  title: "Why Join Us?"
-  benefits:
-    - icon: "💪"
-      title: "Health & Wellness"
-      description: "Comprehensive health coverage, wellness programs, and mental health support."
-    - icon: "🎯"
-      title: "Work-Life Balance"
-      description: "Flexible working hours, remote options, and unlimited PTO policy."
-    - icon: "📚"
-      title: "Learning & Development"
-      description: "Professional development budget and regular learning sessions."
+# benefits_section:
+#   title: "Waarom Bij Ons Werken?"
+#   benefits:
+#     - icon: "💪"
+#       title: "Gezondheid & Welzijn"
+#       description: "Uitgebreide zorgverzekering, wellness programma's en mentale gezondheidsondersteuning."
+#     - icon: "🎯"
+#       title: "Work-Life Balance"
+#       description: "Flexibele werktijden, remote mogelijkheden en onbeperkt verlof beleid."
+#     - icon: "📚"
+#       title: "Leren & Ontwikkeling"
+#       description: "Professioneel ontwikkelingsbudget en regelmatige leersessies."
 
 positions_section:
-  title: "Open Positions"
-  view_position_text: "View Position"
+  title: "Open Posities"
+  view_position_text: "Bekijk Positie"
 ---
 
-At Deductive, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.
+# Momenteel Geen Openstaande Vacatures
 
-We're looking for passionate individuals who want to make a difference and grow with us. If you're excited about building the future of AI and working with cutting-edge technology, we'd love to hear from you.
+**Dank je voor je interesse in Deductive!**
+
+We zijn momenteel niet actief op zoek naar nieuwe teamleden. Ons team is compleet voor de huidige projecten en we focussen ons op het leveren van de beste AI-oplossingen aan onze klanten.
+
+## Blijf op de Hoogte
+
+Hoewel we nu geen openstaande posities hebben, groeit Deductive snel en dit kan in de toekomst veranderen. 
+
+### Interesse in de Toekomst?
+
+Als je gepassioneerd bent over AI-technologie en interesse hebt om in de toekomst mogelijk bij ons te werken, kun je:
+
+- **Volg ons** op sociale media voor updates
+- **Stuur je CV** naar careers@deductive.nl voor toekomstige mogelijkheden
+- **Neem contact op** via [contact@deductive.nl](mailto:contact@deductive.nl) voor meer informatie
+
+### Wat We Zoeken (Voor de Toekomst)
+
+Wanneer we in de toekomst weer gaan uitbreiden, zijn we op zoek naar:
+- **AI/ML Engineers** met ervaring in machine learning
+- **Software Developers** met Python/JavaScript expertise  
+- **Product Managers** met AI-product ervaring
+- **Sales Professionals** met B2B software ervaring
+
+## Over Werken bij Deductive
+
+Bij Deductive geloven we in het empoweren van onze teamleden om hun beste werk te leveren. We creëren een omgeving van innovatie, samenwerking en continu leren. Onze cultuur is gebouwd op vertrouwen, transparantie en een gedeelde toewijding aan excellentie.
+
+**Bedankt voor je interesse!** Houd onze website in de gaten voor toekomstige mogelijkheden.
+
+---
+
+*Voor vragen over toekomstige carrièremogelijkheden, neem contact op via [careers@deductive.nl](mailto:careers@deductive.nl)*

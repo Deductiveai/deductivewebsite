@@ -33,6 +33,7 @@ Thumbs.db
 
 # Hugo server temporary files
 .hugo_build.lock
+hugo_stats.json
 
 # Logs
 *.log

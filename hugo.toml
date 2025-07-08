@@ -1,4 +1,4 @@
-baseURL = "https://deductiveai.github.io/deductivewebsite/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Deductive"
 

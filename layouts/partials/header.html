@@ -2,7 +2,7 @@
 {{ $dropdownConfig := $headerConfig.menu.dropdown }}
 <div class="mobile-menu-wrapper">
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <header class="fixed w-full top-0 z-50 {{ with $headerConfig.background }}{{ . }}{{ else }}bg-white/80 backdrop-blur-sm{{ end }} {{ with $headerConfig.border }}{{ . }}{{ else }}border-b border-gray-100{{ end }}">
+    <header class="fixed w-full top-0 z-50 {{ with $headerConfig.border }}{{ . }}{{ else }}border-b border-gray-100{{ end }}" style="background: linear-gradient(180deg, #dbeafe, #f3e8ff)">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <nav class="flex items-center justify-between h-20">
                 <!-- Logo Only -->

@@ -6,20 +6,17 @@ title: Home
 # Then update the logo paths below to use the actual filenames
 client_logos:
   - name: "Placeholder"
-    logo: "images/logos/customer-1.png"
+    logo: "images/logos/github.png"
+  - name: "Placeholder"
+    logo: "images/logos/aws.svg"
+  - name: "Placeholder"
+    logo: "images/logos/openai2.png"
 testimonials:
-  - name: "Sarah van der Berg"
-    title: "CTO bij TechCorp Nederland"
+  - name: "Nynke de B"
+    title: "Kliniek elsendael"
     avatar: "images/testimonial-1.svg"
-    quote: "Deductive heeft onze klantenservice volledig getransformeerd. De AI-agent behandelt nu 85% van alle vragen automatisch."
-  - name: "Marco Hendriks"
-    title: "Operations Director bij LogiFlow BV"
-    avatar: "images/testimonial-1.svg"
-    quote: "De procesautomatisering heeft onze efficiëntie dramatisch verbeterd. We kunnen nu meer doen met minder resources."
-  - name: "Linda Bakker"
-    title: "CEO bij DataInsight Solutions"
-    avatar: "images/testimonial-1.svg"
-    quote: "De AI-oplossingen van Deductive geven ons realtime insights die voorheen onmogelijk waren."
+    quote: "haha piep piep weeeeeee"
+
 ---
 
 {{< hero 

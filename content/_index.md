@@ -94,9 +94,207 @@ testimonials:
     background-color="#f1f5f9"
 >}}
 
-{{< terminator-ascii 
-    title="AI TERMINATOR MODE"
-    description="Waar logica menselijkheid ontmoet"
->}}
+<section class="py-20 bg-gray-900 text-green-400 font-mono overflow-hidden">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-white mb-4">AI DEVELOPMENT MODE</h2>
+<p class="text-xl text-gray-300">Waar logica menselijkheid ontmoet</p>
+</div>
+<div class="flex justify-center">
+<div class="laptop-container relative">
+<div id="laptop-ascii" class="text-center text-sm md:text-base lg:text-lg leading-none whitespace-pre-wrap">
+<!-- ASCII art will be rotated here -->
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<div class="inline-flex items-center space-x-2 bg-green-900/20 border border-green-400/30 rounded-lg px-6 py-3">
+<div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+<span class="text-green-400">SYSTEM OPERATIONAL</span>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, starting ASCII art...');
+    const laptopFrames = [
+        `         ╔══════════════════════════════════════╗
+        ║                                      ║
+        ║            DEDUCTIVE AI              ║
+        ║                                      ║
+        ║  ┌─────────────────────────────────┐  ║
+        ║  │ > hugo server --buildDrafts     │  ║
+        ║  │ Serving at localhost:1313       │  ║
+        ║  │ █                               │  ║
+        ║  └─────────────────────────────────┘  ║
+        ║                                      ║
+        ╚══════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+╚═══════════════════════════════════════════════════════╝`,
+
+        `      ╔══════════════════════════════════════╗
+     ║                                      ║
+     ║            DEDUCTIVE AI              ║
+     ║                                      ║
+     ║  ┌─────────────────────────────────┐  ║
+     ║  │ > npm run dev                   │  ║
+     ║  │ Building application...         │  ║
+     ║  │ █                               │  ║
+     ║  └─────────────────────────────────┘  ║
+     ║                                      ║
+     ╚══════════════════════════════════════╝
+  ╔═══════════════════════════════════════════════════════╗
+  ║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+  ║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+  ║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+  ║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+  ║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+  ║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+  ╚═══════════════════════════════════════════════════════╝`,
+
+        `    ╔══════════════════════════════════════╗
+   ║                                      ║
+   ║            DEDUCTIVE AI              ║
+   ║                                      ║
+   ║  ┌─────────────────────────────────┐  ║
+   ║  │ > git commit -m "Fix bugs"      │  ║
+   ║  │ [main 2f8a9c3] Fix bugs         │  ║
+   ║  │ █                               │  ║
+   ║  └─────────────────────────────────┘  ║
+   ║                                      ║
+   ╚══════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+╚═══════════════════════════════════════════════════════╝`,
+
+        `  ╔══════════════════════════════════════╗
+ ║                                      ║
+ ║            DEDUCTIVE AI              ║
+ ║                                      ║
+ ║  ┌─────────────────────────────────┐  ║
+ ║  │ > python train_model.py         │  ║
+ ║  │ Training neural network...      │  ║
+ ║  │ █                               │  ║
+ ║  └─────────────────────────────────┘  ║
+ ║                                      ║
+ ╚══════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+╚═══════════════════════════════════════════════════════╝`,
+
+        `╔══════════════════════════════════════╗
+║                                      ║
+║            DEDUCTIVE AI              ║
+║                                      ║
+║  ┌─────────────────────────────────┐  ║
+║  │ > docker build -t deductive .   │  ║
+║  │ Successfully built image        │  ║
+║  │ █                               │  ║
+║  └─────────────────────────────────┘  ║
+║                                      ║
+╚══════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+╚═══════════════════════════════════════════════════════╝`,
+
+        `   ╔══════════════════════════════════════╗
+  ║                                      ║
+  ║            DEDUCTIVE AI              ║
+  ║                                      ║
+  ║  ┌─────────────────────────────────┐  ║
+  ║  │ > npm start                     │  ║
+  ║  │ Server running on port 3000     │  ║
+  ║  │ █                               │  ║
+  ║  └─────────────────────────────────┘  ║
+  ║                                      ║
+  ╚══════════════════════════════════════╝
+ ╔═══════════════════════════════════════════════════════╗
+ ║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
+ ║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
+ ║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
+ ║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
+ ║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
+ ║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
+ ╚═══════════════════════════════════════════════════════╝`
+    ];
+
+    let currentFrame = 0;
+    const asciiElement = document.getElementById('laptop-ascii');
+    
+    console.log('Element found:', !!asciiElement);
+    console.log('Frames available:', laptopFrames.length);
+    
+    function updateFrame() {
+        if (asciiElement) {
+            asciiElement.textContent = laptopFrames[currentFrame];
+            console.log('Frame updated:', currentFrame);
+            currentFrame = (currentFrame + 1) % laptopFrames.length;
+        } else {
+            console.log('Element not found!');
+        }
+    }
+    
+    updateFrame();
+    setInterval(updateFrame, 800);
+});
+</script>
+
+<style>
+.laptop-container {
+    perspective: 1000px;
+}
+
+#laptop-ascii {
+    transform-style: preserve-3d;
+    animation: laptop-glow 2s ease-in-out infinite alternate;
+    color: #10b981;
+}
+
+@keyframes laptop-glow {
+    0% {
+        text-shadow: 0 0 5px #10b981, 0 0 10px #10b981, 0 0 15px #10b981;
+    }
+    100% {
+        text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981, 0 0 40px #10b981;
+    }
+}
+
+@media (max-width: 768px) {
+    #laptop-ascii {
+        font-size: 0.5rem;
+        line-height: 0.6;
+    }
+}
+
+@media (max-width: 480px) {
+    #laptop-ascii {
+        font-size: 0.4rem;
+        line-height: 0.5;
+    }
+}
+</style>
 
 {{< cta >}}

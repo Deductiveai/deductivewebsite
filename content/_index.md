@@ -124,7 +124,7 @@ testimonials:
 </div>
 </div>
 </section>
-
+<!-- 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, starting ASCII art...');
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateFrame();
     setInterval(updateFrame, 800);
 });
-</script>
+</script> -->
 
 <style>
 .laptop-container {

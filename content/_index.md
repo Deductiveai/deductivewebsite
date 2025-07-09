@@ -5,12 +5,24 @@ title: Home
 # - github.png, azure.png, langchain.png, langsmith.png, openai.png, anthropic.png
 # Then update the logo paths below to use the actual filenames
 client_logos:
-  - name: "Placeholder"
+  - name: "Github"
     logo: "images/logos/github.png"
-  - name: "Placeholder"
+  - name: "AWS"
     logo: "images/logos/aws.svg"
-  - name: "Placeholder"
+  - name: "OpenAI"
     logo: "images/logos/openai2.png"
+  - name: "Anthropic"
+    logo: "images/logos/anthropic.svg"
+  - name: "Langsmith"
+    logo: "images/logos/langchain.svg"
+  - name: "Kubernetes"
+    logo: "images/logos/kubernetes.svg"
+  - name: "Azure"
+    logo: "images/logos/azure.svg"
+  - name: "Pinecone"
+    logo: "images/logos/pinecone.svg"
+  - name: "postgres"
+    logo: "images/logos/psql.svg"
 testimonials:
   - name: "Nynke de B"
     title: "Kliniek elsendael"

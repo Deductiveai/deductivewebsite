@@ -69,30 +69,22 @@ Ontdek hoe autonome AI-agents uw bedrijfsprocessen revolutioneren met zelfstandi
 
 <!-- Step Navigation -->
 <div class="flex justify-center mb-8">
-<div class="flex space-x-4">
-<button class="step-nav-btn active" data-step="1">
-<div class="flex items-center space-x-2">
-<div class="w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
-<span class="hidden sm:inline">Informatie</span>
-</div>
+<div class="flex gap-4">
+<button class="step-btn active" data-step="1">
+<span class="step-number">1</span>
+<span class="step-label">Informatie</span>
 </button>
-<button class="step-nav-btn" data-step="2">
-<div class="flex items-center space-x-2">
-<div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">2</div>
-<span class="hidden sm:inline">Analyse</span>
-</div>
+<button class="step-btn" data-step="2">
+<span class="step-number">2</span>
+<span class="step-label">Analyse</span>
 </button>
-<button class="step-nav-btn" data-step="3">
-<div class="flex items-center space-x-2">
-<div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">3</div>
-<span class="hidden sm:inline">Actie</span>
-</div>
+<button class="step-btn" data-step="3">
+<span class="step-number">3</span>
+<span class="step-label">Actie</span>
 </button>
-<button class="step-nav-btn" data-step="4">
-<div class="flex items-center space-x-2">
-<div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">4</div>
-<span class="hidden sm:inline">Leren</span>
-</div>
+<button class="step-btn" data-step="4">
+<span class="step-number">4</span>
+<span class="step-label">Leren</span>
 </button>
 </div>
 </div>
@@ -104,7 +96,7 @@ Ontdek hoe autonome AI-agents uw bedrijfsprocessen revolutioneren met zelfstandi
 
 <!-- Auto-play Controls -->
 <div class="flex justify-center mt-8 space-x-4">
-<button id="play-pause-btn" class="flex items-center space-x-2 bg-cyan-600 text-white px-6 py-3 rounded-lg hover:bg-cyan-700 transition-colors">
+<button id="play-pause-btn" class="flex items-center space-x-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-8 py-4 rounded-xl hover:from-cyan-700 hover:to-blue-700 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500">
 <svg id="play-icon" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.841z"/>
 </svg>
@@ -389,7 +381,7 @@ Ontdek hoe onze intelligente agents samenwerken in een perfect gecoördineerd ec
 <div class="w-32 h-32 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-700 rounded-full flex items-center justify-center shadow-2xl">
 <div class="text-center">
 <div class="text-lg text-white font-bold mb-1">DEDUCTIVE</div>
-<div class="text-sm text-purple-100">HUB</div>
+<div class="text-sm text-purple-100">KLANTPORTAAL</div>
 </div>
 </div>
 <div class="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center animate-pulse">
@@ -397,9 +389,43 @@ Ontdek hoe onze intelligente agents samenwerken in een perfect gecoördineerd ec
 </div>
 </div>
 
+<!-- Live Exchange Simulation -->
+<div class="bg-black/90 rounded-2xl p-6 max-w-md mx-auto">
+<div class="flex items-center mb-4">
+<div class="w-3 h-3 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+<span class="text-green-400 font-mono text-xs">LIVE AGENT COMMUNICATIE</span>
+</div>
+<div class="space-y-2 font-mono text-xs max-h-32 overflow-hidden">
+<div class="flex items-start">
+<span class="text-blue-400 mr-2">[CS]</span>
+<span class="text-gray-300">Nieuwe klant vraag ontvangen → Klantportaal</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Routering naar Sales Agent → Actief</span>
+</div>
+<div class="flex items-start">
+<span class="text-green-400 mr-2">[SA]</span>
+<span class="text-gray-300">Lead gekwalificeerd → Analytics vereist</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Data verzameld → Analytics Agent</span>
+</div>
+<div class="flex items-start">
+<span class="text-orange-400 mr-2">[AA]</span>
+<span class="text-gray-300">Analyse compleet → Offerte genereren</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Offerte verzonden → Klant geïnformeerd</span>
+</div>
+</div>
+</div>
+
 <div class="text-center">
 <h5 class="text-xl font-bold text-gray-900 mb-2">Real-time Coördinatie</h5>
-<p class="text-sm text-gray-600 max-w-xs">Alle agents communiceren instant via onze backend</p>
+<p class="text-sm text-gray-600 max-w-xs">Alle agents communiceren instant via het Deductive klantportaal</p>
 </div>
 
 <div class="flex items-center space-x-4 bg-gray-50 rounded-xl px-4 py-3">
@@ -442,34 +468,6 @@ Ontdek hoe onze intelligente agents samenwerken in een perfect gecoördineerd ec
 </div>
 </div>
 
-<!-- Connection Lines -->
-<svg class="absolute inset-0 w-full h-full pointer-events-none" style="z-index: 1;">
-<defs>
-<linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.8"/>
-<stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.8"/>
-</linearGradient>
-</defs>
-<!-- Lines from center to each agent -->
-<line x1="50%" y1="50%" x2="50%" y2="18%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="50%" y1="50%" x2="82%" y2="50%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="50%" y1="50%" x2="50%" y2="82%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="50%" y1="50%" x2="18%" y2="50%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="50%" y1="50%" x2="75%" y2="28%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="50%" y1="50%" x2="25%" y2="72%" stroke="url(#connectionGradient)" stroke-width="2" stroke-dasharray="5,5" class="connection-line">
-<animate attributeName="stroke-dashoffset" values="0;-10" dur="1.5s" repeatCount="indefinite"/>
-</line>
-</svg>
 
 <!-- Agent Info Tooltips -->
 <div class="absolute top-2 left-1/2 transform -translate-x-1/2 text-center opacity-0 tooltip" id="tooltip-customer">
@@ -505,94 +503,16 @@ Finance Agent
 </div>
 </div>
 
-<!-- Right: Agent Control Panel -->
-<div class="bg-gray-50 rounded-2xl p-6">
-<h4 class="text-xl font-bold text-gray-900 mb-6">Live Agent Dashboard</h4>
-
-<div class="space-y-4">
-<!-- Agent Status Cards -->
-<div class="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
-<div class="flex items-center justify-between">
-<div class="flex items-center">
-<div class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
-<div>
-<h5 class="font-semibold text-gray-900">Customer Service</h5>
-<p class="text-sm text-gray-600">Handling 23 conversations</p>
+<!-- Additional Visualization Space -->
+<div class="flex items-center justify-center space-y-6">
+<div class="text-center">
+<div class="w-24 h-24 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+<svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+</svg>
 </div>
-</div>
-<div class="text-right">
-<div class="text-sm text-green-600 font-semibold">97% Efficiency</div>
-<div class="text-xs text-gray-500">Avg response: 0.8s</div>
-</div>
-</div>
-</div>
-
-<div class="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
-<div class="flex items-center justify-between">
-<div class="flex items-center">
-<div class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
-<div>
-<h5 class="font-semibold text-gray-900">Sales Agent</h5>
-<p class="text-sm text-gray-600">Processing 8 leads</p>
-</div>
-</div>
-<div class="text-right">
-<div class="text-sm text-green-600 font-semibold">92% Efficiency</div>
-<div class="text-xs text-gray-500">Conversion: 34%</div>
-</div>
-</div>
-</div>
-
-<div class="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
-<div class="flex items-center justify-between">
-<div class="flex items-center">
-<div class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
-<div>
-<h5 class="font-semibold text-gray-900">Marketing Agent</h5>
-<p class="text-sm text-gray-600">Running 5 campaigns</p>
-</div>
-</div>
-<div class="text-right">
-<div class="text-sm text-green-600 font-semibold">94% Efficiency</div>
-<div class="text-xs text-gray-500">CTR: 3.2%</div>
-</div>
-</div>
-</div>
-
-<div class="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
-<div class="flex items-center justify-between">
-<div class="flex items-center">
-<div class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
-<div>
-<h5 class="font-semibold text-gray-900">Analytics Agent</h5>
-<p class="text-sm text-gray-600">Analyzing 15K events</p>
-</div>
-</div>
-<div class="text-right">
-<div class="text-sm text-green-600 font-semibold">99% Efficiency</div>
-<div class="text-xs text-gray-500">Insights: 12 new</div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- Backend Controls -->
-<div class="mt-6 pt-6 border-t border-gray-200">
-<h5 class="font-semibold text-gray-900 mb-4">Agent Beheer</h5>
-<div class="grid grid-cols-2 gap-3">
-<button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
-Agent Toevoegen
-</button>
-<button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-300 transition-colors">
-Instellingen
-</button>
-<button class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors">
-Performance
-</button>
-<button class="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors">
-Logboek
-</button>
-</div>
+<h5 class="text-lg font-bold text-gray-900 mb-2">Instant Coördinatie</h5>
+<p class="text-sm text-gray-600 max-w-xs mx-auto">Agents werken samen in realtime voor optimale resultaten</p>
 </div>
 </div>
 </div>
@@ -641,83 +561,7 @@ Logboek
 </div>
 </div>
 
-<!-- Real-world Collaboration Example -->
-<div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
-<div class="text-center mb-8">
-<h3 class="text-3xl font-bold mb-4">Live Voorbeeld: E-commerce Order Processing</h3>
-<p class="text-gray-300 text-lg">Bekijk hoe 6 Deductive agents samenwerken om een klantbestelling te verwerken</p>
-</div>
 
-<div class="bg-black/30 rounded-2xl p-6 mb-8">
-<div class="flex items-center justify-between mb-4">
-<div class="flex items-center">
-<div class="w-3 h-3 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-<span class="text-green-400 font-mono text-sm">LIVE PROCESSING</span>
-</div>
-<div class="text-gray-400 text-sm font-mono">Order #DED-2024-001337</div>
-</div>
-<div class="space-y-2 font-mono text-sm">
-<div class="flex items-center">
-<span class="text-blue-400 mr-2">[12:34:01]</span>
-<span class="text-gray-300">Customer Agent: New order received - Product: MacBook Pro M3</span>
-</div>
-<div class="flex items-center">
-<span class="text-green-400 mr-2">[12:34:02]</span>
-<span class="text-gray-300">Sales Agent: Price verified - €2,499.00 - Payment processing...</span>
-</div>
-<div class="flex items-center">
-<span class="text-purple-400 mr-2">[12:34:03]</span>
-<span class="text-gray-300">Analytics Agent: Customer risk score: LOW - Approval recommended</span>
-</div>
-<div class="flex items-center">
-<span class="text-orange-400 mr-2">[12:34:04]</span>
-<span class="text-gray-300">Inventory Agent: Stock check: 3 units available - Reserving 1 unit</span>
-</div>
-<div class="flex items-center">
-<span class="text-teal-400 mr-2">[12:34:05]</span>
-<span class="text-gray-300">Logistics Agent: Shipping calculated - Next-day delivery available</span>
-</div>
-<div class="flex items-center">
-<span class="text-pink-400 mr-2">[12:34:06]</span>
-<span class="text-gray-300">Finance Agent: Payment confirmed - Invoice generated</span>
-</div>
-<div class="flex items-center">
-<span class="text-blue-400 mr-2">[12:34:07]</span>
-<span class="text-gray-300">Customer Agent: Order confirmation sent - Tracking: DED234567</span>
-</div>
-</div>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
-<div class="text-2xl font-bold text-cyan-400 mb-2">6.2 sec</div>
-<div class="text-sm text-gray-300">Total Processing Time</div>
-</div>
-<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
-<div class="text-2xl font-bold text-green-400 mb-2">6 agents</div>
-<div class="text-sm text-gray-300">Parallel Execution</div>
-</div>
-<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
-<div class="text-2xl font-bold text-purple-400 mb-2">0% errors</div>
-<div class="text-sm text-gray-300">Perfect Coordination</div>
-</div>
-<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
-<div class="text-2xl font-bold text-orange-400 mb-2">24/7</div>
-<div class="text-sm text-gray-300">Always Available</div>
-</div>
-</div>
-</div>
-
-<!-- Call to Action -->
-<div class="text-center mt-16">
-<div class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1">
-<svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-</svg>
-<span>Ontdek Uw Eigen Agent Netwerk</span>
-</div>
-<p class="text-gray-600 mt-4 text-lg">Klaar om te zien hoe Deductive agents uw bedrijf kunnen transformeren?</p>
-</div>
 </div>
 </section>
 
@@ -750,38 +594,262 @@ Logboek
 }
 </style>
 
-<!-- Agent Interaction Scripts -->
+<!-- Business Scenario Scripts -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const agentNodes = document.querySelectorAll('.agent-node');
-    const tooltips = document.querySelectorAll('.tooltip');
-    
-    agentNodes.forEach((node, index) => {
-        node.addEventListener('mouseenter', function() {
-            const agentType = this.dataset.agent;
-            const tooltip = document.getElementById(`tooltip-${agentType}`);
-            if (tooltip) {
-                tooltip.style.opacity = '1';
-                tooltip.style.transform = tooltip.style.transform.replace('opacity-0', 'opacity-100');
-            }
-        });
+    // Agent status data focused on business metrics
+    const agentStatus = {
+        customer: { efficiency: 97, tasks: 23, metric: "Reactietijd: 12 sec", color: "green" },
+        sales: { efficiency: 92, tasks: 8, metric: "Omzet: €2.150", color: "green" },
+        marketing: { efficiency: 94, tasks: 5, metric: "Conversie: 3.2%", color: "green" },
+        analytics: { efficiency: 99, tasks: 847, metric: "Klanten: 847 nieuwe", color: "green" }
+    };
+
+    let businessMetrics = {
+        satisfaction: 9.2,
+        satisfactionMessage: "Klanten zijn zeer tevreden met de snelle service",
+        revenueImpact: 12500,
+        extraSales: 18,
+        costSavings: 3200,
+        timeSaved: 32,
+        adminReduction: 85,
+        responseSpeed: 6
+    };
+
+    // Function to update agent dashboard with business focus
+    function updateDashboard() {
+        // Update Customer Service Agent
+        const customerCard = document.querySelector('.space-y-4 .bg-white:nth-child(1)');
+        if (customerCard) {
+            const efficiency = customerCard.querySelector('.text-green-600.font-semibold');
+            const tasks = customerCard.querySelector('.text-gray-600');
+            const metric = customerCard.querySelector('.text-gray-500');
+            
+            if (efficiency) efficiency.textContent = agentStatus.customer.efficiency + '% Tevreden klanten';
+            if (tasks) tasks.textContent = 'Helpt ' + agentStatus.customer.tasks + ' klanten';
+            if (metric) metric.textContent = agentStatus.customer.metric;
+        }
+
+        // Update Sales Agent
+        const salesCard = document.querySelector('.space-y-4 .bg-white:nth-child(2)');
+        if (salesCard) {
+            const efficiency = salesCard.querySelector('.text-green-600.font-semibold');
+            const tasks = salesCard.querySelector('.text-gray-600');
+            const metric = salesCard.querySelector('.text-gray-500');
+            
+            if (efficiency) efficiency.textContent = agentStatus.sales.efficiency + '% Afgesloten deals';
+            if (tasks) tasks.textContent = 'Werkt aan ' + agentStatus.sales.tasks + ' leads';
+            if (metric) metric.textContent = agentStatus.sales.metric;
+        }
+
+        // Update Marketing Agent
+        const marketingCard = document.querySelector('.space-y-4 .bg-white:nth-child(3)');
+        if (marketingCard) {
+            const efficiency = marketingCard.querySelector('.text-green-600.font-semibold');
+            const tasks = marketingCard.querySelector('.text-gray-600');
+            const metric = marketingCard.querySelector('.text-gray-500');
+            
+            if (efficiency) efficiency.textContent = agentStatus.marketing.efficiency + '% Succesvolle campagnes';
+            if (tasks) tasks.textContent = 'Draait ' + agentStatus.marketing.tasks + ' campagnes';
+            if (metric) metric.textContent = agentStatus.marketing.metric;
+        }
+
+        // Update Analytics Agent
+        const analyticsCard = document.querySelector('.space-y-4 .bg-white:nth-child(4)');
+        if (analyticsCard) {
+            const efficiency = analyticsCard.querySelector('.text-green-600.font-semibold');
+            const tasks = analyticsCard.querySelector('.text-gray-600');
+            const metric = analyticsCard.querySelector('.text-gray-500');
+            
+            if (efficiency) efficiency.textContent = agentStatus.analytics.efficiency + '% Accurate voorspellingen';
+            if (tasks) tasks.textContent = 'Analyseert ' + agentStatus.analytics.tasks.toLocaleString() + ' klanten';
+            if (metric) metric.textContent = agentStatus.analytics.metric;
+        }
+
+        // Update business metrics
+        const satisfactionScore = document.getElementById('satisfaction-score');
+        const satisfactionBar = document.getElementById('satisfaction-bar');
+        const satisfactionMessage = document.getElementById('satisfaction-message');
+        const revenueImpact = document.getElementById('revenue-impact');
+        const extraSales = document.getElementById('extra-sales');
+        const costSavings = document.getElementById('cost-savings');
+        const timeSaved = document.getElementById('time-saved');
+        const adminReduction = document.getElementById('admin-reduction');
+        const responseSpeed = document.getElementById('response-speed');
         
-        node.addEventListener('mouseleave', function() {
-            const agentType = this.dataset.agent;
-            const tooltip = document.getElementById(`tooltip-${agentType}`);
-            if (tooltip) {
-                tooltip.style.opacity = '0';
-            }
-        });
-        
-        // Add click animation
-        node.addEventListener('click', function() {
-            this.style.transform = 'scale(1.2)';
+        if (satisfactionScore) satisfactionScore.textContent = businessMetrics.satisfaction + '/10';
+        if (satisfactionBar) satisfactionBar.style.width = (businessMetrics.satisfaction * 10) + '%';
+        if (satisfactionMessage) satisfactionMessage.textContent = businessMetrics.satisfactionMessage;
+        if (revenueImpact) revenueImpact.textContent = '+€' + businessMetrics.revenueImpact.toLocaleString();
+        if (extraSales) extraSales.textContent = '+' + businessMetrics.extraSales + '%';
+        if (costSavings) costSavings.textContent = '€' + businessMetrics.costSavings.toLocaleString();
+        if (timeSaved) timeSaved.textContent = businessMetrics.timeSaved + ' uren/week';
+        if (adminReduction) adminReduction.textContent = businessMetrics.adminReduction + '%';
+        if (responseSpeed) responseSpeed.textContent = businessMetrics.responseSpeed + 'x sneller';
+    }
+
+    // Business scenario button handlers
+    const busyPeriodBtn = document.getElementById('busy-period-btn');
+    const holidayModeBtn = document.getElementById('holiday-mode-btn');
+    const newCampaignBtn = document.getElementById('new-campaign-btn');
+    const normalDayBtn = document.getElementById('normal-day-btn');
+
+    if (busyPeriodBtn) {
+        busyPeriodBtn.addEventListener('click', function() {
+            // Simulate busy period - more customers, higher activity
+            agentStatus.customer.tasks = 45;
+            agentStatus.sales.tasks = 18;
+            agentStatus.marketing.tasks = 3;
+            agentStatus.analytics.tasks = 1200;
+            
+            agentStatus.customer.metric = "Reactietijd: 8 sec";
+            agentStatus.sales.metric = "Omzet: €4.890";
+            agentStatus.marketing.metric = "Conversie: 4.1%";
+            agentStatus.analytics.metric = "Klanten: 1.200 nieuwe";
+            
+            businessMetrics.satisfaction = 9.5;
+            businessMetrics.satisfactionMessage = "Klanten waarderen de snelle hulp tijdens drukke momenten";
+            businessMetrics.revenueImpact = 28000;
+            businessMetrics.extraSales = 34;
+            businessMetrics.costSavings = 8500;
+            businessMetrics.timeSaved = 78;
+            businessMetrics.responseSpeed = 8;
+            
+            // Visual feedback
+            this.style.transform = 'scale(0.95)';
+            this.textContent = 'Drukke periode actief!';
             setTimeout(() => {
                 this.style.transform = 'scale(1)';
-            }, 200);
+                this.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Drukke Periode';
+            }, 2000);
+            
+            updateDashboard();
         });
-    });
+    }
+
+    if (holidayModeBtn) {
+        holidayModeBtn.addEventListener('click', function() {
+            // Simulate holiday period - reduced staff, AI takes over
+            agentStatus.customer.tasks = 12;
+            agentStatus.sales.tasks = 3;
+            agentStatus.marketing.tasks = 8;
+            agentStatus.analytics.tasks = 425;
+            
+            agentStatus.customer.efficiency = 99;
+            agentStatus.sales.efficiency = 96;
+            agentStatus.marketing.efficiency = 98;
+            agentStatus.analytics.efficiency = 99;
+            
+            agentStatus.customer.metric = "Reactietijd: 15 sec";
+            agentStatus.sales.metric = "Omzet: €1.650";
+            agentStatus.marketing.metric = "Conversie: 2.8%";
+            agentStatus.analytics.metric = "Klanten: 425 nieuwe";
+            
+            businessMetrics.satisfaction = 9.7;
+            businessMetrics.satisfactionMessage = "AI houdt de service draaiende terwijl je team vrij is";
+            businessMetrics.revenueImpact = 8200;
+            businessMetrics.extraSales = 12;
+            businessMetrics.costSavings = 15000;
+            businessMetrics.timeSaved = 160;
+            businessMetrics.adminReduction = 95;
+            
+            // Visual feedback
+            this.style.transform = 'scale(0.95)';
+            this.textContent = 'Vakantiemode actief!';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+                this.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>Vakantieperiode';
+            }, 2000);
+            
+            updateDashboard();
+        });
+    }
+
+    if (newCampaignBtn) {
+        newCampaignBtn.addEventListener('click', function() {
+            // Simulate new marketing campaign launch
+            agentStatus.customer.tasks = 67;
+            agentStatus.sales.tasks = 24;
+            agentStatus.marketing.tasks = 12;
+            agentStatus.analytics.tasks = 1850;
+            
+            agentStatus.marketing.efficiency = 98;
+            agentStatus.sales.efficiency = 95;
+            
+            agentStatus.customer.metric = "Reactietijd: 6 sec";
+            agentStatus.sales.metric = "Omzet: €7.320";
+            agentStatus.marketing.metric = "Conversie: 5.4%";
+            agentStatus.analytics.metric = "Klanten: 1.850 nieuwe";
+            
+            businessMetrics.satisfaction = 9.4;
+            businessMetrics.satisfactionMessage = "Nieuwe klanten zijn onder de indruk van de snelle service";
+            businessMetrics.revenueImpact = 45000;
+            businessMetrics.extraSales = 67;
+            businessMetrics.costSavings = 12000;
+            businessMetrics.timeSaved = 95;
+            businessMetrics.responseSpeed = 12;
+            
+            // Visual feedback
+            this.style.transform = 'scale(0.95)';
+            this.textContent = 'Campagne gelanceerd!';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+                this.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>Marketing Campagne';
+            }, 2000);
+            
+            updateDashboard();
+        });
+    }
+
+    if (normalDayBtn) {
+        normalDayBtn.addEventListener('click', function() {
+            // Reset to normal business day
+            agentStatus.customer = { efficiency: 97, tasks: 23, metric: "Reactietijd: 12 sec", color: "green" };
+            agentStatus.sales = { efficiency: 92, tasks: 8, metric: "Omzet: €2.150", color: "green" };
+            agentStatus.marketing = { efficiency: 94, tasks: 5, metric: "Conversie: 3.2%", color: "green" };
+            agentStatus.analytics = { efficiency: 99, tasks: 847, metric: "Klanten: 847 nieuwe", color: "green" };
+            
+            businessMetrics = {
+                satisfaction: 9.2,
+                satisfactionMessage: "Klanten zijn zeer tevreden met de snelle service",
+                revenueImpact: 12500,
+                extraSales: 18,
+                costSavings: 3200,
+                timeSaved: 32,
+                adminReduction: 85,
+                responseSpeed: 6
+            };
+            
+            // Visual feedback
+            this.style.transform = 'scale(0.95)';
+            this.textContent = 'Normale dag hersteld!';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+                this.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>Normale Dag';
+            }, 1500);
+            
+            updateDashboard();
+        });
+    }
+
+    // Subtle auto-updates to show living system
+    setInterval(() => {
+        if (Math.random() > 0.8) { // 20% chance of small update
+            // Small natural business fluctuations
+            Object.keys(agentStatus).forEach(agent => {
+                agentStatus[agent].efficiency += (Math.random() - 0.5) * 1;
+                agentStatus[agent].efficiency = Math.max(90, Math.min(99, agentStatus[agent].efficiency));
+            });
+
+            businessMetrics.satisfaction += (Math.random() - 0.5) * 0.1;
+            businessMetrics.satisfaction = Math.max(8.5, Math.min(10, businessMetrics.satisfaction));
+
+            updateDashboard();
+        }
+    }, 4000);
+
+    // Initial dashboard update
+    updateDashboard();
 });
 </script>
 
@@ -953,6 +1021,277 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </section>
 
+<!-- Live Business Process Example -->
+<section class="py-16 bg-gradient-to-r from-gray-900 to-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-8">
+<h3 class="text-3xl font-bold mb-4 text-white" id="live-example-title">Live Voorbeeld: Recruitment Process</h3>
+<p class="text-gray-300 text-lg" id="live-example-subtitle">Bekijk hoe AI-agents samenwerken in recruitment processen</p>
+</div>
+
+<div class="bg-black/30 rounded-2xl p-6 mb-8">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<div class="w-3 h-3 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+<span class="text-green-400 font-mono text-sm">LIVE PROCESSING</span>
+</div>
+<div class="text-gray-400 text-sm font-mono" id="live-example-id">Case #REC-2024-001337</div>
+</div>
+<div class="space-y-2 font-mono text-sm" id="live-example-steps">
+<div class="flex items-center">
+<span class="text-blue-400 mr-2">[09:15:01]</span>
+<span class="text-gray-300">CV Agent: Nieuwe sollicitatie ontvangen - Positie: Senior Developer</span>
+</div>
+<div class="flex items-center">
+<span class="text-green-400 mr-2">[09:15:02]</span>
+<span class="text-gray-300">Screening Agent: CV geanalyseerd - Match score: 92% - Doorverwijzen</span>
+</div>
+<div class="flex items-center">
+<span class="text-purple-400 mr-2">[09:15:03]</span>
+<span class="text-gray-300">Interview Agent: Beschikbaarheid gecontroleerd - Gesprek ingepland</span>
+</div>
+<div class="flex items-center">
+<span class="text-orange-400 mr-2">[09:15:04]</span>
+<span class="text-gray-300">Reference Agent: Referenties opgevraagd - 2/3 positief</span>
+</div>
+<div class="flex items-center">
+<span class="text-teal-400 mr-2">[09:15:05]</span>
+<span class="text-gray-300">Contract Agent: Salarisindicatie berekend - €75.000</span>
+</div>
+<div class="flex items-center">
+<span class="text-pink-400 mr-2">[09:15:06]</span>
+<span class="text-gray-300">Onboarding Agent: Inwerk traject voorbereid</span>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="live-example-metrics">
+<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+<div class="text-2xl font-bold text-cyan-400 mb-2">4.2 min</div>
+<div class="text-sm text-gray-300">Total Processing Time</div>
+</div>
+<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+<div class="text-2xl font-bold text-green-400 mb-2">6 agents</div>
+<div class="text-sm text-gray-300">Parallel Execution</div>
+</div>
+<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+<div class="text-2xl font-bold text-purple-400 mb-2">92% match</div>
+<div class="text-sm text-gray-300">Candidate Quality Score</div>
+</div>
+<div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+<div class="text-2xl font-bold text-orange-400 mb-2">24/7</div>
+<div class="text-sm text-gray-300">Always Available</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Interactive Live Agent Dashboard -->
+<section class="py-20 bg-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Live Agent Dashboard</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+Krijg realtime inzicht in uw AI-agents. Dit dashboard toont live hoe uw agents presteren, 
+welke taken ze uitvoeren en welke bedrijfsimpact ze genereren. Selecteer uw bedrijfstype hierboven om te zien hoe het dashboard eruitziet voor uw sector.
+</p>
+<div class="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-xl p-6 border border-cyan-200 max-w-3xl mx-auto">
+<div class="flex items-center justify-center mb-4">
+<div class="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+</svg>
+</div>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Wat zie je in dit dashboard?</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+<div class="flex items-start space-x-2">
+<div class="w-2 h-2 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></div>
+<span>Realtime agent prestaties en efficiency scores</span>
+</div>
+<div class="flex items-start space-x-2">
+<div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+<span>Live taken die agents op dit moment uitvoeren</span>
+</div>
+<div class="flex items-start space-x-2">
+<div class="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+<span>Bedrijfsscenario simulaties (drukke periode, vakantie, etc.)</span>
+</div>
+<div class="flex items-start space-x-2">
+<div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+<span>Direct zichtbare ROI en kostenbesparing</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Dashboard Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Agent Performance Metrics -->
+<div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-lg font-semibold text-gray-900" id="live-dashboard-title">Recruitment Agents</h3>
+<div class="flex items-center">
+<div class="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
+<span class="text-xs text-gray-500">Live</span>
+</div>
+</div>
+
+<!-- Real-time Agent Metrics -->
+<div class="space-y-3" id="live-agent-metrics">
+<!-- Dynamic metrics will be inserted here -->
+</div>
+
+<!-- Agent Management Controls -->
+<div class="mt-6 pt-4 border-t border-gray-100">
+<div class="flex items-center justify-between text-sm">
+<span class="text-gray-600">Auto-scaling</span>
+<button class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs font-medium">Enabled</button>
+</div>
+<div class="flex items-center justify-between text-sm mt-2">
+<span class="text-gray-600">Load balancing</span>
+<span class="text-gray-800 text-xs">Optimal</span>
+</div>
+</div>
+</div>
+
+<!-- Business Impact Metrics -->
+<div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Bedrijfsimpact</h3>
+<div class="space-y-4" id="business-impact-metrics">
+<!-- Dynamic business metrics will be inserted here -->
+</div>
+</div>
+
+<!-- System Health & Operations -->
+<div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Systeem Status</h3>
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+<span class="text-sm text-gray-700">Uptime</span>
+</div>
+<span class="text-sm font-semibold text-gray-900">99.9%</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+<span class="text-sm text-gray-700">Response tijd</span>
+</div>
+<span class="text-sm font-semibold text-gray-900" id="avg-response-time">0.8s</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
+<span class="text-sm text-gray-700">Actieve agents</span>
+</div>
+<span class="text-sm font-semibold text-gray-900" id="active-agents">6</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<div class="w-3 h-3 bg-orange-500 rounded-full mr-3"></div>
+<span class="text-sm text-gray-700">Taken per uur</span>
+</div>
+<span class="text-sm font-semibold text-gray-900" id="tasks-per-hour">247</span>
+</div>
+
+<!-- Quick Management Actions -->
+<div class="mt-6 pt-4 border-t border-gray-100">
+<div class="grid grid-cols-2 gap-2">
+<button class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-2 rounded transition-colors">
+View Logs
+</button>
+<button class="text-xs bg-cyan-100 hover:bg-cyan-200 text-cyan-700 px-3 py-2 rounded transition-colors">
+Export Data
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Right: Live Communication Hub -->
+<div class="space-y-6">
+<div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Deductive Klantportaal</h3>
+<div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-6 text-white">
+<div class="flex items-center justify-center mb-6">
+<div class="w-20 h-20 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-700 rounded-full flex items-center justify-center shadow-2xl">
+<div class="text-center">
+<div class="text-sm text-white font-bold mb-1">DEDUCTIVE</div>
+<div class="text-xs text-purple-100">KLANTPORTAAL</div>
+</div>
+</div>
+</div>
+
+<!-- Live Exchange Simulation -->
+<div class="bg-black/30 rounded-2xl p-4 mb-6">
+<div class="flex items-center mb-4">
+<div class="w-3 h-3 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+<span class="text-green-400 font-mono text-xs">LIVE AGENT COMMUNICATIE</span>
+</div>
+<div class="space-y-2 font-mono text-xs max-h-32 overflow-hidden" id="live-dashboard-communication">
+<div class="flex items-start">
+<span class="text-blue-400 mr-2">[CS]</span>
+<span class="text-gray-300">Nieuwe klant vraag ontvangen → Klantportaal</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Routering naar Sales Agent → Actief</span>
+</div>
+<div class="flex items-start">
+<span class="text-green-400 mr-2">[SA]</span>
+<span class="text-gray-300">Lead gekwalificeerd → Analytics vereist</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Data verzameld → Analytics Agent</span>
+</div>
+<div class="flex items-start">
+<span class="text-orange-400 mr-2">[AA]</span>
+<span class="text-gray-300">Analyse compleet → Resultaat genereren</span>
+</div>
+<div class="flex items-start">
+<span class="text-purple-400 mr-2">[HUB]</span>
+<span class="text-gray-300">Resultaat verzonden → Klant geïnformeerd</span>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<h5 class="text-lg font-bold text-white mb-2">Real-time Coördinatie</h5>
+<p class="text-sm text-gray-300">Alle agents communiceren instant via het Deductive klantportaal</p>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-6 border border-cyan-200">
+<h4 class="text-lg font-semibold text-gray-900 mb-4 text-center">Waarom werkt dit zo goed?</h4>
+<div class="space-y-3 text-sm text-gray-700">
+<div class="flex items-start space-x-3">
+<div class="w-2 h-2 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></div>
+<span><strong>Geen wachttijden:</strong> Agents werken 24/7 zonder pauzes</span>
+</div>
+<div class="flex items-start space-x-3">
+<div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+<span><strong>Geen fouten:</strong> Consistente kwaliteit door AI</span>
+</div>
+<div class="flex items-start space-x-3">
+<div class="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+<span><strong>Schaalt mee:</strong> Automatisch meer capaciteit bij drukte</span>
+</div>
+<div class="flex items-start space-x-3">
+<div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+<span><strong>Wordt slimmer:</strong> Leert van elke interactie</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 <!-- Statistics Section -->
 <section class="py-16 bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -993,6 +1332,17 @@ document.addEventListener('DOMContentLoaded', function() {
 <p class="text-gray-600">Gemiddeld rendement op investering</p>
 </div>
 </div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center py-16">
+<div class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1">
+<svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+</svg>
+<span>Ontdek Uw Eigen Agent Netwerk</span>
+</div>
+<p class="text-gray-600 mt-4 text-lg">Klaar om te zien hoe Deductive agents uw bedrijf kunnen transformeren?</p>
 </div>
 </section>
 
@@ -1181,7 +1531,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let countdownInterval;
     let countdownValue = 4;
 
-    const stepNavBtns = document.querySelectorAll('.step-nav-btn');
+    const stepNavBtns = document.querySelectorAll('.step-btn');
     const stepContent = document.getElementById('step-content');
     const playPauseBtn = document.getElementById('play-pause-btn');
     const playIcon = document.getElementById('play-icon');
@@ -1203,16 +1553,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update navigation buttons
         stepNavBtns.forEach((btn, index) => {
             const stepNum = index + 1;
-            const circle = btn.querySelector('div div');
             
             btn.classList.remove('active');
-            circle.classList.remove('bg-cyan-600', 'text-white', 'bg-gray-300', 'text-gray-600');
             
             if (stepNum === step) {
                 btn.classList.add('active');
-                circle.classList.add('bg-cyan-600', 'text-white');
-            } else {
-                circle.classList.add('bg-gray-300', 'text-gray-600');
             }
         });
     }
@@ -1292,7 +1637,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "75%", label: "Snellere plaatsing", description: "Van vacature tot contract" },
                 { metric: "90%", label: "Betere candidate match", description: "AI-gedreven selectie" },
                 { metric: "50%", label: "Minder administratie", description: "Geautomatiseerde workflows" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: Recruitment Process",
+                subtitle: "Bekijk hoe AI-agents samenwerken in recruitment processen",
+                id: "Case #REC-2024-001337",
+                steps: [
+                    { time: "09:15:01", agent: "CV Agent", color: "text-blue-400", message: "Nieuwe sollicitatie ontvangen - Positie: Senior Developer" },
+                    { time: "09:15:02", agent: "Screening Agent", color: "text-green-400", message: "CV geanalyseerd - Match score: 92% - Doorverwijzen" },
+                    { time: "09:15:03", agent: "Interview Agent", color: "text-purple-400", message: "Beschikbaarheid gecontroleerd - Gesprek ingepland" },
+                    { time: "09:15:04", agent: "Reference Agent", color: "text-orange-400", message: "Referenties opgevraagd - 2/3 positief" },
+                    { time: "09:15:05", agent: "Contract Agent", color: "text-teal-400", message: "Salarisindicatie berekend - €75.000" },
+                    { time: "09:15:06", agent: "Onboarding Agent", color: "text-pink-400", message: "Inwerk traject voorbereid" }
+                ],
+                metrics: [
+                    { value: "4.2 min", label: "Total Processing Time", color: "text-cyan-400" },
+                    { value: "6 agents", label: "Parallel Execution", color: "text-green-400" },
+                    { value: "92% match", label: "Candidate Quality Score", color: "text-purple-400" },
+                    { value: "24/7", label: "Always Available", color: "text-orange-400" }
+                ]
+            }
         },
         hr: {
             title: "HR Management AI-Agent Dashboard",
@@ -1307,7 +1671,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "40%", label: "Minder HR administratie", description: "Geautomatiseerde processen" },
                 { metric: "60%", label: "Hogere werknemertevredenheid", description: "Betere HR-ondersteuning" },
                 { metric: "30%", label: "Snellere HR-processen", description: "Intelligente workflows" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: HR Management Process",
+                subtitle: "Bekijk hoe AI-agents HR processen automatiseren",
+                id: "Case #HR-2024-002847",
+                steps: [
+                    { time: "14:22:01", agent: "Leave Agent", color: "text-blue-400", message: "Verlofaanvraag ontvangen - Werknemer: Sarah de Vries" },
+                    { time: "14:22:02", agent: "Policy Agent", color: "text-green-400", message: "Beleid gecontroleerd - 18 dagen beschikbaar" },
+                    { time: "14:22:03", agent: "Schedule Agent", color: "text-purple-400", message: "Planning gecheckt - Geen conflicten gevonden" },
+                    { time: "14:22:04", agent: "Approval Agent", color: "text-orange-400", message: "Manager goedkeuring verzocht" },
+                    { time: "14:22:05", agent: "Calendar Agent", color: "text-teal-400", message: "Verlof ingepland in systemen" },
+                    { time: "14:22:06", agent: "Notify Agent", color: "text-pink-400", message: "Bevestiging naar werknemer verstuurd" }
+                ],
+                metrics: [
+                    { value: "2.1 min", label: "Process Time", color: "text-cyan-400" },
+                    { value: "5 agents", label: "Automated Steps", color: "text-green-400" },
+                    { value: "100%", label: "Policy Compliance", color: "text-purple-400" },
+                    { value: "Instant", label: "Employee Notification", color: "text-orange-400" }
+                ]
+            }
         },
         ecommerce: {
             title: "E-commerce AI-Agent Dashboard",
@@ -1322,7 +1705,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "35%", label: "Meer conversies", description: "Door gepersonaliseerde aanbevelingen" },
                 { metric: "60%", label: "Minder support tickets", description: "Automatische klantservice" },
                 { metric: "25%", label: "Lagere operationele kosten", description: "Geautomatiseerde processen" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: E-commerce Order Processing",
+                subtitle: "Bekijk hoe AI-agents een klantbestelling verwerken",
+                id: "Order #SHOP-2024-001337",
+                steps: [
+                    { time: "12:34:01", agent: "Customer Agent", color: "text-blue-400", message: "Nieuwe bestelling ontvangen - Product: MacBook Pro M3" },
+                    { time: "12:34:02", agent: "Sales Agent", color: "text-green-400", message: "Prijs geverifieerd - €2,499.00 - Betaling verwerken..." },
+                    { time: "12:34:03", agent: "Analytics Agent", color: "text-purple-400", message: "Klant risico score: LAAG - Goedkeuring aanbevolen" },
+                    { time: "12:34:04", agent: "Inventory Agent", color: "text-orange-400", message: "Voorraad check: 3 stuks beschikbaar - 1 gereserveerd" },
+                    { time: "12:34:05", agent: "Logistics Agent", color: "text-teal-400", message: "Verzending berekend - Volgende dag levering mogelijk" },
+                    { time: "12:34:06", agent: "Customer Agent", color: "text-pink-400", message: "Bestelling bevestiging verzonden - Track: SHOP234567" }
+                ],
+                metrics: [
+                    { value: "6.2 sec", label: "Total Processing Time", color: "text-cyan-400" },
+                    { value: "6 agents", label: "Parallel Execution", color: "text-green-400" },
+                    { value: "0% errors", label: "Perfect Coordination", color: "text-purple-400" },
+                    { value: "24/7", label: "Always Available", color: "text-orange-400" }
+                ]
+            }
         },
         marketing: {
             title: "Marketing Bureau AI-Agent Dashboard",
@@ -1337,7 +1739,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "50%", label: "Hogere lead kwaliteit", description: "Door AI-gedreven qualification" },
                 { metric: "40%", label: "Snellere content productie", description: "Geautomatiseerde workflows" },
                 { metric: "30%", label: "Betere campagne ROI", description: "Real-time optimalisaties" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: Marketing Campaign Launch",
+                subtitle: "Bekijk hoe AI-agents een marketingcampagne automatiseren",
+                id: "Campaign #MKT-2024-SUMMER",
+                steps: [
+                    { time: "08:30:01", agent: "Content Agent", color: "text-blue-400", message: "Content gegenereerd voor zomercampagne - 15 variaties" },
+                    { time: "08:30:02", agent: "Audience Agent", color: "text-green-400", message: "Doelgroep gesegmenteerd - 12.500 prospects geïdentificeerd" },
+                    { time: "08:30:03", agent: "Channel Agent", color: "text-purple-400", message: "Optimale kanalen bepaald - Email + LinkedIn + Instagram" },
+                    { time: "08:30:04", agent: "Schedule Agent", color: "text-orange-400", message: "Timing geoptimaliseerd - Launch om 14:00" },
+                    { time: "08:30:05", agent: "Budget Agent", color: "text-teal-400", message: "Budget verdeeld - €5.000 over 3 kanalen" },
+                    { time: "08:30:06", agent: "Monitor Agent", color: "text-pink-400", message: "Tracking ingesteld - Real-time monitoring actief" }
+                ],
+                metrics: [
+                    { value: "3.8 min", label: "Campaign Setup Time", color: "text-cyan-400" },
+                    { value: "15 variants", label: "Content Generated", color: "text-green-400" },
+                    { value: "12.5K", label: "Prospects Targeted", color: "text-purple-400" },
+                    { value: "€5K", label: "Budget Optimized", color: "text-orange-400" }
+                ]
+            }
         },
         finance: {
             title: "Financiële Diensten AI-Agent Dashboard",
@@ -1352,7 +1773,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "80%", label: "Snellere documentverwerking", description: "Automatische data extractie" },
                 { metric: "95%", label: "Fraudedetectie accuraatheid", description: "AI-gedreven monitoring" },
                 { metric: "70%", label: "Minder compliance risico's", description: "Continue regelgeving checks" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: Loan Application Processing",
+                subtitle: "Bekijk hoe AI-agents een kredietaanvraag verwerken",
+                id: "Loan #FIN-2024-789123",
+                steps: [
+                    { time: "10:45:01", agent: "Document Agent", color: "text-blue-400", message: "Aanvraag ontvangen - Krediet: €150.000 hypotheek" },
+                    { time: "10:45:02", agent: "KYC Agent", color: "text-green-400", message: "Identiteit geverifieerd - BSN en DigiD gecontroleerd" },
+                    { time: "10:45:03", agent: "Risk Agent", color: "text-purple-400", message: "Risico analyse - Credit score: 760 (Uitstekend)" },
+                    { time: "10:45:04", agent: "Income Agent", color: "text-orange-400", message: "Inkomen verificatie - €4.200/maand bevestigd" },
+                    { time: "10:45:05", agent: "Compliance Agent", color: "text-teal-400", message: "AFM regels gecheckt - Alle eisen voldaan" },
+                    { time: "10:45:06", agent: "Decision Agent", color: "text-pink-400", message: "Voorlopige goedkeuring - Rente: 3.8%" }
+                ],
+                metrics: [
+                    { value: "5.2 min", label: "Processing Time", color: "text-cyan-400" },
+                    { value: "100%", label: "Compliance Score", color: "text-green-400" },
+                    { value: "95%", label: "Fraud Detection", color: "text-purple-400" },
+                    { value: "3.8%", label: "Interest Rate", color: "text-orange-400" }
+                ]
+            }
         },
         healthcare: {
             title: "Zorgverlening AI-Agent Dashboard",
@@ -1367,7 +1807,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "45%", label: "Minder administratie tijd", description: "Automatische dossier updates" },
                 { metric: "30%", label: "Snellere patiënt doorstroming", description: "Efficiënte triage systemen" },
                 { metric: "60%", label: "Hogere patiënt tevredenheid", description: "Betere communicatie en zorg" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: Patient Care Workflow",
+                subtitle: "Bekijk hoe AI-agents patiëntenzorg optimaliseren",
+                id: "Patient #MED-2024-456789",
+                steps: [
+                    { time: "07:15:01", agent: "Triage Agent", color: "text-blue-400", message: "Patiënt check-in - Symptomen: Hoofdpijn en koorts" },
+                    { time: "07:15:02", agent: "Priority Agent", color: "text-green-400", message: "Urgentie bepaald - Standaard (30 min wachttijd)" },
+                    { time: "07:15:03", agent: "Record Agent", color: "text-purple-400", message: "Medisch dossier opgevraagd - Laatste bezoek: 6 mnd geleden" },
+                    { time: "07:15:04", agent: "Schedule Agent", color: "text-orange-400", message: "Arts ingepland - Dr. van der Berg om 07:45" },
+                    { time: "07:15:05", agent: "Insurance Agent", color: "text-teal-400", message: "Verzekering gecontroleerd - Dekking bevestigd" },
+                    { time: "07:15:06", agent: "Notify Agent", color: "text-pink-400", message: "SMS verstuurd - Wachttijd en locatie info" }
+                ],
+                metrics: [
+                    { value: "1.8 min", label: "Triage Time", color: "text-cyan-400" },
+                    { value: "30 min", label: "Wait Time", color: "text-green-400" },
+                    { value: "100%", label: "Insurance Verified", color: "text-purple-400" },
+                    { value: "Real-time", label: "Updates Sent", color: "text-orange-400" }
+                ]
+            }
         },
         manufacturing: {
             title: "Productie AI-Agent Dashboard",
@@ -1382,7 +1841,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 { metric: "25%", label: "Minder productiestops", description: "Voorspellend onderhoud" },
                 { metric: "15%", label: "Lagere energiekosten", description: "Intelligente energie management" },
                 { metric: "30%", label: "Betere productkwaliteit", description: "Automatische kwaliteitscontrole" }
-            ]
+            ],
+            liveExample: {
+                title: "Live Voorbeeld: Production Line Optimization",
+                subtitle: "Bekijk hoe AI-agents productie optimaliseren",
+                id: "Line #PROD-2024-LINE-A",
+                steps: [
+                    { time: "13:20:01", agent: "Monitor Agent", color: "text-blue-400", message: "Afwijking gedetecteerd - Temperatuur lijn A: +2°C" },
+                    { time: "13:20:02", agent: "Analysis Agent", color: "text-green-400", message: "Oorzaak analyse - Koelsysteem prestatie verminderd" },
+                    { time: "13:20:03", agent: "Predict Agent", color: "text-purple-400", message: "Voorspelling - Potentiële storing in 4 uur" },
+                    { time: "13:20:04", agent: "Schedule Agent", color: "text-orange-400", message: "Onderhoud ingepland - Technicus beschikbaar 14:00" },
+                    { time: "13:20:05", agent: "Quality Agent", color: "text-teal-400", message: "Kwaliteit aangepast - Extra controles geactiveerd" },
+                    { time: "13:20:06", agent: "Supply Agent", color: "text-pink-400", message: "Onderdelen besteld - Levering morgen 08:00" }
+                ],
+                metrics: [
+                    { value: "6 min", label: "Detection Time", color: "text-cyan-400" },
+                    { value: "4 hours", label: "Predicted Downtime", color: "text-green-400" },
+                    { value: "0%", label: "Quality Impact", color: "text-purple-400" },
+                    { value: "€2.5K", label: "Cost Savings", color: "text-orange-400" }
+                ]
+            }
         }
     };
 
@@ -1431,6 +1909,178 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             businessResults.appendChild(resultElement);
         });
+
+        // Update Live Example section
+        if (data.liveExample) {
+            const exampleTitle = document.getElementById('live-example-title');
+            const exampleSubtitle = document.getElementById('live-example-subtitle');
+            const exampleId = document.getElementById('live-example-id');
+            const exampleSteps = document.getElementById('live-example-steps');
+            const exampleMetrics = document.getElementById('live-example-metrics');
+
+            if (exampleTitle) exampleTitle.textContent = data.liveExample.title;
+            if (exampleSubtitle) exampleSubtitle.textContent = data.liveExample.subtitle;
+            if (exampleId) exampleId.textContent = data.liveExample.id;
+
+            // Update steps
+            if (exampleSteps) {
+                exampleSteps.innerHTML = '';
+                data.liveExample.steps.forEach(step => {
+                    const stepElement = document.createElement('div');
+                    stepElement.className = 'flex items-center';
+                    stepElement.innerHTML = `
+                        <span class="${step.color} mr-2">[${step.time}]</span>
+                        <span class="text-gray-300">${step.agent}: ${step.message}</span>
+                    `;
+                    exampleSteps.appendChild(stepElement);
+                });
+            }
+
+            // Update metrics
+            if (exampleMetrics) {
+                exampleMetrics.innerHTML = '';
+                data.liveExample.metrics.forEach(metric => {
+                    const metricElement = document.createElement('div');
+                    metricElement.className = 'bg-white/10 rounded-xl p-4 backdrop-blur-sm';
+                    metricElement.innerHTML = `
+                        <div class="text-2xl font-bold ${metric.color} mb-2">${metric.value}</div>
+                        <div class="text-sm text-gray-300">${metric.label}</div>
+                    `;
+                    exampleMetrics.appendChild(metricElement);
+                });
+            }
+        }
+
+        // Update Live Agent Dashboard section
+        const liveDashboardTitle = document.getElementById('live-dashboard-title');
+        const liveAgentMetrics = document.getElementById('live-agent-metrics');
+        const businessImpactMetrics = document.getElementById('business-impact-metrics');
+        const liveDashboardCommunication = document.getElementById('live-dashboard-communication');
+
+        // Update dashboard title based on business type
+        const dashboardTitles = {
+            recruiting: 'Recruitment Agents',
+            hr: 'HR Management Agents', 
+            ecommerce: 'E-commerce Agents',
+            marketing: 'Marketing Agents',
+            finance: 'Finance Agents',
+            healthcare: 'Healthcare Agents',
+            manufacturing: 'Production Agents'
+        };
+
+        if (liveDashboardTitle) liveDashboardTitle.textContent = dashboardTitles[type] || 'AI Agents';
+
+        // Update real-time agent metrics
+        if (liveAgentMetrics) {
+            liveAgentMetrics.innerHTML = '';
+            
+            // Generate business-specific metrics
+            const agentMetrics = {
+                recruiting: [
+                    { label: 'CV Processing', value: Math.floor(Math.random() * 20 + 15) + '/hour', color: 'text-blue-600' },
+                    { label: 'Match Score', value: Math.floor(Math.random() * 15 + 85) + '%', color: 'text-green-600' },
+                    { label: 'Interview Scheduling', value: Math.floor(Math.random() * 10 + 5) + '/day', color: 'text-purple-600' },
+                    { label: 'Response Rate', value: Math.floor(Math.random() * 10 + 90) + '%', color: 'text-orange-600' }
+                ],
+                hr: [
+                    { label: 'Leave Requests', value: Math.floor(Math.random() * 15 + 10) + '/day', color: 'text-blue-600' },
+                    { label: 'Policy Compliance', value: Math.floor(Math.random() * 5 + 95) + '%', color: 'text-green-600' },
+                    { label: 'Employee Queries', value: Math.floor(Math.random() * 30 + 20) + '/hour', color: 'text-purple-600' },
+                    { label: 'Process Efficiency', value: Math.floor(Math.random() * 10 + 85) + '%', color: 'text-orange-600' }
+                ],
+                ecommerce: [
+                    { label: 'Orders Processed', value: Math.floor(Math.random() * 50 + 100) + '/hour', color: 'text-blue-600' },
+                    { label: 'Customer Satisfaction', value: (Math.random() * 0.5 + 4.5).toFixed(1) + '/5', color: 'text-green-600' },
+                    { label: 'Inventory Updates', value: Math.floor(Math.random() * 200 + 300) + '/hour', color: 'text-purple-600' },
+                    { label: 'Price Optimization', value: Math.floor(Math.random() * 10 + 90) + '%', color: 'text-orange-600' }
+                ],
+                marketing: [
+                    { label: 'Leads Qualified', value: Math.floor(Math.random() * 25 + 15) + '/hour', color: 'text-blue-600' },
+                    { label: 'Campaign ROI', value: Math.floor(Math.random() * 50 + 200) + '%', color: 'text-green-600' },
+                    { label: 'Content Generated', value: Math.floor(Math.random() * 10 + 5) + '/day', color: 'text-purple-600' },
+                    { label: 'Engagement Rate', value: Math.floor(Math.random() * 3 + 5) + '%', color: 'text-orange-600' }
+                ],
+                finance: [
+                    { label: 'Risk Assessments', value: Math.floor(Math.random() * 20 + 30) + '/hour', color: 'text-blue-600' },
+                    { label: 'Fraud Detection', value: Math.floor(Math.random() * 5 + 95) + '%', color: 'text-green-600' },
+                    { label: 'Doc Processing', value: Math.floor(Math.random() * 100 + 200) + '/hour', color: 'text-purple-600' },
+                    { label: 'Compliance Rate', value: Math.floor(Math.random() * 3 + 97) + '%', color: 'text-orange-600' }
+                ],
+                healthcare: [
+                    { label: 'Appointments', value: Math.floor(Math.random() * 40 + 60) + '/day', color: 'text-blue-600' },
+                    { label: 'Triage Accuracy', value: Math.floor(Math.random() * 5 + 95) + '%', color: 'text-green-600' },
+                    { label: 'Record Updates', value: Math.floor(Math.random() * 80 + 120) + '/hour', color: 'text-purple-600' },
+                    { label: 'Patient Satisfaction', value: (Math.random() * 0.5 + 4.5).toFixed(1) + '/5', color: 'text-orange-600' }
+                ],
+                manufacturing: [
+                    { label: 'Quality Checks', value: Math.floor(Math.random() * 500 + 1000) + '/hour', color: 'text-blue-600' },
+                    { label: 'Uptime Monitoring', value: Math.floor(Math.random() * 2 + 98) + '%', color: 'text-green-600' },
+                    { label: 'Predictive Alerts', value: Math.floor(Math.random() * 5 + 10) + '/day', color: 'text-purple-600' },
+                    { label: 'Energy Optimization', value: Math.floor(Math.random() * 10 + 15) + '%', color: 'text-orange-600' }
+                ]
+            };
+
+            const metrics = agentMetrics[type] || agentMetrics.ecommerce;
+            metrics.forEach(metric => {
+                const metricElement = document.createElement('div');
+                metricElement.className = 'flex items-center justify-between py-2';
+                metricElement.innerHTML = `
+                    <span class="text-sm text-gray-600">${metric.label}</span>
+                    <span class="text-sm font-semibold ${metric.color}">${metric.value}</span>
+                `;
+                liveAgentMetrics.appendChild(metricElement);
+            });
+        }
+
+        // Update business impact metrics
+        if (businessImpactMetrics) {
+            businessImpactMetrics.innerHTML = '';
+            
+            data.results.forEach(result => {
+                const impactElement = document.createElement('div');
+                impactElement.className = 'text-center p-4 bg-gradient-to-r from-gray-50 to-blue-50 rounded-lg border border-gray-200';
+                impactElement.innerHTML = `
+                    <div class="text-xl font-bold text-gray-900 mb-1">${result.metric}</div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">${result.label}</div>
+                    <div class="text-xs text-gray-600">${result.description}</div>
+                `;
+                businessImpactMetrics.appendChild(impactElement);
+            });
+        }
+
+        // Update system status metrics
+        const avgResponseTime = document.getElementById('avg-response-time');
+        const activeAgents = document.getElementById('active-agents');
+        const tasksPerHour = document.getElementById('tasks-per-hour');
+
+        if (avgResponseTime) avgResponseTime.textContent = (Math.random() * 1.5 + 0.3).toFixed(1) + 's';
+        if (activeAgents) activeAgents.textContent = Math.floor(Math.random() * 3 + 5);
+        if (tasksPerHour) tasksPerHour.textContent = Math.floor(Math.random() * 100 + 200);
+
+        // Update dashboard communication based on business type
+        if (liveDashboardCommunication && data.liveExample) {
+            liveDashboardCommunication.innerHTML = '';
+            
+            // Create business-specific communication patterns
+            const communicationSteps = [
+                { agent: 'CS', color: 'text-blue-400', message: 'Nieuwe klant vraag ontvangen → Klantportaal' },
+                { agent: 'HUB', color: 'text-purple-400', message: 'Routering naar juiste agent → Actief' },
+                { agent: 'SA', color: 'text-green-400', message: 'Taak opgepakt → Processing' },
+                { agent: 'HUB', color: 'text-purple-400', message: 'Data verzameld → Analytics Agent' },
+                { agent: 'AA', color: 'text-orange-400', message: 'Analyse compleet → Resultaat voorbereid' },
+                { agent: 'HUB', color: 'text-purple-400', message: 'Resultaat verzonden → Klant geïnformeerd' }
+            ];
+
+            communicationSteps.forEach(step => {
+                const commElement = document.createElement('div');
+                commElement.className = 'flex items-start';
+                commElement.innerHTML = `
+                    <span class="${step.color} mr-2">[${step.agent}]</span>
+                    <span class="text-gray-300">${step.message}</span>
+                `;
+                liveDashboardCommunication.appendChild(commElement);
+            });
+        }
     }
 
     // Add click handlers to buttons
@@ -1512,12 +2162,24 @@ document.addEventListener('DOMContentLoaded', function() {
     @apply transition-all duration-300 hover:shadow-md hover:scale-102;
 }
 
-.step-nav-btn {
-    @apply px-4 py-2 rounded-lg border-2 border-gray-200 text-gray-700 hover:border-cyan-300 hover:bg-cyan-50 transition-all duration-200 font-medium;
+.step-btn {
+    @apply flex items-center gap-3 px-6 py-3 rounded-full text-gray-600 hover:text-gray-900 transition-all duration-200 font-medium bg-white shadow-md border border-gray-200 hover:shadow-lg hover:border-gray-300;
 }
 
-.step-nav-btn.active {
-    @apply border-cyan-500 bg-cyan-50 text-cyan-700;
+.step-btn.active {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg border-cyan-500;
+}
+
+.step-number {
+    @apply w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-sm font-bold transition-all duration-200;
+}
+
+.step-btn.active .step-number {
+    @apply border-white bg-white text-cyan-500;
+}
+
+.step-label {
+    @apply text-sm font-semibold;
 }
 
 .step-content-inner {

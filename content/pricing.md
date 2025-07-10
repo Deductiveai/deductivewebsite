@@ -1,152 +1,788 @@
 ---
 title: "Pricing"
-description: "Choose the perfect plan for your needs"
+description: "Choose the perfect AI solution for your business needs"
 layout: "pricing"
 ---
 
-{{< pricing-table-1 >}}
-{
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
-    "plans": [
-        {
-            "name": "Starter",
-            "price": "29",
-            "description": "Best option for personal use & for your next project.",
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Company",
-            "price": "99",
-            "description": "Relevant for multiple users, extended & premium support.",
-            "featured": true,
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Enterprise",
-            "price": "499",
-            "description": "Best for large scale uses and extended redistribution rights.",
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        }
-    ]
-}
-{{< /pricing-table-1 >}}
+<!-- Interactive Pricing Hero -->
+<section class="relative py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 overflow-hidden">
+<div class="absolute inset-0 bg-circuit-pattern opacity-5"></div>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+<div class="text-center mb-16">
+<h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+Transparante <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Prijzen</span>
+</h1>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gratis ondersteuning en geen verborgen kosten.
+</p>
 
-<div class="mt-16"></div>
+<!-- Solution Toggle -->
+<div class="flex justify-center mb-8">
+<div class="bg-white rounded-full p-2 shadow-lg border border-gray-200">
+<div class="flex">
+<button class="solution-toggle-btn active" data-solution="chatbot">
+<span class="text-purple-600">💬</span> AI Chatbot
+</button>
+<button class="solution-toggle-btn" data-solution="agents">
+<span class="text-cyan-600">🤖</span> AI-Agents
+</button>
+<button class="solution-toggle-btn" data-solution="offertetool">
+<span class="text-green-600">📊</span> Offertetool
+</button>
+</div>
+</div>
+</div>
 
-{{< pricing-table-2 >}}
-{
-    "title": "Alternative Pricing Options",
-    "description": "Choose a plan that best suits your business needs with our flexible pricing options.",
-    "plans": [
-        {
-            "name": "Basic",
-            "price": "19",
-            "description": "Perfect for freelancers and solo developers.",
-            "features": [
-                "Core features included",
-                "Community support",
-                "Team size: 1 developer",
-                "Basic analytics",
-                "Monthly updates"
-            ],
-            "button": {
-                "text": "Choose Basic",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Professional",
-            "price": "79",
-            "description": "Ideal for growing development teams.",
-            "featured": true,
-            "features": [
-                "All Basic features",
-                "Priority support",
-                "Team size: up to 5 developers",
-                "Advanced analytics",
-                "CI/CD integration"
-            ],
-            "button": {
-                "text": "Choose Pro",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Business",
-            "price": "299",
-            "description": "For large organizations and enterprises.",
-            "features": [
-                "All Pro features",
-                "24/7 dedicated support",
-                "Unlimited team size",
-                "Custom integrations",
-                "SLA guarantee"
-            ],
-            "button": {
-                "text": "Choose Business",
-                "url": "#"
-            }
-        }
-    ]
-}
-{{< /pricing-table-2 >}}
+<!-- Billing Toggle -->
+<div class="flex justify-center items-center space-x-4 mb-8">
+<span class="text-gray-600">Maandelijks</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input type="checkbox" id="billing-toggle" class="sr-only peer">
+<div class="w-14 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-purple-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-purple-600"></div>
+</label>
+<span class="text-gray-600">Jaarlijks <span class="text-green-600 font-semibold">(2 maanden gratis!)</span></span>
+</div>
+</div>
+</div>
+</section>
 
-{{< faq >}}
-{
-    "title": "Common Questions",
-    "description": "Find answers to frequently asked questions about our pricing plans and features.",
-    "questions": [
-        {
-            "question": "What type of payment do you accept?",
-            "answer": "We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment providers."
-        },
-        {
-            "question": "Do you offer custom pricing for larger teams?",
-            "answer": "Yes! If you have specific needs or a larger team, please contact our sales team for custom pricing tailored to your requirements."
-        },
-        {
-            "question": "What's included in the free updates?",
-            "answer": "Free updates include all new features, improvements, and bug fixes released during your subscription period. You'll always have access to the latest version."
-        },
-        {
-            "question": "What kind of support is included?",
-            "answer": "All plans include technical support, with varying response times based on your plan level. Enterprise customers get priority support with dedicated account managers."
-        },
-        {
-            "question": "Can I upgrade or downgrade my plan?",
-            "answer": "Yes, you can change your plan at any time. When upgrading, you'll be prorated for the remainder of your billing period. When downgrading, changes take effect at the next billing cycle."
-        }
-    ]
+<!-- AI Chatbot Pricing -->
+<section class="py-16 bg-white" id="chatbot-pricing">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">AI Chatbot Prijzen</h2>
+<p class="text-xl text-gray-600">Automatiseer uw klantenservice met intelligente AI</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Starter Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
+<p class="text-gray-600 mb-4">Perfect voor kleine bedrijven</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="297" data-yearly="2475">297</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 1.000 gesprekken per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">24/7 AI klantenservice</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Website integratie</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Basis analytics</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Email ondersteuning</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Professional Plan -->
+<div class="bg-white rounded-2xl shadow-xl border-2 border-purple-500 p-8 relative hover:shadow-2xl transition-all duration-300 transform scale-105">
+<div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+<span class="bg-purple-500 text-white px-6 py-2 rounded-full text-sm font-semibold">Meest Populair</span>
+</div>
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
+<p class="text-gray-600 mb-4">Voor groeiende bedrijven</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="597" data-yearly="4975">597</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 5.000 gesprekken per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Alles uit Starter</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">WhatsApp integratie</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">CRM integraties</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Geavanceerde analytics</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Prioriteit ondersteuning</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Enterprise Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
+<p class="text-gray-600 mb-4">Voor grote organisaties</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="1297" data-yearly="10807">1297</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Onbeperkte gesprekken</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Alles uit Professional</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Custom integraties</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">White-label oplossing</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Dedicated account manager</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">24/7 telefoon ondersteuning</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
+Contact Sales
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- AI-Agents Pricing -->
+<section class="py-16 bg-gray-50 hidden" id="agents-pricing">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">AI-Agents Prijzen</h2>
+<p class="text-xl text-gray-600">Automatiseer complexe bedrijfsprocessen met autonome AI</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Solo Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Solo Agent</h3>
+<p class="text-gray-600 mb-4">Eén gespecialiseerde AI-agent</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="497" data-yearly="4142">497</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 1.000 taken per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">1 AI-agent</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Autonome taakuitvoering</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Standaard integraties</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Basis monitoring</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-cyan-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-cyan-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Team Plan -->
+<div class="bg-white rounded-2xl shadow-xl border-2 border-cyan-500 p-8 relative hover:shadow-2xl transition-all duration-300 transform scale-105">
+<div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+<span class="bg-cyan-500 text-white px-6 py-2 rounded-full text-sm font-semibold">Meest Populair</span>
+</div>
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Agent Team</h3>
+<p class="text-gray-600 mb-4">Meerdere gecoördineerde AI-agents</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="997" data-yearly="8309">997</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 5.000 taken per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Tot 5 AI-agents</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Agent coördinatie</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Geavanceerde workflows</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Realtime analytics</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Priority ondersteuning</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-cyan-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-cyan-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Enterprise Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Agent Factory</h3>
+<p class="text-gray-600 mb-4">Onbeperkte AI-agents en workflows</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="2497" data-yearly="20807">2497</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Onbeperkte taken</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Onbeperkte AI-agents</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Custom agent ontwikkeling</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Enterprise integraties</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Dedicated infrastructure</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">24/7 dedicated support</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
+Contact Sales
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Offertetool Pricing -->
+<section class="py-16 bg-white hidden" id="offertetool-pricing">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Offertetool Prijzen</h2>
+<p class="text-xl text-gray-600">Automatiseer uw verkoopproces met intelligente offertes</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Basic Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Basic</h3>
+<p class="text-gray-600 mb-4">Voor startende ondernemers</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="197" data-yearly="1642">197</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 100 offertes per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">WhatsApp integratie</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Website chat widget</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Automatische prijsberekening</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Basis templates</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Pro Plan -->
+<div class="bg-white rounded-2xl shadow-xl border-2 border-green-500 p-8 relative hover:shadow-2xl transition-all duration-300 transform scale-105">
+<div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+<span class="bg-green-500 text-white px-6 py-2 rounded-full text-sm font-semibold">Meest Populair</span>
+</div>
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Pro</h3>
+<p class="text-gray-600 mb-4">Voor groeiende bedrijven</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="397" data-yearly="3309">397</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Tot 500 offertes per maand</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Alles uit Basic</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7-293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Email integratie</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Custom branding</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Geavanceerde analytics</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Priority ondersteuning</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 block text-center">
+Start Gratis Trial
+</a>
+</div>
+
+<!-- Enterprise Plan -->
+<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
+<p class="text-gray-600 mb-4">Voor grote sales teams</p>
+<div class="mb-4">
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="797" data-yearly="6642">797</span></span>
+<span class="text-gray-600 ml-2 billing-period">/maand</span>
+</div>
+<p class="text-sm text-gray-500">Onbeperkte offertes</p>
+</div>
+
+<ul class="space-y-4 mb-8">
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Alles uit Pro</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">CRM integraties</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Multi-user management</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">White-label oplossing</span>
+</li>
+<li class="flex items-start">
+<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7-293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">24/7 dedicated support</span>
+</li>
+</ul>
+
+<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
+Contact Sales
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Pricing Comparison Table -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Vergelijk alle functies</h2>
+<p class="text-xl text-gray-600">Bekijk welke functies beschikbaar zijn per plan</p>
+</div>
+
+<div class="overflow-x-auto">
+<table class="w-full bg-white rounded-xl shadow-lg overflow-hidden">
+<thead class="bg-gray-50">
+<tr>
+<th class="text-left py-4 px-6 font-semibold text-gray-900">Functie</th>
+<th class="text-center py-4 px-6 font-semibold text-gray-900">Starter/Basic/Solo</th>
+<th class="text-center py-4 px-6 font-semibold text-gray-900">Professional/Pro/Team</th>
+<th class="text-center py-4 px-6 font-semibold text-gray-900">Enterprise</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr>
+<td class="py-4 px-6 text-gray-900">Setup & Onboarding</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="py-4 px-6 text-gray-900">24/7 Support</td>
+<td class="text-center py-4 px-6 text-gray-400">Email</td>
+<td class="text-center py-4 px-6 text-gray-900">Priority</td>
+<td class="text-center py-4 px-6 text-gray-900">Dedicated</td>
+</tr>
+<tr>
+<td class="py-4 px-6 text-gray-900">Custom Integraties</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-6 text-gray-900">Limited</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="py-4 px-6 text-gray-900">White-label</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-6">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Veelgestelde vragen</h2>
+<p class="text-xl text-gray-600">Vind antwoorden op de meest gestelde vragen over onze prijzen</p>
+</div>
+
+<div class="space-y-6">
+<div class="faq-item bg-gray-50 rounded-lg p-6">
+<button class="faq-question w-full text-left flex justify-between items-center">
+<h3 class="text-lg font-semibold text-gray-900">Hoe werkt de gratis trial?</h3>
+<svg class="w-5 h-5 text-gray-600 transform transition-transform faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+<div class="faq-answer hidden mt-4 text-gray-600">
+<p>Alle plannen starten met een 14-dagen gratis trial. U hebt volledige toegang tot alle functies van uw gekozen plan, zonder creditcard vereist. Na de trial kunt u beslissen om door te gaan of te stoppen.</p>
+</div>
+</div>
+
+<div class="faq-item bg-gray-50 rounded-lg p-6">
+<button class="faq-question w-full text-left flex justify-between items-center">
+<h3 class="text-lg font-semibold text-gray-900">Kan ik op elk moment upgraden of downgraden?</h3>
+<svg class="w-5 h-5 text-gray-600 transform transition-transform faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+<div class="faq-answer hidden mt-4 text-gray-600">
+<p>Ja, u kunt uw plan op elk moment aanpassen. Bij een upgrade wordt het verschil pro rata berekend. Bij een downgrade gaat de wijziging in bij de volgende factuurperiode.</p>
+</div>
+</div>
+
+<div class="faq-item bg-gray-50 rounded-lg p-6">
+<button class="faq-question w-full text-left flex justify-between items-center">
+<h3 class="text-lg font-semibold text-gray-900">Zijn er setup kosten?</h3>
+<svg class="w-5 h-5 text-gray-600 transform transition-transform faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+<div class="faq-answer hidden mt-4 text-gray-600">
+<p>Nee, er zijn geen setup kosten. Alle plannen bevatten gratis onboarding en 30 dagen ondersteuning om u te helpen aan de slag te gaan.</p>
+</div>
+</div>
+
+<div class="faq-item bg-gray-50 rounded-lg p-6">
+<button class="faq-question w-full text-left flex justify-between items-center">
+<h3 class="text-lg font-semibold text-gray-900">Wat gebeurt er als ik mijn limiet overschrijd?</h3>
+<svg class="w-5 h-5 text-gray-600 transform transition-transform faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+<div class="faq-answer hidden mt-4 text-gray-600">
+<p>Als u uw maandelijkse limiet nadert, sturen we een waarschuwing. U kunt dan kiezen om te upgraden of extra capaciteit bij te kopen. Uw service wordt nooit abrupt stopgezet.</p>
+</div>
+</div>
+
+<div class="faq-item bg-gray-50 rounded-lg p-6">
+<button class="faq-question w-full text-left flex justify-between items-center">
+<h3 class="text-lg font-semibold text-gray-900">Bieden jullie maatwerk oplossingen?</h3>
+<svg class="w-5 h-5 text-gray-600 transform transition-transform faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+</svg>
+</button>
+<div class="faq-answer hidden mt-4 text-gray-600">
+<p>Ja, voor Enterprise klanten bieden we volledig maatwerk oplossingen. Neem contact op met ons sales team om uw specifieke behoeften te bespreken.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-16 bg-gradient-to-r from-purple-600 to-blue-600">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+<h2 class="text-4xl font-bold text-white mb-4">Klaar om te beginnen?</h2>
+<p class="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
+Start vandaag nog met een gratis trial. Geen creditcard vereist, geen verplichtingen.
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-purple-600 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200">
+Start Gratis Trial
+</a>
+<a href="tel:+31857737074" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-semibold rounded-lg text-white bg-transparent hover:bg-white hover:text-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200">
+Bel ons direct
+</a>
+</div>
+</div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Solution Toggle Functionality
+    const toggleButtons = document.querySelectorAll('.solution-toggle-btn');
+    const pricingSections = {
+        'chatbot': document.getElementById('chatbot-pricing'),
+        'agents': document.getElementById('agents-pricing'),
+        'offertetool': document.getElementById('offertetool-pricing')
+    };
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const solution = button.dataset.solution;
+            
+            // Update active button
+            toggleButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Show corresponding pricing section
+            Object.values(pricingSections).forEach(section => {
+                section.classList.add('hidden');
+            });
+            pricingSections[solution].classList.remove('hidden');
+        });
+    });
+
+    // Billing Toggle Functionality
+    const billingToggle = document.getElementById('billing-toggle');
+    const priceAmounts = document.querySelectorAll('.price-amount');
+    const billingPeriods = document.querySelectorAll('.billing-period');
+
+    billingToggle.addEventListener('change', function() {
+        const isYearly = this.checked;
+        
+        priceAmounts.forEach(price => {
+            const monthlyPrice = price.dataset.monthly;
+            const yearlyPrice = price.dataset.yearly;
+            price.textContent = isYearly ? yearlyPrice : monthlyPrice;
+        });
+        
+        billingPeriods.forEach(period => {
+            period.textContent = isYearly ? '/jaar' : '/maand';
+        });
+    });
+
+    // FAQ Functionality
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        const arrow = item.querySelector('.faq-arrow');
+        
+        question.addEventListener('click', () => {
+            const isOpen = !answer.classList.contains('hidden');
+            
+            // Close all other FAQ items
+            faqItems.forEach(otherItem => {
+                const otherAnswer = otherItem.querySelector('.faq-answer');
+                const otherArrow = otherItem.querySelector('.faq-arrow');
+                otherAnswer.classList.add('hidden');
+                otherArrow.classList.remove('rotate-180');
+            });
+            
+            // Toggle current FAQ item
+            if (!isOpen) {
+                answer.classList.remove('hidden');
+                arrow.classList.add('rotate-180');
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.bg-circuit-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234534da' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-{{< /faq >}}
+
+.solution-toggle-btn {
+    @apply px-6 py-3 rounded-full text-sm font-semibold transition-all duration-200 border border-transparent;
+    color: #6b7280;
+}
+
+.solution-toggle-btn.active {
+    @apply bg-gray-900 text-white shadow-md;
+}
+
+.solution-toggle-btn:hover:not(.active) {
+    @apply bg-gray-100;
+}
+</style>

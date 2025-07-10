@@ -38,7 +38,7 @@ paginatePath = "page"
     gradient_to = "#08d5f9"    # Secondary light blue
     gradient_angle = 30
     [params.cta.primary_button]
-      text = "Gratis Consultatie"
+      text = "Plan een demo"
       url = "/contact"
     [params.cta.secondary_button]
       text = "Bekijk Oplossingen"

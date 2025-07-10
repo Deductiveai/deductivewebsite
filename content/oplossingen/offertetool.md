@@ -113,7 +113,7 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 </svg>
 </div>
 <div>
-<h3 class="text-white font-semibold">Deductive Offerte Agent</h3>
+<h3 class="font-semibold" style="color: white !important;">Deductive Offerte Agent</h3>
 <p class="text-green-100 text-sm">Online • Beantwoordt meestal direct</p>
 </div>
 </div>
@@ -142,7 +142,7 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
 <div class="bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-4">
 <div class="flex items-center justify-between">
-<h3 class="text-white font-semibold text-lg">Gegenereerde Offerte</h3>
+<h3 class="font-semibold text-lg" style="color: white !important;">Gegenereerde Offerte</h3>
 <div class="text-white text-sm">Real-time update</div>
 </div>
 </div>
@@ -176,7 +176,7 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 <div class="bg-gradient-to-r from-slate-800 to-slate-900 px-6 py-4">
 <div class="flex items-center justify-between">
 <div>
-<h3 class="text-white font-semibold text-lg">Deductive Backend - Offerte Management</h3>
+<h3 class="font-semibold text-lg" style="color: white !important;">Deductive Backend - Offerte Management</h3>
 </div>
 <div class="flex items-center justify-end">
 <div class="flex items-center space-x-3">
@@ -664,6 +664,28 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <div class="bg-gradient-to-r from-orange-500 to-red-500 h-3 rounded-full stat-bar" style="width: 95%"></div>
 </div>
 <p class="text-xs text-gray-500 mt-1">95% tevredenheid door gebruiksgemak</p>
+</div>
+
+<div class="stat-item" data-stat="response-time">
+<div class="flex items-center justify-between mb-2">
+<span class="text-sm font-medium text-gray-700">Responstijd</span>
+<span class="text-2xl font-bold text-teal-600 counter" data-target="15">0</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-gradient-to-r from-teal-500 to-cyan-500 h-3 rounded-full stat-bar" style="width: 75%"></div>
+</div>
+<p class="text-xs text-gray-500 mt-1">Gemiddeld 15 seconden voor complete offerte</p>
+</div>
+
+<div class="stat-item" data-stat="accuracy">
+<div class="flex items-center justify-between mb-2">
+<span class="text-sm font-medium text-gray-700">Prijsnauwkeurigheid</span>
+<span class="text-2xl font-bold text-indigo-600 counter" data-target="98">0</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-gradient-to-r from-indigo-500 to-purple-500 h-3 rounded-full stat-bar" style="width: 98%"></div>
+</div>
+<p class="text-xs text-gray-500 mt-1">98% accurate prijsberekening zonder handmatige correcties</p>
 </div>
 </div>
 </div>

@@ -1,84 +1,447 @@
 ---
 title: "Over Ons"
 layout: "company"
-description: "Leer meer over onze missie, ons team en de visie achter Deductive"
+description: "Leer meer over onze missie, ons team en de visie achter Deductive. Ontdek hoe wij bedrijven transformeren met cutting-edge AI-technologie."
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32" >}}
+{{< section-container class="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 pt-20 pb-32" >}}
     <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">De Toekomst van AI-Oplossingen</h1>
-        <p class="text-xl text-gray-600 mb-16">Onze missie is om bedrijven te transformeren met intelligente AI-technologie</p>
-        <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8">
-            <h2 class="text-3xl font-bold mb-4">Onze Missie</h2>
-            <p class="text-xl text-gray-600">
-                Wij zijn toegewijd aan het empoweren van bedrijven met innovatieve AI-oplossingen die groei en efficiëntie stimuleren. Onze technologie combineert geavanceerde AI met intuïtief ontwerp om complexe bedrijfsuitdagingen op te lossen.
-            </p>
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">
+            Waar <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Logica</span> 
+            Menselijkheid Ontmoet
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Bij Deductive bouwen we de toekomst van AI-gedreven bedrijfsoplossingen met ongeëvenaarde vakmanschap. Onze missie is het democratiseren van geavanceerde AI-technologie voor bedrijven van elke omvang, zonder compromissen op kwaliteit.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <a href="#onze-visie" class="btn-primary-blue">Onze Visie</a>
+            <a href="#ons-team" class="btn-outline-blue">Leer Ons Team Kennen</a>
         </div>
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20 bg-gray-50" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Ons Team</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {{< team-member 
-                name="Daan Slurink"
-                title="Co-founder & Platform Development"
-                image="images/company/exec-1.svg"
-                linkedin="#"
-            >}}
-            {{< team-member 
-                name="Paul van Glabbeek"
-                title="Co-founder & AI Development"
-                image="images/company/exec-2.svg"
-                linkedin="#"
-            >}}
+{{< section-container class="py-20 bg-white" >}}
+    <div id="onze-visie" class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Visie: Een All-in-One AI Platform</h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+            Wij geloven in een toekomst waar elke organisatie toegang heeft tot de kracht van moderne AI-technologie. 
+            Onze visie is het creëren van een all-in-one AI platform waarmee wij bedrijven kunnen enablen om gebruik te maken 
+            van de modernste AI technologie, allemaal binnen één geïntegreerde suite.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <div>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Van Separate Tools naar Geïntegreerde Suite</h3>
+            <div class="space-y-6">
+                {{< value-card 
+                    title="Unified Platform"
+                    icon="lightning"
+                    description="Alle AI-oplossingen verenigd in één krachtig platform dat naadloos integreert met uw bestaande systemen."
+                >}}
+                {{< value-card 
+                    title="Software-First Mindset"
+                    icon="code"
+                    description="Wij blijven een software bedrijf in hart en nieren, met focus op robuuste, schaalbare technologie-oplossingen."
+                >}}
+                {{< value-card 
+                    title="Democratisering van AI"
+                    icon="users"
+                    description="Complexe AI-technologie toegankelijk maken voor bedrijven zonder grote technische teams of budgetten."
+                >}}
+            </div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
+            <h4 class="text-2xl font-bold text-gray-900 mb-4">Onze Roadmap</h4>
+            <div class="space-y-4">
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-green-500 rounded-full mr-4"></div>
+                    <div>
+                        <span class="font-semibold text-green-700">2024:</span>
+                        <span class="text-gray-700">AI Chatbots, Agents & Offertetools</span>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-blue-500 rounded-full mr-4"></div>
+                    <div>
+                        <span class="font-semibold text-blue-700">2025:</span>
+                        <span class="text-gray-700">Unified Dashboard & Advanced Analytics</span>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-purple-500 rounded-full mr-4"></div>
+                    <div>
+                        <span class="font-semibold text-purple-700">2026:</span>
+                        <span class="text-gray-700">Complete AI Operating System voor Enterprise</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Technologie Partners</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            {{< investor-logo name="Microsoft Azure" image="images/company/investor-1.svg" >}}
-            {{< investor-logo name="OpenAI" image="images/company/investor-2.svg" >}}
-            {{< investor-logo name="Anthropic" image="images/company/investor-3.svg" >}}
-            {{< investor-logo name="LangChain" image="images/company/investor-4.svg" >}}
-        </div>
+{{< section-container class="py-20 bg-gradient-to-br from-gray-50 to-blue-50" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Vakmanschap Centraal Staat</h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+            In een wereld vol snelle oplossingen en oppervlakkige tools, kiezen wij bewust voor diepgaand vakmanschap. 
+            Elke regel code, elk algoritme, elke gebruikersinteractie wordt zorgvuldig uitgedacht en geoptimaliseerd.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {{< value-card 
+            title="Geen Shortcuts"
+            icon="shield"
+            description="Wij nemen geen shortcuts. Elke oplossing wordt grondig ontworpen, getest en verfijnd voordat deze bij de klant komt."
+        >}}
+        {{< value-card 
+            title="Duurzame Kwaliteit"
+            icon="clock"
+            description="Onze oplossingen zijn gebouwd om jaren mee te gaan, niet om snel verouderd te raken. Kwaliteit boven kwantiteit."
+        >}}
+        {{< value-card 
+            title="Persoonlijke Aandacht"
+            icon="heart"
+            description="Elk project verdient de juiste aandacht. Wij geloven in persoonlijke begeleiding en maatwerk, niet in one-size-fits-all oplossingen."
+        >}}
+    </div>
+
+{{< /section-container >}}
+
+{{< section-container class="py-20 bg-white" >}}
+    <div id="ons-team" class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Founders</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Twee ervaren technologie-ondernemers met een gedeelde passie voor het democratiseren van AI-technologie.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        {{< team-member 
+            name="Daan Slurink"
+            title="Co-founder & Platform Development"
+            image="images/company/founder-daan.svg"
+            linkedin="#"
+            bio="Daan brengt uitgebreide ervaring mee in platform development en software architectuur. Met een sterke achtergrond in full-stack development en cloud infrastructuur, leidt hij de technische ontwikkeling van ons geïntegreerde AI-platform."
+            expertise="Platform Architecture, Cloud Infrastructure, Full-Stack Development, DevOps"
+            vision="Ik geloof in het bouwen van technologie die intuïtief aanvoelt maar complex problemen oplost. Ons platform moet zo eenvoudig zijn dat elke ondernemer het kan gebruiken."
+        >}}
+        
+        {{< team-member 
+            name="Paul van Glabbeek"
+            title="Co-founder & AI Development"
+            image="images/company/founder-paul.svg"
+            linkedin="#"
+            bio="Paul is een ervaren AI-specialist met diepgaande kennis van machine learning, natural language processing en conversational AI. Hij leidt de ontwikkeling van onze AI-algoritmen en zorgt ervoor dat onze oplossingen aan de voorhoede van technologische innovatie blijven."
+            expertise="Machine Learning, NLP & LLMs, AI Agents, Data Science"
+            vision="AI moet menselijke intelligentie versterken, niet vervangen. Onze missie is het ontwikkelen van AI-systemen die begrijpelijk, betrouwbaar en daadwerkelijk nuttig zijn voor echte bedrijfsproblemen."
+        >}}
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20 bg-gray-50" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Onze Waarden</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{< value-card 
-                title="Innovatie Eerst"
-                icon="lightbulb"
-                description="We duwen constant grenzen en omarmen nieuwe technologieën om complexe uitdagingen op te lossen."
-            >}}
-            {{< value-card 
-                title="Klant Succes"
-                icon="users"
-                description="Het succes van onze klanten is ons succes. We zijn toegewijd aan het leveren van uitzonderlijke waarde."
-            >}}
-            {{< value-card 
-                title="Transparantie"
-                icon="eye"
-                description="We geloven in open communicatie en het opbouwen van vertrouwen door transparantie."
-            >}}
-        </div>
+{{< section-container class="py-20 bg-white" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Waarden & Culture</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Deze fundamentele principes sturen elke beslissing die we maken en elke oplossing die we ontwikkelen.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {{< value-card 
+            title="Innovatie Eerste"
+            icon="lightbulb"
+            description="We omarmen nieuwe technologieën en duwen constant grenzen om baanbrekende AI-oplossingen te ontwikkelen."
+        >}}
+        {{< value-card 
+            title="Klant Centraal"
+            icon="users"
+            description="Het succes van onze klanten is ons succes. We luisteren, begrijpen en leveren oplossingen die echte waarde toevoegen."
+        >}}
+        {{< value-card 
+            title="Transparantie"
+            icon="eye"
+            description="Open communicatie en eerlijkheid vormen de basis van vertrouwen en langdurige partnerships."
+        >}}
+        {{< value-card 
+            title="Excellentie"
+            icon="lightning"
+            description="We streven naar perfectie in alles wat we doen, van code kwaliteit tot klantenservice."
+        >}}
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20" >}}
-    <div class="max-w-6xl mx-auto">
+{{< section-container class="py-20 bg-gradient-to-br from-gray-50 to-indigo-50" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Technologie Stack</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            We bouwen op bewezen, moderne technologieën om betrouwbare en schaalbare AI-oplossingen te leveren.
+        </p>
+    </div>
+
+    {{< client-logos 
+        title="Technology Partners" 
+        animate="true"
+    >}}
+{{< /section-container >}}
+
+{{< section-container class="py-20 bg-white" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Journey: Van Visie naar Realiteit</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Ontdek hoe Deductive is gegroeid van een ambitieuze visie tot een toonaangevende AI-oplossingen provider.
+        </p>
+    </div>
+
+    <!-- Timeline Section -->
+    <div class="max-w-6xl mx-auto mb-20">
+        <div class="relative">
+            <!-- Timeline Line -->
+            <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
+            
+            <!-- Timeline Items -->
+            <div class="space-y-16">
+                <!-- 2024 - Founding -->
+                <div class="flex items-center">
+                    <div class="w-1/2 pr-8 text-right">
+                        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
+                            <div class="text-blue-600 font-bold text-sm mb-2">FEBRUARI 2024</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">De Oprichting</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Daan en Paul starten Deductive met een heldere visie: AI-technologie democratiseren en toegankelijk maken voor bedrijven van elke omvang. De eerste concepten worden ontwikkeld.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center relative z-10">
+                        <span class="text-white font-bold text-lg">🚀</span>
+                    </div>
+                    <div class="w-1/2 pl-8"></div>
+                </div>
+
+                <!-- 2024 - First Products -->
+                <div class="flex items-center">
+                    <div class="w-1/2 pr-8"></div>
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center relative z-10">
+                        <span class="text-white font-bold text-lg">🤖</span>
+                    </div>
+                    <div class="w-1/2 pl-8">
+                        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
+                            <div class="text-green-600 font-bold text-sm mb-2">APRIL 2024</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Eerste AI-Producten</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Lancering van onze eerste AI-chatbot en agent oplossingen. De focus ligt op het leveren van hoogwaardige, maatwerk AI-systemen die daadwerkelijk waarde toevoegen aan bedrijfsprocessen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2024 - Growth -->
+                <div class="flex items-center">
+                    <div class="w-1/2 pr-8 text-right">
+                        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
+                            <div class="text-purple-600 font-bold text-sm mb-2">SEPTEMBER 2024</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Groei & Uitbreiding</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Uitbreiding van het productportfolio met de intelligente offertetool. Eerste klanten ervaren significante verbeteringen in efficiëntie en klanttevredenheid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center relative z-10">
+                        <span class="text-white font-bold text-lg">📈</span>
+                    </div>
+                    <div class="w-1/2 pl-8"></div>
+                </div>
+
+                <!-- 2025 - Future -->
+                <div class="flex items-center">
+                    <div class="w-1/2 pr-8"></div>
+                    <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center relative z-10">
+                        <span class="text-white font-bold text-lg">🔮</span>
+                    </div>
+                    <div class="w-1/2 pl-8">
+                        <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 shadow-lg border border-indigo-100">
+                            <div class="text-indigo-600 font-bold text-sm mb-2">2025 & VERDER</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">De Toekomst</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Ontwikkeling van ons unified AI-platform. Uitbreiding naar internationale markten en innovatieve nieuwe AI-oplossingen die de grenzen van wat mogelijk is blijven verleggen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-12">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-900 mb-4">Deductive in Cijfers</h3>
+            <p class="text-lg text-gray-600">Onze impact in het eerste jaar</p>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            {{< stat number="2023" label="Opgericht" >}}
-            {{< stat number="15+" label="Teamleden" >}}
-            {{< stat number="50+" label="Klanten" >}}
-            {{< stat number="€2M+" label="Jaarlijkse Omzet" >}}
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="text-4xl font-bold text-blue-600 mb-2">2024</div>
+                <div class="text-gray-600 font-medium">Opgericht</div>
+            </div>
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="text-4xl font-bold text-green-600 mb-2">15+</div>
+                <div class="text-gray-600 font-medium">Tevreden Klanten</div>
+            </div>
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="text-4xl font-bold text-purple-600 mb-2">3</div>
+                <div class="text-gray-600 font-medium">Core Products</div>
+            </div>
+            <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="text-4xl font-bold text-indigo-600 mb-2">∞</div>
+                <div class="text-gray-600 font-medium">Potentieel</div>
+            </div>
         </div>
     </div>
 {{< /section-container >}}
+
+<!-- Mission & Impact Section -->
+{{< section-container class="py-20 bg-gradient-to-br from-gray-50 to-blue-50" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Impact op Nederlandse Bedrijven</h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+            We meten ons succes aan de hand van de concrete resultaten die onze klanten behalen met onze AI-oplossingen.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mb-6">
+                <span class="text-white text-2xl">🏥</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Zorgverlening</h3>
+            <p class="text-gray-600 mb-4">
+                Onze AI-chatbots hebben zorgorganisaties geholpen hun administratieve last met 75% te verminderen, waardoor zorgprofessionals meer tijd hebben voor patiëntenzorg.
+            </p>
+            <div class="text-green-600 font-semibold">75% minder administratie</div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mb-6">
+                <span class="text-white text-2xl">🛒</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">E-commerce</h3>
+            <p class="text-gray-600 mb-4">
+                Retailers zien gemiddeld 45% hogere conversiepercentages door onze intelligente product aanbevelingen en gepersonaliseerde klantenservice.
+            </p>
+            <div class="text-blue-600 font-semibold">45% hogere conversie</div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6">
+                <span class="text-white text-2xl">📋</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">B2B Dienstverlening</h3>
+            <p class="text-gray-600 mb-4">
+                Onze offertetools helpen bedrijven om 80% sneller professionele offertes te genereren, wat resulteert in meer gesloten deals.
+            </p>
+            <div class="text-purple-600 font-semibold">80% snellere offertes</div>
+        </div>
+    </div>
+
+    <!-- Mission Statement -->
+    <div class="bg-white rounded-3xl p-12 shadow-xl max-w-4xl mx-auto">
+        <div class="text-center">
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Onze Missie</h3>
+            <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                "We democratiseren geavanceerde AI-technologie door het toegankelijk en betaalbaar te maken voor alle Nederlandse bedrijven. Onze oplossingen versterken menselijke capaciteiten en dragen bij aan duurzame bedrijfsgroei."
+            </p>
+            <div class="flex justify-center items-center space-x-4">
+                <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                    <span class="text-white font-bold text-xl">D</span>
+                </div>
+                <div class="text-left">
+                    <div class="font-bold text-gray-900">Het Deductive Team</div>
+                    <div class="text-gray-600">Founders & Ontwikkelaars</div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{< /section-container >}}
+
+<!-- Culture & Working Philosophy -->
+{{< section-container class="py-20 bg-white" >}}
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Hoe Wij Werken</h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+            Onze werkfilosofie en cultuur zijn gebaseerd op transparantie, kwaliteit en persoonlijke aandacht.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <div class="space-y-8">
+            <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span class="text-blue-600 text-xl">🎯</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Resultaatgericht</h3>
+                    <p class="text-gray-600">
+                        We focussen op meetbare resultaten en concrete verbeteringen in uw bedrijfsprocessen. Geen vage beloftes, maar harde resultaten.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span class="text-green-600 text-xl">🤝</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Partnerschap</h3>
+                    <p class="text-gray-600">
+                        We zien onszelf als uw technologie partner, niet als een leverancier. Uw succes is ons succes, en we investeren in langdurige relaties.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <span class="text-purple-600 text-xl">🔬</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Innovatie</h3>
+                    <p class="text-gray-600">
+                        We blijven voorop lopen in AI-ontwikkelingen en brengen de nieuwste technologieën naar praktische, bruikbare oplossingen.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">Waarom Klanten Voor Ons Kiezen</h3>
+            <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                    <span class="text-gray-700">Persoonlijke aandacht</span>
+                    <div class="w-24 bg-gray-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-gray-700">Technische expertise</span>
+                    <div class="w-24 bg-gray-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-gray-700">Snelle implementatie</span>
+                    <div class="w-24 bg-gray-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-gray-700">Doorlopende support</span>
+                    <div class="w-24 bg-gray-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{< /section-container >}}
+
+{{< cta >}}

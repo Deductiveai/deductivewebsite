@@ -609,6 +609,61 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 </div>
 </section>
 
+<!-- Kwaliteit & Vakmanschap Sectie -->
+<section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Kwaliteit Ons Onderscheidt</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+In een markt vol gehaaste oplossingen en oppervlakkige tools, kiezen wij bewust voor diepgaand vakmanschap. Onze offertetool is niet zomaar een chatbot - het is een intelligente verkoopassistent die uw bedrijf écht begrijpt.
+</p>
+<div class="bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
+<p class="text-lg text-gray-700 italic leading-relaxed">
+"Veel automatiseringstools beloven veel maar leveren weinig. Onze offertetool is anders - gebouwd met aandacht voor detail, begrip van uw bedrijfsprocessen en commitment aan werkelijke resultaten."
+</p>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Intelligente Gesprekken</h3>
+<p class="text-gray-600 text-center">
+Geen robotachtige scripts maar natuurlijke conversaties die klanten begrijpen en waarderen. Onze AI snapt context en nuance.
+</p>
+</div>
+
+<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Betrouwbare Technologie</h3>
+<p class="text-gray-600 text-center">
+Gebouwd op solide technische fundamenten met security, privacy en stabiliteit voorop. Geen experimentele software.
+</p>
+</div>
+
+<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Persoonlijke Ondersteuning</h3>
+<p class="text-gray-600 text-center">
+Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zelf' aanpak maar echte partnership.
+</p>
+</div>
+</div>
+</div>
+</section>
+
 <!-- Statistics Section -->
 <section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">

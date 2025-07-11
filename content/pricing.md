@@ -12,12 +12,22 @@ layout: "pricing"
 <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
 Transparante <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Prijzen</span>
 </h1>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gratis ondersteuning en geen verborgen kosten.
+<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gratis ondersteuning en geen verborgen kosten. Geen surprises, geen tijdverspilling - gewoon kwaliteit waar u op kunt rekenen.
 </p>
 
+<!-- Kwaliteit Boodschap -->
+<div class="bg-white rounded-2xl p-6 max-w-4xl mx-auto shadow-lg mb-8">
+<p class="text-lg text-gray-700 italic leading-relaxed">
+"Wij geloven in eerlijke prijzen voor kwaliteitsoplossingen. Geen goedkope trucjes of verborgen kosten - gewoon transparante prijzen voor AI-technologie die daadwerkelijk werkt."
+</p>
+</div>
+
 <!-- Solution Toggle -->
-<div class="flex justify-center mb-8">
+<div class="flex flex-col items-center mb-8">
+<div class="text-center mb-4">
+<p class="text-sm text-gray-600 font-medium">👆 Klik om verschillende oplossingen te bekijken</p>
+</div>
 <div class="bg-white rounded-full p-2 shadow-lg border border-gray-200">
 <div class="flex">
 <button class="solution-toggle-btn active" data-solution="chatbot">
@@ -161,7 +171,7 @@ Start Gratis Trial
 <span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="1297" data-yearly="10807">1297</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
-<p class="text-sm text-gray-500">Onbeperkte gesprekken</p>
+<p class="text-sm text-gray-500">Tot 25.000 gesprekken per maand</p>
 </div>
 
 <ul class="space-y-4 mb-8">
@@ -315,12 +325,12 @@ Start Gratis Trial
 <div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
 <div class="mb-8">
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Agent Factory</h3>
-<p class="text-gray-600 mb-4">Onbeperkte AI-agents en workflows</p>
+<p class="text-gray-600 mb-4">Grootschalige AI-agents en workflows</p>
 <div class="mb-4">
 <span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="2497" data-yearly="20807">2497</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
-<p class="text-sm text-gray-500">Onbeperkte taken</p>
+<p class="text-sm text-gray-500">Tot 25.000 taken per maand</p>
 </div>
 
 <ul class="space-y-4 mb-8">
@@ -328,7 +338,7 @@ Start Gratis Trial
 <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
-<span class="text-gray-700">Onbeperkte AI-agents</span>
+<span class="text-gray-700">Tot 25 AI-agents</span>
 </li>
 <li class="flex items-start">
 <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -479,7 +489,7 @@ Start Gratis Trial
 <span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="797" data-yearly="6642">797</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
-<p class="text-sm text-gray-500">Onbeperkte offertes</p>
+<p class="text-sm text-gray-500">Tot 2.500 offertes per maand</p>
 </div>
 
 <ul class="space-y-4 mb-8">
@@ -522,6 +532,7 @@ Contact Sales
 </div>
 </div>
 </section>
+
 
 <!-- Pricing Comparison Table -->
 <section class="py-16 bg-gray-50">
@@ -600,6 +611,100 @@ Contact Sales
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</section>
+
+<!-- Waarom Deductive Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Deductive Verschilt van de Rest</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+In een markt vol goedkope AI-oplossingen en belofte-zonder-resultaat tools, kiezen wij bewust voor een andere aanpak. Onze prijzen reflecteren de kwaliteit en commitment die u verdient.
+</p>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="bg-white rounded-2xl p-8 shadow-lg">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Wat U NIET van Ons Krijgt</h3>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Gehaaste oplossingen die halverwege kapot gaan</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Offshore teams die uw bedrijf niet begrijpen</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Verborgen kosten en onverwachte toeslagen</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bg-white rounded-2xl p-8 shadow-lg">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Wat U WEL van Ons Krijgt</h3>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Zorgvuldig ontwikkelde oplossingen die blijven werken</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Nederlandse ontwikkelaars die uw taal spreken</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<p class="text-gray-700">Transparante prijzen zonder verrassingen</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="text-center mt-12">
+<div class="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
+<p class="text-lg text-gray-700 italic leading-relaxed">
+"Onze prijzen zijn niet de laagste op de markt - en dat is bewust. Wij concurreren niet op prijs, maar op waarde. Elke euro die u investeert, wordt terugverdiend door oplossingen die écht werken."
+</p>
+</div>
 </div>
 </div>
 </section>
@@ -765,6 +870,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 });
 </script>
 
@@ -774,15 +880,15 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .solution-toggle-btn {
-    @apply px-6 py-3 rounded-full text-sm font-semibold transition-all duration-200 border border-transparent;
+    @apply px-6 py-3 rounded-full text-sm font-semibold transition-all duration-200 border border-gray-300 bg-white;
     color: #6b7280;
 }
 
 .solution-toggle-btn.active {
-    @apply bg-gray-900 text-white shadow-md;
+    @apply bg-gray-900 text-white shadow-md border-gray-900;
 }
 
 .solution-toggle-btn:hover:not(.active) {
-    @apply bg-gray-100;
+    @apply bg-gray-100 border-gray-400 shadow-sm;
 }
 </style>

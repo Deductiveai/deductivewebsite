@@ -222,110 +222,319 @@ Meer Informatie
 </div>
 </section>
 
-<!-- Vertrouwen & Expertise Sectie -->
-<section class="py-20 bg-white">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-16">
-<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Waarom Organisaties voor Deductive Kiezen</h2>
-<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+<!-- Interactive Trust & Expertise Section -->
+<section class="py-24 bg-white relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-transparent to-purple-50/50"></div>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+<div class="text-center mb-20">
+<div class="inline-flex items-center bg-blue-50 rounded-full px-6 py-3 mb-8">
+<span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-blue-700 font-semibold text-sm">Vertrouwd door 50+ Nederlandse bedrijven</span>
+</div>
+<h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+Waarom Organisaties voor 
+<span class="relative">
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">Deductive</span>
+<div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-full"></div>
+</span> 
+Kiezen
+</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
 Onze diepgaande expertise in AI-technologie en bewezen resultaten maken ons de ideale partner voor uw digitale transformatie. Wij begrijpen zowel de technische complexiteit als de praktische uitdagingen van AI-implementatie.
 </p>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+<!-- Interactive Benefits Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
 <!-- Technische Expertise -->
-<div class="text-center group">
-<div class="w-20 h-20 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<div class="group relative">
+<div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+<div class="relative bg-white rounded-3xl p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full">
+<div class="flex items-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
 </div>
-<h3 class="text-2xl font-semibold text-gray-900 mb-6">Geavanceerde AI-Expertise</h3>
-<p class="text-gray-600 mb-6 text-lg leading-relaxed">
+<div>
+<h3 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">Geavanceerde AI-Expertise</h3>
+<p class="text-blue-600 font-semibold text-sm mt-1">Enterprise-grade technologie</p>
+</div>
+</div>
+<p class="text-gray-600 text-lg leading-relaxed mb-8">
 Wij werken met de nieuwste AI-technologieën zoals GPT-4, Claude en LangChain om enterprise-grade oplossingen te ontwikkelen die daadwerkelijk waarde toevoegen aan uw organisatie.
 </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-blue-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-blue-600">10+</div>
+<div class="text-blue-700 text-sm font-medium">AI Frameworks</div>
+</div>
+<div class="bg-indigo-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-indigo-600">99.9%</div>
+<div class="text-indigo-700 text-sm font-medium">Uptime SLA</div>
+</div>
+</div>
+</div>
 </div>
 
 <!-- Beveiliging & Privacy -->
-<div class="text-center group">
-<div class="w-20 h-20 bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<div class="group relative">
+<div class="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+<div class="relative bg-white rounded-3xl p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full">
+<div class="flex items-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
 </svg>
 </div>
-<h3 class="text-2xl font-semibold text-gray-900 mb-6">Veiligheid & Compliance</h3>
-<p class="text-gray-600 mb-6 text-lg leading-relaxed">
+<div>
+<h3 class="text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300">Veiligheid & Compliance</h3>
+<p class="text-green-600 font-semibold text-sm mt-1">GDPR & ISO compliant</p>
+</div>
+</div>
+<p class="text-gray-600 text-lg leading-relaxed mb-8">
 Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Onze oplossingen voldoen aan de hoogste beveiligingsstandaarden en Nederlandse privacywetgeving.
 </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-green-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-green-600">100%</div>
+<div class="text-green-700 text-sm font-medium">GDPR Compliant</div>
+</div>
+<div class="bg-emerald-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-emerald-600">24/7</div>
+<div class="text-emerald-700 text-sm font-medium">Security Monitoring</div>
+</div>
+</div>
+</div>
 </div>
 
 <!-- Maatwerk & Support -->
-<div class="text-center group">
-<div class="w-20 h-20 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<div class="group relative">
+<div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 rounded-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+<div class="relative bg-white rounded-3xl p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full">
+<div class="flex items-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 </svg>
 </div>
-<h3 class="text-2xl font-semibold text-gray-900 mb-6">Persoonlijke Begeleiding</h3>
-<p class="text-gray-600 mb-6 text-lg leading-relaxed">
+<div>
+<h3 class="text-2xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors duration-300">Persoonlijke Begeleiding</h3>
+<p class="text-purple-600 font-semibold text-sm mt-1">Nederlandse service</p>
+</div>
+</div>
+<p class="text-gray-600 text-lg leading-relaxed mb-8">
 Van concept tot implementatie en doorlopende optimalisatie - wij staan naast u voor persoonlijke begeleiding en ondersteuning die past bij uw organisatie.
 </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-purple-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-purple-600">< 24u</div>
+<div class="text-purple-700 text-sm font-medium">Response Time</div>
+</div>
+<div class="bg-pink-50 rounded-xl p-4 text-center">
+<div class="text-2xl font-bold text-pink-600">NL</div>
+<div class="text-pink-700 text-sm font-medium">Local Team</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 
-<!-- Technische Aanpak -->
-<div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-12">
-<div class="text-center mb-12">
-<h3 class="text-3xl font-bold text-gray-900 mb-6">Onze Bewezen Ontwikkelmethodiek</h3>
+<!-- Client Success Stories with Interactive Timeline -->
+<div class="bg-white rounded-3xl p-12 mb-20 shadow-2xl border border-gray-100">
+<div class="text-center mb-16">
+<h3 class="text-4xl font-bold text-gray-900 mb-6">Van Idee tot Impact</h3>
 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Zie hoe we samen met onze klanten AI-oplossingen hebben gerealiseerd die echte waarde toevoegen
+</p>
+</div>
+
+<!-- Interactive Case Study Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Case Study 1 -->
+<div class="group relative">
+<div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+<div class="flex items-start space-x-4 mb-6">
+<div class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+</svg>
+</div>
+<div>
+<h4 class="text-xl font-bold text-gray-900 mb-2">Kliniek Elsendael</h4>
+<p class="text-sm text-blue-600 font-semibold mb-3">AI-Chatbot Implementation</p>
+<p class="text-gray-700 leading-relaxed">
+"De AI-chatbot heeft onze patiëntencommunicatie getransformeerd. 24/7 ondersteuning zonder extra personeel."
+</p>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-4">
+<div class="text-center">
+<div class="text-2xl font-bold text-blue-600">3 weken</div>
+<div class="text-xs text-gray-500">Implementatie</div>
+</div>
+<div class="text-center">
+<div class="text-2xl font-bold text-green-600">-70%</div>
+<div class="text-xs text-gray-500">Telefoonverkeer</div>
+</div>
+</div>
+<a href="/case-studies/kliniek-elsendael" class="text-blue-600 hover:text-blue-800 font-medium text-sm group-hover:underline">
+Lees meer →
+</a>
+</div>
+</div>
+</div>
+
+<!-- Case Study 2 -->
+<div class="group relative">
+<div class="bg-gradient-to-br from-purple-50 to-pink-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+<div class="flex items-start space-x-4 mb-6">
+<div class="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center flex-shrink-0">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+</svg>
+</div>
+<div>
+<h4 class="text-xl font-bold text-gray-900 mb-2">TechStart B.V.</h4>
+<p class="text-sm text-purple-600 font-semibold mb-3">AI-Agent Automatisering</p>
+<p class="text-gray-700 leading-relaxed">
+"Onze offerteprocedure is volledig geautomatiseerd. Van 3 dagen naar 30 minuten per offerte."
+</p>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-4">
+<div class="text-center">
+<div class="text-2xl font-bold text-purple-600">5 dagen</div>
+<div class="text-xs text-gray-500">Implementatie</div>
+</div>
+<div class="text-center">
+<div class="text-2xl font-bold text-green-600">+300%</div>
+<div class="text-xs text-gray-500">Snelheid</div>
+</div>
+</div>
+<a href="/case-studies/techstart" class="text-purple-600 hover:text-purple-800 font-medium text-sm group-hover:underline">
+Lees meer →
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center mt-12">
+<p class="text-gray-600 mb-6">Klaar om uw eigen succesverhaal te schrijven?</p>
+<a href="/contact" class="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-4 px-8 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+Plan een Gesprek
+</a>
+</div>
+</div>
+
+<!-- Enhanced Development Methodology -->
+<div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-indigo-400/20 to-cyan-400/20 rounded-full blur-3xl"></div>
+<div class="relative text-center mb-16">
+<h3 class="text-4xl font-bold text-gray-900 mb-6">Onze Bewezen Ontwikkelmethodiek</h3>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
 Wij combineren moderne AI-technologie met solide software engineering principes voor betrouwbare, schaalbare oplossingen die meetbare resultaten opleveren.
 </p>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-<div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-<div class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mb-6">
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group hover:scale-105">
+<div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v6a2 2 0 002 2h2m-2-8h6m6 0a2 2 0 012 2v6a2 2 0 01-2 2h-2m-2-6V9a2 2 0 00-2-2h-2m8 0V7a2 2 0 00-2-2h-2"></path>
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
 </svg>
 </div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">Architectuur & Design</h4>
-<p class="text-gray-600">Schaalbare microservices architectuur voor optimale prestaties en onderhoudbaarheid</p>
+<h4 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">Architectuur & Design</h4>
+<p class="text-gray-600 leading-relaxed">Schaalbare microservices architectuur voor optimale prestaties en onderhoudbaarheid</p>
 </div>
 
-<div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-<div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center mb-6">
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group hover:scale-105">
+<div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 </svg>
 </div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">Kwaliteitsborging</h4>
-<p class="text-gray-600">Uitgebreide testing, code reviews en geautomatiseerde CI/CD pipelines voor betrouwbare software</p>
+<h4 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors duration-300">Kwaliteitsborging</h4>
+<p class="text-gray-600 leading-relaxed">Uitgebreide testing, code reviews en geautomatiseerde CI/CD pipelines voor betrouwbare software</p>
 </div>
 
-<div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-<div class="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center mb-6">
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group hover:scale-105">
+<div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
 </div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">Prestatie-optimalisatie</h4>
-<p class="text-gray-600">Continue monitoring en optimalisatie voor snelle responstijden en hoge beschikbaarheid</p>
+<h4 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors duration-300">Prestatie-optimalisatie</h4>
+<p class="text-gray-600 leading-relaxed">Continue monitoring en optimalisatie voor snelle responstijden en hoge beschikbaarheid</p>
 </div>
 
-<div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-<div class="w-16 h-16 bg-orange-600 rounded-xl flex items-center justify-center mb-6">
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group hover:scale-105">
+<div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
 </div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">Continue Innovatie</h4>
-<p class="text-gray-600">Doorlopend onderzoek en implementatie van de nieuwste AI-ontwikkelingen en best practices</p>
+<h4 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-orange-600 transition-colors duration-300">Continue Innovatie</h4>
+<p class="text-gray-600 leading-relaxed">Doorlopend onderzoek en implementatie van de nieuwste AI-ontwikkelingen en best practices</p>
 </div>
 </div>
 </div>
 </div>
 </section>
+
+<!-- Add counter animation script -->
+<script>
+// Counter animation for success metrics
+function animateCounters() {
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200;
+
+    counters.forEach(counter => {
+        const animate = () => {
+            const value = +counter.getAttribute('data-target');
+            const data = +counter.innerText.replace('%', '');
+
+            const time = value / speed;
+            if (data < value) {
+                counter.innerText = Math.ceil(data + time) + '%';
+                setTimeout(animate, 1);
+            } else {
+                counter.innerText = value + '%';
+            }
+        }
+        animate();
+    });
+}
+
+// Trigger animation when section comes into view
+const observerOptions = {
+    threshold: 0.5
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            animateCounters();
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const metricsSection = document.querySelector('.bg-gradient-to-br.from-gray-900');
+    if (metricsSection) {
+        observer.observe(metricsSection);
+    }
+});
+</script>
 
 {{< process-timeline 
     title="Van Idee naar Werkende AI-Oplossing"
@@ -899,80 +1108,5 @@ document.addEventListener('DOMContentLoaded', function() {
     background-color="#f8fafc"
 >}}
 
-<!-- Developer/Tech Section -->
-<section class="py-20 bg-gray-900 text-green-400 font-mono overflow-hidden">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-<div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-white mb-4">DEDUCTIVE AI DEVELOPMENT</h2>
-<p class="text-xl text-gray-300">Waar logica menselijkheid ontmoet</p>
-</div>
-<div class="flex justify-center">
-<div class="laptop-container relative">
-<div id="laptop-ascii" class="text-center text-sm md:text-base lg:text-lg leading-none whitespace-pre-wrap">
-         ╔══════════════════════════════════════╗
-        ║                                      ║
-        ║            DEDUCTIVE AI              ║
-        ║                                      ║
-        ║  ┌─────────────────────────────────┐  ║
-        ║  │ > hugo server --buildDrafts     │  ║
-        ║  │ Serving at localhost:1313       │  ║
-        ║  │ █                               │  ║
-        ║  └─────────────────────────────────┘  ║
-        ║                                      ║
-        ╚══════════════════════════════════════╝
-╔═══════════════════════════════════════════════════════╗
-║ ESC │ F1 │ F2 │ F3 │ F4 │ F5 │ F6 │ F7 │ F8 │ F9 │ F10║
-║ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │⌫║
-║ TAB │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \\║
-║ CAPS │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ ENTER║
-║ SHIFT │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ SHIFT ║
-║ CTRL │ ALT │      SPACE      │ ALT │ CTRL │ ← │ ↑ │ → ║
-╚═══════════════════════════════════════════════════════╝
-</div>
-</div>
-</div>
-<div class="text-center mt-12">
-<div class="inline-flex items-center space-x-3 bg-green-900/20 border border-green-400/30 rounded-xl px-8 py-4">
-<div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-<span class="text-green-400 text-lg font-semibold">SYSTEEM OPERATIONEEL</span>
-</div>
-</div>
-</div>
-</section>
-
-<style>
-.laptop-container {
-    perspective: 1000px;
-}
-
-#laptop-ascii {
-    transform-style: preserve-3d;
-    animation: laptop-glow 2s ease-in-out infinite alternate;
-    color: #10b981;
-}
-
-@keyframes laptop-glow {
-    0% {
-        text-shadow: 0 0 5px #10b981, 0 0 10px #10b981, 0 0 15px #10b981;
-    }
-    100% {
-        text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981, 0 0 40px #10b981;
-    }
-}
-
-@media (max-width: 768px) {
-    #laptop-ascii {
-        font-size: 0.5rem;
-        line-height: 0.6;
-    }
-}
-
-@media (max-width: 480px) {
-    #laptop-ascii {
-        font-size: 0.4rem;
-        line-height: 0.5;
-    }
-}
-</style>
 
 {{< cta >}}

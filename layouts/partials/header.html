@@ -2,11 +2,11 @@
 {{ $dropdownConfig := $headerConfig.menu.dropdown }}
 <div class="mobile-menu-wrapper">
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <header class="fixed w-full top-0 z-50 bg-gray-900 border-b border-gray-700">
+    <header class="fixed w-full top-0 z-50 {{ with $headerConfig.background }}{{ . }}{{ else }}bg-gray-900{{ end }} {{ with $headerConfig.border }}{{ . }}{{ else }}border-b border-gray-800{{ end }}">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <nav class="flex items-center justify-between h-20">
-                <!-- Logo Only -->
-                <a href="{{ .Site.BaseURL }}" class="flex items-center">
+                <!-- Logo and Title -->
+                <a href="{{ .Site.BaseURL }}" class="flex items-center space-x-4">
                     {{ with $headerConfig.logo }}
                         <img src="{{ .src | relURL }}" alt="{{ $.Site.Title }}" class="{{ with .class }}{{ . }}{{ else }}h-12{{ end }}">
                     {{ else }}
@@ -39,11 +39,45 @@
                     {{ end }}
                 </div>
 
-                <!-- CTA Buttons -->
-                {{ if not $headerConfig.hideButtons }}
+                <!-- Language Toggle & CTA Buttons -->
                 <div class="hidden md:flex items-center space-x-4">
+                    <!-- Language Toggle -->
+                    <div class="relative">
+                        <button id="language-toggle" class="flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-800 transition-colors duration-200 text-gray-900 hover:text-blue-600 group">
+                            <svg class="w-5 h-5 group-hover:scale-110 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-3a5 5 0 00-5-5 5 5 0 00-5 5v3m9-9V6a5 5 0 00-5-5 5 5 0 00-5 5v6"></path>
+                            </svg>
+                            <span id="current-language" class="text-sm font-semibold">NL</span>
+                            <svg class="w-3 h-3 transition-transform duration-200" id="language-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        
+                        <!-- Language Dropdown -->
+                        <div id="language-dropdown" class="absolute right-0 mt-2 w-32 bg-white border border-gray-200 rounded-lg shadow-xl opacity-0 invisible transform scale-95 transition-all duration-200 ease-out z-50">
+                            <div class="py-2">
+                                <button onclick="switchLanguage('nl')" class="language-option flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150" data-lang="nl">
+                                    <span class="flag-emoji mr-3">🇳🇱</span>
+                                    <span>Nederlands</span>
+                                    <svg class="w-4 h-4 ml-auto text-blue-600 hidden" id="check-nl" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                                <button onclick="switchLanguage('en')" class="language-option flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150" data-lang="en">
+                                    <span class="flag-emoji mr-3">🇬🇧</span>
+                                    <span>English</span>
+                                    <svg class="w-4 h-4 ml-auto text-blue-600 hidden" id="check-en" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                {{ if not $headerConfig.hideButtons }}
+                    <div class="flex items-center space-x-4">
                     {{ with $headerConfig.buttons.signIn }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-400 text-white hover:border-secondary-100 hover:text-secondary-100{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition duration-200 ease-in-out border-2 border-white text-white hover:bg-white hover:text-gray-900{{ end }}">
                         {{ .text | default "Sign in" }}
                     </a>
                     {{ end }}
@@ -58,8 +92,8 @@
 
                 <!-- Mobile Menu Toggle -->
                 <div class="md:hidden">
-                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-secondary-100 focus:ring-offset-2 transition-colors cursor-pointer">
-                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 transition-colors cursor-pointer">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </label>
@@ -85,10 +119,31 @@
                     {{ end }}
                 {{ end }}
                 
+                <!-- Mobile Language Selection -->
+                <div class="pt-4 border-t border-gray-700">
+                    <div class="text-sm text-gray-300 mb-3 font-semibold">Taal / Language</div>
+                    <div class="flex space-x-4">
+                        <button onclick="switchLanguage('nl')" class="mobile-language-option flex items-center space-x-2 px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors duration-150" data-lang="nl">
+                            <span>🇳🇱</span>
+                            <span class="text-sm">Nederlands</span>
+                            <svg class="w-4 h-4 text-blue-600 hidden" id="mobile-check-nl" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                        <button onclick="switchLanguage('en')" class="mobile-language-option flex items-center space-x-2 px-3 py-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors duration-150" data-lang="en">
+                            <span>🇬🇧</span>
+                            <span class="text-sm">English</span>
+                            <svg class="w-4 h-4 text-blue-600 hidden" id="mobile-check-en" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
                 {{ if not $headerConfig.hideButtons }}
                 <div class="pt-4 space-y-4">
                     {{ with $headerConfig.buttons.signIn }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-400 text-white hover:border-secondary-100 hover:text-secondary-100{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .mobileClass }}{{ . }}{{ else }}block text-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
                         {{ .text | default "Sign in" }}
                     </a>
                     {{ end }}
@@ -117,5 +172,157 @@
         .nav-toggle:checked ~ header .nav-content {
             display: block;
         }
+        
+        /* Language Toggle Styles */
+        .language-dropdown-visible {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: scale(1) !important;
+        }
+        
+        .language-arrow-rotated {
+            transform: rotate(180deg);
+        }
     </style>
+
+    <script>
+        // Get current language from Hugo
+        const currentPageLanguage = '{{ .Language.Lang }}';
+        
+        // Language functionality with automatic detection
+        let currentLanguage = getCurrentLanguage();
+        
+        function getCurrentLanguage() {
+            // First check if we're on a specific language page via URL
+            const pathname = window.location.pathname;
+            if (pathname.startsWith('/en/')) {
+                return 'en';
+            }
+            
+            // If we have Hugo language info from server
+            if (currentPageLanguage) {
+                return currentPageLanguage;
+            }
+            
+            // Check localStorage
+            const storedLang = localStorage.getItem('language');
+            if (storedLang) {
+                return storedLang;
+            }
+            
+            // Default to Dutch (nl) since it's the default language
+            return 'nl';
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            // Re-detect current language when page loads
+            currentLanguage = getCurrentLanguage();
+            
+            // Initialize language display
+            updateLanguageDisplay(currentLanguage);
+            
+            // Desktop language toggle
+            const languageToggle = document.getElementById('language-toggle');
+            const languageDropdown = document.getElementById('language-dropdown');
+            const languageArrow = document.getElementById('language-arrow');
+            
+            if (languageToggle && languageDropdown) {
+                languageToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const isVisible = languageDropdown.classList.contains('language-dropdown-visible');
+                    
+                    if (isVisible) {
+                        hideLanguageDropdown();
+                    } else {
+                        showLanguageDropdown();
+                    }
+                });
+                
+                // Close dropdown when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!languageToggle.contains(e.target) && !languageDropdown.contains(e.target)) {
+                        hideLanguageDropdown();
+                    }
+                });
+            }
+        });
+        
+        function showLanguageDropdown() {
+            const dropdown = document.getElementById('language-dropdown');
+            const arrow = document.getElementById('language-arrow');
+            
+            if (dropdown) dropdown.classList.add('language-dropdown-visible');
+            if (arrow) arrow.classList.add('language-arrow-rotated');
+        }
+        
+        function hideLanguageDropdown() {
+            const dropdown = document.getElementById('language-dropdown');
+            const arrow = document.getElementById('language-arrow');
+            
+            if (dropdown) dropdown.classList.remove('language-dropdown-visible');
+            if (arrow) arrow.classList.remove('language-arrow-rotated');
+        }
+        
+        function switchLanguage(language) {
+            currentLanguage = language;
+            localStorage.setItem('language', language);
+            hideLanguageDropdown();
+            
+            // Get current path without language prefix
+            let currentPath = window.location.pathname;
+            
+            // Remove existing language prefix if present
+            if (currentPath.startsWith('/en/')) {
+                currentPath = currentPath.substring(3);
+            }
+            
+            // Ensure path starts with /
+            if (!currentPath.startsWith('/')) {
+                currentPath = '/' + currentPath;
+            }
+            
+            // Build new URL
+            let newPath;
+            if (language === 'en') {
+                newPath = '/en' + currentPath;
+            } else {
+                // For Dutch (default language), use root path
+                newPath = currentPath;
+            }
+            
+            console.log('Switching to language:', language, 'from path:', window.location.pathname, 'to path:', newPath);
+            
+            // Navigate to new language version
+            window.location.href = newPath;
+        }
+        
+        function updateLanguageDisplay(language) {
+            // Update desktop display
+            const currentLangDisplay = document.getElementById('current-language');
+            
+            if (currentLangDisplay) {
+                currentLangDisplay.textContent = language.toUpperCase();
+            }
+            
+            // Update checkmarks in dropdown
+            document.querySelectorAll('.language-option').forEach(option => {
+                const lang = option.getAttribute('data-lang');
+                const checkmark = document.getElementById('check-' + lang);
+                if (checkmark) {
+                    checkmark.classList.toggle('hidden', lang !== language);
+                }
+            });
+            
+            // Update checkmarks in mobile menu
+            document.querySelectorAll('.mobile-language-option').forEach(option => {
+                const lang = option.getAttribute('data-lang');
+                const checkmark = document.getElementById('mobile-check-' + lang);
+                if (checkmark) {
+                    checkmark.classList.toggle('hidden', lang !== language);
+                }
+            });
+        }
+    </script>
 </div>

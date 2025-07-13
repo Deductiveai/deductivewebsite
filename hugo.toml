@@ -1,6 +1,50 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "Deductive"
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "nl"
+defaultContentLanguageInSubdir = false
+
+# Multilingual Configuration
+[languages]
+  [languages.nl]
+    languageCode = "nl-NL"
+    languageName = "Nederlands"
+    title = "Deductive"
+    weight = 1
+    contentDir = "content"
+    [languages.nl.params]
+      description = "AI-oplossingen die uw bedrijf vooruithelpen"
+      keywords = "AI, kunstmatige intelligentie, chatbot, automatisering, Nederland"
+      # Dutch specific parameters
+      [languages.nl.params.cta]
+        enable = true
+        title = "Klaar om uw bedrijf te transformeren met AI?"
+        description = "Ontdek hoe onze AI-oplossingen uw organisatie kunnen versterken."
+        [languages.nl.params.cta.primary_button]
+          text = "Plan een demo"
+          url = "/contact"
+        [languages.nl.params.cta.secondary_button]
+          text = "Bekijk Oplossingen"
+          url = "/oplossingen"
+  
+  [languages.en]
+    languageCode = "en-US" 
+    languageName = "English"
+    title = "Deductive"
+    weight = 2
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "AI solutions that drive your business forward"
+      keywords = "AI, artificial intelligence, chatbot, automation, Netherlands"
+      # English specific parameters
+      [languages.en.params.cta]
+        enable = true
+        title = "Ready to transform your business with AI?"
+        description = "Discover how our AI solutions can strengthen your organization."
+        [languages.en.params.cta.primary_button]
+          text = "Schedule a demo"
+          url = "/en/contact"
+        [languages.en.params.cta.secondary_button]
+          text = "View Solutions"
+          url = "/en/solutions"
 
 # Theme Config
 theme = "hugo-saasify-theme"
@@ -14,6 +58,16 @@ enableEmoji = true
 
 # Enable Git info for lastmod
 enableGitInfo = true
+
+# Enable sitemap generation
+enableRobotsTXT = true
+canonifyURLs = true
+
+# SEO and sitemap configuration
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 # Enable taxonomies
 [taxonomies]
@@ -52,14 +106,15 @@ paginatePath = "page"
   
   # Social Media Configuration
   [params.social]
-    discord = "#"
-    linkedin = "#"
-    instagram = "#"
+    discord = "https://discord.gg/deductive"
+    linkedin = "https://linkedin.com/company/deductive"
+    instagram = "https://instagram.com/deductive"
+    github = "https://github.com/deductive"
   
   [params.header]
     # Header background and border styles (optional)
-    background = "bg-gradient-to-r from-primary-100 to-secondary-100 backdrop-blur-sm"
-    border = "border-b border-gray-200"
+    background = "bg-gray-900"
+    border = "border-b border-gray-800"
     
     # Logo configuration
     [params.header.logo]
@@ -73,13 +128,13 @@ paginatePath = "page"
       [params.header.menu.dropdown]
         width = "w-72"
         container_padding = "py-6"
+        background = "bg-gray-800"
+        border = "border border-gray-700"
+        text_color = "text-gray-200"
+        hover_background = "hover:bg-gray-700"
         item_padding = "px-8 py-3"
-        background = "bg-white"
-        border = "border border-gray-100"
         shadow = "shadow-xl"
         radius = "rounded-lg"
-        text_color = "text-gray-700"
-        hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
     
     # Button configuration
@@ -159,34 +214,64 @@ paginatePath = "page"
     ordered = false
     startLevel = 2
 
-# Navigation Menu
-[menu]
-  [[menu.main]]
+# Dutch Navigation Menu
+[languages.nl.menu]
+  [[languages.nl.menu.main]]
     name = "Oplossingen"
     weight = 1
-    [menu.main.params]
+    [languages.nl.menu.main.params]
       has_submenu = true
       submenu = [
         { name = "AI Chatbot", url = "/oplossingen/ai-chatbot/" },
         { name = "AI-Agents", url = "/oplossingen/ai-agents/" },
         { name = "Offertetool", url = "/oplossingen/offertetool/" }
       ]
-  [[menu.main]]
-    name = "Prijzen"
-    url = "/pricing"
-    weight = 2
-  [[menu.main]]
+  # [[languages.nl.menu.main]]
+  #   name = "Prijzen"
+  #   url = "/pricing"
+  #   weight = 2
+  [[languages.nl.menu.main]]
     name = "Blog"
     url = "/blog"
     weight = 3
-  [[menu.main]]
+  [[languages.nl.menu.main]]
     name = "Bedrijf"
     weight = 4
-    [menu.main.params]
+    [languages.nl.menu.main.params]
       has_submenu = true
       submenu = [
         { name = "Over Ons", url = "/company/" },
         { name = "Vacatures", url = "/careers/" }
+      ]
+
+# English Navigation Menu
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = "Solutions"
+    weight = 1
+    [languages.en.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "AI Chatbot", url = "/en/solutions/ai-chatbot/" },
+        { name = "AI Agents", url = "/en/solutions/ai-agents/" },
+        { name = "Quote Tool", url = "/en/solutions/quote-tool/" }
+      ]
+  # [[languages.en.menu.main]]
+  #   name = "Pricing"
+  #   url = "/en/pricing"
+  #   weight = 2
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "/en/blog"
+    weight = 3
+  [[languages.en.menu.main]]
+    name = "Company"
+    weight = 4
+    [languages.en.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "About Us", url = "/en/company/" },
+        { name = "Careers", url = "/en/careers/" }
       ]
 
   # Footer Column 1 Menu
@@ -219,10 +304,18 @@ paginatePath = "page"
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
-    name = "Licentie"
-    url = "/license"
-    weight = 1
-  [[menu.footer_column_3]]
     name = "Privacybeleid"
     url = "/privacy"
+    weight = 1
+  [[menu.footer_column_3]]
+    name = "Algemene Voorwaarden"
+    url = "/terms"
     weight = 2
+  [[menu.footer_column_3]]
+    name = "Sitemap"
+    url = "/sitemap"
+    weight = 3
+  [[menu.footer_column_3]]
+    name = "Cookies"
+    url = "/cookies"
+    weight = 4

@@ -23,23 +23,33 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 </p>
 </div>
 
-<!-- Solution Toggle -->
+<!-- Solution Navigation -->
 <div class="flex flex-col items-center mb-8">
 <div class="text-center mb-4">
-<p class="text-sm text-gray-600 font-medium">👆 Klik om verschillende oplossingen te bekijken</p>
+<p class="text-sm text-gray-600 font-medium">🚀 Kies uw perfecte AI-oplossing</p>
 </div>
-<div class="bg-white rounded-full p-2 shadow-lg border border-gray-200">
-<div class="flex">
-<button class="solution-toggle-btn active" data-solution="chatbot">
-<span class="text-purple-600">💬</span> AI Chatbot
-</button>
-<button class="solution-toggle-btn" data-solution="agents">
-<span class="text-cyan-600">🤖</span> AI-Agents
-</button>
-<button class="solution-toggle-btn" data-solution="offertetool">
-<span class="text-green-600">📊</span> Offertetool
-</button>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">
+<a href="#chatbot-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-purple-500">
+<div class="text-center">
+<span class="text-4xl mb-3 block">💬</span>
+<h3 class="text-lg font-bold text-gray-900 mb-2">AI Chatbot</h3>
+<p class="text-sm text-gray-600">24/7 Klantenservice</p>
 </div>
+</a>
+<a href="#agents-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-cyan-500">
+<div class="text-center">
+<span class="text-4xl mb-3 block">🤖</span>
+<h3 class="text-lg font-bold text-gray-900 mb-2">AI-Agents</h3>
+<p class="text-sm text-gray-600">Autonome Processen</p>
+</div>
+</a>
+<a href="#offertetool-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-green-500">
+<div class="text-center">
+<span class="text-4xl mb-3 block">📊</span>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Offertetool</h3>
+<p class="text-sm text-gray-600">Slimme Verkoop</p>
+</div>
+</a>
 </div>
 </div>
 
@@ -216,7 +226,7 @@ Contact Sales
 </section>
 
 <!-- AI-Agents Pricing -->
-<section class="py-16 bg-gray-50 hidden" id="agents-pricing">
+<section class="py-16 bg-gray-50" id="agents-pricing">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">AI-Agents Prijzen</h2>
@@ -375,7 +385,7 @@ Contact Sales
 </section>
 
 <!-- Offertetool Pricing -->
-<section class="py-16 bg-white hidden" id="offertetool-pricing">
+<section class="py-16 bg-white" id="offertetool-pricing">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">Offertetool Prijzen</h2>

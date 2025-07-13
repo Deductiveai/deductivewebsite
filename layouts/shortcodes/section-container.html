@@ -1,5 +1,5 @@
-<section class="{{ .Get "class" }}">
-    <div class="container mx-auto px-4">
-        {{ .Inner }}
-    </div>
+<section{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ with .Get "id" }} id="{{ . }}"{{ end }}>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+{{ .Inner }}
+</div>
 </section>

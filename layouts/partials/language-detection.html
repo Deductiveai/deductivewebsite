@@ -1,0 +1,71 @@
+<!-- Automatic Language Detection Script -->
+<script>
+(function() {
+    // Only run on the homepage and if no explicit language preference is set
+    if (window.location.pathname === '/' && !localStorage.getItem('language-preference-set')) {
+        
+        // Check if user has already been redirected
+        if (sessionStorage.getItem('language-detected')) {
+            return;
+        }
+        
+        // Mark that we've detected language for this session
+        sessionStorage.setItem('language-detected', 'true');
+        
+        // Get browser language
+        const browserLang = navigator.language || navigator.userLanguage;
+        
+        // Function to redirect to appropriate language
+        function redirectToLanguage(lang) {
+            if (lang === 'en' && !window.location.pathname.startsWith('/en/')) {
+                window.location.href = '/en/';
+            }
+        }
+        
+        // Check browser language first
+        if (browserLang.startsWith('en') && !browserLang.startsWith('nl')) {
+            redirectToLanguage('en');
+            return;
+        }
+        
+        // If Dutch or from Netherlands/Belgium, stay on Dutch version
+        if (browserLang.startsWith('nl') || browserLang.includes('NL')) {
+            return; // Stay on Dutch version
+        }
+        
+        // Try timezone detection
+        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        if (timezone && (timezone.includes('Amsterdam') || timezone.includes('Brussels'))) {
+            return; // Stay on Dutch version
+        }
+        
+        // Optional: Use IP geolocation for more accurate detection
+        // Uncomment this if you want to use an IP geolocation service
+        /*
+        fetch('https://ipapi.co/json/')
+            .then(response => response.json())
+            .then(data => {
+                if (data.country_code === 'NL' || data.country_code === 'BE') {
+                    // Stay on Dutch version
+                    return;
+                } else {
+                    // Redirect to English for other countries
+                    redirectToLanguage('en');
+                }
+            })
+            .catch(error => {
+                // Fallback: if geolocation fails, use browser language
+                if (!browserLang.startsWith('nl') && !browserLang.includes('NL')) {
+                    redirectToLanguage('en');
+                }
+            });
+        */
+        
+        // Fallback: Default to English for international visitors
+        // Only if browser language is clearly not Dutch
+        if (!browserLang.startsWith('nl') && !browserLang.includes('NL')) {
+            redirectToLanguage('en');
+        }
+    }
+})();
+</script>

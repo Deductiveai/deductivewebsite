@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Main Sitemap
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+# Language-specific sitemaps
+{{ range .Site.Languages }}
+{{ if ne .Lang "nl" }}
+Sitemap: {{ $.Site.BaseURL }}{{ .Lang }}/sitemap.xml
+{{ end }}
+{{ end }}
+
+# Crawl-delay for search engines
+Crawl-delay: 1
+
+# Block sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.env
+Disallow: /config/
+Disallow: /tmp/

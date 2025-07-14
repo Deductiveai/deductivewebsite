@@ -36,58 +36,112 @@ demo:
 ---
 
 <!-- Interactive Hero Section -->
-<section class="relative py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 overflow-hidden">
+<section class="relative min-h-screen flex items-center bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 overflow-hidden">
 <div class="absolute inset-0 bg-chat-pattern opacity-5"></div>
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+<div class="absolute top-20 right-10 w-72 h-72 bg-gradient-to-br from-green-400/20 to-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
+<div class="absolute bottom-10 left-10 w-96 h-96 bg-gradient-to-tr from-teal-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
 <div class="text-center mb-16">
-<h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-Chat-Gebaseerde <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">Offertetool</span>
+<!-- Trust Badge -->
+<div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-8 shadow-lg border border-gray-100">
+<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-gray-700 font-semibold text-sm">85% sneller offertes voor 500+ bedrijven</span>
+</div>
+
+<!-- Main Headline -->
+<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+Chat-Gebaseerde 
+<span class="relative inline-block">
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600 animate-gradient">Offertetool</span>
+<div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full animate-pulse"></div>
+</span>
 </h1>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+
+<!-- Subheadline -->
+<p class="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
 Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes genereert via natuurlijke gesprekken op WhatsApp, website of email.
 </p>
+
+<!-- Social Proof -->
+<div class="flex flex-wrap justify-center items-center gap-6 mb-12 text-sm text-gray-600">
+<div class="flex items-center">
+<svg class="w-4 h-4 text-green-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+</svg>
+<span>60% hogere conversie</span>
+</div>
+<div class="flex items-center">
+<svg class="w-4 h-4 text-blue-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-2.293 2.293a1 1 0 01-1.414-1.414l3-3a1 1 0 011.414 0L11 10.414 14.586 7H12z" clip-rule="evenodd"></path>
+</svg>
+<span>24/7 automatische generatie</span>
+</div>
+<div class="flex items-center">
+<svg class="w-4 h-4 text-purple-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+</svg>
+<span>Setup binnen 1 week</span>
+</div>
+</div>
+
+<!-- CTA Buttons -->
 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a href="#chat-demo" class="btn-primary-green">Live Chat Demo</a>
-<a href="#backend-demo" class="btn-outline-green">Backend Dashboard</a>
+<a href="#chat-demo" class="inline-flex items-center justify-center bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold py-4 px-8 rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+</svg>
+Live Chat Demo
+</a>
+<a href="/contact" class="inline-flex items-center justify-center bg-white text-green-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-green-600">
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+Plan een Gratis Demo
+</a>
 </div>
 </div>
 
 <!-- Multi-Channel Integration Preview -->
 <div class="max-w-6xl mx-auto mb-16">
 <div class="text-center mb-8">
-<h2 class="text-3xl font-bold text-gray-900 mb-4">Multi-Channel Integratie</h2>
-<p class="text-lg text-gray-600">Eén AI-agent, alle communicatiekanalen</p>
+<div class="inline-flex items-center bg-green-50 rounded-full px-6 py-3 mb-6">
+<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-green-700 font-semibold text-sm">Multi-channel integratie</span>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Multi-Channel Integratie</h2>
+<p class="text-base sm:text-lg text-gray-600">Eén AI-agent, alle communicatiekanalen</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
 <!-- WhatsApp -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
 <div class="flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4 mx-auto">
 <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.690"/>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">WhatsApp Business</h3>
-<p class="text-gray-600 text-center">Klanten chatten direct via WhatsApp voor offertes</p>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">WhatsApp Business</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">Klanten chatten direct via WhatsApp voor offertes</p>
 </div>
 <!-- Website Chat -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
 <div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4 mx-auto">
 <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Website Chatbot</h3>
-<p class="text-gray-600 text-center">Geïntegreerde chat widget op uw website</p>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">Website Chatbot</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">Geïntegreerde chat widget op uw website</p>
 </div>
 <!-- Email -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
 <div class="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-full mb-4 mx-auto">
 <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Email Integratie</h3>
-<p class="text-gray-600 text-center">Automatische offerte via email conversaties</p>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">Email Integratie</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">Automatische offerte via email conversaties</p>
 </div>
 </div>
 </div>
@@ -98,10 +152,14 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 <section class="py-16 bg-white" id="chat-demo">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Live Chat Demo</h2>
-<p class="text-xl text-gray-600">Zie hoe klanten via natuurlijke gesprekken offertes krijgen</p>
+<div class="inline-flex items-center bg-blue-50 rounded-full px-6 py-3 mb-6">
+<span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-blue-700 font-semibold text-sm">Live demonstratie</span>
 </div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Live Chat Demo</h2>
+<p class="text-lg sm:text-xl text-gray-600">Zie hoe klanten via natuurlijke gesprekken offertes krijgen</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
 <!-- Chat Interface -->
 <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
 <div class="bg-gradient-to-r from-green-600 to-emerald-600 px-6 py-4">
@@ -173,15 +231,15 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 </div>
 <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
 <!-- Dashboard Header -->
-<div class="bg-gradient-to-r from-slate-800 to-slate-900 px-6 py-4">
-<div class="flex items-center justify-between">
+<div class="bg-gradient-to-r from-slate-800 to-slate-900 px-4 sm:px-6 py-4">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
 <div>
-<h3 class="font-semibold text-lg" style="color: white !important;">Deductive Backend - Offerte Management</h3>
+<h3 class="font-semibold text-base sm:text-lg" style="color: white !important;">Deductive Backend - Offerte Management</h3>
 </div>
-<div class="flex items-center justify-end">
-<div class="flex items-center space-x-3">
+<div class="flex items-center">
+<div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
 <span class="text-white text-sm font-medium">Bedrijfstype:</span>
-<select id="business-selector" class="bg-white text-gray-900 px-4 py-2 rounded-lg text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent shadow-sm min-w-[180px]">
+<select id="business-selector" class="bg-white text-gray-900 px-3 sm:px-4 py-2 rounded-lg text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent shadow-sm w-full sm:min-w-[180px]">
 <option value="webdev" selected>Web Development</option>
 <option value="landscaping">Hoveniersbedrijf</option>
 <option value="catering">Catering & Events</option>
@@ -191,24 +249,24 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 </div>
 </div>
 <!-- Dashboard Tabs -->
-<div class="border-b border-gray-200">
-<nav class="flex space-x-8 px-6">
-<button class="dashboard-tab active py-4 px-1 border-b-2 border-green-500 font-medium text-sm text-green-600" data-tab="products">
+<div class="border-b border-gray-200 overflow-x-auto">
+<nav class="flex space-x-4 sm:space-x-8 px-4 sm:px-6 min-w-max">
+<button class="dashboard-tab active py-4 px-1 border-b-2 border-green-500 font-medium text-xs sm:text-sm text-green-600 whitespace-nowrap" data-tab="products">
 Producten & Diensten
 </button>
-<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700" data-tab="pricing">
+<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-xs sm:text-sm text-gray-500 hover:text-gray-700 whitespace-nowrap" data-tab="pricing">
 Prijsstructuur
 </button>
-<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700" data-tab="labor">
+<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-xs sm:text-sm text-gray-500 hover:text-gray-700 whitespace-nowrap" data-tab="labor">
 Arbeidskosten
 </button>
-<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700" data-tab="settings">
+<button class="dashboard-tab py-4 px-1 border-b-2 border-transparent font-medium text-xs sm:text-sm text-gray-500 hover:text-gray-700 whitespace-nowrap" data-tab="settings">
 Agent Instellingen
 </button>
 </nav>
 </div>
 <!-- Dashboard Content -->
-<div class="p-6">
+<div class="p-4 sm:p-6">
 <!-- Products Tab -->
 <div id="products-tab" class="tab-content">
 <div class="flex justify-between items-center mb-4">
@@ -478,15 +536,19 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Hoe Het Allemaal Samenwerkt</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">Een complex systeem dat het offerte-proces volledig automatiseert - maar voor Deductive is het eenvoudig in te stellen</p>
+<div class="inline-flex items-center bg-orange-50 rounded-full px-6 py-3 mb-6">
+<span class="w-3 h-3 bg-orange-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-orange-700 font-semibold text-sm">Intelligente workflow</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Hoe Het Allemaal Samenwerkt</h2>
+<p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">Een complex systeem dat het offerte-proces volledig automatiseert - maar voor Deductive is het eenvoudig in te stellen</p>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
 <!-- Interactive Flow Diagram -->
 <div class="space-y-6">
-<div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 h-full">
-<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Intelligente Offerte Engine</h3>
+<div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 h-full">
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Intelligente Offerte Engine</h3>
 <div class="space-y-4">
 <div class="flow-step active" data-step="1">
 <div class="flex items-center space-x-4 p-4 rounded-lg">
@@ -539,64 +601,64 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 
 <!-- Explanation Cards -->
 <div class="space-y-6">
-<div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 h-full">
-<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Waarom Het Zo Krachtig Is</h3>
+<div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 h-full">
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Waarom Het Zo Krachtig Is</h3>
 <div class="space-y-6">
-<div class="complexity-card bg-white rounded-xl shadow-lg p-6 border-l-4 border-orange-400">
-<div class="flex items-center space-x-3 mb-4">
+<div class="complexity-card bg-white rounded-xl shadow-lg p-4 sm:p-6 border-l-4 border-orange-400">
+<div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-4">
 <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
 <svg class="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
 </div>
-<h4 class="text-lg font-semibold text-gray-900">Complexe Berekeningen</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Complexe Berekeningen</h4>
 </div>
-<p class="text-gray-600 mb-4">De AI-agent voert in realtime ingewikkelde berekeningen uit:</p>
-<div class="bg-gray-50 p-4 rounded-lg">
-<p class="text-sm text-gray-700 font-mono">
+<p class="text-gray-600 mb-4 text-sm sm:text-base">De AI-agent voert in realtime ingewikkelde berekeningen uit:</p>
+<div class="bg-gray-50 p-3 sm:p-4 rounded-lg overflow-x-auto">
+<p class="text-xs sm:text-sm text-gray-700 font-mono whitespace-nowrap">
 <span class="text-green-600">Basis prijs</span> × <span class="text-blue-600">Complexiteit (1.5x)</span> × <span class="text-orange-600">Spoed (25%)</span> + <span class="text-purple-600">Arbeidskosten</span> = <span class="font-bold">Finale offerte</span>
 </p>
 </div>
 </div>
 
-<div class="integration-card bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-400">
-<div class="flex items-center space-x-3 mb-4">
+<div class="integration-card bg-white rounded-xl shadow-lg p-4 sm:p-6 border-l-4 border-blue-400">
+<div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-4">
 <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
 <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
 </svg>
 </div>
-<h4 class="text-lg font-semibold text-gray-900">Naadloze Integratie</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Naadloze Integratie</h4>
 </div>
-<p class="text-gray-600 mb-4">Alles werkt perfect samen zonder technische hoofdpijn:</p>
+<p class="text-gray-600 mb-4 text-sm sm:text-base">Alles werkt perfect samen zonder technische hoofdpijn:</p>
 <div class="space-y-2">
 <div class="flex items-center space-x-2">
-<div class="w-2 h-2 bg-green-400 rounded-full"></div>
-<span class="text-sm text-gray-700">Backend synchroniseert automatisch</span>
+<div class="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+<span class="text-xs sm:text-sm text-gray-700">Backend synchroniseert automatisch</span>
 </div>
 <div class="flex items-center space-x-2">
-<div class="w-2 h-2 bg-green-400 rounded-full"></div>
-<span class="text-sm text-gray-700">PDF-templates passen zich aan</span>
+<div class="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+<span class="text-xs sm:text-sm text-gray-700">PDF-templates passen zich aan</span>
 </div>
 <div class="flex items-center space-x-2">
-<div class="w-2 h-2 bg-green-400 rounded-full"></div>
-<span class="text-sm text-gray-700">Customer portal real-time updates</span>
+<div class="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+<span class="text-xs sm:text-sm text-gray-700">Customer portal real-time updates</span>
 </div>
 </div>
 </div>
 
-<div class="deductive-card bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-400">
-<div class="flex items-center space-x-3 mb-4">
+<div class="deductive-card bg-white rounded-xl shadow-lg p-4 sm:p-6 border-l-4 border-green-400">
+<div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-4">
 <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
 <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
 </svg>
 </div>
-<h4 class="text-lg font-semibold text-gray-900">Deductive Maakt Het Eenvoudig</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Deductive Maakt Het Eenvoudig</h4>
 </div>
-<p class="text-gray-600 mb-4">Wat complex lijkt, is voor ons routine:</p>
-<div class="bg-green-50 p-4 rounded-lg">
-<p class="text-sm text-green-800">
+<p class="text-gray-600 mb-4 text-sm sm:text-base">Wat complex lijkt, is voor ons routine:</p>
+<div class="bg-green-50 p-3 sm:p-4 rounded-lg">
+<p class="text-xs sm:text-sm text-green-800">
 <strong>✓ Plug & Play:</strong> Installatie in minuten<br>
 <strong>✓ Geen Code:</strong> Alles via interface<br>
 <strong>✓ 24/7 Support:</strong> Wij regelen alles
@@ -613,50 +675,54 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Kwaliteit Ons Onderscheidt</h2>
-<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+<div class="inline-flex items-center bg-gray-50 rounded-full px-6 py-3 mb-6">
+<span class="w-3 h-3 bg-gray-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-gray-700 font-semibold text-sm">Vakmanschap en kwaliteit</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Waarom Kwaliteit Ons Onderscheidt</h2>
+<p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-8">
 In een markt vol gehaaste oplossingen en oppervlakkige tools, kiezen wij bewust voor diepgaand vakmanschap. Onze offertetool is niet zomaar een chatbot - het is een intelligente verkoopassistent die uw bedrijf écht begrijpt.
 </p>
-<div class="bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
-<p class="text-lg text-gray-700 italic leading-relaxed">
+<div class="bg-white rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto shadow-lg">
+<p class="text-base sm:text-lg text-gray-700 italic leading-relaxed">
 "Veel automatiseringstools beloven veel maar leveren weinig. Onze offertetool is anders - gebouwd met aandacht voor detail, begrip van uw bedrijfsprocessen en commitment aan werkelijke resultaten."
 </p>
 </div>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+<div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
 <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
 <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Intelligente Gesprekken</h3>
-<p class="text-gray-600 text-center">
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Intelligente Gesprekken</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
 Geen robotachtige scripts maar natuurlijke conversaties die klanten begrijpen en waarderen. Onze AI snapt context en nuance.
 </p>
 </div>
 
-<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
 <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
 <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Betrouwbare Technologie</h3>
-<p class="text-gray-600 text-center">
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Betrouwbare Technologie</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
 Gebouwd op solide technische fundamenten met security, privacy en stabiliteit voorop. Geen experimentele software.
 </p>
 </div>
 
-<div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+<div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 md:col-span-2 lg:col-span-1">
 <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
 <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Persoonlijke Ondersteuning</h3>
-<p class="text-gray-600 text-center">
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Persoonlijke Ondersteuning</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
 Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zelf' aanpak maar echte partnership.
 </p>
 </div>
@@ -665,79 +731,93 @@ Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zel
 </section>
 
 <!-- ROI Calculator Section -->
-<section class="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
+<section class="py-16 sm:py-20 bg-gradient-to-br from-green-50 to-emerald-50">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Bereken Uw Offertetool ROI</h2>
-<p class="text-xl text-gray-600">Ontdek hoeveel u kunt besparen en verdienen met geautomatiseerde offertes</p>
+<div class="text-center mb-12 sm:mb-16">
+<div class="inline-flex items-center bg-green-50 rounded-full px-6 py-3 mb-6">
+<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-green-700 font-semibold text-sm">ROI berekening</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Bereken Uw Offertetool ROI</h2>
+<p class="text-lg sm:text-xl text-gray-600">Ontdek hoeveel u kunt besparen en verdienen met geautomatiseerde offertes</p>
 </div>
 
 <!-- ROI Calculator -->
-<div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="max-w-4xl mx-auto bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
 <!-- Input Side -->
-<div class="space-y-6">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Uw huidige offerteproces</h3>
+<div class="space-y-4 sm:space-y-6">
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Uw huidige offerteproces</h3>
 <div class="space-y-4">
 <div>
 <label class="block text-sm font-medium text-gray-700 mb-2">Aantal offertes per maand</label>
-<input type="number" id="quote-count" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="50" value="50">
+<input type="number" id="quote-count" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm sm:text-base" placeholder="50" value="50">
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 mb-2">Tijd per offerte (uren)</label>
-<input type="number" id="quote-time" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="2" value="2" step="0.5">
+<input type="number" id="quote-time" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm sm:text-base" placeholder="2" value="2" step="0.5">
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 mb-2">Uurtarief medewerker (€)</label>
-<input type="number" id="hourly-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="65" value="65">
+<input type="number" id="hourly-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm sm:text-base" placeholder="65" value="65">
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 mb-2">Huidige conversieratio (%)</label>
-<input type="number" id="conversion-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="25" value="25">
+<input type="number" id="conversion-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm sm:text-base" placeholder="25" value="25">
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 mb-2">Gemiddelde orderwaarde (€)</label>
-<input type="number" id="order-value" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="3500" value="3500">
+<input type="number" id="order-value" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm sm:text-base" placeholder="3500" value="3500">
 </div>
 </div>
 </div>
 
 <!-- Results Side -->
-<div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Met geautomatiseerde offertes</h3>
-<div class="space-y-4">
-<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-<span class="text-gray-700">Maandelijkse tijdsbesparing</span>
-<span class="text-2xl font-bold text-green-600" id="quote-time-savings">75 uur</span>
+<div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-6">
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Met geautomatiseerde offertes</h3>
+<div class="space-y-3 sm:space-y-4">
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Maandelijkse tijdsbesparing</span>
+<span class="text-xl sm:text-2xl font-bold text-green-600" id="quote-time-savings">75 uur</span>
 </div>
-<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-<span class="text-gray-700">Maandelijkse kostenbesparing</span>
-<span class="text-2xl font-bold text-blue-600" id="quote-cost-savings">€4,875</span>
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Maandelijkse kostenbesparing</span>
+<span class="text-xl sm:text-2xl font-bold text-blue-600" id="quote-cost-savings">€4,875</span>
 </div>
-<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-<span class="text-gray-700">Extra conversies per maand</span>
-<span class="text-2xl font-bold text-purple-600" id="quote-extra-conversions">18</span>
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Extra conversies per maand</span>
+<span class="text-xl sm:text-2xl font-bold text-purple-600" id="quote-extra-conversions">18</span>
 </div>
-<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-<span class="text-gray-700">Extra omzet per maand</span>
-<span class="text-2xl font-bold text-orange-600" id="quote-extra-revenue">€63,000</span>
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Extra omzet per maand</span>
+<span class="text-xl sm:text-2xl font-bold text-orange-600" id="quote-extra-revenue">€63,000</span>
 </div>
-<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-<span class="text-gray-700">Jaarlijkse ROI verbetering</span>
-<span class="text-2xl font-bold text-emerald-600" id="quote-yearly-roi">€814,500</span>
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Jaarlijkse ROI verbetering</span>
+<span class="text-xl sm:text-2xl font-bold text-emerald-600" id="quote-yearly-roi">€814,500</span>
 </div>
 </div>
-<div class="mt-6 p-4 bg-white rounded-lg shadow-sm">
+<div class="mt-4 sm:mt-6 p-3 sm:p-4 bg-white rounded-lg shadow-sm">
 <p class="text-sm text-gray-600 mb-2">ROI behaald binnen:</p>
-<p class="text-3xl font-bold text-green-600" id="quote-roi-time">2 weken</p>
+<p class="text-2xl sm:text-3xl font-bold text-green-600" id="quote-roi-time">2 weken</p>
 </div>
 </div>
 </div>
 
-<div class="text-center mt-8">
-<div class="flex flex-col sm:flex-row gap-6 justify-center">
-<a href="/contact" class="btn-primary-green text-lg px-8 py-4">Plan een Demo</a>
-<a href="/pricing" class="btn-outline-green text-lg px-8 py-4">Bekijk Prijzen</a>
+<div class="text-center mt-6 sm:mt-8">
+<div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+<a href="/contact" class="inline-flex items-center justify-center bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-base sm:text-lg">
+<svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+Plan een Demo
+</a>
+<a href="/pricing" class="inline-flex items-center justify-center bg-white text-green-600 font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-600 text-base sm:text-lg">
+<svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+</svg>
+Bekijk Prijzen
+</a>
 </div>
 </div>
 </div>

@@ -1,4 +1,4 @@
-baseURL = "https://deductiveai.github.io/"
+baseURL = "https://deductiveai.github.io/deductivewebsite/"
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
@@ -62,6 +62,7 @@ enableGitInfo = true
 # Enable sitemap generation
 enableRobotsTXT = true
 canonifyURLs = true
+relativeURLs = false
 
 # SEO and sitemap configuration
 [sitemap]

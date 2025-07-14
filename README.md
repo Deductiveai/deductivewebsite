@@ -1,30 +1,99 @@
-# Deductive Website 🤖
+# Deductive Website
 
-A modern, lightning-fast Hugo website for **Deductive** - an AI solutions company focused on transforming Dutch businesses with intelligent automation. Built with the Hugo Saasify theme, extensively customized with Dutch content and unique process timeline designs.
+A Hugo-based website for Deductive AI services with automatic environment detection for seamless local development and GitHub Pages deployment.
 
 ## 🌟 Live Demo
 
-Visit the live website: **[deductive.ai](https://deductive.ai)** *(Update with actual URL)*
+Visit the live website: **[https://deductiveai.github.io/deductivewebsite/](https://deductiveai.github.io/deductivewebsite/)**
 
-## 🚀 About This Project
+## Environment Setup
 
-This website showcases **6 unique process timeline designs** and serves as a complete AI company website template. Built using modern web technologies:
+This website is configured to work seamlessly in both local development and GitHub Pages production environments.
 
-- **Hugo Extended**: Lightning-fast static site generator
-- **Hugo Saasify Theme**: Heavily customized SaaS-focused theme
-- **TailwindCSS**: Utility-first CSS framework with custom AI brand colors
-- **PostCSS**: Advanced CSS processing and optimization
-- **Vanilla JavaScript**: Interactive timeline animations and components
+### Local Development
+- **Base URL**: `http://localhost:1313/`
+- **All links**: Work with standard Hugo relative URLs
 
-### Theme Features
-- Lightning-fast performance with Hugo's static generation
-- Responsive design that works on all devices
-- Modern UI components and layouts
-- Built-in blog functionality
-- Contact forms and call-to-action sections
-- Client logo carousel
-- Testimonials section
-- SEO-optimized structure
+### GitHub Pages Production  
+- **Base URL**: `https://deductiveai.github.io/deductivewebsite/`
+- **All links**: Automatically adjusted for subdirectory deployment
+
+## Quick Start
+
+### Using npm scripts (recommended):
+```bash
+# Development server
+npm run dev
+
+# Build for local testing
+npm run build:local
+
+# Build for production (GitHub Pages)
+npm run build:prod
+```
+
+### Using shell scripts:
+```bash
+# Development server
+./serve-local.sh
+
+# Build for local testing
+./build-local.sh
+
+# Build for production (GitHub Pages)
+./build-production.sh
+```
+
+### Using Hugo directly:
+```bash
+# Development
+hugo server --environment development
+
+# Production build
+hugo build --environment production --minify
+```
+
+## Environment Configuration
+
+The website automatically detects the environment and uses the appropriate configuration:
+
+- **Development**: Uses `config/development/hugo.toml`
+- **Production**: Uses `config/production/hugo.toml`
+
+## Deployment
+
+### GitHub Pages
+1. Push to main branch
+2. GitHub Actions automatically builds and deploys
+3. Site available at: `https://deductiveai.github.io/deductivewebsite/`
+
+### Local Testing
+1. Run `npm run dev` or `./serve-local.sh`
+2. Visit: `http://localhost:1313/`
+
+## File Structure
+
+```
+├── config/
+│   ├── development/hugo.toml  # Local development settings
+│   └── production/hugo.toml   # GitHub Pages settings
+├── content/                   # Website content
+├── .github/workflows/hugo.yml # GitHub Actions deployment
+├── build-local.sh            # Local build script
+├── build-production.sh       # Production build script
+├── serve-local.sh            # Local development server
+└── package.json              # npm scripts
+```
+
+## Features
+
+- ✅ **Automatic environment detection**
+- ✅ **Seamless local/production switching**
+- ✅ **GitHub Actions deployment**
+- ✅ **Multilingual support (NL/EN)**
+- ✅ **Responsive design**
+- ✅ **SEO optimized**
+- ✅ **Legal pages included**
 
 ## ⭐ Key Features
 

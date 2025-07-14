@@ -6,7 +6,12 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
-    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify"
+    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify",
+    "dev": "hugo server --environment development --buildDrafts --buildFuture",
+    "build:local": "hugo build --cleanDestinationDir --environment development",
+    "build:prod": "hugo build --cleanDestinationDir --environment production --minify",
+    "serve": "hugo server --environment development",
+    "serve:prod": "hugo server --environment production --buildDrafts --buildFuture"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",

@@ -271,8 +271,8 @@
       "focus:ring-green-500",
       "focus:ring-offset-2",
       "focus:ring-primary-500",
-      "focus:ring-primary-600",
       "focus:ring-purple-500",
+      "focus:ring-secondary-100",
       "focus:ring-white",
       "font-bold",
       "font-medium",
@@ -819,6 +819,7 @@
       "xl:grid-cols-4",
       "xl:w-96",
       "z-10",
+      "z-40",
       "z-50"
     ],
     "ids": [

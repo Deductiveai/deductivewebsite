@@ -664,164 +664,85 @@ Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zel
 </div>
 </section>
 
-<!-- Statistics Section -->
-<section class="py-16 bg-white">
+<!-- ROI Calculator Section -->
+<section class="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Bewezen Resultaten</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">Echte klanten, echte resultaten - ontdek hoe onze offertetool bedrijven transformeert</p>
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Bereken Uw Offertetool ROI</h2>
+<p class="text-xl text-gray-600">Ontdek hoeveel u kunt besparen en verdienen met geautomatiseerde offertes</p>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-<!-- Interactive Statistics Dashboard -->
-<div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Live Performance Dashboard</h3>
+<!-- ROI Calculator -->
+<div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Input Side -->
 <div class="space-y-6">
-<div class="stat-item" data-stat="efficiency">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Proces Efficiëntie</span>
-<span class="text-2xl font-bold text-green-600 counter" data-target="85">0</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-green-500 to-emerald-500 h-3 rounded-full stat-bar" style="width: 85%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">85% sneller van eerste contact tot offerte</p>
-</div>
-
-<div class="stat-item" data-stat="conversion">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Conversie Verbetering</span>
-<span class="text-2xl font-bold text-blue-600 counter" data-target="60">0</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-3 rounded-full stat-bar" style="width: 60%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">60% hogere conversie door natuurlijke gesprekken</p>
-</div>
-
-<div class="stat-item" data-stat="availability">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Beschikbaarheid</span>
-<span class="text-2xl font-bold text-purple-600">24/7</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-purple-500 to-pink-500 h-3 rounded-full stat-bar" style="width: 100%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">Altijd beschikbaar voor automatische offerte generatie</p>
-</div>
-
-<div class="stat-item" data-stat="satisfaction">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Klant Tevredenheid</span>
-<span class="text-2xl font-bold text-orange-600 counter" data-target="95">0</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-orange-500 to-red-500 h-3 rounded-full stat-bar" style="width: 95%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">95% tevredenheid door gebruiksgemak</p>
-</div>
-
-<div class="stat-item" data-stat="response-time">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Responstijd</span>
-<span class="text-2xl font-bold text-teal-600 counter" data-target="15">0</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-teal-500 to-cyan-500 h-3 rounded-full stat-bar" style="width: 75%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">Gemiddeld 15 seconden voor complete offerte</p>
-</div>
-
-<div class="stat-item" data-stat="accuracy">
-<div class="flex items-center justify-between mb-2">
-<span class="text-sm font-medium text-gray-700">Prijsnauwkeurigheid</span>
-<span class="text-2xl font-bold text-indigo-600 counter" data-target="98">0</span>
-</div>
-<div class="w-full bg-gray-200 rounded-full h-3">
-<div class="bg-gradient-to-r from-indigo-500 to-purple-500 h-3 rounded-full stat-bar" style="width: 98%"></div>
-</div>
-<p class="text-xs text-gray-500 mt-1">98% accurate prijsberekening zonder handmatige correcties</p>
-</div>
-</div>
-</div>
-
-<!-- Key Benefits Cards -->
-<div class="space-y-6">
-<div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Belangrijkste Voordelen</h3>
-<div class="space-y-6">
-
-<div class="benefit-card border-l-4 border-green-400 pl-6">
-<div class="flex items-center space-x-3 mb-3">
-<div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-<svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-</svg>
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Uw huidige offerteproces</h3>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Aantal offertes per maand</label>
+<input type="number" id="quote-count" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="50" value="50">
 </div>
 <div>
-<h4 class="font-semibold text-gray-900">Instant Offerte Generatie</h4>
-<p class="text-sm text-gray-600">Realtime automatisering</p>
-</div>
-</div>
-<p class="text-sm text-gray-700">Van urenlang handmatig werk naar automatische offerte-generatie in seconden. Klanten krijgen direct antwoord, geen wachttijden meer.</p>
-<div class="mt-2 text-xs text-green-600 font-medium">⚡ Directe respons = hogere conversie</div>
-</div>
-
-<div class="benefit-card border-l-4 border-blue-400 pl-6">
-<div class="flex items-center space-x-3 mb-3">
-<div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-<svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-</svg>
+<label class="block text-sm font-medium text-gray-700 mb-2">Tijd per offerte (uren)</label>
+<input type="number" id="quote-time" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="2" value="2" step="0.5">
 </div>
 <div>
-<h4 class="font-semibold text-gray-900">Perfecte Prijsberekening</h4>
-<p class="text-sm text-gray-600">Nooit meer fouten</p>
-</div>
-</div>
-<p class="text-sm text-gray-700">Intelligente algoritmes zorgen voor exacte prijsberekening gebaseerd op complexiteit, deadlines en arbeidskosten. Geen rekenvergissingen meer.</p>
-<div class="mt-2 text-xs text-blue-600 font-medium">🎯 Consistente en accurate prijzen</div>
-</div>
-
-<div class="benefit-card border-l-4 border-purple-400 pl-6">
-<div class="flex items-center space-x-3 mb-3">
-<div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-<svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-</svg>
+<label class="block text-sm font-medium text-gray-700 mb-2">Uurtarief medewerker (€)</label>
+<input type="number" id="hourly-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="65" value="65">
 </div>
 <div>
-<h4 class="font-semibold text-gray-900">Multi-Channel Bereik</h4>
-<p class="text-sm text-gray-600">Overal beschikbaar</p>
-</div>
-</div>
-<p class="text-sm text-gray-700">Klanten kunnen op hun favoriete kanaal contact opnemen - WhatsApp, website, email. Eén systeem, alle kanalen geïntegreerd.</p>
-<div class="mt-2 text-xs text-purple-600 font-medium">📱 Maximaal gebruiksgemak voor klanten</div>
-</div>
-
-<div class="benefit-card border-l-4 border-orange-400 pl-6">
-<div class="flex items-center space-x-3 mb-3">
-<div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
-<svg class="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-</svg>
+<label class="block text-sm font-medium text-gray-700 mb-2">Huidige conversieratio (%)</label>
+<input type="number" id="conversion-rate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="25" value="25">
 </div>
 <div>
-<h4 class="font-semibold text-gray-900">Volledige Controle</h4>
-<p class="text-sm text-gray-600">Backend dashboard</p>
+<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddelde orderwaarde (€)</label>
+<input type="number" id="order-value" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500" placeholder="3500" value="3500">
 </div>
 </div>
-<p class="text-sm text-gray-700">Beheer alle prijzen, producten en instellingen vanuit één overzichtelijke backend. Real-time updates, geen technische kennis vereist.</p>
-<div class="mt-2 text-xs text-orange-600 font-medium">🎛️ Eenvoudige configuratie en beheer</div>
 </div>
 
+<!-- Results Side -->
+<div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Met geautomatiseerde offertes</h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700">Maandelijkse tijdsbesparing</span>
+<span class="text-2xl font-bold text-green-600" id="quote-time-savings">75 uur</span>
 </div>
+<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700">Maandelijkse kostenbesparing</span>
+<span class="text-2xl font-bold text-blue-600" id="quote-cost-savings">€4,875</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700">Extra conversies per maand</span>
+<span class="text-2xl font-bold text-purple-600" id="quote-extra-conversions">18</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700">Extra omzet per maand</span>
+<span class="text-2xl font-bold text-orange-600" id="quote-extra-revenue">€63,000</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-gray-700">Jaarlijkse ROI verbetering</span>
+<span class="text-2xl font-bold text-emerald-600" id="quote-yearly-roi">€814,500</span>
+</div>
+</div>
+<div class="mt-6 p-4 bg-white rounded-lg shadow-sm">
+<p class="text-sm text-gray-600 mb-2">ROI behaald binnen:</p>
+<p class="text-3xl font-bold text-green-600" id="quote-roi-time">2 weken</p>
+</div>
+</div>
+</div>
+
+<div class="text-center mt-8">
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<a href="/contact" class="btn-primary-green text-lg px-8 py-4">Plan een Demo</a>
+<a href="/pricing" class="btn-outline-green text-lg px-8 py-4">Bekijk Prijzen</a>
 </div>
 </div>
 </div>
 </div>
 </section>
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -1308,6 +1229,80 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     progressBars.forEach(bar => progressObserver.observe(bar));
+
+    // Offertetool ROI Calculator
+    const quoteCountInput = document.getElementById('quote-count');
+    const quoteTimeInput = document.getElementById('quote-time');
+    const hourlyRateInput = document.getElementById('hourly-rate');
+    const conversionRateInput = document.getElementById('conversion-rate');
+    const orderValueInput = document.getElementById('order-value');
+    
+    const timeSavingsElement = document.getElementById('quote-time-savings');
+    const costSavingsElement = document.getElementById('quote-cost-savings');
+    const extraConversionsElement = document.getElementById('quote-extra-conversions');
+    const extraRevenueElement = document.getElementById('quote-extra-revenue');
+    const yearlyRoiElement = document.getElementById('quote-yearly-roi');
+    const roiTimeElement = document.getElementById('quote-roi-time');
+    
+    function calculateQuoteROI() {
+        const quoteCount = parseInt(quoteCountInput.value) || 0;
+        const quoteTime = parseFloat(quoteTimeInput.value) || 0;
+        const hourlyRate = parseInt(hourlyRateInput.value) || 0;
+        const conversionRate = parseInt(conversionRateInput.value) || 0;
+        const orderValue = parseInt(orderValueInput.value) || 0;
+        
+        // Calculate current situation
+        const currentTimePerMonth = quoteCount * quoteTime;
+        const currentCostPerMonth = currentTimePerMonth * hourlyRate;
+        const currentConversions = (quoteCount * conversionRate) / 100;
+        const currentRevenue = currentConversions * orderValue;
+        
+        // Calculate with automation (assume 85% time reduction and 60% higher conversion)
+        const timeReductionRate = 0.85;
+        const conversionImprovement = 1.6; // 60% improvement
+        
+        // Time and cost savings
+        const timeSaved = currentTimePerMonth * timeReductionRate;
+        const costSaved = timeSaved * hourlyRate;
+        
+        // Improved conversion (faster response = better conversion)
+        const newConversionRate = Math.min(95, conversionRate * conversionImprovement);
+        const newConversions = (quoteCount * newConversionRate) / 100;
+        const extraConversions = newConversions - currentConversions;
+        const extraRevenue = extraConversions * orderValue;
+        
+        // Total yearly benefit
+        const yearlyBenefit = (costSaved + extraRevenue) * 12;
+        
+        // ROI time (assuming €2500 setup cost)
+        const setupCost = 2500;
+        const monthlyBenefit = costSaved + extraRevenue;
+        const roiMonths = monthlyBenefit > 0 ? Math.ceil(setupCost / monthlyBenefit) : 12;
+        
+        // Update display
+        if (timeSavingsElement) timeSavingsElement.textContent = `${Math.round(timeSaved)} uur`;
+        if (costSavingsElement) costSavingsElement.textContent = `€${Math.round(costSaved).toLocaleString()}`;
+        if (extraConversionsElement) extraConversionsElement.textContent = Math.round(extraConversions).toString();
+        if (extraRevenueElement) extraRevenueElement.textContent = `€${Math.round(extraRevenue).toLocaleString()}`;
+        if (yearlyRoiElement) yearlyRoiElement.textContent = `€${Math.round(yearlyBenefit).toLocaleString()}`;
+        if (roiTimeElement) {
+            if (roiMonths <= 52) {
+                roiTimeElement.textContent = roiMonths <= 4 ? `${roiMonths} weken` : `${roiMonths} maanden`;
+            } else {
+                roiTimeElement.textContent = `${Math.ceil(roiMonths / 12)} jaar`;
+            }
+        }
+    }
+    
+    // Quote ROI Calculator event listeners
+    [quoteCountInput, quoteTimeInput, hourlyRateInput, conversionRateInput, orderValueInput].forEach(input => {
+        if (input) {
+            input.addEventListener('input', calculateQuoteROI);
+        }
+    });
+    
+    // Initialize calculator
+    calculateQuoteROI();
 });
 </script>
 

@@ -210,65 +210,44 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 </div>
 </section>
 
-<!-- Technologie Diepduik -->
-<section class="py-20 bg-gradient-to-r from-gray-900 to-gray-800" id="technologie-overzicht">
+<!-- Hoe Werkt Het? -->
+<section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50" id="technologie-overzicht">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Hoe AI-Chatbot Technologie Werkt</h2>
-<p class="text-xl text-gray-300 max-w-4xl mx-auto">
-Duik diep in de technologie achter moderne AI-chatbots. Van geavanceerde natuurlijke taalverwerking tot machine learning - begrijp hoe deze systemen uw klantenservice kunnen revolutioneren.
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hoe Werkt Onze AI-Chatbot?</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos integreert met uw bestaande systemen.
 </p>
 </div>
 
-<!-- Technische Architectuur Visualisatie -->
+<!-- Eenvoudige Uitleg -->
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-<!-- Links: Technische Stack -->
+<!-- Links: Hoe Het Werkt -->
 <div class="bg-white rounded-3xl shadow-2xl p-10 border border-gray-100">
-<h3 class="text-3xl font-bold text-gray-900 mb-8">Technische Architectuur</h3>
+<h3 class="text-3xl font-bold text-gray-900 mb-8">Slim en Eenvoudig</h3>
 <div class="space-y-8">
-<div class="flex items-start space-x-6">
-<div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center">
-<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-</svg>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Begrijpt Natuurlijke Taal</h4>
+<p class="text-gray-600 text-lg leading-relaxed">Net zoals u met een collega praat, begrijpt onze AI wat klanten bedoelen - ook als ze het anders formuleren</p>
 </div>
 <div>
-<h4 class="text-xl font-semibold text-gray-900 mb-3">Natural Language Processing (NLP)</h4>
-<p class="text-gray-600 text-lg leading-relaxed">Transformer-based modellen zoals GPT-4 en Claude voor diepgaand contextbegrip en intentie-herkenning</p>
-</div>
-</div>
-<div class="flex items-start space-x-6">
-<div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-2xl flex items-center justify-center">
-<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
-</svg>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Leert van Uw Bedrijf</h4>
+<p class="text-gray-600 text-lg leading-relaxed">We trainen de chatbot met uw FAQ's, productinfo en klantenservice procedures zodat hij uw bedrijf kent</p>
 </div>
 <div>
-<h4 class="text-xl font-semibold text-gray-900 mb-3">Knowledge Management</h4>
-<p class="text-gray-600 text-lg leading-relaxed">Vector databases voor semantische zoekfunctionaliteit en intelligente context retrieval uit uw documentatie</p>
-</div>
-</div>
-<div class="flex items-start space-x-6">
-<div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center">
-<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-</svg>
-</div>
-<div>
-<h4 class="text-xl font-semibold text-gray-900 mb-3">Real-time Processing</h4>
-<p class="text-gray-600 text-lg leading-relaxed">Event-driven architectuur voor instant response en naadloze systeemintegraties met milliseconde latency</p>
-</div>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Antwoordt Razendsnel</h4>
+<p class="text-gray-600 text-lg leading-relaxed">Binnen seconden heeft uw klant een antwoord - geen wachtrijen, geen openingstijden, gewoon directe hulp</p>
 </div>
 </div>
 </div>
 
-<!-- Rechts: Integratie Flow -->
+<!-- Rechts: Waar Integreert Het Mee -->
 <div class="bg-white rounded-3xl shadow-2xl p-10 border border-gray-100">
-<h3 class="text-3xl font-bold text-gray-900 mb-8">Integratie Mogelijkheden</h3>
+<h3 class="text-3xl font-bold text-gray-900 mb-8">Werkt Met Uw Systemen</h3>
 <div class="space-y-8">
 <div class="border-l-4 border-blue-500 pl-8">
-<h4 class="text-xl font-semibold text-gray-900 mb-3">CRM & Helpdesk Systemen</h4>
-<p class="text-gray-600 text-lg leading-relaxed mb-4">Directe toegang tot klantgegevens, tickethistorie, voorkeursinstellingen en interactiegeschiedenis</p>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Klantenadministratie</h4>
+<p class="text-gray-600 text-lg leading-relaxed mb-4">Haalt automatisch klantgegevens op uit uw bestaande systemen voor persoonlijke service</p>
 <div class="flex flex-wrap gap-3">
 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">Salesforce</span>
 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">HubSpot</span>
@@ -277,23 +256,23 @@ Duik diep in de technologie achter moderne AI-chatbots. Van geavanceerde natuurl
 </div>
 </div>
 <div class="border-l-4 border-green-500 pl-8">
-<h4 class="text-xl font-semibold text-gray-900 mb-3">E-commerce & ERP Platforms</h4>
-<p class="text-gray-600 text-lg leading-relaxed mb-4">Live voorraadinfo, orderstatussen, productcatalogi en financiële gegevens voor complete ondersteuning</p>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Webshop & Voorraad</h4>
+<p class="text-gray-600 text-lg leading-relaxed mb-4">Geeft live info over bestellingen, voorraad en producten rechtstreeks uit uw webshop</p>
 <div class="flex flex-wrap gap-3">
 <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Shopify</span>
 <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">WooCommerce</span>
-<span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">SAP</span>
-<span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Microsoft Dynamics</span>
+<span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Magento</span>
+<span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">PrestaShop</span>
 </div>
 </div>
 <div class="border-l-4 border-purple-500 pl-8">
-<h4 class="text-xl font-semibold text-gray-900 mb-3">Communicatie Kanalen</h4>
-<p class="text-gray-600 text-lg leading-relaxed mb-4">Multi-channel deployment voor consistente ervaring across alle klantcontactpunten</p>
+<h4 class="text-xl font-semibold text-gray-900 mb-3">Alle Communicatiekanalen</h4>
+<p class="text-gray-600 text-lg leading-relaxed mb-4">Klanten kunnen hulp krijgen via hun favoriete app - alles werkt door één systeem</p>
 <div class="flex flex-wrap gap-3">
 <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">WhatsApp Business</span>
 <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Telegram</span>
-<span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Website Widget</span>
-<span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Microsoft Teams</span>
+<span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Website Chat</span>
+<span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Facebook Messenger</span>
 </div>
 </div>
 </div>
@@ -302,194 +281,6 @@ Duik diep in de technologie achter moderne AI-chatbots. Van geavanceerde natuurl
 </div>
 </section>
 
-<!-- Implementatie Overwegingen -->
-<section class="py-20 bg-white" id="implementatie-gids">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-16">
-<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Implementatie Roadmap</h2>
-<p class="text-xl text-gray-600 max-w-4xl mx-auto">
-Van eerste concept tot volledige uitrol - onze bewezen implementatiemethodiek zorgt voor een soepele overgang naar AI-gedreven klantenservice.
-</p>
-</div>
-
-<!-- Implementation Timeline -->
-<div class="relative">
-<!-- Timeline Line -->
-<div class="absolute left-1/2 transform -translate-x-0.5 w-0.5 h-full bg-gradient-to-b from-purple-600 to-blue-600"></div>
-
-<!-- Timeline Items -->
-<div class="space-y-16">
-<!-- Fase 1: Discovery & Planning -->
-<div class="relative flex items-center">
-<div class="w-1/2 pr-12 text-right">
-<div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Fase 1: Discovery & Planning</h3>
-<p class="text-gray-600 text-lg leading-relaxed mb-6">
-Uitgebreide analyse van uw huidige klantenservice processen, veelgestelde vragen en systeemlandschap voor optimale integratie.
-</p>
-<div class="text-left">
-<h4 class="font-semibold text-gray-900 mb-2">Deliverables:</h4>
-<ul class="space-y-2 text-gray-600">
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Technische architectuurplan
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Chatbot personality definition
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Integratie roadmap
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center">
-<span class="text-white font-bold text-xl">1</span>
-</div>
-<div class="w-1/2 pl-12">
-<div class="text-purple-600 font-semibold text-lg mb-2">Week 1-2</div>
-<div class="text-gray-500">Duur: 1-2 weken</div>
-</div>
-</div>
-
-<!-- Fase 2: Development & Training -->
-<div class="relative flex items-center">
-<div class="w-1/2 pr-12 text-right">
-<div class="text-purple-600 font-semibold text-lg mb-2">Week 3-6</div>
-<div class="text-gray-500">Duur: 3-4 weken</div>
-</div>
-<div class="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center">
-<span class="text-white font-bold text-xl">2</span>
-</div>
-<div class="w-1/2 pl-12">
-<div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Fase 2: Development & Training</h3>
-<p class="text-gray-600 text-lg leading-relaxed mb-6">
-Ontwikkeling van de AI-chatbot met training op uw specifieke bedrijfsdata, productinformatie en klantenservice protocollen.
-</p>
-<div class="text-left">
-<h4 class="font-semibold text-gray-900 mb-2">Activiteiten:</h4>
-<ul class="space-y-2 text-gray-600">
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-AI model training & fine-tuning
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Systeemintegraties opzetten
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Knowledge base opbouw
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-<!-- Fase 3: Testing & Refinement -->
-<div class="relative flex items-center">
-<div class="w-1/2 pr-12 text-right">
-<div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Fase 3: Testing & Refinement</h3>
-<p class="text-gray-600 text-lg leading-relaxed mb-6">
-Uitgebreide testing met uw team, feedback verwerking en performance optimalisatie voor maximale effectiviteit.
-</p>
-<div class="text-left">
-<h4 class="font-semibold text-gray-900 mb-2">Testscenario's:</h4>
-<ul class="space-y-2 text-gray-600">
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-User Acceptance Testing (UAT)
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Performance & stress testing
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Security & compliance audit
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center">
-<span class="text-white font-bold text-xl">3</span>
-</div>
-<div class="w-1/2 pl-12">
-<div class="text-purple-600 font-semibold text-lg mb-2">Week 7-8</div>
-<div class="text-gray-500">Duur: 1-2 weken</div>
-</div>
-</div>
-
-<!-- Fase 4: Launch & Optimization -->
-<div class="relative flex items-center">
-<div class="w-1/2 pr-12 text-right">
-<div class="text-purple-600 font-semibold text-lg mb-2">Week 9+</div>
-<div class="text-gray-500">Doorlopend</div>
-</div>
-<div class="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center">
-<span class="text-white font-bold text-xl">4</span>
-</div>
-<div class="w-1/2 pl-12">
-<div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Fase 4: Launch & Optimization</h3>
-<p class="text-gray-600 text-lg leading-relaxed mb-6">
-Gefaseerde uitrol naar uw klanten met continue monitoring, performance tracking en doorlopende optimalisatie op basis van real-world data.
-</p>
-<div class="text-left">
-<h4 class="font-semibold text-gray-900 mb-2">Ondersteuning:</h4>
-<ul class="space-y-2 text-gray-600">
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-24/7 monitoring & support
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Maandelijkse performance rapportages
-</li>
-<li class="flex items-center">
-<svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-Continue AI model verbetering
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 <!-- Resultaten & ROI -->
 <section class="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
@@ -552,15 +343,70 @@ Onze AI-chatbots leveren bewezen ROI door kostenreductie, verhoogde efficiëntie
 </div>
 </div>
 
-<!-- ROI Calculator Call-to-Action -->
-<div class="bg-white rounded-3xl p-12 shadow-xl border border-gray-100 max-w-4xl mx-auto text-center">
-<h3 class="text-3xl font-bold text-gray-900 mb-6">Bereken Uw ROI</h3>
-<p class="text-xl text-gray-600 mb-8">
-Ontdek hoeveel een AI-chatbot voor uw organisatie kan opleveren met onze interactieve ROI calculator.
-</p>
+<!-- ROI Calculator -->
+<div class="max-w-4xl mx-auto bg-gradient-to-br from-purple-50 to-blue-50 rounded-3xl p-8 shadow-xl">
+<div class="text-center mb-8">
+<h3 class="text-3xl font-bold text-gray-900 mb-4">Bereken Uw Chatbot ROI</h3>
+<p class="text-xl text-gray-600">Ontdek hoeveel u kunt besparen met intelligente klantenservice</p>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Input Side -->
+<div class="space-y-6">
+<h4 class="text-2xl font-bold text-gray-900 mb-6">Uw huidige klantenservice</h4>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Aantal klantenservice medewerkers</label>
+<input type="number" id="chatbot-support-staff" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" placeholder="3" value="3">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddeld salaris per maand (€)</label>
+<input type="number" id="chatbot-salary" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" placeholder="3000" value="3000">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Tickets per maand</label>
+<input type="number" id="chatbot-tickets" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" placeholder="2000" value="2000">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddelde behandeltijd per ticket (minuten)</label>
+<input type="number" id="chatbot-handle-time" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" placeholder="8" value="8">
+</div>
+</div>
+</div>
+
+<!-- Results Side -->
+<div class="bg-white rounded-2xl p-6 shadow-lg">
+<h4 class="text-2xl font-bold text-gray-900 mb-6">Met AI-chatbot bespaart u</h4>
+<div class="space-y-4">
+<div class="flex justify-between items-center p-4 bg-green-50 rounded-lg">
+<span class="text-gray-700">Maandelijkse kostenbesparing</span>
+<span class="text-2xl font-bold text-green-600" id="chatbot-monthly-savings">€2,160</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
+<span class="text-gray-700">Jaarlijkse kostenbesparing</span>
+<span class="text-2xl font-bold text-blue-600" id="chatbot-yearly-savings">€25,920</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-purple-50 rounded-lg">
+<span class="text-gray-700">Tickets automatisch opgelost</span>
+<span class="text-2xl font-bold text-purple-600" id="chatbot-automated-tickets">1,840</span>
+</div>
+<div class="flex justify-between items-center p-4 bg-orange-50 rounded-lg">
+<span class="text-gray-700">Responstijd verbetering</span>
+<span class="text-2xl font-bold text-orange-600" id="chatbot-response-improvement">Instant</span>
+</div>
+</div>
+<div class="mt-6 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg">
+<p class="text-sm text-gray-600 mb-2">ROI behaald binnen:</p>
+<p class="text-3xl font-bold text-purple-600" id="chatbot-roi-time">4 maanden</p>
+</div>
+</div>
+</div>
+
+<div class="text-center mt-8">
 <div class="flex flex-col sm:flex-row gap-6 justify-center">
-<a href="/contact" class="btn-primary-purple text-lg px-8 py-4">Bereken Uw Besparingen</a>
-<a href="/contact" class="btn-outline-purple text-lg px-8 py-4">Plan een Demo</a>
+<a href="/contact" class="btn-primary-purple text-lg px-8 py-4">Plan een Demo</a>
+<a href="/pricing" class="btn-outline-purple text-lg px-8 py-4">Bekijk Prijzen</a>
+</div>
 </div>
 </div>
 </div>
@@ -637,22 +483,58 @@ Ontdek hoe organisaties hun klantenservice hebben getransformeerd met onze AI-ch
 </div>
 </section>
 
-<!-- CTA Section -->
-<section class="py-20 bg-gradient-to-r from-purple-600 to-blue-600">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-<div class="text-center text-white">
-<h2 class="text-4xl md:text-5xl font-bold mb-6">Klaar voor Intelligente Klantenservice?</h2>
-<p class="text-xl mb-10 opacity-90">
-Start vandaag nog met uw AI-chatbot en transformeer uw klantenservice in slechts 8 weken.
-</p>
-<div class="flex flex-col sm:flex-row gap-6 justify-center">
-<a href="/contact" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200">
-Plan een Gratis Demo
-</a>
-<a href="/pricing" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-purple-600 transition-all duration-200">
-Bekijk Prijzen
-</a>
-</div>
-</div>
-</div>
-</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chatbot ROI Calculator
+    const supportStaff = document.getElementById('chatbot-support-staff');
+    const salary = document.getElementById('chatbot-salary');
+    const tickets = document.getElementById('chatbot-tickets');
+    const handleTime = document.getElementById('chatbot-handle-time');
+    const monthlySavings = document.getElementById('chatbot-monthly-savings');
+    const yearlySavings = document.getElementById('chatbot-yearly-savings');
+    const automatedTickets = document.getElementById('chatbot-automated-tickets');
+    const responseImprovement = document.getElementById('chatbot-response-improvement');
+    const roiTime = document.getElementById('chatbot-roi-time');
+    
+    function calculateChatbotROI() {
+        const staff = parseInt(supportStaff.value) || 0;
+        const sal = parseInt(salary.value) || 0;
+        const ticketsCount = parseInt(tickets.value) || 0;
+        const handleMinutes = parseInt(handleTime.value) || 0;
+        
+        // Calculate automation (assume 92% of tickets can be handled by chatbot)
+        const automationRate = 0.92;
+        const ticketsAutomated = Math.round(ticketsCount * automationRate);
+        
+        // Calculate time savings
+        const timesSavedPerMonth = (ticketsAutomated * handleMinutes) / 60; // hours saved per month
+        const hourlyRate = sal / (40 * 4.33); // Monthly salary to hourly rate
+        
+        // Calculate cost savings
+        const monthlySaved = Math.round(timesSavedPerMonth * hourlyRate);
+        const yearlySaved = monthlySaved * 12;
+        
+        // Calculate ROI time (assuming €1500 setup cost for chatbot)
+        const setupCost = 1500;
+        const months = Math.ceil(setupCost / monthlySaved);
+        
+        // Update display
+        monthlySavings.textContent = `€${monthlySaved.toLocaleString()}`;
+        yearlySavings.textContent = `€${yearlySaved.toLocaleString()}`;
+        automatedTickets.textContent = ticketsAutomated.toLocaleString();
+        responseImprovement.textContent = "Instant";
+        roiTime.textContent = `${Math.max(1, months)} maanden`;
+    }
+    
+    // Chatbot ROI Calculator event listeners
+    [supportStaff, salary, tickets, handleTime].forEach(input => {
+        if (input) {
+            input.addEventListener('input', calculateChatbotROI);
+        }
+    });
+    
+    // Initialize calculator
+    calculateChatbotROI();
+});
+</script>

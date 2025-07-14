@@ -1,0 +1,17 @@
+# Netlify-style redirects for GitHub Pages compatibility
+# These will be processed by GitHub Pages if supported
+
+# Ensure trailing slashes work properly
+/oplossingen/ai-chatbot  /oplossingen/ai-chatbot/  301
+/oplossingen/ai-agents  /oplossingen/ai-agents/  301
+/oplossingen/offertetool  /oplossingen/offertetool/  301
+/company  /company/  301
+/careers  /careers/  301
+/contact  /contact/  301
+/blog  /blog/  301
+/pricing  /pricing/  301
+
+# Handle case sensitivity issues
+/Oplossingen/*  /oplossingen/:splat  301
+/Company/*  /company/:splat  301
+/Blog/*  /blog/:splat  301

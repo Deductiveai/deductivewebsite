@@ -302,7 +302,7 @@ paginatePath = "page"
   weight = 3
 [[menu.footer_column_2]]
   name = "Sitemap"
-  url = "/sitemap.xml"
+  url = "/nl/sitemap.xml"
   weight = 4
 
 [[menu.footer_column_3]]

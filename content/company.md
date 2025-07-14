@@ -314,19 +314,6 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive.
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20 bg-gradient-to-br from-gray-50 to-indigo-50" >}}
-    <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Technologie Stack</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            We bouwen op bewezen, moderne technologieën om betrouwbare en schaalbare AI-oplossingen te leveren.
-        </p>
-    </div>
-
-    {{< client-logos 
-        title="Technology Partners" 
-        animate="true"
-    >}}
-{{< /section-container >}}
 
 {{< section-container class="py-20 bg-white" >}}
     <div class="text-center mb-16">

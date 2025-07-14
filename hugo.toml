@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://deductive.nl/"
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
@@ -274,48 +274,46 @@ paginatePath = "page"
         { name = "Careers", url = "/en/careers/" }
       ]
 
-  # Footer Column 1 Menu
-  [[menu.footer_column_1]]
-    name = "AI Chatbot"
-    url = "/oplossingen/ai-chatbot/"
-    weight = 1
-  [[menu.footer_column_1]]
-    name = "AI-Agents"
-    url = "/oplossingen/ai-agents/"
-    weight = 2
-  [[menu.footer_column_1]]
-    name = "Offertetool"
-    url = "/oplossingen/offertetool/"
-    weight = 3
+# Footer Menus (Global)
+[[menu.footer_column_1]]
+  name = "AI Chatbot"
+  url = "/oplossingen/ai-chatbot/"
+  weight = 1
+[[menu.footer_column_1]]
+  name = "AI-Agents"
+  url = "/oplossingen/ai-agents/"
+  weight = 2
+[[menu.footer_column_1]]
+  name = "Offertetool"
+  url = "/oplossingen/offertetool/"
+  weight = 3
 
-  # Footer Column 2 Menu
-  [[menu.footer_column_2]]
-    name = "Blog"
-    url = "/blog"
-    weight = 1
-  [[menu.footer_column_2]]
-    name = "Over Ons"
-    url = "/company"
-    weight = 2
-  [[menu.footer_column_2]]
-    name = "Vacatures"
-    url = "/careers"
-    weight = 3
+[[menu.footer_column_2]]
+  name = "Blog"
+  url = "/blog"
+  weight = 1
+[[menu.footer_column_2]]
+  name = "Over Ons"
+  url = "/company"
+  weight = 2
+[[menu.footer_column_2]]
+  name = "Vacatures"
+  url = "/careers"
+  weight = 3
+[[menu.footer_column_2]]
+  name = "Sitemap"
+  url = "/sitemap.xml"
+  weight = 4
 
-  # Footer Column 3 Menu
-  [[menu.footer_column_3]]
-    name = "Privacybeleid"
-    url = "/privacy"
-    weight = 1
-  [[menu.footer_column_3]]
-    name = "Algemene Voorwaarden"
-    url = "/terms"
-    weight = 2
-  [[menu.footer_column_3]]
-    name = "Sitemap"
-    url = "/sitemap"
-    weight = 3
-  [[menu.footer_column_3]]
-    name = "Cookies"
-    url = "/cookies"
-    weight = 4
+[[menu.footer_column_3]]
+  name = "Privacybeleid"
+  url = "/privacy"
+  weight = 1
+[[menu.footer_column_3]]
+  name = "Algemene Voorwaarden"
+  url = "/terms"
+  weight = 2
+[[menu.footer_column_3]]
+  name = "Cookies"
+  url = "/cookies"
+  weight = 3

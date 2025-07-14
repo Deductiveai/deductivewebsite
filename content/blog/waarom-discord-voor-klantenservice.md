@@ -4,7 +4,7 @@ description: "Ontdek waarom wij Discord hebben gekozen als centrale hub voor onz
 date: 2025-01-11
 author: "Deductive Team"
 tags: ["Discord", "Klantenservice", "Communicatie", "AI", "Support"]
-featured_image: ""
+featured_image: "/images/blog/discord-communication.jpg"
 draft: false
 ---
 

@@ -35,16 +35,16 @@ testimonials:
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
 <div class="text-center mb-16">
 <!-- Trust Badge -->
-<div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-8 shadow-lg border border-gray-100">
+<div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-8 mt-8 shadow-lg border border-gray-100">
 <span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
-<span class="text-gray-700 font-semibold text-sm">Vertrouwd door 50+ Nederlandse bedrijven</span>
+<span class="text-gray-700 font-semibold text-sm">Vertrouwd door 5+ Nederlandse bedrijven</span>
 </div>
 
 <!-- Main Headline -->
 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-AI-Oplossingen die Uw 
+AI-oplossingen die uw 
 <span class="relative inline-block">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 animate-gradient">Bedrijf Vooruithelpen</span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 animate-gradient">bedrijf vooruithelpen</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-full animate-pulse"></div>
 </span>
 </h1>
@@ -72,7 +72,7 @@ Deductive ontwikkelt intelligente AI-software die autonoom werkt, leert en groei
 <svg class="w-4 h-4 text-blue-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
 </svg>
-<span>Gemiddeld 3 weken implementatie</span>
+<span>Gemiddeld 2 weken implementatie</span>
 </div>
 </div>
 
@@ -82,13 +82,13 @@ Deductive ontwikkelt intelligente AI-software die autonoom werkt, leert en groei
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
-Ontdek Onze Oplossingen
+Ontdek onze oplossingen
 </a>
 <a href="/contact" class="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-blue-600">
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-Plan een Gratis Demo
+Plan een gratis demo
 </a>
 </div>
 
@@ -148,7 +148,7 @@ Plan een Gratis Demo
 <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-blue-700 font-semibold text-sm">Bewezen AI-technologie</span>
 </div>
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Onze AI-Oplossingen</h2>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Onze AI-oplossingen</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
 Ontdek hoe intelligente automatisering uw bedrijfsprocessen kan transformeren en optimaliseren.
 </p>
@@ -190,7 +190,7 @@ Geavanceerde chatbot-oplossingen die uw klantenservice revolutioneren met 24/7 i
 </div>
 </div>
 <a href="/oplossingen/ai-chatbot/" class="inline-flex items-center justify-center w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3 px-6 rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105">
-Meer Informatie
+Meer informatie
 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
 </svg>
@@ -232,7 +232,7 @@ Autonome AI-agents die complexe bedrijfstaken uitvoeren, processen automatiseren
 </div>
 </div>
 <a href="/oplossingen/ai-agents/" class="inline-flex items-center justify-center w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold py-3 px-6 rounded-xl hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
-Meer Informatie
+Meer informatie
 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
 </svg>
@@ -274,7 +274,7 @@ Revolutionaire offertetool die automatisch gepersonaliseerde, professionele offe
 </div>
 </div>
 <a href="/oplossingen/offertetool/" class="inline-flex items-center justify-center w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold py-3 px-6 rounded-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105">
-Meer Informatie
+Meer informatie
 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
 </svg>
@@ -291,15 +291,15 @@ Meer Informatie
 <div class="text-center mb-12 sm:mb-16 lg:mb-20">
 <div class="inline-flex items-center bg-blue-50 rounded-full px-6 py-3 mb-6 sm:mb-8">
 <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
-<span class="text-blue-700 font-semibold text-sm">Vertrouwd door 50+ Nederlandse bedrijven</span>
+<span class="text-blue-700 font-semibold text-sm">Vertrouwd door 5+ Nederlandse bedrijven</span>
 </div>
 <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8 leading-tight">
-Waarom Organisaties voor 
+Waarom organisaties voor 
 <span class="relative inline-block">
 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">Deductive</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-full"></div>
 </span> 
-Kiezen
+kiezen
 </h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
 Onze diepgaande expertise in AI-technologie en bewezen resultaten maken ons de ideale partner voor uw digitale transformatie. Wij begrijpen zowel de technische complexiteit als de praktische uitdagingen van AI-implementatie.
@@ -319,7 +319,7 @@ Onze diepgaande expertise in AI-technologie en bewezen resultaten maken ons de i
 </svg>
 </div>
 <div>
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">Geavanceerde AI-Expertise</h3>
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">Geavanceerde AI-expertise</h3>
 <p class="text-blue-600 font-semibold text-sm mt-1">Enterprise-grade technologie</p>
 </div>
 </div>
@@ -350,21 +350,21 @@ Wij werken met de nieuwste AI-technologieën zoals GPT-4, Claude en LangChain om
 </svg>
 </div>
 <div>
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300">Veiligheid & Compliance</h3>
-<p class="text-green-600 font-semibold text-sm mt-1">GDPR & ISO compliant</p>
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-300">Veiligheid & compliance</h3>
+<p class="text-green-600 font-semibold text-sm mt-1">Privacy-first ontwikkeling</p>
 </div>
 </div>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Onze oplossingen voldoen aan de hoogste beveiligingsstandaarden en Nederlandse privacywetgeving.
+Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Wij houden rekening met GDPR en beveiligingsstandaarden bij het ontwikkelen van onze oplossingen.
 </p>
 <div class="grid grid-cols-2 gap-4">
 <div class="bg-green-50 rounded-xl p-4 text-center">
-<div class="text-xl sm:text-2xl font-bold text-green-600">100%</div>
-<div class="text-green-700 text-xs sm:text-sm font-medium">GDPR Compliant</div>
+<div class="text-xl sm:text-2xl font-bold text-green-600">Bewust</div>
+<div class="text-green-700 text-xs sm:text-sm font-medium">Omgaan met Data</div>
 </div>
 <div class="bg-emerald-50 rounded-xl p-4 text-center">
-<div class="text-xl sm:text-2xl font-bold text-emerald-600">24/7</div>
-<div class="text-emerald-700 text-xs sm:text-sm font-medium">Security Monitoring</div>
+<div class="text-xl sm:text-2xl font-bold text-emerald-600">Nederlandse</div>
+<div class="text-emerald-700 text-xs sm:text-sm font-medium">Wetgeving</div>
 </div>
 </div>
 </div>
@@ -381,7 +381,7 @@ Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Onze oploss
 </svg>
 </div>
 <div>
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors duration-300">Persoonlijke Begeleiding</h3>
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors duration-300">Persoonlijke begeleiding</h3>
 <p class="text-purple-600 font-semibold text-sm mt-1">Nederlandse service</p>
 </div>
 </div>
@@ -404,7 +404,7 @@ Van concept tot implementatie en doorlopende optimalisatie - wij staan naast u v
 
 
 {{< process-timeline 
-    title="Van Idee naar Werkende AI-Oplossing"
+    title="Van idee naar werkende AI-oplossing"
     description="Onze bewezen aanpak voor succesvolle AI-implementatie in 4 duidelijke stappen"
 >}}
 </section>
@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <section class="py-20 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">AI Transformeert Elke Sector</h2>
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">AI transformeert elke sector</h2>
 <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
 Van zorgverlening tot logistiek, van onderwijs tot financiën - AI revolutioneert bedrijfsprocessen in alle sectoren. Ontdek hoe intelligente automatisering uw specifieke uitdagingen kan oplossen.
 </p>
@@ -471,7 +471,7 @@ Van zorgverlening tot logistiek, van onderwijs tot financiën - AI revolutioneer
 <div class="flex flex-wrap justify-center gap-4 mb-16">
 <button class="sector-btn active" data-sector="all">
 <span class="sector-icon">🌟</span>
-<span class="sector-label">Alle Sectoren</span>
+<span class="sector-label">Alle sectoren</span>
 </button>
 <button class="sector-btn" data-sector="healthcare">
 <span class="sector-icon">🏥</span>
@@ -535,7 +535,7 @@ Van zorgverlening tot logistiek, van onderwijs tot financiën - AI revolutioneer
 <!-- Summary Statistics -->
 <div class="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-12">
 <div class="text-center mb-8">
-<h3 class="text-3xl font-bold text-gray-900 mb-4">AI Impact Across Industries</h3>
+<h3 class="text-3xl font-bold text-gray-900 mb-4">AI impact across industries</h3>
 <p class="text-lg text-gray-600">Bewezen resultaten in meer dan 50+ sectoren wereldwijd</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -561,7 +561,7 @@ Van zorgverlening tot logistiek, van onderwijs tot financiën - AI revolutioneer
 <!-- Call to Action -->
 <div class="text-center mt-16">
 <div class="bg-white rounded-3xl p-12 shadow-xl border border-gray-100 max-w-4xl mx-auto">
-<h3 class="text-3xl font-bold text-gray-900 mb-6">Uw Sector Niet Gezien?</h3>
+<h3 class="text-3xl font-bold text-gray-900 mb-6">Uw sector niet gezien?</h3>
 <p class="text-xl text-gray-600 mb-8">
 AI-oplossingen zijn universeel toepasbaar. Elke sector, elk proces kan geoptimaliseerd worden. Ontdek in een persoonlijk gesprek hoe AI uw specifieke uitdagingen kan oplossen.
 </p>
@@ -570,13 +570,13 @@ AI-oplossingen zijn universeel toepasbaar. Elke sector, elk proces kan geoptimal
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-Plan een Gratis Consultatie
+Plan een gratis consultatie
 </a>
 <a href="/oplossingen" class="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-blue-600">
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
-Bekijk Alle Oplossingen
+Bekijk alle oplossingen
 </a>
 </div>
 </div>
@@ -989,7 +989,13 @@ document.addEventListener('DOMContentLoaded', function() {
         container.innerHTML = '';
         
         Object.entries(sectorData).forEach(([key, data], index) => {
-            if (filterSector === 'all' || filterSector === key) {
+            if (filterSector === 'all') {
+                // Show only first 3 sectors on initial load
+                if (index < 3) {
+                    const card = createSectorCard(key, data);
+                    container.insertAdjacentHTML('beforeend', card);
+                }
+            } else if (filterSector === key) {
                 const card = createSectorCard(key, data);
                 container.insertAdjacentHTML('beforeend', card);
             }
@@ -1017,7 +1023,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 {{< testimonials 
-    title="Wat Onze Klanten Ervaren"
+    title="Wat onze klanten ervaren"
     description="Ontdek hoe organisaties hun processen succesvol transformeren met onze AI-oplossingen."
     animate="true"
     background-color="#f8fafc"

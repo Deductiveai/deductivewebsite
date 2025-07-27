@@ -284,7 +284,7 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 </section>
 
 <!-- Hoe Werkt Het? -->
-<section class="py-16 sm:py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50" id="technologie-overzicht">
+<section class="py-16 sm:py-20 bg-white" id="technologie-overzicht">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12 sm:mb-16">
 <div class="inline-flex items-center bg-purple-50 rounded-full px-6 py-3 mb-6">
@@ -360,7 +360,7 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 
 
 <!-- Resultaten & ROI -->
-<section class="py-16 sm:py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+<section class="py-16 sm:py-20 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12 sm:mb-16">
 <div class="inline-flex items-center bg-blue-50 rounded-full px-6 py-3 mb-6">
@@ -503,80 +503,6 @@ Bekijk Prijzen
 </div>
 </section>
 
-<!-- Success Stories -->
-<section class="py-16 sm:py-20 bg-white">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-12 sm:mb-16">
-<div class="inline-flex items-center bg-green-50 rounded-full px-6 py-3 mb-6">
-<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
-<span class="text-green-700 font-semibold text-sm">Echte succesverhalen</span>
-</div>
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Klant Succesverhalen</h2>
-<p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
-Ontdek hoe organisaties hun klantenservice hebben getransformeerd met onze AI-chatbot oplossingen.
-</p>
-</div>
-
-<!-- Success Stories Grid -->
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
-<!-- Healthcare Success Story -->
-<div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-6 sm:p-8 lg:p-10 border border-green-100">
-<div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8">
-<div class="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-0 sm:mr-6">
-<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-</svg>
-</div>
-<div>
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900">Zorgverlening</h3>
-<p class="text-green-600 font-semibold">Kliniek Elsendael</p>
-</div>
-</div>
-<blockquote class="text-lg sm:text-xl text-gray-700 italic mb-6 sm:mb-8 leading-relaxed">
-"De AI-chatbot van Deductive heeft onze patiëntenzorg revolutionair verbeterd. Afspraakplanning verloopt nu automatisch, patiënten krijgen instant antwoord op hun vragen, en ons personeel kan zich focussen op de medische zorg waar ze echt voor zijn opgeleid."
-</blockquote>
-<div class="grid grid-cols-2 gap-4 sm:gap-6">
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-green-600 mb-2">85%</div>
-<div class="text-xs sm:text-sm text-gray-600">Minder administratieve taken</div>
-</div>
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-green-600 mb-2">24/7</div>
-<div class="text-xs sm:text-sm text-gray-600">Patiëntondersteuning</div>
-</div>
-</div>
-</div>
-
-<!-- E-commerce Success Story -->
-<div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-6 sm:p-8 lg:p-10 border border-blue-100">
-<div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8">
-<div class="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-0 sm:mr-6">
-<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
-</svg>
-</div>
-<div>
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900">E-commerce</h3>
-<p class="text-blue-600 font-semibold">TechGear Nederland</p>
-</div>
-</div>
-<blockquote class="text-lg sm:text-xl text-gray-700 italic mb-6 sm:mb-8 leading-relaxed">
-"Onze verkoop is met 40% gestegen sinds we de AI-chatbot hebben geïmplementeerd. Klanten krijgen instant productadvies, live voorraadinfo en gepersonaliseerde aanbevelingen. Het voelt alsof elke klant een persoonlijke verkoopmedewerker heeft."
-</blockquote>
-<div class="grid grid-cols-2 gap-4 sm:gap-6">
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-blue-600 mb-2">40%</div>
-<div class="text-xs sm:text-sm text-gray-600">Verhoogde verkoop</div>
-</div>
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-blue-600 mb-2">Real-time</div>
-<div class="text-xs sm:text-sm text-gray-600">Productadvies</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 
 <script>

@@ -672,7 +672,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 </section>
 
 <!-- Kwaliteit & Vakmanschap Sectie -->
-<section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+<section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <div class="inline-flex items-center bg-gray-50 rounded-full px-6 py-3 mb-6">
@@ -731,7 +731,7 @@ Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zel
 </section>
 
 <!-- ROI Calculator Section -->
-<section class="py-16 sm:py-20 bg-gradient-to-br from-green-50 to-emerald-50">
+<section class="py-16 sm:py-20 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12 sm:mb-16">
 <div class="inline-flex items-center bg-green-50 rounded-full px-6 py-3 mb-6">

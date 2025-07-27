@@ -230,7 +230,7 @@ Contact Sales
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">AI-Agents Prijzen</h2>
-<p class="text-xl text-gray-600">Automatiseer complexe bedrijfsprocessen met autonome AI</p>
+<p class="text-xl text-gray-600">Maatwerk prijzen voor autonome AI-oplossingen</p>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -461,7 +461,7 @@ Start Gratis Trial
 </li>
 <li class="flex items-start">
 <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7-293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 <span class="text-gray-700">Email integratie</span>
 </li>
@@ -529,7 +529,7 @@ Start Gratis Trial
 </li>
 <li class="flex items-start">
 <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7-293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 <span class="text-gray-700">24/7 dedicated support</span>
 </li>
@@ -538,7 +538,6 @@ Start Gratis Trial
 <a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
 Contact Sales
 </a>
-</div>
 </div>
 </div>
 </section>
@@ -791,23 +790,7 @@ In een markt vol goedkope AI-oplossingen en belofte-zonder-resultaat tools, kiez
 </div>
 </section>
 
-<!-- Call to Action -->
-<section class="py-16 bg-gradient-to-r from-purple-600 to-blue-600">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
-<h2 class="text-4xl font-bold text-white mb-4">Klaar om te beginnen?</h2>
-<p class="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-Start vandaag nog met een gratis trial. Geen creditcard vereist, geen verplichtingen.
-</p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-purple-600 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200">
-Start Gratis Trial
-</a>
-<a href="tel:+31857737074" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-semibold rounded-lg text-white bg-transparent hover:bg-white hover:text-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200">
-Bel ons direct
-</a>
-</div>
-</div>
-</section>
+{{< cta >}}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -880,6 +863,62 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // ROI Calculator for Offertetool
+    const quotesInput = document.getElementById('quotes-per-month');
+    const projectValueInput = document.getElementById('avg-project-value');
+    const conversionInput = document.getElementById('current-conversion');
+    const timeInput = document.getElementById('time-per-quote');
+    
+    function calculateROI() {
+        const quotesPerMonth = parseInt(quotesInput?.value) || 0;
+        const avgProjectValue = parseInt(projectValueInput?.value) || 0;
+        const currentConversion = parseInt(conversionInput?.value) || 0;
+        const timePerQuote = parseFloat(timeInput?.value) || 0;
+        
+        // Current metrics
+        const currentSuccessfulQuotes = quotesPerMonth * (currentConversion / 100);
+        const currentRevenue = currentSuccessfulQuotes * avgProjectValue;
+        
+        // Improved metrics (30% conversion improvement, 50% time saving)
+        const improvementFactor = 1.3; // 30% improvement
+        const newConversion = Math.min(currentConversion * improvementFactor, 100);
+        const newSuccessfulQuotes = quotesPerMonth * (newConversion / 100);
+        const newRevenue = newSuccessfulQuotes * avgProjectValue;
+        const newTimePerQuote = timePerQuote * 0.5; // 50% time saving
+        
+        // Calculate improvements
+        const additionalRevenue = newRevenue - currentRevenue;
+        const timeSaved = quotesPerMonth * (timePerQuote - newTimePerQuote);
+        const yearlyAdditional = additionalRevenue * 12;
+        
+        // Update display
+        const currentRevenueEl = document.getElementById('current-revenue');
+        const newConversionEl = document.getElementById('new-conversion');
+        const newRevenueEl = document.getElementById('new-revenue');
+        const newTimeEl = document.getElementById('new-time');
+        const additionalRevenueEl = document.getElementById('additional-revenue');
+        const timeSavedEl = document.getElementById('time-saved');
+        const yearlyAdditionalEl = document.getElementById('yearly-additional');
+        
+        if (currentRevenueEl) currentRevenueEl.textContent = `€${currentRevenue.toLocaleString()}`;
+        if (newConversionEl) newConversionEl.textContent = `${Math.round(newConversion)}%`;
+        if (newRevenueEl) newRevenueEl.textContent = `€${Math.round(newRevenue).toLocaleString()}`;
+        if (newTimeEl) newTimeEl.textContent = `${newTimePerQuote} uur`;
+        if (additionalRevenueEl) additionalRevenueEl.textContent = `€${Math.round(additionalRevenue).toLocaleString()}`;
+        if (timeSavedEl) timeSavedEl.textContent = `${Math.round(timeSaved)}`;
+        if (yearlyAdditionalEl) yearlyAdditionalEl.textContent = `€${Math.round(yearlyAdditional).toLocaleString()}`;
+    }
+    
+    // Add event listeners for ROI calculator
+    [quotesInput, projectValueInput, conversionInput, timeInput].forEach(input => {
+        if (input) {
+            input.addEventListener('input', calculateROI);
+        }
+    });
+    
+    // Initial calculation
+    calculateROI();
 
 });
 </script>

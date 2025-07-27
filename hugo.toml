@@ -242,8 +242,8 @@ paginatePath = "page"
     [languages.nl.menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Over Ons", url = "/company/" },
-        { name = "Vacatures", url = "/careers/" }
+        { name = "Over Ons", url = "/bedrijf/" },
+        { name = "Vacatures", url = "/vacatures/" }
       ]
 
 # English Navigation Menu
@@ -296,11 +296,11 @@ paginatePath = "page"
   weight = 1
 [[menu.footer_column_2]]
   name = "Over Ons"
-  url = "/company"
+  url = "/bedrijf"
   weight = 2
 [[menu.footer_column_2]]
   name = "Vacatures"
-  url = "/careers"
+  url = "/vacatures"
   weight = 3
 [[menu.footer_column_2]]
   name = "Sitemap"

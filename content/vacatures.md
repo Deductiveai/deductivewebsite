@@ -36,6 +36,7 @@ layout: "career"
 positions_section:
   title: "Open Posities"
   view_position_text: "Bekijk Positie"
+  no_positions_message: "Momenteel geen openstaande vacatures"
 ---
 
 # Momenteel Geen Openstaande Vacatures

@@ -228,10 +228,10 @@ paginatePath = "page"
         { name = "AI-Agents", url = "/oplossingen/ai-agents/" },
         { name = "Offertetool", url = "/oplossingen/offertetool/" }
       ]
-  # [[languages.nl.menu.main]]
-  #   name = "Prijzen"
-  #   url = "/pricing"
-  #   weight = 2
+  [[languages.nl.menu.main]]
+    name = "Prijzen"
+    url = "/pricing"
+    weight = 2
   [[languages.nl.menu.main]]
     name = "Blog"
     url = "/blog"
@@ -258,10 +258,10 @@ paginatePath = "page"
         { name = "AI Agents", url = "/en/solutions/ai-agents/" },
         { name = "Quote Tool", url = "/en/solutions/quote-tool/" }
       ]
-  # [[languages.en.menu.main]]
-  #   name = "Pricing"
-  #   url = "/en/pricing"
-  #   weight = 2
+  [[languages.en.menu.main]]
+    name = "Pricing"
+    url = "/en/pricing"
+    weight = 2
   [[languages.en.menu.main]]
     name = "Blog"
     url = "/en/blog"

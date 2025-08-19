@@ -29,27 +29,27 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 <p class="text-sm text-gray-600 font-medium">🚀 Kies uw perfecte AI-oplossing</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">
-<a href="#chatbot-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-purple-500">
+<button data-filter="chatbot" class="solution-filter-btn active bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-purple-500">
 <div class="text-center">
 <span class="text-4xl mb-3 block">💬</span>
 <h3 class="text-lg font-bold text-gray-900 mb-2">AI Chatbot</h3>
 <p class="text-sm text-gray-600">24/7 Klantenservice</p>
 </div>
-</a>
-<a href="#agents-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-cyan-500">
+</button>
+<button data-filter="agents" class="solution-filter-btn bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-cyan-500">
 <div class="text-center">
 <span class="text-4xl mb-3 block">🤖</span>
 <h3 class="text-lg font-bold text-gray-900 mb-2">AI-Agents</h3>
 <p class="text-sm text-gray-600">Autonome Processen</p>
 </div>
-</a>
-<a href="#offertetool-pricing" class="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-green-500">
+</button>
+<button data-filter="offertetool" class="solution-filter-btn bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:border-green-500">
 <div class="text-center">
 <span class="text-4xl mb-3 block">📊</span>
 <h3 class="text-lg font-bold text-gray-900 mb-2">Offertetool</h3>
 <p class="text-sm text-gray-600">Slimme Verkoop</p>
 </div>
-</a>
+</button>
 </div>
 </div>
 
@@ -67,7 +67,7 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 </section>
 
 <!-- AI Chatbot Pricing -->
-<section class="py-16 bg-white" id="chatbot-pricing">
+<section class="pricing-section py-16 bg-white" id="chatbot-pricing" data-solution="chatbot">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">AI Chatbot Prijzen</h2>
@@ -226,7 +226,7 @@ Contact Sales
 </section>
 
 <!-- AI-Agents Pricing -->
-<section class="py-16 bg-gray-50" id="agents-pricing">
+<section class="pricing-section py-16 bg-gray-50" id="agents-pricing" data-solution="agents" style="display: none;">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">AI-Agents Prijzen</h2>
@@ -385,7 +385,7 @@ Contact Sales
 </section>
 
 <!-- Offertetool Pricing -->
-<section class="py-16 bg-white" id="offertetool-pricing">
+<section class="pricing-section py-16 bg-white" id="offertetool-pricing" data-solution="offertetool" style="display: none;">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">Offertetool Prijzen</h2>
@@ -794,9 +794,42 @@ In een markt vol goedkope AI-oplossingen en belofte-zonder-resultaat tools, kiez
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Solution Toggle Functionality
+    // Solution Filter Functionality
+    const filterButtons = document.querySelectorAll('.solution-filter-btn');
+    const allPricingSections = document.querySelectorAll('.pricing-section');
+    
+    console.log('Filter buttons found:', filterButtons.length);
+    console.log('Pricing sections found:', allPricingSections.length);
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const filter = this.getAttribute('data-filter');
+            console.log('Button clicked, filter:', filter);
+            
+            // Update active button state
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Show/hide pricing sections
+            allPricingSections.forEach(section => {
+                const solutionType = section.getAttribute('data-solution');
+                console.log('Checking section:', solutionType, 'against filter:', filter);
+                
+                if (solutionType === filter) {
+                    section.style.display = 'block';
+                    console.log('Showing section:', solutionType);
+                } else {
+                    section.style.display = 'none';
+                    console.log('Hiding section:', solutionType);
+                }
+            });
+        });
+    });
+
+    // Solution Toggle Functionality (legacy)
     const toggleButtons = document.querySelectorAll('.solution-toggle-btn');
-    const pricingSections = {
+    const legacyPricingSections = {
         'chatbot': document.getElementById('chatbot-pricing'),
         'agents': document.getElementById('agents-pricing'),
         'offertetool': document.getElementById('offertetool-pricing')
@@ -926,6 +959,28 @@ document.addEventListener('DOMContentLoaded', function() {
 <style>
 .bg-circuit-pattern {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234534da' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Solution Filter Button Styles */
+.solution-filter-btn {
+    @apply cursor-pointer;
+}
+
+.solution-filter-btn.active {
+    @apply border-2;
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
+}
+
+.solution-filter-btn.active[data-filter="chatbot"] {
+    @apply border-purple-500 bg-purple-50;
+}
+
+.solution-filter-btn.active[data-filter="agents"] {
+    @apply border-cyan-500 bg-cyan-50;
+}
+
+.solution-filter-btn.active[data-filter="offertetool"] {
+    @apply border-green-500 bg-green-50;
 }
 
 .solution-toggle-btn {

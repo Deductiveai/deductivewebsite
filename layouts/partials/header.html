@@ -1,9 +1,16 @@
 {{ $headerConfig := .Site.Params.header }}
 {{ $dropdownConfig := $headerConfig.menu.dropdown }}
 <div class="mobile-menu-wrapper">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <header class="fixed w-full top-0 z-50 {{ with $headerConfig.background }}{{ . }}{{ else }}bg-gray-900{{ end }} {{ with $headerConfig.border }}{{ . }}{{ else }}border-b border-gray-800{{ end }}">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden" style="position: absolute; top: 26px; right: 20px; z-index: 999;">
+                <button id="mobile-menu-button" style="display: flex; align-items: center; justify-content: center; padding: 8px; color: white; background: rgba(255,255,255,0.1); border: none; border-radius: 6px; font-size: 18px; cursor: pointer; transition: background-color 0.2s;">
+                    <span id="menu-icon">☰</span>
+                    <span id="close-icon" style="display: none;">✕</span>
+                </button>
+            </div>
+            
             <nav class="flex items-center justify-between h-20">
                 <!-- Logo and Title -->
                 <a href="{{ .Site.BaseURL }}" class="flex items-center space-x-4">
@@ -62,19 +69,11 @@
                 </div>
                 {{ end }}
 
-                <!-- Mobile Menu Toggle -->
-                <div class="md:hidden">
-                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-secondary-100 focus:ring-offset-2 transition-colors cursor-pointer">
-                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </label>
-                </div>
             </nav>
         </div>
 
         <!-- Mobile Menu -->
-        <div class="nav-content md:hidden w-full fixed left-0 right-0 top-20 bg-gray-900 border-t border-gray-700 shadow-lg z-40">
+        <div id="mobile-menu" class="md:hidden fixed left-0 right-0 top-20 bg-gray-900 border-t border-gray-700 shadow-lg z-40 hidden">
             <div class="w-full px-6 py-4">
                 {{ range .Site.Menus.main }}
                     {{ if .Params.has_submenu }}
@@ -119,27 +118,23 @@
         .mobile-menu-wrapper {
             position: relative;
         }
-        .nav-toggle {
-            display: none;
-        }
-        .nav-content {
-            display: none;
-            opacity: 0;
-            transform: translateY(-10px);
+        
+        /* Mobile menu transitions */
+        #mobile-menu {
             transition: all 0.3s ease-in-out;
+            transform: translateY(-10px);
+            opacity: 0;
         }
-        .nav-toggle:checked ~ header .nav-content {
+        
+        #mobile-menu.show {
             display: block !important;
             opacity: 1;
             transform: translateY(0);
         }
         
-        /* Mobile menu button styling */
-        .md\:hidden label[for="nav-toggle"] {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+        /* Mobile menu button hover effect */
+        #mobile-menu-button:hover {
+            background-color: rgba(255,255,255,0.2) !important;
         }
         
         /* Language Toggle Styles */
@@ -189,6 +184,9 @@
             
             // Initialize language display
             updateLanguageDisplay(currentLanguage);
+            
+            // Initialize mobile menu
+            initializeMobileMenu();
             
             // Desktop language toggle
             const languageToggle = document.getElementById('language-toggle');
@@ -292,6 +290,46 @@
                     checkmark.classList.toggle('hidden', lang !== language);
                 }
             });
+        }
+        
+        function initializeMobileMenu() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    const isOpen = mobileMenu.classList.contains('show');
+                    
+                    if (isOpen) {
+                        // Close menu
+                        mobileMenu.classList.remove('show');
+                        mobileMenu.classList.add('hidden');
+                        if (menuIcon) menuIcon.style.display = 'block';
+                        if (closeIcon) closeIcon.style.display = 'none';
+                    } else {
+                        // Open menu
+                        mobileMenu.classList.remove('hidden');
+                        setTimeout(() => {
+                            mobileMenu.classList.add('show');
+                        }, 10);
+                        if (menuIcon) menuIcon.style.display = 'none';
+                        if (closeIcon) closeIcon.style.display = 'block';
+                    }
+                });
+                
+                // Close menu when clicking on menu links
+                const menuLinks = mobileMenu.querySelectorAll('a');
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.remove('show');
+                        mobileMenu.classList.add('hidden');
+                        if (menuIcon) menuIcon.style.display = 'block';
+                        if (closeIcon) closeIcon.style.display = 'none';
+                    });
+                });
+            }
         }
     </script>
 </div>

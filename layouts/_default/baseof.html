@@ -93,18 +93,6 @@
     <!-- Footer -->
     {{ partial "footer" . }}
 
-    <!-- Mobile Menu Script -->
-    <script>
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        if (mobileMenuButton) {
-            mobileMenuButton.addEventListener('click', function() {
-                const mobileMenu = document.getElementById('mobile-menu');
-                if (mobileMenu) {
-                    mobileMenu.classList.toggle('hidden');
-                }
-            });
-        }
-    </script>
 
     <!-- Flowise Chatbot Embed -->
     <script type="module">

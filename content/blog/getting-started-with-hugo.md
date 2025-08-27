@@ -1,5 +1,5 @@
 ---
-title: "AI-Agents vs Traditionele Automatisering: Wat is het Verschil?"
+title: "AI-agents vs traditionele automatisering: Wat is het verschil?"
 date: 2024-01-15
 author: "Deductive Team"
 description: "Ontdek waarom AI-agents de toekomst van bedrijfsautomatisering zijn en hoe ze verschillen van traditionele automatisering."

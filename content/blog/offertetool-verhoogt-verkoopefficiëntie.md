@@ -1,5 +1,5 @@
 ---
-title: "Hoe een Intelligente Offertetool Uw Verkoopefficiëntie Verhoogt"
+title: "Hoe een intelligente offertetool uw verkoopefficiëntie verhoogt"
 date: 2024-01-25
 author: "Deductive Team"
 description: "Ontdek hoe een AI-gedreven offertetool uw verkoopproces kan automatiseren en uw conversiepercentages kan verbeteren."
@@ -10,7 +10,7 @@ featured_image: "images/blog/blog-3.jpg"
 
 {{< toc >}}
 
-## De Uitdaging van Moderne Offertes
+## De uitdaging van moderne offertes
 
 Het maken van offertes is een kritiek onderdeel van elk verkoopproces, maar vaak tijdrovend en foutgevoelig. Veel bedrijven worstelen met:
 

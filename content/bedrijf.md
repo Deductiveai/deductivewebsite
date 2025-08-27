@@ -1,5 +1,5 @@
 ---
-title: "Over Ons"
+title: "Over ons"
 layout: "company"
 description: "Leer meer over onze missie, ons team en de visie achter Deductive. Ontdek hoe wij bedrijven transformeren met cutting-edge AI-technologie."
 ---
@@ -15,7 +15,7 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive.
 <!-- Trust Badge -->
 <div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-8 shadow-lg border border-gray-100">
 <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
-<span class="text-gray-700 font-semibold text-sm">Opgericht in 2024 • 50+ tevreden klanten</span>
+<span class="text-gray-700 font-semibold text-sm">Opgericht in 2024 • 5 tevreden klanten</span>
 </div>
 
 <!-- Main Headline -->
@@ -25,7 +25,7 @@ Waar
 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 animate-gradient">Logica</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full animate-pulse"></div>
 </span>
-Menselijkheid Ontmoet
+menselijkheid ontmoet
 </h1>
 
 <!-- Subheadline -->
@@ -62,13 +62,13 @@ Bij Deductive bouwen we de toekomst van AI-gedreven bedrijfsoplossingen met onge
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
 </svg>
-Onze Visie
+Onze visie
 </a>
 <a href="#ons-team" class="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-blue-600">
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 </svg>
-Leer Ons Team Kennen
+Leer ons team kennen
 </a>
 </div>
 
@@ -80,11 +80,11 @@ Leer Ons Team Kennen
 </div>
 <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
 <div class="text-3xl md:text-4xl font-bold text-purple-600 mb-2">50+</div>
-<div class="text-gray-600 font-medium">Tevreden Klanten</div>
+<div class="text-gray-600 font-medium">Tevreden klanten</div>
 </div>
 <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
 <div class="text-3xl md:text-4xl font-bold text-indigo-600 mb-2">98%</div>
-<div class="text-gray-600 font-medium">Implementatie Succes</div>
+<div class="text-gray-600 font-medium">Implementatie succes</div>
 </div>
 </div>
 </div>
@@ -101,12 +101,12 @@ Leer Ons Team Kennen
 </div>
 
 <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-Onze Visie: Een 
+Onze visie: een 
 <span class="relative inline-block">
 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 animate-gradient">All-in-One</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-full animate-pulse"></div>
 </span>
-AI Platform
+AI-platform
 </h2>
 
 <p class="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto mb-12 leading-relaxed">
@@ -137,9 +137,9 @@ met de modernste AI technologie, allemaal binnen één geïntegreerde suite.
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
 <div class="space-y-8">
 <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-Van Separate Tools naar 
+Van separate tools naar 
 <span class="relative inline-block">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Geïntegreerde Suite</span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">geïntegreerde suite</span>
 <div class="absolute -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full animate-pulse"></div>
 </span>
 </h3>
@@ -152,7 +152,7 @@ Van Separate Tools naar
 </svg>
 </div>
 <div>
-<h4 class="text-lg font-bold text-gray-900 mb-2">Unified Platform</h4>
+<h4 class="text-lg font-bold text-gray-900 mb-2">Unified platform</h4>
 <p class="text-gray-600 text-sm leading-relaxed">Alle AI-oplossingen verenigd in één krachtig platform dat naadloos integreert met uw bestaande systemen en workflows.</p>
 </div>
 </div>
@@ -164,7 +164,7 @@ Van Separate Tools naar
 </svg>
 </div>
 <div>
-<h4 class="text-lg font-bold text-gray-900 mb-2">Software-First Mindset</h4>
+<h4 class="text-lg font-bold text-gray-900 mb-2">Software-first mindset</h4>
 <p class="text-gray-600 text-sm leading-relaxed">Wij blijven een software bedrijf in hart en nieren, met focus op robuuste, schaalbare technologie-oplossingen.</p>
 </div>
 </div>
@@ -184,7 +184,7 @@ Van Separate Tools naar
 </div>
 
 <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 sm:p-10 shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
-<h4 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">Onze Roadmap</h4>
+<h4 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">Onze roadmap</h4>
 <div class="space-y-6">
 <div class="flex items-center p-4 bg-green-50 rounded-xl border border-green-100">
 <div class="w-8 h-8 bg-green-500 rounded-full mr-4 flex items-center justify-center flex-shrink-0">
@@ -227,7 +227,7 @@ Van Separate Tools naar
 
 {{< section-container class="py-20 bg-gradient-to-br from-gray-50 to-blue-50" >}}
     <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Vakmanschap Centraal Staat</h2>
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom vakmanschap centraal staat</h2>
         <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
             In een wereld vol snelle oplossingen en oppervlakkige tools, kiezen wij bewust voor diepgaand vakmanschap. 
             Elke regel code, elk algoritme, elke gebruikersinteractie wordt zorgvuldig uitgedacht en geoptimaliseerd.
@@ -236,17 +236,17 @@ Van Separate Tools naar
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         {{< value-card 
-            title="Geen Shortcuts"
+            title="Geen shortcuts"
             icon="shield"
             description="Wij nemen geen shortcuts. Elke oplossing wordt grondig ontworpen, getest en verfijnd voordat deze bij de klant komt."
         >}}
         {{< value-card 
-            title="Duurzame Kwaliteit"
+            title="Duurzame kwaliteit"
             icon="clock"
             description="Onze oplossingen zijn gebouwd om jaren mee te gaan, niet om snel verouderd te raken. Kwaliteit boven kwantiteit."
         >}}
         {{< value-card 
-            title="Persoonlijke Aandacht"
+            title="Persoonlijke aandacht"
             icon="heart"
             description="Elk project verdient de juiste aandacht. Wij geloven in persoonlijke begeleiding en maatwerk, niet in one-size-fits-all oplossingen."
         >}}
@@ -258,7 +258,7 @@ Van Separate Tools naar
     <div id="ons-team" class="text-center mb-20">
         <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
             Onze 
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600">Founders</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600">founders</span>
         </h2>
         
         <p class="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -343,7 +343,7 @@ Van Separate Tools naar
 
     <div class="mt-20 text-center">
         <div class="bg-white rounded-3xl p-12 shadow-xl max-w-4xl mx-auto">
-            <h3 class="text-3xl font-bold text-gray-900 mb-6">Samen Bouwen aan de Toekomst</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">Samen bouwen aan de toekomst</h3>
             <p class="text-xl text-gray-600 leading-relaxed mb-8">
                 Daan en Paul combineren hun complementaire expertise om AI-technologie toegankelijk en krachtig te maken 
                 voor elke organisatie. Hun gedeelde visie en complementaire vaardigheden vormen de basis van Deductive's succes.
@@ -356,7 +356,7 @@ Van Separate Tools naar
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
                     </div>
-                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Complementaire Skills</h4>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Complementaire skills</h4>
                     <p class="text-gray-600">Platform + AI expertise</p>
                 </div>
                 
@@ -366,7 +366,7 @@ Van Separate Tools naar
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
                     </div>
-                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Gedeelde Visie</h4>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Gedeelde visie</h4>
                     <p class="text-gray-600">AI democratiseren</p>
                 </div>
                 
@@ -376,10 +376,10 @@ Van Separate Tools naar
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Bewezen Resultaten</h4>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Bewezen resultaten</h4>
                     <div class="space-y-1">
                         <p class="text-2xl font-bold text-green-600">50+</p>
-                        <p class="text-gray-600 text-sm">Tevreden Klanten</p>
+                        <p class="text-gray-600 text-sm">Tevreden klanten</p>
                     </div>
                 </div>
             </div>
@@ -389,7 +389,7 @@ Van Separate Tools naar
 
 {{< section-container class="py-20 bg-white" >}}
     <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Waarden & Culture</h2>
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze waarden & cultuur</h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
             Deze fundamentele principes sturen elke beslissing die we maken en elke oplossing die we ontwikkelen.
         </p>
@@ -397,12 +397,12 @@ Van Separate Tools naar
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {{< value-card 
-            title="Innovatie Eerste"
+            title="Innovatie eerste"
             icon="lightbulb"
             description="We omarmen nieuwe technologieën en duwen constant grenzen om baanbrekende AI-oplossingen te ontwikkelen."
         >}}
         {{< value-card 
-            title="Klant Centraal"
+            title="Klant centraal"
             icon="users"
             description="Het succes van onze klanten is ons succes. We luisteren, begrijpen en leveren oplossingen die echte waarde toevoegen."
         >}}
@@ -422,7 +422,7 @@ Van Separate Tools naar
 
 {{< section-container class="py-20 bg-white" >}}
     <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze Journey: Van Visie naar Realiteit</h2>
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Onze journey: van visie naar realiteit</h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
             Ontdek hoe Deductive is gegroeid van een ambitieuze visie tot een toonaangevende AI-oplossingen provider.
         </p>
@@ -441,7 +441,7 @@ Van Separate Tools naar
                     <div class="w-1/2 pr-8 text-right">
                         <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
                             <div class="text-blue-600 font-bold text-sm mb-2">FEBRUARI 2024</div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-4">De Oprichting</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">De oprichting</h3>
                             <p class="text-gray-600 leading-relaxed">
                                 Daan en Paul starten Deductive met een heldere visie: AI-technologie democratiseren en toegankelijk maken voor bedrijven van elke omvang. De eerste concepten worden ontwikkeld.
                             </p>
@@ -462,7 +462,7 @@ Van Separate Tools naar
                     <div class="w-1/2 pl-8">
                         <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
                             <div class="text-green-600 font-bold text-sm mb-2">APRIL 2024</div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-4">Eerste AI-Producten</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Eerste AI-producten</h3>
                             <p class="text-gray-600 leading-relaxed">
                                 Lancering van onze eerste AI-chatbot en agent oplossingen. De focus ligt op het leveren van hoogwaardige, maatwerk AI-systemen die daadwerkelijk waarde toevoegen aan bedrijfsprocessen.
                             </p>
@@ -475,7 +475,7 @@ Van Separate Tools naar
                     <div class="w-1/2 pr-8 text-right">
                         <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
                             <div class="text-purple-600 font-bold text-sm mb-2">SEPTEMBER 2024</div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-4">Groei & Uitbreiding</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Groei & uitbreiding</h3>
                             <p class="text-gray-600 leading-relaxed">
                                 Uitbreiding van het productportfolio met de intelligente offertetool. Eerste klanten ervaren significante verbeteringen in efficiëntie en klanttevredenheid.
                             </p>
@@ -496,7 +496,7 @@ Van Separate Tools naar
                     <div class="w-1/2 pl-8">
                         <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 shadow-lg border border-indigo-100">
                             <div class="text-indigo-600 font-bold text-sm mb-2">2025 & VERDER</div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-4">De Toekomst</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">De toekomst</h3>
                             <p class="text-gray-600 leading-relaxed">
                                 Ontwikkeling van ons unified AI-platform. Uitbreiding naar internationale markten en innovatieve nieuwe AI-oplossingen die de grenzen van wat mogelijk is blijven verleggen.
                             </p>
@@ -510,7 +510,7 @@ Van Separate Tools naar
     <!-- Stats Section -->
     <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-12">
         <div class="text-center mb-12">
-            <h3 class="text-3xl font-bold text-gray-900 mb-4">Deductive in Cijfers</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-4">Deductive in cijfers</h3>
             <p class="text-lg text-gray-600">Onze impact in het eerste jaar</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
@@ -520,11 +520,11 @@ Van Separate Tools naar
             </div>
             <div class="bg-white rounded-xl p-6 shadow-lg">
                 <div class="text-4xl font-bold text-green-600 mb-2">15+</div>
-                <div class="text-gray-600 font-medium">Tevreden Klanten</div>
+                <div class="text-gray-600 font-medium">Tevreden klanten</div>
             </div>
             <div class="bg-white rounded-xl p-6 shadow-lg">
                 <div class="text-4xl font-bold text-purple-600 mb-2">3</div>
-                <div class="text-gray-600 font-medium">Core Products</div>
+                <div class="text-gray-600 font-medium">Core products</div>
             </div>
             <div class="bg-white rounded-xl p-6 shadow-lg">
                 <div class="text-4xl font-bold text-indigo-600 mb-2">∞</div>

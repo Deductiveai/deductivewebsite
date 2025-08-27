@@ -1,5 +1,5 @@
 ---
-title: "Onze AI-Oplossingen"
+title: "Onze AI-oplossingen"
 description: "Ontdek onze complete portfolio van AI-oplossingen: van intelligente chatbots tot autonome agents en slimme offertetools. Kies de perfecte oplossing voor uw bedrijf."
 layout: "solutions"
 ---
@@ -10,7 +10,7 @@ layout: "solutions"
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
 <div class="text-center mb-16">
 <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-Onze <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">AI-Oplossingen</span>
+Onze <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">AI-oplossingen</span>
 </h1>
 <p class="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
 Ontdek onze complete portfolio van AI-oplossingen die uw bedrijfsprocessen transformeren en optimaliseren. Van intelligente chatbots tot autonome agents - we hebben de perfecte oplossing voor elke uitdaging.
@@ -27,15 +27,15 @@ Ontdek onze complete portfolio van AI-oplossingen die uw bedrijfsprocessen trans
 <div class="flex flex-wrap justify-center gap-6 mb-16">
 <button class="solution-btn active" data-solution="all">
 <span class="solution-icon">🌟</span>
-<span class="solution-label">Alle Oplossingen</span>
+<span class="solution-label">Alle oplossingen</span>
 </button>
 <button class="solution-btn" data-solution="chatbot">
 <span class="solution-icon">💬</span>
-<span class="solution-label">AI Chatbot</span>
+<span class="solution-label">AI chatbot</span>
 </button>
 <button class="solution-btn" data-solution="agents">
 <span class="solution-icon">🤖</span>
-<span class="solution-label">AI-Agents</span>
+<span class="solution-label">AI-agents</span>
 </button>
 <button class="solution-btn" data-solution="offertetool">
 <span class="solution-icon">📋</span>

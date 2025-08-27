@@ -1,6 +1,6 @@
 ---
-title: "Pricing"
-description: "Choose the perfect AI solution for your business needs"
+title: "Prijzen"
+description: "Kies de perfecte AI-oplossing voor uw bedrijfsbehoeften"
 layout: "pricing"
 ---
 
@@ -10,7 +10,7 @@ layout: "pricing"
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
 <div class="text-center mb-16">
 <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-Transparante <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Prijzen</span>
+Transparante <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">prijzen</span>
 </h1>
 <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
 Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gratis ondersteuning en geen verborgen kosten. Geen surprises, geen tijdverspilling - gewoon kwaliteit waar u op kunt rekenen.
@@ -70,7 +70,7 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 <section class="pricing-section py-16 bg-white" id="chatbot-pricing" data-solution="chatbot">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">AI Chatbot Prijzen</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">AI chatbot prijzen</h2>
 <p class="text-xl text-gray-600">Automatiseer uw klantenservice met intelligente AI</p>
 </div>
 
@@ -229,7 +229,7 @@ Contact Sales
 <section class="pricing-section py-16 bg-gray-50" id="agents-pricing" data-solution="agents" style="display: none;">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">AI-Agents Prijzen</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">AI-agents prijzen</h2>
 <p class="text-xl text-gray-600">Maatwerk prijzen voor autonome AI-oplossingen</p>
 </div>
 
@@ -388,7 +388,7 @@ Contact Sales
 <section class="pricing-section py-16 bg-white" id="offertetool-pricing" data-solution="offertetool" style="display: none;">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Offertetool Prijzen</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Offertetool prijzen</h2>
 <p class="text-xl text-gray-600">Automatiseer uw verkoopproces met intelligente offertes</p>
 </div>
 
@@ -548,7 +548,7 @@ Contact Sales
 <section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Gedetailleerde Functievergelijking</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Gedetailleerde functievergelijking</h2>
 <p class="text-xl text-gray-600">Bekijk alle functies en mogelijkheden per pakket</p>
 </div>
 
@@ -737,7 +737,7 @@ Contact Sales
 <section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Veelgestelde vragen</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Veelgestelde Vragen</h2>
 <p class="text-xl text-gray-600">Vind antwoorden op de meest gestelde vragen over onze prijzen</p>
 </div>
 

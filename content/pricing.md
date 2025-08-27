@@ -543,177 +543,192 @@ Contact Sales
 </section>
 
 
-<!-- Pricing Comparison Table -->
-<section class="py-16 bg-gray-50">
+
+<!-- Detailed Feature Comparison Table -->
+<section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Vergelijk alle functies</h2>
-<p class="text-xl text-gray-600">Bekijk welke functies beschikbaar zijn per plan</p>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Gedetailleerde Functievergelijking</h2>
+<p class="text-xl text-gray-600">Bekijk alle functies en mogelijkheden per pakket</p>
 </div>
 
 <div class="overflow-x-auto">
 <table class="w-full bg-white rounded-xl shadow-lg overflow-hidden">
-<thead class="bg-gray-50">
+<thead class="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
 <tr>
-<th class="text-left py-4 px-6 font-semibold text-gray-900">Functie</th>
-<th class="text-center py-4 px-6 font-semibold text-gray-900">Starter/Basic/Solo</th>
-<th class="text-center py-4 px-6 font-semibold text-gray-900">Professional/Pro/Team</th>
-<th class="text-center py-4 px-6 font-semibold text-gray-900">Enterprise</th>
+<th class="text-left py-6 px-6 font-semibold text-lg">Functionaliteit</th>
+<th class="text-center py-6 px-4 font-semibold text-lg">Starter/Basic/Solo</th>
+<th class="text-center py-6 px-4 font-semibold text-lg">Professional/Pro/Team</th>
+<th class="text-center py-6 px-4 font-semibold text-lg">Enterprise</th>
 </tr>
 </thead>
 <tbody class="divide-y divide-gray-200">
-<tr>
-<td class="py-4 px-6 text-gray-900">Setup & Onboarding</td>
-<td class="text-center py-4 px-6">
+<tr class="hover:bg-gray-50">
+<td class="py-4 px-6 font-medium text-gray-900">Setup & Implementatie</td>
+<td class="text-center py-4 px-4">
 <svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
-<td class="text-center py-4 px-6">
+<td class="text-center py-4 px-4">
 <svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
-<td class="text-center py-4 px-6">
+<td class="text-center py-4 px-4">
 <svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
-</tr>
-<tr class="bg-gray-50">
-<td class="py-4 px-6 text-gray-900">24/7 Support</td>
-<td class="text-center py-4 px-6 text-gray-400">Email</td>
-<td class="text-center py-4 px-6 text-gray-900">Priority</td>
-<td class="text-center py-4 px-6 text-gray-900">Dedicated</td>
 </tr>
 <tr>
-<td class="py-4 px-6 text-gray-900">Custom Integraties</td>
-<td class="text-center py-4 px-6">
-<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+<td class="py-4 px-6 font-medium text-gray-900">24/7 Beschikbaarheid</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
-<td class="text-center py-4 px-6 text-gray-900">Limited</td>
-<td class="text-center py-4 px-6">
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
 <svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
 </tr>
-<tr class="bg-gray-50">
-<td class="py-4 px-6 text-gray-900">White-label</td>
-<td class="text-center py-4 px-6">
-<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-</svg>
-</td>
-<td class="text-center py-4 px-6">
-<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-</svg>
-</td>
-<td class="text-center py-4 px-6">
+<tr class="hover:bg-gray-50">
+<td class="py-4 px-6 font-medium text-gray-900">Basis Analytics</td>
+<td class="text-center py-4 px-4">
 <svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
 </td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr>
+<td class="py-4 px-6 font-medium text-gray-900">Geavanceerde Analytics</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr class="hover:bg-gray-50">
+<td class="py-4 px-6 font-medium text-gray-900">WhatsApp Integratie</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr>
+<td class="py-4 px-6 font-medium text-gray-900">CRM Integraties</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr class="hover:bg-gray-50">
+<td class="py-4 px-6 font-medium text-gray-900">Custom Integraties</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4 text-orange-600 font-medium">Beperkt</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr>
+<td class="py-4 px-6 font-medium text-gray-900">White-label Oplossing</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7-293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr class="hover:bg-gray-50">
+<td class="py-4 px-6 font-medium text-gray-900">Dedicated Account Manager</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-red-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</td>
+<td class="text-center py-4 px-4">
+<svg class="w-5 h-5 text-green-500 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</td>
+</tr>
+<tr>
+<td class="py-4 px-6 font-medium text-gray-900">Support Level</td>
+<td class="text-center py-4 px-4 text-gray-600">Email</td>
+<td class="text-center py-4 px-4 text-blue-600 font-medium">Priority</td>
+<td class="text-center py-4 px-4 text-green-600 font-medium">24/7 Dedicated</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</section>
-
-<!-- Waarom Deductive Section -->
-<section class="py-16 bg-gray-50">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-6">Waarom Deductive Verschilt van de Rest</h2>
-<p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
-In een markt vol goedkope AI-oplossingen en belofte-zonder-resultaat tools, kiezen wij bewust voor een andere aanpak. Onze prijzen reflecteren de kwaliteit en commitment die u verdient.
-</p>
-</div>
-
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-<div class="bg-white rounded-2xl p-8 shadow-lg">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Wat U NIET van Ons Krijgt</h3>
-<div class="space-y-4">
-<div class="flex items-start">
-<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Gehaaste oplossingen die halverwege kapot gaan</p>
-</div>
-</div>
-<div class="flex items-start">
-<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Offshore teams die uw bedrijf niet begrijpen</p>
-</div>
-</div>
-<div class="flex items-start">
-<div class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Verborgen kosten en onverwachte toeslagen</p>
-</div>
-</div>
-</div>
-</div>
-
-<div class="bg-white rounded-2xl p-8 shadow-lg">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Wat U WEL van Ons Krijgt</h3>
-<div class="space-y-4">
-<div class="flex items-start">
-<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Zorgvuldig ontwikkelde oplossingen die blijven werken</p>
-</div>
-</div>
-<div class="flex items-start">
-<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Nederlandse ontwikkelaars die uw taal spreken</p>
-</div>
-</div>
-<div class="flex items-start">
-<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
-<svg class="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-</div>
-<div>
-<p class="text-gray-700">Transparante prijzen zonder verrassingen</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="text-center mt-12">
-<div class="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-<p class="text-lg text-gray-700 italic leading-relaxed">
-"Onze prijzen zijn niet de laagste op de markt - en dat is bewust. Wij concurreren niet op prijs, maar op waarde. Elke euro die u investeert, wordt terugverdiend door oplossingen die écht werken."
-</p>
-</div>
 </div>
 </div>
 </section>
@@ -759,7 +774,7 @@ In een markt vol goedkope AI-oplossingen en belofte-zonder-resultaat tools, kiez
 </svg>
 </button>
 <div class="faq-answer hidden mt-4 text-gray-600">
-<p>Nee, er zijn geen setup kosten. Alle plannen bevatten gratis onboarding en 30 dagen ondersteuning om u te helpen aan de slag te gaan.</p>
+<p>Ja, er is een eenmalige setup kosten van €100 voor alle plannen. Deze kosten dekken de initiële configuratie, implementatie en 30 dagen ondersteuning om u te helpen aan de slag te gaan.</p>
 </div>
 </div>
 

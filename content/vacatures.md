@@ -34,22 +34,22 @@ layout: "career"
 #       description: "Professioneel ontwikkelingsbudget en regelmatige leersessies."
 
 positions_section:
-  title: "Open Posities"
-  view_position_text: "Bekijk Positie"
+  title: "Open posities"
+  view_position_text: "Bekijk positie"
   no_positions_message: "Momenteel geen openstaande vacatures"
 ---
 
-# Momenteel Geen Openstaande Vacatures
+# Momenteel geen openstaande vacatures
 
 **Dank je voor je interesse in Deductive!**
 
 We zijn momenteel niet actief op zoek naar nieuwe teamleden. Ons team is compleet voor de huidige projecten en we focussen ons op het leveren van de beste AI-oplossingen aan onze klanten.
 
-## Blijf op de Hoogte
+## Blijf op de hoogte
 
 Hoewel we nu geen openstaande posities hebben, groeit Deductive snel en dit kan in de toekomst veranderen. 
 
-### Interesse in de Toekomst?
+### Interesse in de toekomst?
 
 Als je gepassioneerd bent over AI-technologie en interesse hebt om in de toekomst mogelijk bij ons te werken, kun je:
 
@@ -57,15 +57,15 @@ Als je gepassioneerd bent over AI-technologie en interesse hebt om in de toekoms
 - **Stuur je CV** naar careers@deductive.nl voor toekomstige mogelijkheden
 - **Neem contact op** via [contact@deductive.nl](mailto:contact@deductive.nl) voor meer informatie
 
-### Wat We Zoeken (Voor de Toekomst)
+### Wat we zoeken (voor de toekomst)
 
 Wanneer we in de toekomst weer gaan uitbreiden, zijn we op zoek naar:
-- **AI/ML Engineers** met ervaring in machine learning
-- **Software Developers** met Python/JavaScript expertise  
-- **Product Managers** met AI-product ervaring
-- **Sales Professionals** met B2B software ervaring
+- **AI/ML engineers** met ervaring in machine learning
+- **Software developers** met Python/JavaScript expertise  
+- **Product managers** met AI-product ervaring
+- **Sales professionals** met B2B software ervaring
 
-## Over Werken bij Deductive
+## Over werken bij Deductive
 
 Bij Deductive geloven we in het empoweren van onze teamleden om hun beste werk te leveren. We creëren een omgeving van innovatie, samenwerking en continu leren. Onze cultuur is gebouwd op vertrouwen, transparantie en een gedeelde toewijding aan excellentie.
 

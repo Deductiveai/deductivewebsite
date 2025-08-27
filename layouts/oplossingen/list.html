@@ -40,7 +40,7 @@ Ontdek onze complete portfolio van AI-oplossingen die uw bedrijfsprocessen trans
 </div>
 
 <!-- Solutions Grid -->
-<div id="solutions-container" class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div id="solutions-container" class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
 <!-- Solutions will be dynamically populated -->
 </div>
 </div>
@@ -275,6 +275,9 @@ Onze AI-oplossingen integreren naadloos met uw bestaande systemen en workflows.
     cursor: pointer;
     min-width: 150px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
 }
 
 .solution-btn:hover {
@@ -314,6 +317,8 @@ Onze AI-oplossingen integreren naadloos met uw bestaande systemen en workflows.
     transform: translateY(20px);
     animation: fadeInUp 0.6s ease forwards;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .solution-card:hover {
@@ -487,16 +492,21 @@ const colorThemes = {
 };
 
 // Initialize solutions page
-document.addEventListener('DOMContentLoaded', function() {
+function initializeSolutions() {
     const container = document.getElementById('solutions-container');
     const buttons = document.querySelectorAll('.solution-btn');
+    
+    if (!container || buttons.length === 0) {
+        setTimeout(initializeSolutions, 100);
+        return;
+    }
     
     // Create solution card HTML
     function createSolutionCard(key, solution) {
         const theme = colorThemes[solution.color];
         
         return `
-            <div class="solution-card" data-solution="${key}">
+            <div class="solution-card flex flex-col" data-solution="${key}">
                 <div class="flex items-center mb-6">
                     <div class="w-20 h-20 ${theme.bg} rounded-2xl flex items-center justify-center mr-6">
                         <span class="text-3xl">${solution.icon}</span>
@@ -509,9 +519,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">${solution.description}</p>
                 
-                <div class="mb-8">
+                <div class="mb-8 flex-grow">
                     <h4 class="text-lg font-semibold text-gray-900 mb-4">Kernfuncties:</h4>
-                    <div class="space-y-2">
+                    <div class="space-y-2 min-h-[180px]">
                         ${solution.features.map(feature => `
                             <div class="feature-item">
                                 <div class="feature-icon ${theme.text}"></div>
@@ -523,11 +533,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 <div class="mb-8">
                     <h4 class="text-lg font-semibold text-gray-900 mb-4">Resultaten:</h4>
-                    <div class="grid grid-cols-3 gap-4">
+                    <div class="space-y-3">
                         ${solution.benefits.map(benefit => `
-                            <div class="text-center p-4 bg-gray-50 rounded-lg">
-                                <div class="text-2xl font-bold ${theme.text} mb-1">${benefit.metric}</div>
-                                <div class="text-xs text-gray-600">${benefit.label}</div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg flex flex-col justify-center">
+                                <div class="text-2xl font-bold ${theme.text} mb-2">${benefit.metric}</div>
+                                <div class="text-sm text-gray-600 leading-tight">${benefit.label}</div>
                             </div>
                         `).join('')}
                     </div>
@@ -558,8 +568,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Handle button clicks
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
+    buttons.forEach((button) => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
             const solution = this.dataset.solution;
             
             // Update active state
@@ -573,6 +585,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initial render
     renderSolutions();
-});
+}
+
+// Start initialization when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeSolutions);
+} else {
+    initializeSolutions();
+}
 </script>
 {{ end }}

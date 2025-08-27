@@ -327,7 +327,7 @@ Wij werken met de nieuwste AI-technologieën zoals GPT-4, Claude en LangChain om
 <!-- Beveiliging & Privacy -->
 <div class="group relative">
 <div class="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-<div class="relative bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full">
+<div class="relative bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full flex flex-col">
 <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8">
 <div class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 lg:mr-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
 <svg class="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -339,17 +339,17 @@ Wij werken met de nieuwste AI-technologieën zoals GPT-4, Claude en LangChain om
 <p class="text-green-600 font-semibold text-sm mt-1">Privacy-first ontwikkeling</p>
 </div>
 </div>
-<p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
+<p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 flex-grow">
 Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Wij houden rekening met GDPR en beveiligingsstandaarden bij het ontwikkelen van onze oplossingen.
 </p>
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 mt-auto">
 <div class="bg-green-50 rounded-xl p-4 text-center">
-<div class="text-xl sm:text-2xl font-bold text-green-600">Bewust</div>
-<div class="text-green-700 text-xs sm:text-sm font-medium">Omgaan met Data</div>
+<div class="text-xl sm:text-2xl font-bold text-green-600">GDPR</div>
+<div class="text-green-700 text-xs sm:text-sm font-medium">Compliant</div>
 </div>
 <div class="bg-emerald-50 rounded-xl p-4 text-center">
-<div class="text-xl sm:text-2xl font-bold text-emerald-600">Nederlandse</div>
-<div class="text-emerald-700 text-xs sm:text-sm font-medium">Wetgeving</div>
+<div class="text-xl sm:text-2xl font-bold text-emerald-600">Privacy</div>
+<div class="text-emerald-700 text-xs sm:text-sm font-medium">By Design</div>
 </div>
 </div>
 </div>
@@ -358,7 +358,7 @@ Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Wij houden 
 <!-- Maatwerk & Support -->
 <div class="group relative md:col-span-2 lg:col-span-1">
 <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 rounded-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-<div class="relative bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full">
+<div class="relative bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 h-full flex flex-col">
 <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8">
 <div class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 lg:mr-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
 <svg class="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -370,10 +370,10 @@ Privacy en gegevensbeveiliging staan centraal in alles wat wij doen. Wij houden 
 <p class="text-purple-600 font-semibold text-sm mt-1">Nederlandse service</p>
 </div>
 </div>
-<p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
+<p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 flex-grow">
 Van concept tot implementatie en doorlopende optimalisatie - wij staan naast u voor persoonlijke begeleiding en ondersteuning die past bij uw organisatie.
 </p>
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 mt-auto">
 <div class="bg-purple-50 rounded-xl p-4 text-center">
 <div class="text-xl sm:text-2xl font-bold text-purple-600">< 24u</div>
 <div class="text-purple-700 text-xs sm:text-sm font-medium">Response Time</div>

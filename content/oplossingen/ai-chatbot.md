@@ -424,63 +424,8 @@ Onze AI-chatbots leveren bewezen ROI door kostenreductie, verhoogde efficiëntie
 </div>
 </div>
 
-<!-- ROI Calculator -->
-<div class="max-w-4xl mx-auto bg-gradient-to-br from-purple-50 to-blue-50 rounded-3xl p-6 sm:p-8 shadow-xl">
-<div class="text-center mb-6 sm:mb-8">
-<h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Bereken Uw Chatbot ROI</h3>
-<p class="text-lg sm:text-xl text-gray-600">Ontdek hoeveel u kunt besparen met intelligente klantenservice</p>
-</div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-<!-- Input Side -->
-<div class="space-y-4 sm:space-y-6">
-<h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Uw huidige klantenservice</h4>
-<div class="space-y-4">
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Aantal klantenservice medewerkers</label>
-<input type="number" id="chatbot-support-staff" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm sm:text-base" placeholder="3" value="3">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddeld salaris per maand (€)</label>
-<input type="number" id="chatbot-salary" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm sm:text-base" placeholder="3000" value="3000">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Tickets per maand</label>
-<input type="number" id="chatbot-tickets" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm sm:text-base" placeholder="2000" value="2000">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddelde behandeltijd per ticket (minuten)</label>
-<input type="number" id="chatbot-handle-time" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm sm:text-base" placeholder="8" value="8">
-</div>
-</div>
-</div>
 
-<!-- Results Side -->
-<div class="bg-white rounded-2xl p-4 sm:p-6 shadow-lg">
-<h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Met AI-chatbot bespaart u</h4>
-<div class="space-y-3 sm:space-y-4">
-<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-green-50 rounded-lg">
-<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Maandelijkse kostenbesparing</span>
-<span class="text-xl sm:text-2xl font-bold text-green-600" id="chatbot-monthly-savings">€2,160</span>
-</div>
-<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-blue-50 rounded-lg">
-<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Jaarlijkse kostenbesparing</span>
-<span class="text-xl sm:text-2xl font-bold text-blue-600" id="chatbot-yearly-savings">€25,920</span>
-</div>
-<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-purple-50 rounded-lg">
-<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Tickets automatisch opgelost</span>
-<span class="text-xl sm:text-2xl font-bold text-purple-600" id="chatbot-automated-tickets">1,840</span>
-</div>
-<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 sm:p-4 bg-orange-50 rounded-lg">
-<span class="text-gray-700 text-sm sm:text-base mb-1 sm:mb-0">Responstijd verbetering</span>
-<span class="text-xl sm:text-2xl font-bold text-orange-600" id="chatbot-response-improvement">Instant</span>
-</div>
-</div>
-<div class="mt-4 sm:mt-6 p-3 sm:p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg">
-<p class="text-sm text-gray-600 mb-2">ROI behaald binnen:</p>
-<p class="text-2xl sm:text-3xl font-bold text-purple-600" id="chatbot-roi-time">4 maanden</p>
-</div>
-</div>
 </div>
 
 <div class="text-center mt-6 sm:mt-8">
@@ -505,57 +450,3 @@ Bekijk Prijzen
 
 
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Chatbot ROI Calculator
-    const supportStaff = document.getElementById('chatbot-support-staff');
-    const salary = document.getElementById('chatbot-salary');
-    const tickets = document.getElementById('chatbot-tickets');
-    const handleTime = document.getElementById('chatbot-handle-time');
-    const monthlySavings = document.getElementById('chatbot-monthly-savings');
-    const yearlySavings = document.getElementById('chatbot-yearly-savings');
-    const automatedTickets = document.getElementById('chatbot-automated-tickets');
-    const responseImprovement = document.getElementById('chatbot-response-improvement');
-    const roiTime = document.getElementById('chatbot-roi-time');
-    
-    function calculateChatbotROI() {
-        const staff = parseInt(supportStaff.value) || 0;
-        const sal = parseInt(salary.value) || 0;
-        const ticketsCount = parseInt(tickets.value) || 0;
-        const handleMinutes = parseInt(handleTime.value) || 0;
-        
-        // Calculate automation (assume 92% of tickets can be handled by chatbot)
-        const automationRate = 0.92;
-        const ticketsAutomated = Math.round(ticketsCount * automationRate);
-        
-        // Calculate time savings
-        const timesSavedPerMonth = (ticketsAutomated * handleMinutes) / 60; // hours saved per month
-        const hourlyRate = sal / (40 * 4.33); // Monthly salary to hourly rate
-        
-        // Calculate cost savings
-        const monthlySaved = Math.round(timesSavedPerMonth * hourlyRate);
-        const yearlySaved = monthlySaved * 12;
-        
-        // Calculate ROI time (assuming €1500 setup cost for chatbot)
-        const setupCost = 1500;
-        const months = Math.ceil(setupCost / monthlySaved);
-        
-        // Update display
-        monthlySavings.textContent = `€${monthlySaved.toLocaleString()}`;
-        yearlySavings.textContent = `€${yearlySaved.toLocaleString()}`;
-        automatedTickets.textContent = ticketsAutomated.toLocaleString();
-        responseImprovement.textContent = "Instant";
-        roiTime.textContent = `${Math.max(1, months)} maanden`;
-    }
-    
-    // Chatbot ROI Calculator event listeners
-    [supportStaff, salary, tickets, handleTime].forEach(input => {
-        if (input) {
-            input.addEventListener('input', calculateChatbotROI);
-        }
-    });
-    
-    // Initialize calculator
-    calculateChatbotROI();
-});
-</script>

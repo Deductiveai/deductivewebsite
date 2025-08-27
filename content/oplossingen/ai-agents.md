@@ -367,69 +367,6 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 </div>
 </section>
 
-<!-- ROI Calculator Section -->
-<section class="py-20 bg-white">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Bereken uw ROI</h2>
-<p class="text-xl text-gray-600">Ontdek hoeveel u kunt besparen met AI-agents</p>
-</div>
-
-<!-- Calculator -->
-<div class="max-w-4xl mx-auto bg-gradient-to-br from-cyan-50 to-blue-50 rounded-3xl p-8 shadow-xl">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-<!-- Input Side -->
-<div class="space-y-6">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Uw huidige situatie</h3>
-<div class="space-y-4">
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Aantal medewerkers</label>
-<input type="number" id="employees" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500" placeholder="5" value="5">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Gemiddeld salaris per maand (€)</label>
-<input type="number" id="salary" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500" placeholder="3500" value="3500">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Uren per week aan repetitieve taken</label>
-<input type="number" id="hours" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500" placeholder="20" value="20">
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Percentage fouten in processen (%)</label>
-<input type="number" id="errorRate" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500" placeholder="5" value="5">
-</div>
-</div>
-</div>
-
-<!-- Results Side -->
-<div class="bg-white rounded-2xl p-6 shadow-lg">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Uw potentiële besparingen</h3>
-<div class="space-y-4">
-<div class="flex justify-between items-center p-4 bg-green-50 rounded-lg">
-<span class="text-gray-700">Maandelijkse kostenbesparing</span>
-<span class="text-2xl font-bold text-green-600" id="monthlySavings">€2,650</span>
-</div>
-<div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
-<span class="text-gray-700">Jaarlijkse kostenbesparing</span>
-<span class="text-2xl font-bold text-blue-600" id="yearlySavings">€31,800</span>
-</div>
-<div class="flex justify-between items-center p-4 bg-purple-50 rounded-lg">
-<span class="text-gray-700">Tijdsbesparing per week</span>
-<span class="text-2xl font-bold text-purple-600" id="timeSavings">85 uur</span>
-</div>
-<div class="flex justify-between items-center p-4 bg-orange-50 rounded-lg">
-<span class="text-gray-700">Foutreductie</span>
-<span class="text-2xl font-bold text-orange-600" id="errorReduction">90%</span>
-</div>
-</div>
-<div class="mt-6 p-4 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg">
-<p class="text-sm text-gray-600 mb-2">ROI binnen:</p>
-<p class="text-3xl font-bold text-cyan-600" id="roiTime">6 maanden</p>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 <!-- Technology Integration Section -->
 <section class="py-20 bg-gray-50">
@@ -532,16 +469,6 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 </section>
 
 <!-- CTA Section -->
-<section class="py-20 bg-gradient-to-br from-cyan-50 to-blue-50">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
-<h2 class="text-4xl font-bold text-gray-900 mb-6">Klaar voor AI-Agents?</h2>
-<p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Ontdek hoe onze AI-agents uw bedrijf kunnen transformeren. Plan een gratis demo en zie de mogelijkheden.</p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a href="/contact" class="btn-primary-cyan text-lg px-8 py-4">Plan een gratis demo</a>
-<a href="/pricing" class="btn-outline-cyan text-lg px-8 py-4">Bekijk prijzen</a>
-</div>
-</div>
-</section>
 
 <!-- JavaScript for interactivity -->
 <script>
@@ -1058,50 +985,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize with retail
     updateBusinessContent('retail');
     
-    // ROI Calculator
-    const employees = document.getElementById('employees');
-    const salary = document.getElementById('salary');
-    const hours = document.getElementById('hours');
-    const errorRate = document.getElementById('errorRate');
-    const monthlySavings = document.getElementById('monthlySavings');
-    const yearlySavings = document.getElementById('yearlySavings');
-    const timeSavings = document.getElementById('timeSavings');
-    const errorReduction = document.getElementById('errorReduction');
-    const roiTime = document.getElementById('roiTime');
-    
-    function calculateROI() {
-        const emp = parseInt(employees.value) || 0;
-        const sal = parseInt(salary.value) || 0;
-        const hrs = parseInt(hours.value) || 0;
-        const err = parseInt(errorRate.value) || 0;
-        
-        // Calculate time savings (75% of repetitive tasks automated)
-        const timesSaved = Math.round(hrs * emp * 0.75);
-        
-        // Calculate cost savings (time saved * hourly rate)
-        const hourlyRate = sal / (40 * 4.33); // Monthly to hourly
-        const monthlySaved = Math.round(timesSaved * 4.33 * hourlyRate);
-        const yearlySaved = monthlySaved * 12;
-        
-        // Calculate ROI time (assuming €2000 setup cost)
-        const setupCost = 2000;
-        const months = Math.ceil(setupCost / monthlySaved);
-        
-        // Update display
-        monthlySavings.textContent = `€${monthlySaved.toLocaleString()}`;
-        yearlySavings.textContent = `€${yearlySaved.toLocaleString()}`;
-        timeSavings.textContent = `${timesSaved} uur`;
-        errorReduction.textContent = `${Math.min(95, 100 - err + 85)}%`;
-        roiTime.textContent = `${months} maanden`;
-    }
-    
-    // ROI Calculator event listeners
-    [employees, salary, hours, errorRate].forEach(input => {
-        input.addEventListener('input', calculateROI);
-    });
-    
-    // Initialize calculator
-    calculateROI();
     
     // Backend Dashboard functionality
     const backendBtns = document.querySelectorAll('.backend-btn');

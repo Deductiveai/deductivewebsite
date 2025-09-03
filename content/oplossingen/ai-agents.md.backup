@@ -1,0 +1,2321 @@
+---
+title: "AI-agents"
+description: "Autonome AI-agents die complexe taken uitvoeren, processen automatiseren en intelligent beslissingen nemen voor verschillende bedrijfstypes."
+layout: "ai-agents"
+badge: "AI-agents"
+badgeColor: "#08d5f9"
+features:
+  - title: "Autonome werking"
+    description: "AI-agents werken zelfstandig zonder constante menselijke tussenkomst. Ze kunnen taken plannen, uitvoeren en monitoren."
+    icon: "🤖"
+  - title: "Procesautomatisering"
+    description: "Automatiseer complexe bedrijfsprocessen met intelligente agents die zich aanpassen aan veranderende omstandigheden."
+    icon: "⚙️"
+  - title: "Realtime besluitvorming"
+    description: "Neem snelle, data-gedreven beslissingen gebaseerd op realtime informatie en geavanceerde algoritmen."
+    icon: "⚡"
+  - title: "Universele integratie"
+    description: "Naadloze integratie met vrijwel elk bestaand systeem - van CRM's tot custom databases en API's."
+    icon: "🔗"
+stats:
+  - number: "75%"
+    label: "Procesefficiëntie"
+    description: "Verbetering in workflow-snelheid"
+  - number: "90%"
+    label: "Foutreductie"
+    description: "Minder handmatige fouten"
+  - number: "24/7"
+    label: "Operationeel"
+    description: "Continue beschikbaarheid"
+  - number: "3x"
+    label: "ROI Verbetering"
+    description: "Gemiddeld rendement op investering"
+demo:
+  description: "Ontdek hoe onze AI-agents verschillende bedrijfstypes kunnen transformeren."
+  image: "images/feature-2.svg"
+---
+
+<!-- Modern Hero Section -->
+<section class="relative min-h-screen flex items-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden">
+<!-- Animated Background Elements -->
+<div class="absolute inset-0">
+  <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-purple-500/10"></div>
+  <!-- Floating particles -->
+  <div class="absolute top-20 left-10 w-3 h-3 bg-cyan-400 rounded-full animate-bounce opacity-70"></div>
+  <div class="absolute top-32 right-20 w-4 h-4 bg-blue-400 rounded-full animate-bounce opacity-60" style="animation-delay: 1s;"></div>
+  <div class="absolute bottom-40 left-20 w-2 h-2 bg-purple-400 rounded-full animate-bounce opacity-80" style="animation-delay: 2s;"></div>
+  <div class="absolute top-1/2 right-1/4 w-5 h-5 bg-green-400 rounded-full animate-pulse opacity-50"></div>
+  
+  <!-- Geometric shapes -->
+  <div class="absolute top-16 right-16 w-32 h-32 border border-cyan-400/20 rotate-45 animate-spin-slow"></div>
+  <div class="absolute bottom-20 left-16 w-24 h-24 border-2 border-blue-400/20 rounded-full animate-pulse"></div>
+</div>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+  <div class="grid lg:grid-cols-2 gap-12 items-center">
+    <!-- Left Content -->
+    <div class="text-left">
+      <div class="inline-flex items-center px-4 py-2 bg-white/10 rounded-full mb-6 backdrop-blur-sm">
+        <div class="w-2 h-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
+        <span class="text-white text-sm font-medium">Autonome AI-Intelligence</span>
+      </div>
+      
+      <h1 class="text-4xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight">
+        Slimme
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient">
+          AI-Agents
+        </span>
+        <br>voor Elk Bedrijf
+      </h1>
+      
+      <p class="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
+        Transformeer uw bedrijfsprocessen met autonome AI-agents die zelfstandig beslissingen nemen, automatiseren en continu optimaliseren.
+      </p>
+      
+      <!-- CTA Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4 mb-12">
+        <a href="#ai-demo" class="group bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center">
+          <span>Zie AI in Actie</span>
+          <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        <a href="/contact" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-2xl font-bold text-lg border-2 border-white/20 hover:bg-white hover:text-slate-900 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+          Plan Gratis Demo
+        </a>
+      </div>
+      
+      <!-- Stats -->
+      <div class="grid grid-cols-3 gap-6">
+        <div class="text-center">
+          <div class="text-3xl lg:text-4xl font-bold text-white mb-1">75%</div>
+          <div class="text-cyan-400 text-sm">Procesefficiëntie</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl lg:text-4xl font-bold text-white mb-1">24/7</div>
+          <div class="text-blue-400 text-sm">Operationeel</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl lg:text-4xl font-bold text-white mb-1">3x</div>
+          <div class="text-purple-400 text-sm">ROI Verbetering</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right Visual -->
+    <div class="relative">
+      <div class="relative bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+        <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur opacity-20"></div>
+        <div class="relative">
+          <!-- AI Brain Visualization -->
+          <div class="w-full h-80 flex items-center justify-center">
+            <div class="relative w-48 h-48">
+              <!-- Central brain -->
+              <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse"></div>
+              <div class="absolute inset-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-ping"></div>
+              <div class="absolute inset-8 bg-white/90 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              
+              <!-- Orbiting elements -->
+              <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4">
+                <div class="w-8 h-8 bg-cyan-400 rounded-full animate-bounce"></div>
+              </div>
+              <div class="absolute right-0 top-1/2 transform translate-x-4 -translate-y-1/2">
+                <div class="w-6 h-6 bg-blue-400 rounded-full animate-bounce" style="animation-delay: 0.5s;"></div>
+              </div>
+              <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4">
+                <div class="w-10 h-10 bg-purple-400 rounded-full animate-bounce" style="animation-delay: 1s;"></div>
+              </div>
+              <div class="absolute left-0 top-1/2 transform -translate-x-4 -translate-y-1/2">
+                <div class="w-7 h-7 bg-green-400 rounded-full animate-bounce" style="animation-delay: 1.5s;"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Feature highlights -->
+          <div class="grid grid-cols-2 gap-4 mt-6">
+            <div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+              <div class="text-cyan-400 font-bold text-lg">Autonoom</div>
+              <div class="text-white text-sm">Zelfstandig werkend</div>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 backdrop-blur-sm">
+              <div class="text-blue-400 font-bold text-lg">Intelligent</div>
+              <div class="text-white text-sm">Continue optimalisatie</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- AI Demo Section -->
+<section id="ai-demo" class="py-24 bg-gradient-to-br from-gray-50 to-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <div class="text-center mb-16">
+    <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full text-sm font-medium mb-6">
+      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+      </svg>
+      Live AI Demo
+    </div>
+    <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Zie AI-Agents in Actie</h2>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Ervaar real-time hoe een AI-agent complexe bedrijfssituaties oppakt en oplost - van eerste contact tot voltooide actie.</p>
+  </div>
+
+  <!-- Interactive AI Simulation -->
+  <div class="max-w-6xl mx-auto">
+    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
+      <!-- Simulation Header -->
+      <div class="bg-gradient-to-r from-slate-800 to-slate-900 p-6">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full mr-4"></div>
+            <span class="text-white font-medium">AI-Agent Terminal</span>
+          </div>
+          <div class="flex items-center text-green-400 text-sm">
+            <div class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+            System Active
+          </div>
+        </div>
+      </div>
+
+      <!-- Simulation Body -->
+      <div class="p-8">
+        <!-- Scenario Selector -->
+        <div class="mb-8">
+          <h3 class="text-lg font-semibold text-gray-900 mb-4">Kies een Scenario:</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <button class="scenario-btn active p-4 rounded-xl border-2 transition-all duration-300" data-scenario="customer-support">
+              <div class="text-2xl mb-2">🎧</div>
+              <div class="font-semibold text-gray-900">Klantservice</div>
+              <div class="text-sm text-gray-600">Boze klant over vertraging</div>
+            </button>
+            <button class="scenario-btn p-4 rounded-xl border-2 transition-all duration-300" data-scenario="sales-lead">
+              <div class="text-2xl mb-2">💼</div>
+              <div class="font-semibold text-gray-900">Sales Lead</div>
+              <div class="text-sm text-gray-600">Nieuwe prospect interesse</div>
+            </button>
+            <button class="scenario-btn p-4 rounded-xl border-2 transition-all duration-300" data-scenario="inventory">
+              <div class="text-2xl mb-2">📦</div>
+              <div class="font-semibold text-gray-900">Voorraad Alert</div>
+              <div class="text-sm text-gray-600">Stock level kritiek</div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Live Simulation Area -->
+        <div class="bg-gray-900 rounded-2xl p-6 text-green-400 font-mono text-sm min-h-[400px]">
+          <div class="flex items-center mb-4">
+            <span class="text-blue-400">AI-Agent@deductive:~$</span>
+            <div class="ml-2 w-2 h-5 bg-green-400 animate-pulse"></div>
+          </div>
+          
+          <div id="simulation-output" class="space-y-2">
+            <!-- Simulation content will be inserted here -->
+          </div>
+        </div>
+
+        <!-- Control Panel -->
+        <div class="mt-6 flex justify-center space-x-4">
+          <button id="start-simulation" class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-green-600 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105">
+            <svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2z"></path>
+            </svg>
+            Start Simulatie
+          </button>
+          <button id="reset-simulation" class="bg-gray-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-600 transition-all duration-300">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Why AI Agents Section -->
+<section class="py-24 bg-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <div class="text-center mb-16">
+    <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Waarom AI-Agents?</h2>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto">De digitale revolutie vraagt om slimme oplossingen. Ontdek het verschil tussen traditioneel werken en AI-gedreven automatisering.</p>
+  </div>
+
+  <!-- Before/After Comparison -->
+  <div class="max-w-6xl mx-auto">
+    <div class="grid lg:grid-cols-2 gap-8">
+      <!-- Traditional Way -->
+      <div class="group relative bg-gradient-to-br from-red-50 to-orange-50 rounded-3xl p-8 border border-red-100 hover:shadow-2xl transition-all duration-500">
+        <div class="absolute top-4 right-4 w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center">
+          <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.732-.833-2.464 0L4.35 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Traditioneel</h3>
+        <div class="space-y-4">
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+            <span>Handmatige verwerking van elke taak</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+            <span>Beperkt tot kantooruren</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+            <span>Fouten door vermoeidheid</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+            <span>Langzame schaling</span>
+          </div>
+        </div>
+        <div class="mt-6 text-red-600 font-semibold">Efficiëntie: 60%</div>
+      </div>
+
+      <!-- AI-Powered Way -->
+      <div class="group relative bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 border border-green-100 hover:shadow-2xl transition-all duration-500">
+        <div class="absolute top-4 right-4 w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center">
+          <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Met AI-Agents</h3>
+        <div class="space-y-4">
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <span>Volledige automatisering</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <span>24/7 beschikbaarheid</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <span>Consistente precisie</span>
+          </div>
+          <div class="flex items-center text-gray-700">
+            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <span>Onbeperkte schaling</span>
+          </div>
+        </div>
+        <div class="mt-6 text-green-600 font-semibold">Efficiëntie: 95%</div>
+      </div>
+    </div>
+
+    <!-- Impact Stats -->
+    <div class="mt-16 bg-gradient-to-r from-gray-900 to-slate-800 rounded-3xl p-8 text-white">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold mb-2">Bewezen Impact</h3>
+        <p class="text-gray-300">Resultaten van onze 5 klanten</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-cyan-400 mb-2">75%</div>
+          <div class="text-sm text-gray-300">Snellere Verwerking</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-green-400 mb-2">90%</div>
+          <div class="text-sm text-gray-300">Minder Fouten</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-blue-400 mb-2">€50k</div>
+          <div class="text-sm text-gray-300">Gem. Kostenbesparing</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-purple-400 mb-2">24/7</div>
+          <div class="text-sm text-gray-300">Uptime Garantie</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Business Demo Section -->
+<section class="py-20 bg-gray-50" id="business-demo">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Ontdek per bedrijfstype</h2>
+<p class="text-xl text-gray-600">Zie hoe AI-agents specifiek werken voor verschillende bedrijven</p>
+</div>
+
+<!-- Business Type Selector -->
+<div class="flex flex-wrap justify-center gap-4 mb-12">
+<button class="business-btn active" data-business="retail">
+<span class="business-icon">🛒</span>
+<span class="business-label">Retail</span>
+</button>
+<button class="business-btn" data-business="finance">
+<span class="business-icon">💰</span>
+<span class="business-label">Finance</span>
+</button>
+<button class="business-btn" data-business="health">
+<span class="business-icon">🏥</span>
+<span class="business-label">Healthcare</span>
+</button>
+<button class="business-btn" data-business="manufacturing">
+<span class="business-icon">🏭</span>
+<span class="business-label">Manufacturing</span>
+</button>
+<button class="business-btn" data-business="restaurant">
+<span class="business-icon">🍽️</span>
+<span class="business-label">Restaurant</span>
+</button>
+<button class="business-btn" data-business="real-estate">
+<span class="business-icon">🏠</span>
+<span class="business-label">Real Estate</span>
+</button>
+</div>
+
+<!-- Business Demo Content -->
+<div id="business-content" class="max-w-6xl mx-auto">
+<!-- Content will be dynamically loaded here -->
+</div>
+</div>
+</section>
+
+<!-- Deductive Backend Management Section -->
+<section class="py-20 bg-white relative overflow-hidden">
+<!-- Background Effects -->
+<div class="absolute inset-0 opacity-20">
+<div class="absolute top-10 left-10 w-20 h-20 bg-cyan-400 rounded-full blur-xl"></div>
+<div class="absolute top-40 right-20 w-16 h-16 bg-blue-400 rounded-full blur-xl"></div>
+<div class="absolute bottom-20 left-1/4 w-24 h-24 bg-purple-400 rounded-full blur-xl"></div>
+<div class="absolute bottom-10 right-10 w-18 h-18 bg-green-400 rounded-full blur-xl"></div>
+</div>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+<div class="text-center mb-16">
+<div class="inline-flex items-center bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6">
+<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+</svg>
+Deductive Backend Dashboard
+</div>
+<h2 class="text-5xl font-bold text-gray-900 mb-6">Alles Komt Samen in Uw Dashboard</h2>
+<p class="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanpassingen, en volledige controle over uw intelligente systemen - per bedrijfstype geoptimaliseerd.
+</p>
+</div>
+
+<!-- Backend Interface Showcase -->
+<div class="max-w-7xl mx-auto mb-16">
+<!-- Backend Selector -->
+<div class="flex flex-wrap justify-center gap-4 mb-12">
+<button class="backend-btn active" data-backend="retail">
+<span class="backend-icon">🛒</span>
+<span class="backend-label">Retail Dashboard</span>
+</button>
+<button class="backend-btn" data-backend="finance">
+<span class="backend-icon">💰</span>
+<span class="backend-label">Finance Dashboard</span>
+</button>
+<button class="backend-btn" data-backend="health">
+<span class="backend-icon">🏥</span>
+<span class="backend-label">Healthcare Dashboard</span>
+</button>
+<button class="backend-btn" data-backend="manufacturing">
+<span class="backend-icon">🏭</span>
+<span class="backend-label">Manufacturing Dashboard</span>
+</button>
+<button class="backend-btn" data-backend="restaurant">
+<span class="backend-icon">🍽️</span>
+<span class="backend-label">Restaurant Dashboard</span>
+</button>
+<button class="backend-btn" data-backend="real-estate">
+<span class="backend-icon">🏠</span>
+<span class="backend-label">Real Estate Dashboard</span>
+</button>
+</div>
+
+<!-- Dynamic Backend Content -->
+<div id="backend-content" class="bg-white rounded-3xl shadow-2xl border border-gray-300 overflow-hidden">
+<!-- Content will be dynamically loaded here -->
+</div>
+</div>
+
+<!-- Backend Features Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-300">
+<div class="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+</svg>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Realtime Analytics</h3>
+<p class="text-gray-600 text-sm">Live monitoring van alle agent activiteiten en prestaties</p>
+</div>
+
+<div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-300">
+<div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+</svg>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Agent Configuratie</h3>
+<p class="text-gray-600 text-sm">Pas agent gedrag en instellingen aan per bedrijfstype</p>
+</div>
+
+<div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-300">
+<div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-4">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.268 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+</svg>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Alert Management</h3>
+<p class="text-gray-600 text-sm">Geautomatiseerde meldingen en escalatie procedures</p>
+</div>
+
+<div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-300">
+<div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-4">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+</svg>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Security & Compliance</h3>
+<p class="text-gray-600 text-sm">Enterprise-grade beveiliging en compliance monitoring</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Advanced Integration Ecosystem -->
+<section class="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden relative">
+<!-- Background Effects -->
+<div class="absolute inset-0">
+  <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-blue-500/5 to-purple-500/5"></div>
+  <!-- Animated network lines -->
+  <div class="absolute top-20 left-10 w-px h-32 bg-gradient-to-b from-transparent via-cyan-500/30 to-transparent animate-pulse"></div>
+  <div class="absolute bottom-40 right-20 w-32 h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent animate-pulse"></div>
+</div>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+  <div class="text-center mb-16">
+    <div class="inline-flex items-center px-4 py-2 bg-white/10 rounded-full mb-6 backdrop-blur-sm">
+      <div class="w-2 h-2 bg-cyan-400 rounded-full mr-3 animate-pulse"></div>
+      <span class="text-white text-sm font-medium">Universele Connectiviteit</span>
+    </div>
+    <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">Integreert met Alles</h2>
+    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+      Onze AI-agents praten direct met uw bestaande systemen. Geen migratie, geen gedoe - gewoon naadloze integratie vanaf dag één.
+    </p>
+  </div>
+
+  <!-- Integration Network Visualization -->
+  <div class="max-w-6xl mx-auto mb-16">
+    <div class="relative">
+      <!-- Central Hub -->
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <div class="w-32 h-32 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex items-center justify-center shadow-2xl">
+          <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-ping opacity-20"></div>
+      </div>
+
+      <!-- Integration Categories -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <!-- CRM & Sales -->
+        <div class="integration-category" data-category="crm">
+          <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-white mb-2">CRM & Sales</h3>
+            <div class="space-y-1 text-sm text-gray-300">
+              <div>HubSpot</div>
+              <div>Salesforce</div>
+              <div>Pipedrive</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Communication -->
+        <div class="integration-category" data-category="communication">
+          <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+            <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-white mb-2">Communicatie</h3>
+            <div class="space-y-1 text-sm text-gray-300">
+              <div>Slack</div>
+              <div>Microsoft Teams</div>
+              <div>WhatsApp Business</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- E-commerce -->
+        <div class="integration-category" data-category="ecommerce">
+          <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+            <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-white mb-2">E-commerce</h3>
+            <div class="space-y-1 text-sm text-gray-300">
+              <div>Shopify</div>
+              <div>WooCommerce</div>
+              <div>Magento</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Analytics & Data -->
+        <div class="integration-category" data-category="analytics">
+          <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+            <div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-white mb-2">Analytics</h3>
+            <div class="space-y-1 text-sm text-gray-300">
+              <div>Google Analytics</div>
+              <div>Power BI</div>
+              <div>Tableau</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Integration Features -->
+  <div class="grid lg:grid-cols-3 gap-8 mb-16">
+    <div class="text-center">
+      <div class="w-16 h-16 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-white mb-3">Instant Setup</h3>
+      <p class="text-gray-300">Configuratie in minuten, niet weken. Onze AI-agents praten direct met uw systemen.</p>
+    </div>
+    <div class="text-center">
+      <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-white mb-3">Veilige Verbindingen</h3>
+      <p class="text-gray-300">Enterprise-grade beveiliging met end-to-end encryptie voor al uw gevoelige data.</p>
+    </div>
+    <div class="text-center">
+      <div class="w-16 h-16 bg-gradient-to-r from-purple-400 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-white mb-3">Realtime Sync</h3>
+      <p class="text-gray-300">Bidirectionele synchronisatie zorgt ervoor dat alle systemen altijd up-to-date zijn.</p>
+    </div>
+  </div>
+
+  <!-- Custom Integration CTA -->
+  <div class="text-center">
+    <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+      <h3 class="text-2xl font-bold text-white mb-4">Uw Systeem Er Niet Bij?</h3>
+      <p class="text-gray-300 mb-6 max-w-2xl mx-auto">
+        Geen probleem. Onze AI-agents kunnen met vrijwel elk systeem praten via REST APIs, webhooks of custom integraties. 
+        We bouwen binnen 48 uur een connectie voor u.
+      </p>
+      <a href="/contact" class="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+        </svg>
+        Bespreek Custom Integratie
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- CTA Section -->
+
+<!-- Modern JavaScript for Enhanced Interactivity -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // AI Demo Simulation
+    const scenarioBtns = document.querySelectorAll('.scenario-btn');
+    const simulationOutput = document.getElementById('simulation-output');
+    const startBtn = document.getElementById('start-simulation');
+    const resetBtn = document.getElementById('reset-simulation');
+    
+    let currentScenario = 'customer-support';
+    let simulationRunning = false;
+    
+    const scenarios = {
+        'customer-support': {
+            name: 'Klantservice Scenario',
+            steps: [
+                { delay: 500, text: '🔍 Nieuwe email gedetecteerd van klant...', color: 'text-cyan-400' },
+                { delay: 1000, text: '📧 Email content: "Bestelling #12345 niet ontvangen, zeer teleurgesteld!"', color: 'text-yellow-400' },
+                { delay: 1500, text: '🧠 AI analyseert sentiment: NEGATIEF (score: -0.7)', color: 'text-red-400' },
+                { delay: 2000, text: '🔎 Opzoeken bestelling #12345 in database...', color: 'text-blue-400' },
+                { delay: 2500, text: '📦 Status gevonden: "Verzonden, verwachte levering: morgen"', color: 'text-green-400' },
+                { delay: 3000, text: '✍️ Genereren gepersonaliseerde response...', color: 'text-purple-400' },
+                { delay: 3500, text: '📨 Email verzonden: "Excuses voor onduidelijkheid, pakket wordt morgen geleverd + 10% korting"', color: 'text-green-400' },
+                { delay: 4000, text: '📊 CRM bijgewerkt met interactie + follow-up taak', color: 'text-cyan-400' },
+                { delay: 4500, text: '✅ Klant tevreden - response tijd: 12 seconden', color: 'text-green-400' }
+            ]
+        },
+        'sales-lead': {
+            name: 'Sales Lead Scenario',
+            steps: [
+                { delay: 500, text: '🎯 Nieuwe lead via website contact formulier...', color: 'text-cyan-400' },
+                { delay: 1000, text: '👤 Lead info: "TechCorp BV, 500 werknemers, interesse in SaaS oplossing"', color: 'text-blue-400' },
+                { delay: 1500, text: '🧠 AI lead scoring: Bedrijfsgrootte (hoog) + Budget indicatie (hoog) = KWALITEIT: 9/10', color: 'text-green-400' },
+                { delay: 2000, text: '🔍 Verrijken lead data via LinkedIn & bedrijfsregisters...', color: 'text-purple-400' },
+                { delay: 2500, text: '💼 Extra info: CEO is "Jan Pieterse", recente funding van €2M', color: 'text-yellow-400' },
+                { delay: 3000, text: '📧 Versturen gepersonaliseerde welcome email met case study...', color: 'text-blue-400' },
+                { delay: 3500, text: '📅 Automatisch meeting gepland voor volgende week', color: 'text-green-400' },
+                { delay: 4000, text: '🔄 CRM contact aangemaakt + toegewezen aan top sales rep', color: 'text-cyan-400' },
+                { delay: 4500, text: '✅ Lead gekwalificeerd en ready voor sales - conversion kans: 73%', color: 'text-green-400' }
+            ]
+        },
+        'inventory': {
+            name: 'Voorraad Management',
+            steps: [
+                { delay: 500, text: '⚠️ Voorraad alert: iPhone hoesjes onder minimum niveau...', color: 'text-red-400' },
+                { delay: 1000, text: '📊 Current stock: 8 stuks, minimum: 25 stuks', color: 'text-yellow-400' },
+                { delay: 1500, text: '🧠 AI analyseert verkoop trends vorige 30 dagen...', color: 'text-blue-400' },
+                { delay: 2000, text: '📈 Trend: +15% groei, seizoenspieken verwacht', color: 'text-green-400' },
+                { delay: 2500, text: '🤖 Optimale bestelhoeveelheid berekend: 150 stuks', color: 'text-purple-400' },
+                { delay: 3000, text: '🏪 Beste leverancier geselecteerd: Supplier A (beste prijs + levering)', color: 'text-cyan-400' },
+                { delay: 3500, text: '📝 Purchase order automatisch gegenereerd en verstuurd', color: 'text-blue-400' },
+                { delay: 4000, text: '💰 Kostenbesparing: €234 t.o.v. handmatige bestelling', color: 'text-green-400' },
+                { delay: 4500, text: '✅ Voorraad crisis voorkomen - levering verwacht: 2 dagen', color: 'text-green-400' }
+            ]
+        }
+    };
+    
+    function updateScenario(scenario) {
+        currentScenario = scenario;
+        scenarioBtns.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.scenario === scenario);
+        });
+    }
+    
+    function typeText(element, text, color, callback) {
+        element.innerHTML = `<span class="${color}"></span>`;
+        const span = element.querySelector('span');
+        let i = 0;
+        const typing = setInterval(() => {
+            span.textContent += text.charAt(i);
+            i++;
+            if (i >= text.length) {
+                clearInterval(typing);
+                if (callback) callback();
+            }
+        }, 30);
+    }
+    
+    function runSimulation() {
+        if (simulationRunning) return;
+        
+        simulationRunning = true;
+        startBtn.textContent = 'Simulatie Loopt...';
+        startBtn.disabled = true;
+        simulationOutput.innerHTML = '';
+        
+        const scenario = scenarios[currentScenario];
+        let stepIndex = 0;
+        
+        function runStep() {
+            if (stepIndex >= scenario.steps.length) {
+                simulationRunning = false;
+                startBtn.textContent = 'Start Simulatie';
+                startBtn.disabled = false;
+                return;
+            }
+            
+            const step = scenario.steps[stepIndex];
+            const lineElement = document.createElement('div');
+            lineElement.className = 'simulation-line flex items-start space-x-2 opacity-0';
+            lineElement.innerHTML = `
+                <span class="text-gray-500 text-xs mt-1">[${new Date().toLocaleTimeString()}]</span>
+                <span class="flex-1"></span>
+            `;
+            
+            simulationOutput.appendChild(lineElement);
+            
+            // Animate line in
+            setTimeout(() => {
+                lineElement.classList.add('opacity-100', 'animate-fade-in');
+                typeText(lineElement.querySelector('.flex-1'), step.text, step.color, () => {
+                    stepIndex++;
+                    setTimeout(runStep, step.delay);
+                });
+            }, 200);
+        }
+        
+        setTimeout(runStep, 500);
+    }
+    
+    function resetSimulation() {
+        simulationRunning = false;
+        startBtn.textContent = 'Start Simulatie';
+        startBtn.disabled = false;
+        simulationOutput.innerHTML = `
+            <div class="text-gray-500 text-center py-8">
+                Selecteer een scenario en klik "Start Simulatie" om te beginnen...
+            </div>
+        `;
+    }
+    
+    // Event listeners
+    scenarioBtns.forEach(btn => {
+        btn.addEventListener('click', () => updateScenario(btn.dataset.scenario));
+    });
+    
+    startBtn?.addEventListener('click', runSimulation);
+    resetBtn?.addEventListener('click', resetSimulation);
+    
+    // Initialize
+    resetSimulation();
+    // Step navigation functionality
+    const stepBtns = document.querySelectorAll('.step-btn');
+    const stepContent = document.getElementById('step-content');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playText = document.getElementById('play-text');
+    const countdown = document.getElementById('countdown');
+    
+    let currentStep = 1;
+    let isPlaying = false;
+    let countdownInterval;
+    let stepInterval;
+    let countdownValue = 4;
+    
+    const steps = {
+        1: {
+            title: "Stap 1: Informatie Verzamelen",
+            content: `
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <h4 class="text-2xl font-bold text-gray-900">De Agent Observeert</h4>
+                        <p class="text-lg text-gray-600">Onze AI-agent monitort continu alle inkomende informatie: emails, berichten, formulieren, systeem-alerts en meer.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg">
+                                <div class="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
+                                <span class="text-gray-700">Nieuwe email ontvangen</span>
+                                <span class="text-blue-600 font-semibold">09:23</span>
+                            </div>
+                            <div class="flex items-center space-x-4 p-4 bg-green-50 rounded-lg">
+                                <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                                <span class="text-gray-700">Formulier ingevuld</span>
+                                <span class="text-green-600 font-semibold">09:24</span>
+                            </div>
+                            <div class="flex items-center space-x-4 p-4 bg-purple-50 rounded-lg">
+                                <div class="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></div>
+                                <span class="text-gray-700">CRM update gedetecteerd</span>
+                                <span class="text-purple-600 font-semibold">09:25</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl p-8 text-center">
+                            <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                                </svg>
+                            </div>
+                            <h5 class="text-xl font-bold text-gray-900 mb-2">Altijd Alert</h5>
+                            <p class="text-gray-600">24/7 monitoring van alle kanalen</p>
+                        </div>
+                    </div>
+                </div>
+            `
+        },
+        2: {
+            title: "Stap 2: Intelligente Analyse",
+            content: `
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <h4 class="text-2xl font-bold text-gray-900">De Agent Begrijpt</h4>
+                        <p class="text-lg text-gray-600">Met geavanceerde AI analyseert de agent de context, prioriteit en vereiste acties. Het systeem herkent patronen en maakt intelligente verbindingen.</p>
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Sentiment Analyse</span>
+                                    <span class="text-green-600 font-semibold">Positief</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-500 h-2 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Prioriteit Level</span>
+                                    <span class="text-orange-600 font-semibold">Hoog</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-orange-500 h-2 rounded-full" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Complexiteit</span>
+                                    <span class="text-blue-600 font-semibold">Gemiddeld</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-500 h-2 rounded-full" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-8 text-center">
+                            <div class="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                            </div>
+                            <h5 class="text-xl font-bold text-gray-900 mb-2">Diep Inzicht</h5>
+                            <p class="text-gray-600">Contextbewuste analyse in milliseconden</p>
+                        </div>
+                    </div>
+                </div>
+            `
+        },
+        3: {
+            title: "Stap 3: Autonome Actie",
+            content: `
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <h4 class="text-2xl font-bold text-gray-900">De Agent Handelt</h4>
+                        <p class="text-lg text-gray-600">Gebaseerd op de analyse neemt de agent direct actie: emails beantwoorden, taken plannen, systemen updaten, of escaleren naar mensen wanneer nodig.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4 p-4 bg-green-50 rounded-lg">
+                                <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">Email beantwoord</span>
+                                <span class="text-green-600 font-semibold">Voltooid</span>
+                            </div>
+                            <div class="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg">
+                                <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">CRM record aangemaakt</span>
+                                <span class="text-blue-600 font-semibold">Voltooid</span>
+                            </div>
+                            <div class="flex items-center space-x-4 p-4 bg-purple-50 rounded-lg">
+                                <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">Follow-up ingepland</span>
+                                <span class="text-purple-600 font-semibold">Over 2 dagen</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl p-8 text-center">
+                            <div class="w-24 h-24 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <h5 class="text-xl font-bold text-gray-900 mb-2">Instant Actie</h5>
+                            <p class="text-gray-600">Onmiddellijke uitvoering van taken</p>
+                        </div>
+                    </div>
+                </div>
+            `
+        },
+        4: {
+            title: "Stap 4: Continu Leren",
+            content: `
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <h4 class="text-2xl font-bold text-gray-900">De Agent Leert</h4>
+                        <p class="text-lg text-gray-600">Na elke actie evalueert de agent de resultaten en leert van de uitkomsten. Dit maakt toekomstige beslissingen steeds beter en accurater.</p>
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Succes Rate</span>
+                                    <span class="text-green-600 font-semibold">96.7%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-500 h-2 rounded-full animate-pulse" style="width: 96.7%"></div>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-1">+2.3% deze maand</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Response Tijd</span>
+                                    <span class="text-blue-600 font-semibold">0.8s</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-500 h-2 rounded-full animate-pulse" style="width: 90%"></div>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-1">-0.3s deze maand</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-sm font-medium text-gray-700">Klanttevredenheid</span>
+                                    <span class="text-purple-600 font-semibold">9.2/10</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-purple-500 h-2 rounded-full animate-pulse" style="width: 92%"></div>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-1">+0.4 deze maand</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-8 text-center">
+                            <div class="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                </svg>
+                            </div>
+                            <h5 class="text-xl font-bold text-gray-900 mb-2">Wordt Steeds Beter</h5>
+                            <p class="text-gray-600">Zelfverbeterende intelligentie</p>
+                        </div>
+                    </div>
+                </div>
+            `
+        }
+    };
+    
+    function updateStepContent(step) {
+        const stepData = steps[step];
+        stepContent.innerHTML = `
+            <div class="step-content-wrapper">
+                <div class="mb-6">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">${stepData.title}</h3>
+                </div>
+                ${stepData.content}
+            </div>
+        `;
+        
+        // Update step buttons
+        stepBtns.forEach((btn, index) => {
+            btn.classList.toggle('active', index + 1 === step);
+        });
+    }
+    
+    function nextStep() {
+        currentStep = currentStep >= 4 ? 1 : currentStep + 1;
+        updateStepContent(currentStep);
+    }
+    
+    function startCountdown() {
+        countdownValue = 4;
+        countdownInterval = setInterval(() => {
+            countdownValue--;
+            countdown.textContent = countdownValue;
+            if (countdownValue <= 0) {
+                clearInterval(countdownInterval);
+                nextStep();
+                if (isPlaying) {
+                    startCountdown();
+                }
+            }
+        }, 1000);
+    }
+    
+    function togglePlay() {
+        isPlaying = !isPlaying;
+        if (isPlaying) {
+            playIcon.classList.add('hidden');
+            pauseIcon.classList.remove('hidden');
+            playText.textContent = 'Pauzeer';
+            startCountdown();
+        } else {
+            playIcon.classList.remove('hidden');
+            pauseIcon.classList.add('hidden');
+            playText.textContent = 'Start Demo';
+            clearInterval(countdownInterval);
+            countdownValue = 4;
+            countdown.textContent = countdownValue;
+        }
+    }
+    
+    // Event listeners
+    playPauseBtn.addEventListener('click', togglePlay);
+    
+    stepBtns.forEach((btn, index) => {
+        btn.addEventListener('click', () => {
+            currentStep = index + 1;
+            updateStepContent(currentStep);
+            if (isPlaying) {
+                clearInterval(countdownInterval);
+                startCountdown();
+            }
+        });
+    });
+    
+    // Initialize
+    updateStepContent(1);
+    
+    // Business type selector functionality
+    const businessBtns = document.querySelectorAll('.business-btn');
+    const businessContent = document.getElementById('business-content');
+    
+    const businessScenarios = {
+        retail: {
+            title: "Retail & E-commerce",
+            icon: "🛒",
+            color: "blue",
+            description: "Optimaliseer uw winkel met intelligente automatisering",
+            agents: [
+                {
+                    name: "Klantservice Agent",
+                    task: "Beantwoordt productvragen en helpt met bestellingen",
+                    example: "Klant vraagt: 'Hebben jullie maat 42 op voorraad?' → Agent checkt voorraad → 'Ja, 3 stuks beschikbaar. Wilt u bestellen?'"
+                },
+                {
+                    name: "Voorraad Agent",
+                    task: "Monitort voorraad en plaats automatisch bestellingen",
+                    example: "Voorraad iPhone hoesjes < 10 stuks → Agent controleert verkoophistorie → Bestelt automatisch 50 nieuwe hoesjes"
+                },
+                {
+                    name: "Pricing Agent",
+                    task: "Past prijzen aan op basis van vraag en concurrentie",
+                    example: "Concurrent verlaagt prijs met 15% → Agent analyseert markt → Past eigen prijzen aan binnen 5 minuten"
+                }
+            ],
+            results: {
+                sales: "+23%",
+                efficiency: "+67%",
+                satisfaction: "9.1/10"
+            }
+        },
+        finance: {
+            title: "Financiële Dienstverlening",
+            icon: "💰",
+            color: "green",
+            description: "Automatiseer complexe financiële processen",
+            agents: [
+                {
+                    name: "Fraud Detection Agent",
+                    task: "Detecteert verdachte transacties in realtime",
+                    example: "Ongebruikelijke transactie gedetecteerd → Agent analyseert patroon → Blokkeert automatisch verdachte betaling"
+                },
+                {
+                    name: "Loan Processing Agent",
+                    task: "Verwerkt leningaanvragen automatisch",
+                    example: "Nieuwe leningaanvraag → Agent controleert creditwaardigheid → Goedkeuring binnen 2 minuten"
+                },
+                {
+                    name: "Investment Agent",
+                    task: "Monitort markten en geeft beleggingsadvies",
+                    example: "Marktvolatiliteit stijgt → Agent analyseert portefeuille → Stelt risicoaanpassingen voor"
+                }
+            ],
+            results: {
+                processing: "+85%",
+                accuracy: "99.2%",
+                risk: "-43%"
+            }
+        },
+        health: {
+            title: "Gezondheidszorg",
+            icon: "🏥",
+            color: "red",
+            description: "Verbeter patiëntenzorg met AI-ondersteuning",
+            agents: [
+                {
+                    name: "Appointment Agent",
+                    task: "Plant afspraken en stuurt herinneringen",
+                    example: "Patiënt wil afspraak → Agent controleert agenda → Plant automatisch optimale tijd in"
+                },
+                {
+                    name: "Medication Agent",
+                    task: "Monitort medicijnvoorschriften en interacties",
+                    example: "Nieuw medicijn voorgeschreven → Agent controleert interacties → Waarschuwt voor mogelijke conflicten"
+                },
+                {
+                    name: "Triage Agent",
+                    task: "Beoordeelt urgentie van patiëntenvragen",
+                    example: "Patiënt meldt symptomen → Agent analyseert ernstgraad → Prioriteert behandeling"
+                }
+            ],
+            results: {
+                efficiency: "+54%",
+                satisfaction: "9.4/10",
+                waiting: "-38%"
+            }
+        },
+        manufacturing: {
+            title: "Manufacturing",
+            icon: "🏭",
+            color: "purple",
+            description: "Optimaliseer productie met slimme automatisering",
+            agents: [
+                {
+                    name: "Production Agent",
+                    task: "Optimaliseert productieschema's en workflows",
+                    example: "Machine uitval gedetecteerd → Agent herplant productie → Minimaliseert vertragingen"
+                },
+                {
+                    name: "Quality Agent",
+                    task: "Monitort kwaliteit en detecteert defecten",
+                    example: "Kwaliteitsafwijking gedetecteerd → Agent stopt productielijn → Analyseert oorzaak"
+                },
+                {
+                    name: "Maintenance Agent",
+                    task: "Voorspelt onderhoud en plant reparaties",
+                    example: "Vibratieniveaus stijgen → Agent voorspelt storing → Plant preventief onderhoud"
+                }
+            ],
+            results: {
+                efficiency: "+41%",
+                downtime: "-62%",
+                quality: "+28%"
+            }
+        },
+        restaurant: {
+            title: "Restaurant & Horeca",
+            icon: "🍽️",
+            color: "orange",
+            description: "Verbeter service en operaties",
+            agents: [
+                {
+                    name: "Reservation Agent",
+                    task: "Beheert reserveringen en tafelindeling",
+                    example: "Telefoon gaat over → Agent neemt reservering op → Optimaliseert tafelplanning"
+                },
+                {
+                    name: "Menu Agent",
+                    task: "Beantwoordt vragen over menu en allergenen",
+                    example: "Gast vraagt over noten-allergie → Agent controleert ingrediënten → Adviseert veilige opties"
+                },
+                {
+                    name: "Supply Agent",
+                    task: "Monitort voorraad en bestelt ingrediënten",
+                    example: "Tomaten voorraad laag → Agent controleert menu voor morgen → Bestelt automatisch bij leverancier"
+                }
+            ],
+            results: {
+                service: "+35%",
+                waste: "-45%",
+                satisfaction: "9.3/10"
+            }
+        },
+        "real-estate": {
+            title: "Vastgoed",
+            icon: "🏠",
+            color: "teal",
+            description: "Automatiseer vastgoedprocessen",
+            agents: [
+                {
+                    name: "Lead Agent",
+                    task: "Kwalificeert potentiële kopers en huurders",
+                    example: "Nieuwe lead via website → Agent stelt kwalificatievragen → Prioriteert serious buyers"
+                },
+                {
+                    name: "Viewing Agent",
+                    task: "Plant bezichtigingen en volgt op",
+                    example: "Bezichtiging gewenst → Agent controleert beschikbaarheid → Plant automatisch afspraak"
+                },
+                {
+                    name: "Document Agent",
+                    task: "Beheert contracten en documentatie",
+                    example: "Bod geaccepteerd → Agent genereert contract → Stuurt naar alle partijen"
+                }
+            ],
+            results: {
+                conversions: "+58%",
+                efficiency: "+72%",
+                satisfaction: "9.0/10"
+            }
+        }
+    };
+    
+    function updateBusinessContent(business) {
+        const scenario = businessScenarios[business];
+        businessContent.innerHTML = `
+            <div class="bg-white rounded-3xl shadow-2xl p-8 mb-8">
+                <div class="text-center mb-12">
+                    <div class="w-24 h-24 bg-gradient-to-br from-${scenario.color}-500 to-${scenario.color}-600 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">
+                        ${scenario.icon}
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">${scenario.title}</h3>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">${scenario.description}</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    ${scenario.agents.map(agent => `
+                        <div class="bg-gradient-to-br from-${scenario.color}-50 to-${scenario.color}-100 rounded-2xl p-6 border border-${scenario.color}-200">
+                            <h4 class="text-xl font-bold text-gray-900 mb-3">${agent.name}</h4>
+                            <p class="text-gray-600 mb-4">${agent.task}</p>
+                            <div class="bg-white rounded-lg p-4 shadow-sm">
+                                <p class="text-sm text-gray-700 font-medium mb-2">Praktijkvoorbeeld:</p>
+                                <p class="text-sm text-gray-600">${agent.example}</p>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                
+                <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-6 text-center">Bewezen Resultaten</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        ${Object.entries(scenario.results).map(([key, value]) => `
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-${scenario.color}-600 mb-2">${value}</div>
+                                <div class="text-gray-600 capitalize">${key.replace(/([A-Z])/g, ' $1').trim()}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+    
+    // Business type event listeners
+    businessBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            businessBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            updateBusinessContent(btn.dataset.business);
+        });
+    });
+    
+    // Initialize with retail
+    updateBusinessContent('retail');
+    
+    
+    // Backend Dashboard functionality
+    const backendBtns = document.querySelectorAll('.backend-btn');
+    const backendContent = document.getElementById('backend-content');
+    
+    const backendDashboards = {
+        retail: {
+            title: "Retail & E-commerce Dashboard",
+            icon: "🛒",
+            color: "blue",
+            agents: [
+                {
+                    name: "Klantservice Agent",
+                    status: "online",
+                    metrics: {
+                        "Gesprekken vandaag": "147",
+                        "Gemiddelde responstijd": "2.3s",
+                        "Klanttevredenheid": "9.1/10",
+                        "Geëscaleerde gesprekken": "8%"
+                    },
+                    settings: {
+                        "Werkuren": "24/7",
+                        "Taalstijl": "Vriendelijk & professioneel",
+                        "Escalatie threshold": "3 onbeantwoorde vragen",
+                        "Productkennis update": "Realtime"
+                    }
+                },
+                {
+                    name: "Voorraad Agent",
+                    status: "online",
+                    metrics: {
+                        "Producten gemonitord": "1,247",
+                        "Automatische bestellingen": "23",
+                        "Voorraadnauwkeurigheid": "99.7%",
+                        "Bespaarde stockouts": "€12,450"
+                    },
+                    settings: {
+                        "Minimale voorraad": "Auto-detect",
+                        "Leverancier prioriteit": "Prijs + kwaliteit",
+                        "Seizoensaanpassingen": "Ingeschakeld",
+                        "Noodbestellingen": "Binnen 2 uur"
+                    }
+                },
+                {
+                    name: "Pricing Agent",
+                    status: "online",
+                    metrics: {
+                        "Prijsaanpassingen": "89 vandaag",
+                        "Omzetverhoging": "+15.2%",
+                        "Concurrentie updates": "Elk uur",
+                        "Margemarge optimalisatie": "23.4%"
+                    },
+                    settings: {
+                        "Prijsstrategie": "Dynamic pricing",
+                        "Maximale afwijking": "±20%",
+                        "Concurrentie tracking": "Top 5 spelers",
+                        "Seizoensmodificaties": "Automatisch"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "success", message: "Klantservice Agent heeft 100+ gesprekken succesvol afgerond" },
+                { type: "warning", message: "Voorraad iPhone hoesjes wordt laag - bestelling geplaatst" },
+                { type: "info", message: "Concurrent heeft prijzen verhoogd - prijsaanpassing gesuggereerd" }
+            ]
+        },
+        finance: {
+            title: "Financial Services Dashboard",
+            icon: "💰",
+            color: "green",
+            agents: [
+                {
+                    name: "Fraud Detection Agent",
+                    status: "online",
+                    metrics: {
+                        "Transacties geanalyseerd": "45,678",
+                        "Fraude gedetecteerd": "23 cases",
+                        "Nauwkeurigheid": "99.8%",
+                        "Geld bespaart": "€127,500"
+                    },
+                    settings: {
+                        "Risk threshold": "Medium",
+                        "Realtime monitoring": "Ingeschakeld",
+                        "ML model update": "Wekelijks",
+                        "Alert delay": "< 1 seconde"
+                    }
+                },
+                {
+                    name: "Loan Processing Agent",
+                    status: "online",
+                    metrics: {
+                        "Aanvragen verwerkt": "89",
+                        "Gemiddelde verwerkingstijd": "4.2 min",
+                        "Goedkeuringspercentage": "67%",
+                        "Accuraatheid": "96.5%"
+                    },
+                    settings: {
+                        "Credit check provider": "Experian",
+                        "Minimum credit score": "650",
+                        "Income verification": "Automatisch",
+                        "Approval workflow": "3-step process"
+                    }
+                },
+                {
+                    name: "Investment Agent",
+                    status: "online",
+                    metrics: {
+                        "Portfolio's beheerd": "1,234",
+                        "Gemiddeld rendement": "+8.9%",
+                        "Risico reductie": "34%",
+                        "Rebalancing acties": "156"
+                    },
+                    settings: {
+                        "Risk tolerance": "Conservative",
+                        "Rebalancing frequency": "Maandelijks",
+                        "Market data source": "Bloomberg",
+                        "ESG compliance": "Ingeschakeld"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "critical", message: "Verdachte transactie geblokkeerd - €50,000 overmaking" },
+                { type: "success", message: "Loan processing agent heeft 89 aanvragen succesvol verwerkt" },
+                { type: "info", message: "Marktvolatiliteit verhoogd - portfolio's aangepast" }
+            ]
+        },
+        health: {
+            title: "Healthcare Management Dashboard",
+            icon: "🏥",
+            color: "red",
+            agents: [
+                {
+                    name: "Appointment Agent",
+                    status: "online",
+                    metrics: {
+                        "Afspraken gepland": "234",
+                        "No-show reductie": "45%",
+                        "Gemiddelde wachttijd": "3.2 dagen",
+                        "Patiënt tevredenheid": "9.4/10"
+                    },
+                    settings: {
+                        "Booking window": "90 dagen",
+                        "Reminder timing": "24h + 2h voor afspraak",
+                        "Cancellation policy": "24h vooraf",
+                        "Waitlist management": "Automatisch"
+                    }
+                },
+                {
+                    name: "Medication Agent",
+                    status: "online",
+                    metrics: {
+                        "Recepten gecontroleerd": "567",
+                        "Interacties gedetecteerd": "12",
+                        "Dosering optimalisaties": "34",
+                        "Allergieën voorkomen": "8"
+                    },
+                    settings: {
+                        "Drug database": "FDA + EMA",
+                        "Interaction severity": "Moderate+",
+                        "Allergy cross-check": "Ingeschakeld",
+                        "Dosage recommendations": "Age-based"
+                    }
+                },
+                {
+                    name: "Triage Agent",
+                    status: "online",
+                    metrics: {
+                        "Patiënten getrieerd": "189",
+                        "Urgente cases": "23",
+                        "Gemiddelde beoordeling": "2.1 min",
+                        "Accuraatheid": "94.7%"
+                    },
+                    settings: {
+                        "Triage protocol": "Manchester",
+                        "Severity levels": "5 categorieën",
+                        "Escalation time": "< 5 minuten",
+                        "Symptom tracking": "Gedetailleerd"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "critical", message: "Urgent case gedetecteerd - patiënt direct doorverwezen" },
+                { type: "warning", message: "Medicatie interactie gevonden - arts geïnformeerd" },
+                { type: "success", message: "Alle afspraken voor morgen bevestigd" }
+            ]
+        },
+        manufacturing: {
+            title: "Manufacturing Operations Dashboard",
+            icon: "🏭",
+            color: "purple",
+            agents: [
+                {
+                    name: "Production Agent",
+                    status: "online",
+                    metrics: {
+                        "Productielijnen actief": "8/10",
+                        "Efficiency rating": "94.2%",
+                        "Downtime voorkomen": "4.2 uur",
+                        "Output optimization": "+12%"
+                    },
+                    settings: {
+                        "Production schedule": "24/7 rotatie",
+                        "Efficiency threshold": "85%",
+                        "Maintenance window": "Zondag 02:00-06:00",
+                        "Quality checks": "Elk uur"
+                    }
+                },
+                {
+                    name: "Quality Agent",
+                    status: "online",
+                    metrics: {
+                        "Kwaliteitscontroles": "1,456",
+                        "Defecten gedetecteerd": "67",
+                        "Kwaliteitsverbetering": "+8.9%",
+                        "Waste reduction": "23%"
+                    },
+                    settings: {
+                        "Quality standards": "ISO 9001",
+                        "Inspection frequency": "Per batch",
+                        "Defect threshold": "< 2%",
+                        "Automated sorting": "Ingeschakeld"
+                    }
+                },
+                {
+                    name: "Maintenance Agent",
+                    status: "online",
+                    metrics: {
+                        "Machines gemonitord": "156",
+                        "Preventief onderhoud": "89%",
+                        "Breakdown reductie": "67%",
+                        "Kostenbesparing": "€89,000"
+                    },
+                    settings: {
+                        "Predictive model": "Vibration + temperature",
+                        "Maintenance schedule": "Risk-based",
+                        "Spare parts inventory": "Auto-optimized",
+                        "Technician dispatch": "Automatisch"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "warning", message: "Machine #7 toont afwijkende vibratie - onderhoud gepland" },
+                { type: "info", message: "Productielijn 3 heeft efficiency record bereikt (97.1%)" },
+                { type: "success", message: "Kwaliteitscontroles voor vandaag voltooid - 0 defecten" }
+            ]
+        },
+        restaurant: {
+            title: "Restaurant Management Dashboard",
+            icon: "🍽️",
+            color: "orange",
+            agents: [
+                {
+                    name: "Reservation Agent",
+                    status: "online",
+                    metrics: {
+                        "Reserveringen vandaag": "89",
+                        "Bezetting rate": "87%",
+                        "No-shows": "3%",
+                        "Gemiddelde party size": "2.8"
+                    },
+                    settings: {
+                        "Booking window": "60 dagen",
+                        "Table turn time": "90 minuten",
+                        "Waitlist management": "Automatisch",
+                        "Special requests": "Gedetailleerd tracking"
+                    }
+                },
+                {
+                    name: "Menu Agent",
+                    status: "online",
+                    metrics: {
+                        "Menu vragen": "234",
+                        "Allergieën behandeld": "45",
+                        "Aanbevelingen gedaan": "178",
+                        "Klanttevredenheid": "9.3/10"
+                    },
+                    settings: {
+                        "Menu updates": "Realtime",
+                        "Allergie database": "Uitgebreid",
+                        "Seasonal items": "Automatisch",
+                        "Dietary preferences": "14 categorieën"
+                    }
+                },
+                {
+                    name: "Supply Agent",
+                    status: "online",
+                    metrics: {
+                        "Ingrediënten gemonitord": "347",
+                        "Automatische bestellingen": "12",
+                        "Waste reduction": "34%",
+                        "Kostenbesparing": "€2,100"
+                    },
+                    settings: {
+                        "Inventory refresh": "Dagelijks",
+                        "Supplier priority": "Kwaliteit + prijs",
+                        "Seasonal adjustments": "Ingeschakeld",
+                        "Emergency orders": "< 2 uur"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "warning", message: "Tomatenvoorraad laag - leverancier gecontacteerd" },
+                { type: "success", message: "Vanavond volledig geboekt - 89 reserveringen" },
+                { type: "info", message: "Nieuwe seizoenskaart geüpload - menu agent getraind" }
+            ]
+        },
+        "real-estate": {
+            title: "Real Estate Management Dashboard",
+            icon: "🏠",
+            color: "teal",
+            agents: [
+                {
+                    name: "Lead Agent",
+                    status: "online",
+                    metrics: {
+                        "Leads gekwalificeerd": "67",
+                        "Conversie rate": "23%",
+                        "Responstijd": "< 5 min",
+                        "Lead scoring accuracy": "89%"
+                    },
+                    settings: {
+                        "Lead sources": "Website + social media",
+                        "Qualification criteria": "Budget + timeline",
+                        "Follow-up schedule": "1d, 3d, 1w, 2w",
+                        "CRM integration": "Salesforce"
+                    }
+                },
+                {
+                    name: "Viewing Agent",
+                    status: "online",
+                    metrics: {
+                        "Bezichtigingen gepland": "34",
+                        "Gemiddelde slots": "3.2 per dag",
+                        "No-shows": "8%",
+                        "Conversie naar bod": "31%"
+                    },
+                    settings: {
+                        "Viewing slots": "9:00-18:00",
+                        "Slot duration": "30 minuten",
+                        "Reminder timing": "24h + 2h",
+                        "Virtual tours": "Ingeschakeld"
+                    }
+                },
+                {
+                    name: "Document Agent",
+                    status: "online",
+                    metrics: {
+                        "Contracten verwerkt": "12",
+                        "Gemiddelde tijd": "45 min",
+                        "Compliance check": "100%",
+                        "Digital signatures": "89%"
+                    },
+                    settings: {
+                        "Document templates": "Lokaal rechtsgebied",
+                        "Compliance standards": "Automatisch",
+                        "Signature platform": "DocuSign",
+                        "Backup copies": "Cloud storage"
+                    }
+                }
+            ],
+            alerts: [
+                { type: "success", message: "Nieuw contract getekend - eigendom overgedragen" },
+                { type: "info", message: "15 nieuwe leads binnengekomen via website" },
+                { type: "warning", message: "Bezichtiging geannuleerd - nieuwe slot automatisch aangeboden" }
+            ]
+        }
+    };
+    
+    function updateBackendContent(backend) {
+        const dashboard = backendDashboards[backend];
+        backendContent.innerHTML = `
+            <!-- Dashboard Header -->
+            <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-6 border-b border-gray-200">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-${dashboard.color}-500 to-${dashboard.color}-600 rounded-xl flex items-center justify-center mr-4 text-2xl">
+                            ${dashboard.icon}
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">${dashboard.title}</h3>
+                            <p class="text-gray-600 text-sm">Realtime monitoring & management</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-green-500 rounded-full mr-2 animate-pulse"></div>
+                            <span class="text-green-600 font-semibold">${dashboard.agents.length} Agents Online</span>
+                        </div>
+                        <div class="text-gray-500 text-sm">Laatste update: nu</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Alert Bar -->
+            <div class="bg-gray-100 p-4 border-b border-gray-200">
+                <div class="flex items-center space-x-4 overflow-x-auto">
+                    ${dashboard.alerts.map(alert => `
+                        <div class="flex items-center space-x-2 text-sm whitespace-nowrap">
+                            <div class="w-2 h-2 rounded-full ${
+                                alert.type === 'critical' ? 'bg-red-500' :
+                                alert.type === 'warning' ? 'bg-yellow-500' :
+                                alert.type === 'success' ? 'bg-green-500' : 'bg-blue-500'
+                            } animate-pulse"></div>
+                            <span class="text-gray-700">${alert.message}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            
+            <!-- Agent Cards -->
+            <div class="p-6 space-y-6">
+                ${dashboard.agents.map(agent => `
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-gradient-to-br from-${dashboard.color}-500 to-${dashboard.color}-600 rounded-full flex items-center justify-center mr-4">
+                                    <div class="w-2 h-2 bg-white rounded-full"></div>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-900">${agent.name}</h4>
+                                    <div class="flex items-center">
+                                        <div class="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                                        <span class="text-green-600 text-sm font-medium">Online</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="px-4 py-2 bg-${dashboard.color}-600 text-white rounded-lg hover:bg-${dashboard.color}-700 transition-colors text-sm">
+                                    Configureren
+                                </button>
+                                <button class="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors text-sm">
+                                    Logs
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Metrics -->
+                            <div>
+                                <h5 class="text-lg font-semibold text-gray-900 mb-4">Live Metrics</h5>
+                                <div class="grid grid-cols-2 gap-4">
+                                    ${Object.entries(agent.metrics).map(([key, value]) => `
+                                        <div class="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                                            <div class="text-2xl font-bold text-${dashboard.color}-600">${value}</div>
+                                            <div class="text-gray-500 text-sm">${key}</div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                            
+                            <!-- Settings -->
+                            <div>
+                                <h5 class="text-lg font-semibold text-gray-900 mb-4">Configuratie</h5>
+                                <div class="space-y-3">
+                                    ${Object.entries(agent.settings).map(([key, value]) => `
+                                        <div class="flex justify-between items-center bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                                            <span class="text-gray-600 text-sm">${key}</span>
+                                            <span class="text-${dashboard.color}-600 text-sm font-medium">${value}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+    
+    // Backend dashboard event listeners
+    backendBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            backendBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            updateBackendContent(btn.dataset.backend);
+        });
+    });
+    
+    // Initialize with retail dashboard
+    updateBackendContent('retail');
+});
+</script>
+
+<!-- Modern Comprehensive Styles -->
+<style>
+/* Custom Animations */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-gradient {
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+}
+
+/* Scenario Buttons */
+.scenario-btn {
+    @apply bg-white border border-gray-200 hover:border-cyan-500 hover:shadow-lg transition-all duration-300;
+}
+
+.scenario-btn.active {
+    @apply border-cyan-500 bg-gradient-to-br from-cyan-50 to-blue-50 shadow-lg;
+}
+
+.scenario-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Business Buttons (keeping existing functionality) */
+.business-btn {
+    @apply flex flex-col items-center space-y-2 p-4 rounded-xl transition-all duration-300 cursor-pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid transparent;
+    min-width: 140px;
+}
+
+.business-btn.active {
+    @apply bg-white shadow-lg;
+    border-color: #0891b2;
+}
+
+.business-btn:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+}
+
+.business-icon {
+    @apply text-2xl;
+}
+
+.business-label {
+    @apply text-sm font-medium text-gray-700;
+}
+
+.business-btn.active .business-label {
+    @apply text-gray-900 font-bold;
+}
+
+/* Backend Buttons */
+.backend-btn {
+    @apply flex flex-col items-center space-y-2 p-4 rounded-xl transition-all duration-300 cursor-pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid transparent;
+    min-width: 140px;
+    backdrop-filter: blur(10px);
+}
+
+.backend-btn.active {
+    @apply bg-white shadow-lg;
+    border-color: #0891b2;
+}
+
+.backend-btn:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.backend-icon {
+    @apply text-2xl;
+}
+
+.backend-label {
+    @apply text-sm font-medium text-gray-600;
+}
+
+.backend-btn.active .backend-label {
+    @apply text-gray-900 font-bold;
+}
+
+/* Enhanced shadow utilities */
+.hover\:shadow-3xl:hover {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-4xl {
+    box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .business-btn, .backend-btn {
+        min-width: 120px;
+    }
+    
+    /* Hero section adjustments */
+    .container.mx-auto.px-4 .grid.lg\\:grid-cols-2 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .text-4xl.lg\\:text-6xl.xl\\:text-7xl {
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 768px) {
+    .business-btn, .backend-btn {
+        min-width: 100px;
+        padding: 0.75rem;
+    }
+    
+    .business-label, .backend-label {
+        font-size: 0.75rem;
+    }
+    
+    .business-icon, .backend-icon {
+        font-size: 1.5rem;
+    }
+    
+    /* Hero section mobile */
+    .text-4xl.lg\\:text-6xl.xl\\:text-7xl {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+    
+    .text-xl.lg\\:text-2xl {
+        font-size: 1.125rem;
+    }
+    
+    .grid.grid-cols-3.gap-6 {
+        gap: 1rem;
+    }
+    
+    /* Demo section mobile */
+    .grid.grid-cols-1.md\\:grid-cols-3 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .scenario-btn {
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    /* Integration section mobile */
+    .grid.grid-cols-2.lg\\:grid-cols-4 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    /* Stats section mobile */
+    .grid.grid-cols-1.md\\:grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .business-btn, .backend-btn {
+        min-width: 80px;
+        padding: 0.5rem;
+        flex: 1;
+    }
+    
+    .business-label, .backend-label {
+        font-size: 0.625rem;
+    }
+    
+    .business-icon, .backend-icon {
+        font-size: 1.25rem;
+    }
+    
+    /* Hero section very small screens */
+    .text-4xl.lg\\:text-6xl.xl\\:text-7xl {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    
+    .grid.grid-cols-3.gap-6 {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    /* Reduce padding on mobile */
+    section.py-24 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    section.py-20 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    /* CTA buttons mobile */
+    .flex.flex-col.sm\\:flex-row {
+        gap: 0.75rem;
+    }
+    
+    .px-8.py-4 {
+        padding: 0.75rem 1.5rem;
+    }
+    
+    /* Stats mobile - single column */
+    .grid.grid-cols-1.md\\:grid-cols-4 {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Very small screens */
+    .business-btn, .backend-btn {
+        min-width: 70px;
+        padding: 0.25rem;
+    }
+    
+    .business-label, .backend-label {
+        display: none; /* Hide labels on very small screens */
+    }
+    
+    /* Hero adjustments */
+    .text-4xl.lg\\:text-6xl.xl\\:text-7xl {
+        font-size: 1.75rem;
+    }
+    
+    .text-xl.lg\\:text-2xl {
+        font-size: 1rem;
+    }
+    
+    .px-8.py-4 {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Dark mode support (future-proofing) */
+@media (prefers-color-scheme: dark) {
+    .business-btn, .backend-btn {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+    
+    .business-btn.active, .backend-btn.active {
+        background: rgba(255, 255, 255, 0.15);
+    }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    .animate-bounce,
+    .animate-pulse,
+    .animate-ping,
+    .animate-spin-slow,
+    .animate-gradient,
+    .animate-float,
+    .animate-fade-in,
+    .animate-slide-up {
+        animation: none;
+    }
+    
+    .business-btn, .backend-btn, .scenario-btn {
+        transition: none;
+    }
+    
+    .business-btn:hover, .backend-btn:hover, .scenario-btn:hover {
+        transform: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .business-btn, .backend-btn, .scenario-btn {
+        border-width: 3px;
+        border-color: #000;
+    }
+    
+    .business-btn.active, .backend-btn.active, .scenario-btn.active {
+        background: #000;
+        color: #fff;
+    }
+}
+
+/* Print styles */
+@media print {
+    .business-btn, .backend-btn, .scenario-btn {
+        break-inside: avoid;
+    }
+    
+    .animate-bounce,
+    .animate-pulse,
+    .animate-ping,
+    .animate-spin-slow,
+    .animate-gradient,
+    .animate-float {
+        animation: none;
+    }
+    
+    /* Hide interactive elements */
+    button, .scenario-btn, #start-simulation, #reset-simulation {
+        display: none;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .business-btn:active, .backend-btn:active, .scenario-btn:active {
+        transform: scale(0.98);
+    }
+    
+    .business-btn, .backend-btn, .scenario-btn {
+        min-height: 44px; /* Minimum touch target size */
+    }
+}
+
+/* Focus states for keyboard navigation */
+.business-btn:focus, .backend-btn:focus, .scenario-btn:focus,
+#start-simulation:focus, #reset-simulation:focus {
+    outline: 2px solid #0891b2;
+    outline-offset: 2px;
+}
+
+/* Loading states */
+#start-simulation:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Simulation output styling */
+.simulation-line {
+    font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
+    line-height: 1.6;
+}
+
+/* Integration network visualization enhancements */
+.integration-category {
+    position: relative;
+}
+
+.integration-category::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, rgba(99, 102, 241, 0.3), transparent);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+    .integration-category::before {
+        display: none;
+    }
+}
+</style>
+.step-btn {
+    @apply flex flex-col items-center space-y-2 p-4 rounded-xl transition-all duration-300 cursor-pointer;
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid transparent;
+    min-width: 100px;
+}
+
+.step-btn.active {
+    @apply bg-white shadow-lg;
+    border-color: #0891b2;
+}
+
+.step-btn:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+}
+
+.step-number {
+    @apply w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold;
+    background: #e5e7eb;
+    color: #6b7280;
+}
+
+.step-btn.active .step-number {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 text-white;
+}
+
+.step-label {
+    @apply text-sm font-medium text-gray-600;
+}
+
+.step-btn.active .step-label {
+    @apply text-gray-900;
+}
+
+.business-btn {
+    @apply flex flex-col items-center space-y-2 p-4 rounded-xl transition-all duration-300 cursor-pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid transparent;
+    min-width: 120px;
+}
+
+.business-btn.active {
+    @apply bg-white shadow-lg;
+    border-color: #0891b2;
+}
+
+.business-btn:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+}
+
+.business-icon {
+    @apply text-2xl;
+}
+
+.business-label {
+    @apply text-sm font-medium text-gray-700;
+}
+
+.business-btn.active .business-label {
+    @apply text-gray-900 font-bold;
+}
+
+.hover\:shadow-3xl:hover {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.backend-btn {
+    @apply flex flex-col items-center space-y-2 p-4 rounded-xl transition-all duration-300 cursor-pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid transparent;
+    min-width: 140px;
+    backdrop-filter: blur(10px);
+}
+
+.backend-btn.active {
+    @apply bg-white shadow-lg;
+    border-color: #0891b2;
+}
+
+.backend-btn:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.backend-icon {
+    @apply text-2xl;
+}
+
+.backend-label {
+    @apply text-sm font-medium text-gray-600;
+}
+
+.backend-btn.active .backend-label {
+    @apply text-gray-900 font-bold;
+}
+</style>

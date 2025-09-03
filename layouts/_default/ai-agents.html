@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="ai-agents-page">
+    <!-- Render content directly without prose wrapper -->
+    {{ .Content | safeHTML }}
+    
+    <!-- Global CTA -->
+    {{ partial "components/cta.html" . }}
+</article>
+{{ end }}

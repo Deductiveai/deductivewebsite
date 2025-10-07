@@ -35,21 +35,41 @@ demo:
   image: "images/feature-2.svg"
 ---
 
-{{< modern-hero 
-  title="Slimme<br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient\">AI-Agents</span><br>voor Elk Bedrijf"
-  subtitle="Transformeer uw bedrijfsprocessen met autonome AI-agents die zelfstandig beslissingen nemen, automatiseren en continu optimaliseren."
-  badge_text="Autonome AI-Intelligence"
-  primary_btn_text="Zie AI in Actie"
-  primary_btn_url="#ai-demo"
-  secondary_btn_text="Plan Gratis Demo"
-  secondary_btn_url="/contact"
-  stat1_number="75%"
-  stat1_label="Procesefficiëntie"
-  stat2_number="24/7"
-  stat2_label="Operationeel"
-  stat3_number="3x"
-  stat3_label="ROI Verbetering"
->}}
+<!-- Hero Section -->
+<section class="py-20 bg-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+<div class="text-center">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+AI-Agents voor Elk Bedrijf
+</h1>
+<p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+Transformeer uw bedrijfsprocessen met autonome AI-agents die zelfstandig beslissingen nemen, automatiseren en continu optimaliseren.
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+<a href="#ai-demo" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+Zie AI in Actie
+</a>
+<a href="/contact" class="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+Plan Gratis Demo
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<div>
+<div class="text-3xl font-bold text-gray-900 mb-2">75%</div>
+<div class="text-gray-600">Procesefficiëntie</div>
+</div>
+<div>
+<div class="text-3xl font-bold text-gray-900 mb-2">24/7</div>
+<div class="text-gray-600">Operationeel</div>
+</div>
+<div>
+<div class="text-3xl font-bold text-gray-900 mb-2">3x</div>
+<div class="text-gray-600">ROI Verbetering</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
 <!-- Live AI Demo Section -->
 <section class="py-20 bg-white" id="ai-demo">
@@ -65,7 +85,7 @@ demo:
 <div class="flex items-center justify-between">
 <h3 class="font-semibold text-lg text-white">AI-Agent Terminal</h3>
 <div class="flex items-center space-x-2">
-<div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+<div class="w-3 h-3 bg-green-400 rounded-full "></div>
 <span class="text-white text-sm">System Active</span>
 </div>
 </div>
@@ -96,14 +116,14 @@ demo:
 <div class="bg-gray-900 rounded-2xl p-6 text-green-400 font-mono text-sm min-h-[400px]">
 <div class="flex items-center mb-4">
 <span class="text-blue-400">AI-Agent@deductive:~$</span>
-<div class="ml-2 w-2 h-5 bg-green-400 animate-pulse"></div>
+<div class="ml-2 w-2 h-5 bg-green-400 "></div>
 </div>
 
 <div id="simulation-output" class="space-y-2">
-<div class="text-gray-400"># Welcome to AI Agent Simulation</div>
-<div class="text-yellow-400"># Select a scenario above to begin demonstration</div>
-<div class="text-cyan-400"># This agent handles real customer interactions autonomously</div>
-<div class="text-gray-500 mt-4">Ready for simulation...</div>
+<div class="text-gray-400"># Welkom bij AI Agent Simulatie</div>
+<div class="text-yellow-400"># Selecteer een scenario hierboven om de demonstratie te starten</div>
+<div class="text-cyan-400"># Deze agent handelt echte klantinteracties zelfstandig af</div>
+<div class="text-gray-500 mt-4">Klaar voor simulatie...</div>
 </div>
 </div>
 
@@ -189,31 +209,6 @@ Reset
 </div>
 </div>
 
-<div class="mt-16 bg-gradient-to-r from-gray-900 to-slate-800 rounded-3xl p-8 text-white">
-<div class="text-center mb-8">
-<h3 class="text-2xl font-bold mb-2">Bewezen Impact</h3>
-<p class="text-gray-300">Resultaten van onze klanten</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-<div class="text-center">
-<div class="text-4xl font-bold text-cyan-400 mb-2">75%</div>
-<div class="text-sm text-gray-300">Snellere Verwerking</div>
-</div>
-<div class="text-center">
-<div class="text-4xl font-bold text-green-400 mb-2">90%</div>
-<div class="text-sm text-gray-300">Minder Fouten</div>
-</div>
-<div class="text-center">
-<div class="text-4xl font-bold text-blue-400 mb-2">€50k</div>
-<div class="text-sm text-gray-300">Gem. Kostenbesparing</div>
-</div>
-<div class="text-center">
-<div class="text-4xl font-bold text-purple-400 mb-2">24/7</div>
-<div class="text-sm text-gray-300">Uptime Garantie</div>
-</div>
-</div>
-</div>
-</div>
 </section>
 
 <!-- Business Types Demo Section -->
@@ -251,59 +246,119 @@ Reset
 </button>
 </div>
 
-<div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
-<div class="bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-4">
-<h3 class="font-semibold text-lg text-white" id="business-title">🛒 Retail Dashboard</h3>
+<!-- Business Use Cases -->
+<div class="mt-12 max-w-4xl mx-auto">
+<div id="business-content">
+<!-- Retail Content -->
+<div class="business-content active bg-white rounded-xl p-8 shadow-lg" data-business="retail">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">🛒 Stel je voor: Je Retail Bedrijf</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Het is 3 uur 's nachts...</h4>
+<p class="text-gray-700">Een klant in Amerika bestelt je populaire winterjas. Onze AI ziet dat er nog maar 3 stuks zijn, checkt je verkoopcijfers van vorig jaar, en bestelt automatisch 50 nieuwe jassen bij je leverancier. Tegen de tijd dat je 's ochtends wakker wordt, is alles al geregeld.</p>
+</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een boze klant stuurt een lange email...</h4>
+<p class="text-gray-700">Onze AI leest de frustratie, bekijkt de klantgeschiedenis, ziet dat dit een trouwe klant is, en stuurt binnen 30 seconden een persoonlijk excuusbrief met een oplossing en gratis verzending. De klant is onder de indruk van de snelle reactie.</p>
+</div>
+<div class="border-l-4 border-purple-500 pl-6 bg-purple-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Je concurrent verlaagt zijn prijzen...</h4>
+<p class="text-gray-700">Onze AI ziet dit direct, analyseert je marges, en past binnen minuten je prijzen strategisch aan om competitief te blijven zonder je winst op te offeren. Je verliest geen enkele verkoop.</p>
+</div>
+</div>
 </div>
 
-<div class="p-8">
-<div id="business-content" class="space-y-6">
-<div class="business-content active" data-business="retail">
-<div class="grid md:grid-cols-2 gap-8">
-<div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">AI-Agent Taken</h4>
-<div class="space-y-3">
-<div class="flex items-start">
-<div class="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3"></div>
-<div>
-<div class="font-medium">Voorraad Management</div>
-<div class="text-sm text-gray-600">Automatische bestelling bij lage voorraad</div>
+<!-- Finance Content -->
+<div class="business-content bg-white rounded-xl p-8 shadow-lg" data-business="finance">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">💰 Stel je voor: Je Bank of Financiële Dienstverlening</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-red-500 pl-6 bg-red-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Om 2:47 's nachts wordt er €50.000 overgemaakt...</h4>
+<p class="text-gray-700">Onze AI herkent direct dat dit niet past bij het normale patroon van deze klant. De transactie wordt binnen milliseconden geblokkeerd en de klant krijgt een SMS. Je voorkomt fraude voordat het gebeurt.</p>
 </div>
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een nieuwe zakelijke klant wil een rekening openen...</h4>
+<p class="text-gray-700">Onze AI controleert in seconden alle databases, verifieert identiteit, checkt sanctielijsten en beoordelt het risico. Wat normaal dagen duurt, is nu klaar terwijl de klant nog koffie drinkt.</p>
 </div>
-<div class="flex items-start">
-<div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3"></div>
-<div>
-<div class="font-medium">Klantenservice</div>
-<div class="text-sm text-gray-600">24/7 chat ondersteuning en ordertracking</div>
-</div>
-</div>
-<div class="flex items-start">
-<div class="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
-<div>
-<div class="font-medium">Sales Analytics</div>
-<div class="text-sm text-gray-600">Realtime verkoop insights en trends</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een ondernemer vraagt een lening aan...</h4>
+<p class="text-gray-700">Onze AI analyseert cashflow, marktrisico's, en voorspelt terugbetalingskans binnen minuten. Je kunt direct een weloverwogen besluit nemen en sneller concurreren dan traditionele banken.</p>
 </div>
 </div>
 </div>
+
+<!-- Healthcare Content -->
+<div class="business-content bg-white rounded-xl p-8 shadow-lg" data-business="healthcare">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">🏥 Stel je voor: Je Zorgpraktijk</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Mevrouw Janssen belt voor een afspraak...</h4>
+<p class="text-gray-700">Onze AI ziet direct dat ze diabetespatiënt is, dat haar laatste controle 3 maanden geleden was, en plant automatisch een uitgebreid consult in. Tegelijkertijd stuurt het een herinnering voor bloedonderzoek en checkt of haar recepten bijna op zijn.</p>
 </div>
-<div>
-<h4 class="text-xl font-semibold text-gray-900 mb-4">Resultaten</h4>
-<div class="space-y-4">
-<div class="bg-blue-50 p-4 rounded-lg">
-<div class="text-2xl font-bold text-blue-600">35%</div>
-<div class="text-sm text-blue-800">Minder stockouts</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een patiënt krijgt een nieuw medicijn voorgeschreven...</h4>
+<p class="text-gray-700">Onze AI checkt direct alle huidige medicatie, herkent een potentiële interactie, en waarschuwt je meteen. Je voorkomt een gevaarlijke combinatie en voorkomt een ziekenhuisopname.</p>
 </div>
-<div class="bg-green-50 p-4 rounded-lg">
-<div class="text-2xl font-bold text-green-600">60%</div>
-<div class="text-sm text-green-800">Snellere klantenservice</div>
-</div>
-<div class="bg-purple-50 p-4 rounded-lg">
-<div class="text-2xl font-bold text-purple-600">25%</div>
-<div class="text-sm text-purple-800">Hogere omzet</div>
+<div class="border-l-4 border-purple-500 pl-6 bg-purple-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Je behandeling is klaar, de patiënt vertrekt...</h4>
+<p class="text-gray-700">Onze AI stuurt direct de declaratie naar de zorgverzekeraar, checkt de dekking, en krijgt binnen minuten goedkeuring. Geen administratie achteraf, geen wachtende betalingen.</p>
 </div>
 </div>
 </div>
+
+<!-- Manufacturing Content -->
+<div class="business-content bg-white rounded-xl p-8 shadow-lg" data-business="manufacturing">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">🏭 Stel je voor: Je Productiebedrijf</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-orange-500 pl-6 bg-orange-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Machine 7 begint iets anders te trillen...</h4>
+<p class="text-gray-700">Onze AI hoort het verschil in de trillingen en voorspelt dat er over 3 dagen een lager kapot gaat. Automatisch wordt onderhoud ingepland voor morgenavond en het onderdeel besteld. Je verliest geen enkele productiedag.</p>
 </div>
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een product rolt van de band...</h4>
+<p class="text-gray-700">Onze AI scan het product met camera's, detecteert een kleine afwijking die het menselijke oog zou missen, en stopt de lijn automatisch. Je levert alleen perfecte producten en houdt je reputatie hoog.</p>
+</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een grote order komt binnen...</h4>
+<p class="text-gray-700">Onze AI checkt direct je voorraden, voorspelt leveringstijden, onderhandelt automatisch met leveranciers voor de beste prijzen, en plant de productie zo dat alles op tijd klaar is. Jij hoeft alleen maar ja te zeggen.</p>
+</div>
+</div>
+</div>
+
+<!-- Restaurant Content -->
+<div class="business-content bg-white rounded-xl p-8 shadow-lg" data-business="restaurant">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">🍽️ Stel je voor: Je Restaurant</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-yellow-500 pl-6 bg-yellow-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Het is druk zaterdagavond...</h4>
+<p class="text-gray-700">Alle tafels zijn bezet, er staat een rij wachtenden. Onze AI ziet dat tafel 7 net hun dessert heeft besteld en rekent uit dat ze over 20 minuten klaar zijn. Automatisch wordt het volgende gezelschap gebeld: "Uw tafel is over 15 minuten klaar."</p>
+</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Dinsdag ochtend, 6 uur...</h4>
+<p class="text-gray-700">Je chef wil carpaccio op het menu, maar heeft geen rundvlees meer. Onze AI heeft al gemerkt dat jullie gisteren het laatste stuk hebben gebruikt, heeft het perfecte rundvlees gevonden bij jullie vaste leverancier en het staat al klaar voor levering om 10 uur.</p>
+</div>
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Na een regenachtige week...</h4>
+<p class="text-gray-700">Normaal is jullie terras uitverkocht, maar het regent al 3 dagen. Onze AI past jullie menu aan - meer hartige soepen, warme comfort food, en heeft al extra ingrediënten besteld. Het resultaat? Omzet blijft stabiel ondanks het weer.</p>
+</div>
+</div>
+</div>
+
+<!-- Real Estate Content -->
+<div class="business-content bg-white rounded-xl p-8 shadow-lg" data-business="realestate">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">🏠 Stel je voor: Je Vastgoedportfolio</h3>
+<div class="space-y-6">
+<div class="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Een potentiële koper belt om 22:00...</h4>
+<p class="text-gray-700">Ze vragen naar een 3-kamer appartement met tuin. Onze AI weet meteen dat ze 2 kinderen hebben (uit eerdere gesprekken), een budget van €400k, en toont direct 3 perfecte matches. Ze boeken direct een bezichtiging voor morgen.</p>
+</div>
+<div class="border-l-4 border-green-500 pl-6 bg-green-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Maandag ochtend, 8:15...</h4>
+<p class="text-gray-700">Je huurder in Amsterdam-Zuid meldt een lekkage. Onze AI heeft al gecheckt welke loodgieter het dichtst bij is, heeft de reputatie gecontroleerd, en heeft een afspraak ingepland voor vandaag. De huurder krijgt automatisch updates.</p>
+</div>
+<div class="border-l-4 border-purple-500 pl-6 bg-purple-50 p-4 rounded-r-lg">
+<h4 class="font-semibold text-gray-900 mb-2">Tijdens je vakantie in Spanje...</h4>
+<p class="text-gray-700">Je AI agent ontdekt dat er in jouw wijk 3 huizen onder de marktprijs worden verkocht. Ze analyseert de locatie, vergelijkt met jouw portfolio, en stuurt je een volledig rapport met investeringsadvies. Je kunt direct handelen.</p>
 </div>
 </div>
 </div>
@@ -312,26 +367,174 @@ Reset
 </section>
 
 <!-- Integration Section -->
-<section class="py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden relative">
-<div class="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-purple-500/10"></div>
-
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+<section class="py-20 bg-white overflow-hidden relative">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-white mb-4">Universele Connectiviteit</h2>
-<p class="text-xl text-gray-300 mb-2">Integreert met Alles</p>
-<p class="text-lg text-gray-400">Onze AI-agents praten direct met uw bestaande systemen. Geen migratie, geen gedoe - gewoon naadloze integratie vanaf dag één.</p>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Universele Connectiviteit</h2>
+<span class="text-white font-medium">1,247</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Auto Bestellingen:</span>
+<span class="text-green-400 font-medium">5</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Kostenbesparing:</span>
+<span class="text-green-400 font-medium">€8.2k</span>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-green-600/20 to-emerald-600/20 rounded-xl p-6 border border-green-500/30 hover:border-green-400/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
+<span class="text-xl">🎧</span>
+</div>
+<div>
+<h5 class="font-semibold">Klantenservice Agent</h5>
+<p class="text-xs text-gray-400">Actief</p>
+</div>
+</div>
+<div class="w-3 h-3 bg-green-400 rounded-full "></div>
+</div>
+<div class="space-y-2 text-sm">
+<div class="flex justify-between">
+<span class="text-gray-400">Tickets Vandaag:</span>
+<span class="text-white font-medium">42</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Gem. Reactietijd:</span>
+<span class="text-green-400 font-medium">2.3s</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Tevredenheidsscore:</span>
+<span class="text-green-400 font-medium">94%</span>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-xl p-6 border border-purple-500/30 hover:border-purple-400/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center">
+<span class="text-xl">📊</span>
+</div>
+<div>
+<h5 class="font-semibold">Analytics Agent</h5>
+<p class="text-xs text-gray-400">Actief</p>
+</div>
+</div>
+<div class="w-3 h-3 bg-green-400 rounded-full "></div>
+</div>
+<div class="space-y-2 text-sm">
+<div class="flex justify-between">
+<span class="text-gray-400">Verkoop Insights:</span>
+<span class="text-white font-medium">18</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Trends Gedetecteerd:</span>
+<span class="text-green-400 font-medium">7</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-400">Omzet Toename:</span>
+<span class="text-green-400 font-medium">25%</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Live Activity Feed -->
+<div class="grid lg:grid-cols-2 gap-6">
+<!-- Activity Log -->
+<div class="bg-gray-900/50 rounded-xl p-6 border border-gray-700">
+<h5 class="font-semibold mb-4 flex items-center">
+<span class="w-2 h-2 bg-cyan-400 rounded-full mr-2 "></span>
+Live Activiteitenfeed
+</h5>
+<div id="activity-feed" class="space-y-3 text-sm max-h-48 overflow-y-auto">
+<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
+<span class="text-green-400">✓</span>
+<span class="text-gray-600">Voorraad automatisch aangevuld: MacBook Pro</span>
+<span class="text-xs text-gray-500 ml-auto">2 min geleden</span>
+</div>
+<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
+<span class="text-blue-400">🎧</span>
+<span class="text-gray-600">Klantticket #1247 automatisch opgelost</span>
+<span class="text-xs text-gray-500 ml-auto">5 min geleden</span>
+</div>
+<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
+<span class="text-purple-400">📊</span>
+<span class="text-gray-600">Verkooptrend geanalyseerd: iPhone stijging</span>
+<span class="text-xs text-gray-500 ml-auto">8 min geleden</span>
+</div>
+<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
+<span class="text-green-400">✓</span>
+<span class="text-gray-600">12 nieuwe klantreviews verwerkt</span>
+<span class="text-xs text-gray-500 ml-auto">12 min geleden</span>
+</div>
+</div>
+</div>
+
+<!-- System Metrics -->
+<div class="bg-gray-900/50 rounded-xl p-6 border border-gray-700">
+<h5 class="font-semibold mb-4">Systeemprestaties</h5>
+<div class="space-y-4" id="system-metrics">
+<div class="flex items-center justify-between">
+<span class="text-gray-400">CPU Gebruik</span>
+<div class="flex items-center space-x-2">
+<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
+<div class="w-1/3 h-full bg-green-400 rounded-full"></div>
+</div>
+<span class="text-sm text-green-400">34%</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-gray-400">Geheugen</span>
+<div class="flex items-center space-x-2">
+<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
+<div class="w-1/2 h-full bg-blue-400 rounded-full"></div>
+</div>
+<span class="text-sm text-blue-400">52%</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-gray-400">Netwerk I/O</span>
+<div class="flex items-center space-x-2">
+<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
+<div class="w-1/4 h-full bg-purple-400 rounded-full"></div>
+</div>
+<span class="text-sm text-purple-400">23%</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-gray-400">Reactietijd</span>
+<span class="text-sm text-green-400">0.8ms gem</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section class="py-20 bg-white overflow-hidden relative">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Universele Connectiviteit</h2>
+<p class="text-xl text-gray-600 mb-2">Integreert met Alles</p>
+<p class="text-lg text-gray-500">Onze AI-agents praten direct met uw bestaande systemen. Geen migratie, geen gedoe - gewoon naadloze integratie vanaf dag één.</p>
 </div>
 
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-16">
 <div class="integration-category" data-category="crm">
-<div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+<div class="bg-white rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300 group">
 <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 </svg>
 </div>
-<h3 class="text-lg font-semibold text-white mb-2">CRM & Sales</h3>
-<div class="space-y-1 text-sm text-gray-300">
+<h3 class="text-lg font-semibold text-gray-900 mb-2">CRM & Sales</h3>
+<div class="space-y-1 text-sm text-gray-600">
 <div>HubSpot</div>
 <div>Salesforce</div>
 <div>Pipedrive</div>
@@ -340,14 +543,14 @@ Reset
 </div>
 
 <div class="integration-category" data-category="communication">
-<div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+<div class="bg-white rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300 group">
 <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
 </svg>
 </div>
-<h3 class="text-lg font-semibold text-white mb-2">Communicatie</h3>
-<div class="space-y-1 text-sm text-gray-300">
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Communicatie</h3>
+<div class="space-y-1 text-sm text-gray-600">
 <div>Slack</div>
 <div>Microsoft Teams</div>
 <div>WhatsApp Business</div>
@@ -356,14 +559,14 @@ Reset
 </div>
 
 <div class="integration-category" data-category="ecommerce">
-<div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+<div class="bg-white rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300 group">
 <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
 </svg>
 </div>
-<h3 class="text-lg font-semibold text-white mb-2">E-commerce</h3>
-<div class="space-y-1 text-sm text-gray-300">
+<h3 class="text-lg font-semibold text-gray-900 mb-2">E-commerce</h3>
+<div class="space-y-1 text-sm text-gray-600">
 <div>Shopify</div>
 <div>WooCommerce</div>
 <div>Magento</div>
@@ -372,14 +575,14 @@ Reset
 </div>
 
 <div class="integration-category" data-category="analytics">
-<div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
+<div class="bg-white rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300 group">
 <div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
 </svg>
 </div>
-<h3 class="text-lg font-semibold text-white mb-2">Analytics</h3>
-<div class="space-y-1 text-sm text-gray-300">
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Analytics</h3>
+<div class="space-y-1 text-sm text-gray-600">
 <div>Google Analytics</div>
 <div>Power BI</div>
 <div>Tableau</div>
@@ -395,8 +598,8 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-white mb-2">Instant Setup</h3>
-<p class="text-gray-300">Configuratie in minuten, niet weken. Onze AI-agents praten direct met uw systemen.</p>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Instant Setup</h3>
+<p class="text-gray-600">Configuratie in minuten, niet weken. Onze AI-agents praten direct met uw systemen.</p>
 </div>
 
 <div class="text-center">
@@ -405,8 +608,8 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-white mb-2">Veilige Verbindingen</h3>
-<p class="text-gray-300">Enterprise-grade beveiliging met end-to-end encryptie voor al uw gevoelige data.</p>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Veilige Verbindingen</h3>
+<p class="text-gray-600">Enterprise-grade beveiliging met end-to-end encryptie voor al uw gevoelige data.</p>
 </div>
 
 <div class="text-center">
@@ -415,14 +618,14 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-white mb-2">Realtime Sync</h3>
-<p class="text-gray-300">Bidirectionele synchronisatie zorgt ervoor dat alle systemen altijd up-to-date zijn.</p>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Realtime Sync</h3>
+<p class="text-gray-600">Bidirectionele synchronisatie zorgt ervoor dat alle systemen altijd up-to-date zijn.</p>
 </div>
 </div>
 
-<div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-<h3 class="text-2xl font-bold text-white mb-4">Uw Systeem Er Niet Bij?</h3>
-<p class="text-gray-300 mb-6">Geen probleem. Onze AI-agents kunnen met vrijwel elk systeem praten via REST APIs, webhooks of custom integraties. We bouwen binnen 48 uur een connectie voor u.</p>
+<div class="text-center bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg">
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Uw Systeem Er Niet Bij?</h3>
+<p class="text-gray-600 mb-6">Geen probleem. Onze AI-agents kunnen met vrijwel elk systeem praten via REST APIs, webhooks of custom integraties. We bouwen binnen 48 uur een connectie voor u.</p>
 <a href="/contact" class="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
 Bespreek Custom Integratie
 </a>
@@ -473,54 +676,652 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 
 <!-- Dashboard Preview -->
 <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
-<div class="bg-gradient-to-r from-slate-800 to-slate-900 px-6 py-4">
-<h3 class="font-semibold text-lg text-white">🛒 Retail Management Dashboard</h3>
+<!-- Dashboard Header -->
+<div class="bg-gradient-to-r from-slate-800 to-slate-900 px-4 sm:px-6 py-4">
+<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+<h3 id="dashboard-title" class="font-semibold text-lg text-white mb-2 sm:mb-0">🛒 Retail Management Dashboard</h3>
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-2">
+<div class="w-3 h-3 bg-green-400 rounded-full "></div>
+<span class="text-white text-sm">Live Actief</span>
+</div>
+<div class="flex items-center space-x-4 text-sm text-gray-600">
+<span>Agents: <span id="active-agents-count" class="text-green-400 font-semibold">8</span></span>
+<span>Taken Vandaag: <span id="tasks-today-count" class="text-cyan-400 font-semibold">156</span></span>
+</div>
+</div>
+</div>
 </div>
 
-<div class="p-8">
-<div class="grid lg:grid-cols-4 gap-6">
-<div class="bg-blue-50 p-6 rounded-xl">
+<!-- Dashboard Content -->
+<div class="p-4 sm:p-6 lg:p-8">
+<!-- Core Features Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
+<div class="bg-blue-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900">Realtime Analytics</h4>
-<svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Realtime Analytics</h4>
+<svg class="w-5 h-5 lg:w-6 lg:h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
 </svg>
 </div>
-<p class="text-sm text-gray-600">Live monitoring van alle agent activiteiten en prestaties</p>
+<p class="text-xs lg:text-sm text-gray-600">Live monitoring van alle agent activiteiten en prestaties</p>
 </div>
-
-<div class="bg-green-50 p-6 rounded-xl">
+<div class="bg-green-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900">Agent Configuratie</h4>
-<svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Agent Configuratie</h4>
+<svg class="w-5 h-5 lg:w-6 lg:h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
 </svg>
 </div>
-<p class="text-sm text-gray-600">Pas agent gedrag en instellingen aan per bedrijfstype</p>
+<p class="text-xs lg:text-sm text-gray-600">Pas agent gedrag en instellingen aan per bedrijfstype</p>
 </div>
-
-<div class="bg-yellow-50 p-6 rounded-xl">
+<div class="bg-yellow-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900">Alert Management</h4>
-<svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM7 7h3m-3 4h3m-3 4h3M5 21V3h14l2 2v16H5z"></path>
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Alert Management</h4>
+<svg class="w-5 h-5 lg:w-6 lg:h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.728-.833-2.498 0L4.316 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
 </svg>
 </div>
-<p class="text-sm text-gray-600">Geautomatiseerde meldingen en escalatie procedures</p>
+<p class="text-xs lg:text-sm text-gray-600">Geautomatiseerde meldingen en escalatie procedures</p>
 </div>
-
-<div class="bg-purple-50 p-6 rounded-xl">
+<div class="bg-purple-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900">Security & Compliance</h4>
-<svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Security & Compliance</h4>
+<svg class="w-5 h-5 lg:w-6 lg:h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
 </svg>
 </div>
-<p class="text-sm text-gray-600">Enterprise-grade beveiliging en compliance monitoring</p>
+<p class="text-xs lg:text-sm text-gray-600">Enterprise-grade beveiliging en compliance monitoring</p>
+</div>
+</div>
+
+<!-- Agent Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6 mb-8">
+<div id="agent-cards-grid" class="col-span-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6">
+<!-- Dynamic content populated by JavaScript -->
+</div>
+</div>
+
+<!-- Activity Feed -->
+<div class="bg-gray-50 rounded-xl p-4 lg:p-6">
+<div class="flex items-center justify-between mb-4">
+<h4 class="font-semibold text-gray-900">Recente Activiteit</h4>
+<svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+</svg>
+</div>
+<div id="activity-feed" class="space-y-3 max-h-64 overflow-y-auto">
+<!-- Dynamic content populated by JavaScript -->
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
+
+<style>
+.business-content {
+    display: none;
+}
+.business-content.active {
+    display: block;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Dashboard functionality
+    const backendBtns = document.querySelectorAll('.backend-btn');
+    const dashboardTitle = document.getElementById('dashboard-title');
+    const activeAgentsCount = document.getElementById('active-agents-count');
+    const tasksTodayCount = document.getElementById('tasks-today-count');
+    const agentCardsGrid = document.getElementById('agent-cards-grid');
+    const activityFeed = document.getElementById('activity-feed');
+    
+    // Scenario functionality
+    const scenarioBtns = document.querySelectorAll('.scenario-btn');
+    const startBtn = document.getElementById('start-simulation');
+    const resetBtn = document.getElementById('reset-simulation');
+    const output = document.getElementById('simulation-output');
+    
+    // Business type functionality
+    const businessBtns = document.querySelectorAll('.business-btn');
+    const businessContents = document.querySelectorAll('.business-content');
+    const businessTitle = document.getElementById('business-title');
+    const dashboardTitle = document.getElementById('dashboard-title');
+    const activeAgentsCount = document.getElementById('active-agents-count');
+    const tasksTodayCount = document.getElementById('tasks-today-count');
+    const agentCardsGrid = document.getElementById('agent-cards-grid');
+    const activityFeed = document.getElementById('activity-feed');
+    
+    let currentScenario = 'customer-support';
+    let simulationRunning = false;
+    let currentBusiness = 'retail';
+    
+    // Business type configurations
+    const businessConfigs = {
+        retail: {
+            title: '🛒 Retail Dashboard',
+            dashboardTitle: 'Agent Control Panel - Retail',
+            activeAgents: 8,
+            tasksToday: 156,
+            agents: [
+                {
+                    icon: '🛒',
+                    name: 'Voorraad Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Items Gemonitord:', value: '1,247' },
+                        { label: 'Auto Bestellingen:', value: '5', color: 'text-green-400' },
+                        { label: 'Kostenbesparing:', value: '€8.2k', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '🎧',
+                    name: 'Klantenservice Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Tickets Vandaag:', value: '42' },
+                        { label: 'Gem. Reactietijd:', value: '2.3s', color: 'text-green-400' },
+                        { label: 'Tevredenheidsscore:', value: '94%', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '📊',
+                    name: 'Analytics Agent',
+                    status: 'Actief',
+                    bgColor: 'from-purple-600/20 to-pink-600/20',
+                    borderColor: 'border-purple-500/30 hover:border-purple-400/50',
+                    iconBg: 'bg-purple-500',
+                    metrics: [
+                        { label: 'Verkoop Insights:', value: '18' },
+                        { label: 'Trends Gedetecteerd:', value: '7', color: 'text-green-400' },
+                        { label: 'Omzet Toename:', value: '25%', color: 'text-green-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '✓', text: 'Voorraad automatisch aangevuld: MacBook Pro', time: '2 min geleden', color: 'text-green-400' },
+                { icon: '🎧', text: 'Klantticket #1247 automatisch opgelost', time: '5 min geleden', color: 'text-blue-400' },
+                { icon: '📊', text: 'Verkooptrend geanalyseerd: iPhone stijging', time: '8 min geleden', color: 'text-purple-400' },
+                { icon: '✓', text: '12 nieuwe klantreviews verwerkt', time: '12 min geleden', color: 'text-green-400' }
+            ]
+        },
+        finance: {
+            title: '💰 Finance Dashboard',
+            dashboardTitle: 'Agent Control Panel - Finance',
+            activeAgents: 6,
+            tasksToday: 89,
+            agents: [
+                {
+                    icon: '🛡️',
+                    name: 'Fraude Detectie Agent',
+                    status: 'Actief',
+                    bgColor: 'from-red-600/20 to-pink-600/20',
+                    borderColor: 'border-red-500/30 hover:border-red-400/50',
+                    iconBg: 'bg-red-500',
+                    metrics: [
+                        { label: 'Verdachte Transacties:', value: '3' },
+                        { label: 'Fraude Voorkomen:', value: '€45k', color: 'text-green-400' },
+                        { label: 'Detectie Accuratesse:', value: '98%', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '👤',
+                    name: 'KYC Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Klanten Geverifieerd:', value: '28' },
+                        { label: 'Gem. Verificatietijd:', value: '4.2 min', color: 'text-green-400' },
+                        { label: 'Goedkeuringspercentage:', value: '92%', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '📋',
+                    name: 'Compliance Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Rapporten Gegenereerd:', value: '12' },
+                        { label: 'Compliance Score:', value: '100%', color: 'text-green-400' },
+                        { label: 'Regelgeving Updates:', value: '3', color: 'text-yellow-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '🛡️', text: 'Verdachte transactie geblokkeerd: €15.000', time: '1 min geleden', color: 'text-red-400' },
+                { icon: '✓', text: 'KYC verificatie voltooid: Nieuwe Zakelijke Klant', time: '8 min geleden', color: 'text-blue-400' },
+                { icon: '📋', text: 'Compliance rapport verzonden naar DNB', time: '15 min geleden', color: 'text-green-400' },
+                { icon: '🔍', text: 'Risk assessment uitgevoerd voor 5 accounts', time: '22 min geleden', color: 'text-purple-400' }
+            ]
+        },
+        healthcare: {
+            title: '🏥 Healthcare Dashboard',
+            dashboardTitle: 'Agent Control Panel - Healthcare',
+            activeAgents: 7,
+            tasksToday: 203,
+            agents: [
+                {
+                    icon: '📅',
+                    name: 'Afspraken Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Afspraken Gepland:', value: '45' },
+                        { label: 'No-show Rate:', value: '8%', color: 'text-green-400' },
+                        { label: 'Bezettingsgraad:', value: '94%', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '👨‍⚕️',
+                    name: 'Patiënt Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Patiënt Dossiers:', value: '1,284' },
+                        { label: 'Medicatie Alerts:', value: '7', color: 'text-yellow-400' },
+                        { label: 'Follow-ups Gepland:', value: '23', color: 'text-blue-400' }
+                    ]
+                },
+                {
+                    icon: '💶',
+                    name: 'Facturatie Agent',
+                    status: 'Actief',
+                    bgColor: 'from-purple-600/20 to-pink-600/20',
+                    borderColor: 'border-purple-500/30 hover:border-purple-400/50',
+                    iconBg: 'bg-purple-500',
+                    metrics: [
+                        { label: 'Declaraties Verstuurd:', value: '67' },
+                        { label: 'Goedkeuringspercentage:', value: '96%', color: 'text-green-400' },
+                        { label: 'Gem. Verwerkingstijd:', value: '2.1 dagen', color: 'text-green-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '📅', text: 'Herinnering verstuurd voor 15 afspraken morgen', time: '3 min geleden', color: 'text-blue-400' },
+                { icon: '👨‍⚕️', text: 'Medicatie-interactie alert: Patiënt #4521', time: '12 min geleden', color: 'text-yellow-400' },
+                { icon: '💶', text: '25 declaraties automatisch ingediend bij CZ', time: '18 min geleden', color: 'text-purple-400' },
+                { icon: '✓', text: 'Follow-up gepland voor post-operatieve patiënten', time: '25 min geleden', color: 'text-green-400' }
+            ]
+        },
+        manufacturing: {
+            title: '🏭 Manufacturing Dashboard',
+            dashboardTitle: 'Agent Control Panel - Manufacturing',
+            activeAgents: 9,
+            tasksToday: 312,
+            agents: [
+                {
+                    icon: '📦',
+                    name: 'Supply Chain Agent',
+                    status: 'Actief',
+                    bgColor: 'from-orange-600/20 to-red-600/20',
+                    borderColor: 'border-orange-500/30 hover:border-orange-400/50',
+                    iconBg: 'bg-orange-500',
+                    metrics: [
+                        { label: 'Leveranciers Actief:', value: '23' },
+                        { label: 'Bestellingen Vandaag:', value: '8', color: 'text-green-400' },
+                        { label: 'Kostenbesparing:', value: '€12.3k', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '🔍',
+                    name: 'Kwaliteit Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Producten Getest:', value: '1,456' },
+                        { label: 'Defect Rate:', value: '0.8%', color: 'text-green-400' },
+                        { label: 'Kwaliteitsscore:', value: '98.2%', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '⚙️',
+                    name: 'Onderhoud Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Machines Gemonitord:', value: '47' },
+                        { label: 'Onderhoud Gepland:', value: '3', color: 'text-blue-400' },
+                        { label: 'Uptime:', value: '99.2%', color: 'text-green-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '📦', text: 'Automatische bestelling geplaatst: Staal componenten', time: '5 min geleden', color: 'text-orange-400' },
+                { icon: '🔍', text: 'Kwaliteitsdefect gedetecteerd en gecorrigeerd', time: '11 min geleden', color: 'text-blue-400' },
+                { icon: '⚙️', text: 'Predictief onderhoud gepland voor Machine #7', time: '19 min geleden', color: 'text-green-400' },
+                { icon: '📊', text: 'Productie-efficiëntie rapport gegenereerd', time: '27 min geleden', color: 'text-purple-400' }
+            ]
+        },
+        restaurant: {
+            title: '🍽️ Restaurant Dashboard',
+            dashboardTitle: 'Agent Control Panel - Restaurant',
+            activeAgents: 5,
+            tasksToday: 178,
+            agents: [
+                {
+                    icon: '📞',
+                    name: 'Reservering Agent',
+                    status: 'Actief',
+                    bgColor: 'from-yellow-600/20 to-orange-600/20',
+                    borderColor: 'border-yellow-500/30 hover:border-yellow-400/50',
+                    iconBg: 'bg-yellow-500',
+                    metrics: [
+                        { label: 'Reserveringen Vandaag:', value: '67' },
+                        { label: 'Tafelbenutting:', value: '89%', color: 'text-green-400' },
+                        { label: 'Wachtlijst:', value: '12', color: 'text-blue-400' }
+                    ]
+                },
+                {
+                    icon: '🥘',
+                    name: 'Menu Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Ingrediënten Tracking:', value: '156' },
+                        { label: 'Verspilling Reductie:', value: '34%', color: 'text-green-400' },
+                        { label: 'Menu Optimalisatie:', value: '3', color: 'text-blue-400' }
+                    ]
+                },
+                {
+                    icon: '⭐',
+                    name: 'Feedback Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Reviews Geanalyseerd:', value: '89' },
+                        { label: 'Gem. Score:', value: '4.7⭐', color: 'text-green-400' },
+                        { label: 'Verbeteracties:', value: '5', color: 'text-yellow-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '📞', text: 'Peak-time reservering geoptimaliseerd voor vanavond', time: '4 min geleden', color: 'text-yellow-400' },
+                { icon: '🥘', text: 'Verse zalm bestelling geplaatst voor morgen', time: '15 min geleden', color: 'text-green-400' },
+                { icon: '⭐', text: 'Positieve feedback geanalyseerd: service verbetering', time: '23 min geleden', color: 'text-blue-400' },
+                { icon: '📊', text: 'Wekelijks populariteitsrapport menu-items', time: '31 min geleden', color: 'text-purple-400' }
+            ]
+        },
+        realestate: {
+            title: '🏠 Real Estate Dashboard',
+            dashboardTitle: 'Agent Control Panel - Real Estate',
+            activeAgents: 6,
+            tasksToday: 127,
+            agents: [
+                {
+                    icon: '🎯',
+                    name: 'Lead Agent',
+                    status: 'Actief',
+                    bgColor: 'from-blue-600/20 to-cyan-600/20',
+                    borderColor: 'border-blue-500/30 hover:border-blue-400/50',
+                    iconBg: 'bg-blue-500',
+                    metrics: [
+                        { label: 'Leads Gekwalificeerd:', value: '23' },
+                        { label: 'Conversie Rate:', value: '68%', color: 'text-green-400' },
+                        { label: 'Bezichtigingen Gepland:', value: '15', color: 'text-blue-400' }
+                    ]
+                },
+                {
+                    icon: '🏠',
+                    name: 'Property Agent',
+                    status: 'Actief',
+                    bgColor: 'from-green-600/20 to-emerald-600/20',
+                    borderColor: 'border-green-500/30 hover:border-green-400/50',
+                    iconBg: 'bg-green-500',
+                    metrics: [
+                        { label: 'Objecten Beheerd:', value: '89' },
+                        { label: 'Onderhoud Alerts:', value: '4', color: 'text-yellow-400' },
+                        { label: 'Huurinkomsten:', value: '€45.2k', color: 'text-green-400' }
+                    ]
+                },
+                {
+                    icon: '📄',
+                    name: 'Contract Agent',
+                    status: 'Actief',
+                    bgColor: 'from-purple-600/20 to-pink-600/20',
+                    borderColor: 'border-purple-500/30 hover:border-purple-400/50',
+                    iconBg: 'bg-purple-500',
+                    metrics: [
+                        { label: 'Contracten Verwerkt:', value: '12' },
+                        { label: 'Juridische Checks:', value: '100%', color: 'text-green-400' },
+                        { label: 'Gem. Afhandeltijd:', value: '2.3 dagen', color: 'text-green-400' }
+                    ]
+                }
+            ],
+            activities: [
+                { icon: '🎯', text: 'Nieuwe lead gekwalificeerd: Luxe appartement Amsterdam', time: '6 min geleden', color: 'text-blue-400' },
+                { icon: '🏠', text: 'Onderhoud gepland voor Haarlemmerplein 45', time: '14 min geleden', color: 'text-green-400' },
+                { icon: '📄', text: 'Huurcontract automatisch gegenereerd en verzonden', time: '21 min geleden', color: 'text-purple-400' },
+                { icon: '📊', text: 'Marktanalyse voltooid voor regio Noord-Holland', time: '28 min geleden', color: 'text-cyan-400' }
+            ]
+        }
+    };
+
+    // Function to update dashboard for selected business type
+    function updateDashboardForBusiness(businessType) {
+        const config = businessConfigs[businessType];
+        if (!config) return;
+
+        // Update dashboard title and stats
+        if (dashboardTitle) dashboardTitle.textContent = config.title;
+        if (activeAgentsCount) activeAgentsCount.textContent = config.activeAgents;
+        if (tasksTodayCount) tasksTodayCount.textContent = config.tasksToday;
+        
+        // Update agent cards
+        if (agentCardsGrid) {
+            agentCardsGrid.innerHTML = '';
+            config.agents.forEach(agent => {
+                const agentCard = document.createElement('div');
+                agentCard.className = `bg-gradient-to-br ${agent.bgColor} rounded-xl p-4 lg:p-6 border ${agent.borderColor} transition-all duration-300 backdrop-blur-sm`;
+                agentCard.innerHTML = `
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 lg:w-10 lg:h-10 ${agent.iconBg} rounded-lg flex items-center justify-center text-white">
+                                <span class="text-lg lg:text-xl">${agent.icon}</span>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-900 text-sm lg:text-base">${agent.name}</h5>
+                                <p class="text-xs text-gray-500">${agent.status}</p>
+                            </div>
+                        </div>
+                        <div class="w-3 h-3 bg-green-400 rounded-full "></div>
+                    </div>
+                    <div class="space-y-2 text-xs lg:text-sm">
+                        ${agent.metrics.map(metric => `
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">${metric.label}</span>
+                                <span class="${metric.color || 'text-gray-900'} font-medium">${metric.value}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                agentCardsGrid.appendChild(agentCard);
+            });
+        }
+        
+        // Update activity feed
+        if (activityFeed) {
+            activityFeed.innerHTML = '';
+            config.activities.forEach(activity => {
+                const activityItem = document.createElement('div');
+                activityItem.className = 'flex items-start space-x-3 p-3 rounded-lg bg-white/50 border border-gray-100';
+                activityItem.innerHTML = `
+                    <span class="${activity.color} text-lg">${activity.icon}</span>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-sm text-gray-900">${activity.text}</p>
+                        <p class="text-xs text-gray-500 mt-1">${activity.time}</p>
+                    </div>
+                `;
+                activityFeed.appendChild(activityItem);
+            });
+        }
+    }
+    
+    // Backend button click handlers
+    if (backendBtns) {
+        backendBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const businessType = this.dataset.dashboard;
+                
+                // Update button states
+                backendBtns.forEach(b => {
+                    b.classList.remove('active', 'border-cyan-500', 'bg-cyan-50');
+                    b.classList.add('border-gray-200');
+                    const span = b.querySelector('span');
+                    if (span) {
+                        span.classList.remove('text-gray-900');
+                        span.classList.add('text-gray-600');
+                    }
+                });
+                
+                this.classList.add('active', 'border-cyan-500', 'bg-cyan-50');
+                this.classList.remove('border-gray-200');
+                const span = this.querySelector('span');
+                if (span) {
+                    span.classList.remove('text-gray-600');
+                    span.classList.add('text-gray-900');
+                }
+                
+                // Update dashboard
+                updateDashboardForBusiness(businessType);
+            });
+        });
+    }
+        startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2 " fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>Simuleert...';
+        
+        output.innerHTML = '<div class="text-green-400"># ' + scenarios[currentScenario].title + ' - Simulatie gestart</div>';
+        
+        const steps = scenarios[currentScenario].steps;
+        let stepIndex = 0;
+        
+        function executeStep() {
+            if (stepIndex < steps.length) {
+                const step = steps[stepIndex];
+                const stepDiv = document.createElement('div');
+                stepDiv.className = step.color + ' opacity-0 transition-opacity duration-300';
+                stepDiv.textContent = step.text;
+                output.appendChild(stepDiv);
+                
+                // Animate in
+                setTimeout(() => {
+                    stepDiv.classList.remove('opacity-0');
+                }, 100);
+                
+                stepIndex++;
+                setTimeout(executeStep, step.delay);
+            } else {
+                // Simulation complete
+                setTimeout(() => {
+                    const completeDiv = document.createElement('div');
+                    completeDiv.className = 'text-green-400 font-bold border-t border-gray-700 pt-2 mt-4';
+                    completeDiv.textContent = '# Simulatie voltooid - Agent klaar voor volgende taak';
+                    output.appendChild(completeDiv);
+                    
+                    startBtn.disabled = false;
+                    startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
+                    simulationRunning = false;
+                }, 1000);
+            }
+        }
+        
+        executeStep();
+    }
+    
+    function resetSimulation() {
+        simulationRunning = false;
+        if (startBtn) {
+            startBtn.disabled = false;
+            startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
+        }
+        
+        if (output) {
+            // Show which scenario is currently selected
+            const scenarioTitle = scenarios[currentScenario].title;
+            let scenarioAction = 'klachten af te handelen';
+            if (currentScenario === 'sales-lead') {
+                scenarioAction = 'leads op te volgen';
+            } else if (currentScenario === 'inventory') {
+                scenarioAction = 'voorraad te beheren';
+            }
+            
+            output.innerHTML = '<div class="text-gray-400"># Welkom bij AI Agent Simulatie</div>' +
+                              '<div class="text-cyan-400"># Geselecteerd scenario: ' + scenarioTitle + '</div>' +
+                              '<div class="text-yellow-400"># Klik op "Start Simulatie" om te zien hoe de AI-agent werkt</div>' +
+                              '<div class="text-gray-500 mt-4">Klaar om ' + scenarioAction + '...</div>';
+        }
+    }
+    
+    // Business button click handlers
+    if (businessBtns) {
+        businessBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const businessType = this.dataset.business;
+                
+                // Update button states
+                businessBtns.forEach(b => {
+                    b.classList.remove('active', 'border-cyan-500', 'shadow-lg');
+                    b.classList.add('border-gray-200', 'shadow-md');
+                    const span = b.querySelector('span');
+                    if (span) {
+                        span.classList.remove('text-gray-900');
+                        span.classList.add('text-gray-700');
+                    }
+                });
+                
+                this.classList.add('active', 'border-cyan-500', 'shadow-lg');
+                this.classList.remove('border-gray-200', 'shadow-md');
+                const span = this.querySelector('span');
+                if (span) {
+                    span.classList.remove('text-gray-700');
+                    span.classList.add('text-gray-900');
+                }
+                
+                // Update content visibility
+                businessContents.forEach(content => {
+                    if (content.dataset.business === businessType) {
+                        content.classList.add('active');
+                    } else {
+                        content.classList.remove('active');
+                    }
+                });
+            });
+        });
+    }
+    
+    // Initialize business content visibility
+    businessContents.forEach(content => {
+        if (content.dataset.business === 'retail') {
+            content.classList.add('active');
+        } else {
+            content.classList.remove('active');
+        }
+    });
+    
+    // Initialize dashboard on page load
+    updateDashboardForBusiness('retail');
+});
+</script>

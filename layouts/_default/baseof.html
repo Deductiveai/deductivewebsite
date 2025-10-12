@@ -95,6 +95,36 @@
 
 
     <!-- Flowise Chatbot Embed -->
+    <style>
+        /* Bounce animation for chatbot button */
+        @keyframes chatbotBounce {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.15);
+            }
+            65% {
+                transform: scale(0.95);
+            }
+            80% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Apply bounce animation to chatbot button - try multiple selectors */
+        [id^="flowise-chatbot-button"],
+        flowise-chatbot button,
+        .flowise-chatbot-button,
+        #chatbot-button {
+            animation: chatbotBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+        }
+    </style>
     <script type="module">
         import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
         Chatbot.init({
@@ -112,11 +142,7 @@
                     boxShadow: "0 4px 20px rgba(59, 130, 246, 0.3)",
                 },
                 tooltip: {
-                    showTooltip: true,
-                    tooltipMessage: "💬 Heb je een vraag? Chat met onze AI!",
-                    tooltipBackgroundColor: "#1F2937",
-                    tooltipTextColor: "white",
-                    tooltipFontSize: 14,
+                    showTooltip: false,
                 },
                 chatWindow: {
                     showTitle: true,
@@ -167,6 +193,85 @@
                     }
                 }
             }
+        });
+
+        let chatbotButton = null;
+        let shadowRoot = null;
+
+        // Use MutationObserver to detect when the chatbot element appears
+        const observer = new MutationObserver((mutations) => {
+            const flowiseChatbot = document.querySelector('flowise-chatbot');
+
+            if (flowiseChatbot && flowiseChatbot.shadowRoot && !chatbotButton) {
+                shadowRoot = flowiseChatbot.shadowRoot;
+                chatbotButton = shadowRoot.querySelector('button');
+
+                if (chatbotButton) {
+                    // Inject keyframes into shadow DOM
+                    const style = document.createElement('style');
+                    style.textContent = `
+                        @keyframes chatbotBounce {
+                            0% {
+                                transform: scale(1);
+                            }
+                            25% {
+                                transform: scale(1.15);
+                            }
+                            50% {
+                                transform: scale(0.95);
+                            }
+                            75% {
+                                transform: scale(1.05);
+                            }
+                            100% {
+                                transform: scale(1);
+                            }
+                        }
+                    `;
+                    shadowRoot.appendChild(style);
+
+                    // Stop observing once we found the button
+                    observer.disconnect();
+
+                    // Start the repeating bounce animation
+                    startBouncingAnimation();
+                }
+            }
+        });
+
+        // Function to trigger the bounce animation
+        function startBouncingAnimation() {
+            if (!chatbotButton) return;
+
+            // Trigger initial bounce
+            triggerBounce();
+
+            // Repeat every 2.5 seconds
+            setInterval(() => {
+                triggerBounce();
+            }, 2500);
+        }
+
+        function triggerBounce() {
+            if (!chatbotButton) return;
+
+            // Remove animation to reset it
+            chatbotButton.style.animation = 'none';
+
+            // Trigger reflow
+            void chatbotButton.offsetHeight;
+
+            // Apply animation using requestAnimationFrame for better timing
+            requestAnimationFrame(() => {
+                chatbotButton.style.animation = 'chatbotBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+                chatbotButton.style.transformOrigin = 'center center';
+            });
+        }
+
+        // Start observing
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
         });
     </script>
 </body>

@@ -366,157 +366,6 @@ Reset
 </div>
 </section>
 
-<!-- Integration Section -->
-<section class="py-20 bg-white overflow-hidden relative">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-<div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Universele Connectiviteit</h2>
-<span class="text-white font-medium">1,247</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Auto Bestellingen:</span>
-<span class="text-green-400 font-medium">5</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Kostenbesparing:</span>
-<span class="text-green-400 font-medium">€8.2k</span>
-</div>
-</div>
-</div>
-
-<div class="bg-gradient-to-br from-green-600/20 to-emerald-600/20 rounded-xl p-6 border border-green-500/30 hover:border-green-400/50 transition-all duration-300">
-<div class="flex items-center justify-between mb-4">
-<div class="flex items-center space-x-3">
-<div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
-<span class="text-xl">🎧</span>
-</div>
-<div>
-<h5 class="font-semibold">Klantenservice Agent</h5>
-<p class="text-xs text-gray-400">Actief</p>
-</div>
-</div>
-<div class="w-3 h-3 bg-green-400 rounded-full "></div>
-</div>
-<div class="space-y-2 text-sm">
-<div class="flex justify-between">
-<span class="text-gray-400">Tickets Vandaag:</span>
-<span class="text-white font-medium">42</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Gem. Reactietijd:</span>
-<span class="text-green-400 font-medium">2.3s</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Tevredenheidsscore:</span>
-<span class="text-green-400 font-medium">94%</span>
-</div>
-</div>
-</div>
-
-<div class="bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-xl p-6 border border-purple-500/30 hover:border-purple-400/50 transition-all duration-300">
-<div class="flex items-center justify-between mb-4">
-<div class="flex items-center space-x-3">
-<div class="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center">
-<span class="text-xl">📊</span>
-</div>
-<div>
-<h5 class="font-semibold">Analytics Agent</h5>
-<p class="text-xs text-gray-400">Actief</p>
-</div>
-</div>
-<div class="w-3 h-3 bg-green-400 rounded-full "></div>
-</div>
-<div class="space-y-2 text-sm">
-<div class="flex justify-between">
-<span class="text-gray-400">Verkoop Insights:</span>
-<span class="text-white font-medium">18</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Trends Gedetecteerd:</span>
-<span class="text-green-400 font-medium">7</span>
-</div>
-<div class="flex justify-between">
-<span class="text-gray-400">Omzet Toename:</span>
-<span class="text-green-400 font-medium">25%</span>
-</div>
-</div>
-</div>
-</div>
-
-<!-- Live Activity Feed -->
-<div class="grid lg:grid-cols-2 gap-6">
-<!-- Activity Log -->
-<div class="bg-gray-900/50 rounded-xl p-6 border border-gray-700">
-<h5 class="font-semibold mb-4 flex items-center">
-<span class="w-2 h-2 bg-cyan-400 rounded-full mr-2 "></span>
-Live Activiteitenfeed
-</h5>
-<div id="activity-feed" class="space-y-3 text-sm max-h-48 overflow-y-auto">
-<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
-<span class="text-green-400">✓</span>
-<span class="text-gray-600">Voorraad automatisch aangevuld: MacBook Pro</span>
-<span class="text-xs text-gray-500 ml-auto">2 min geleden</span>
-</div>
-<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
-<span class="text-blue-400">🎧</span>
-<span class="text-gray-600">Klantticket #1247 automatisch opgelost</span>
-<span class="text-xs text-gray-500 ml-auto">5 min geleden</span>
-</div>
-<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
-<span class="text-purple-400">📊</span>
-<span class="text-gray-600">Verkooptrend geanalyseerd: iPhone stijging</span>
-<span class="text-xs text-gray-500 ml-auto">8 min geleden</span>
-</div>
-<div class="flex items-center space-x-3 p-2 rounded bg-gray-800/50">
-<span class="text-green-400">✓</span>
-<span class="text-gray-600">12 nieuwe klantreviews verwerkt</span>
-<span class="text-xs text-gray-500 ml-auto">12 min geleden</span>
-</div>
-</div>
-</div>
-
-<!-- System Metrics -->
-<div class="bg-gray-900/50 rounded-xl p-6 border border-gray-700">
-<h5 class="font-semibold mb-4">Systeemprestaties</h5>
-<div class="space-y-4" id="system-metrics">
-<div class="flex items-center justify-between">
-<span class="text-gray-400">CPU Gebruik</span>
-<div class="flex items-center space-x-2">
-<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
-<div class="w-1/3 h-full bg-green-400 rounded-full"></div>
-</div>
-<span class="text-sm text-green-400">34%</span>
-</div>
-</div>
-<div class="flex items-center justify-between">
-<span class="text-gray-400">Geheugen</span>
-<div class="flex items-center space-x-2">
-<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
-<div class="w-1/2 h-full bg-blue-400 rounded-full"></div>
-</div>
-<span class="text-sm text-blue-400">52%</span>
-</div>
-</div>
-<div class="flex items-center justify-between">
-<span class="text-gray-400">Netwerk I/O</span>
-<div class="flex items-center space-x-2">
-<div class="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
-<div class="w-1/4 h-full bg-purple-400 rounded-full"></div>
-</div>
-<span class="text-sm text-purple-400">23%</span>
-</div>
-</div>
-<div class="flex items-center justify-between">
-<span class="text-gray-400">Reactietijd</span>
-<span class="text-sm text-green-400">0.8ms gem</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
 <section class="py-20 bg-white overflow-hidden relative">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
@@ -788,13 +637,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Business type functionality
     const businessBtns = document.querySelectorAll('.business-btn');
     const businessContents = document.querySelectorAll('.business-content');
-    const businessTitle = document.getElementById('business-title');
-    const dashboardTitle = document.getElementById('dashboard-title');
-    const activeAgentsCount = document.getElementById('active-agents-count');
-    const tasksTodayCount = document.getElementById('tasks-today-count');
-    const agentCardsGrid = document.getElementById('agent-cards-grid');
-    const activityFeed = document.getElementById('activity-feed');
-    
+
     let currentScenario = 'customer-support';
     let simulationRunning = false;
     let currentBusiness = 'retail';
@@ -1121,6 +964,159 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    // Scenario configurations for AI simulation
+    const scenarios = {
+        'customer-support': {
+            title: 'Klantservice Scenario',
+            steps: [
+                { text: '> Nieuwe email ontvangen van klant...', color: 'text-cyan-400', delay: 800 },
+                { text: '> AI analyseert sentiment: Gefrustreerd (85% zekerheid)', color: 'text-yellow-400', delay: 1200 },
+                { text: '> Klantgeschiedenis opgehaald: 12 eerdere orders, goede betaalhistorie', color: 'text-blue-400', delay: 1000 },
+                { text: '> Probleem geïdentificeerd: Vertraagde levering door logistieke fout', color: 'text-orange-400', delay: 1200 },
+                { text: '> Compensatie berekend: Gratis express verzending + €10 voucher', color: 'text-green-400', delay: 1000 },
+                { text: '> Persoonlijke excuus email gegenereerd en verstuurd', color: 'text-green-400', delay: 1000 },
+                { text: '> Tracking gedeeld met klant via SMS', color: 'text-green-400', delay: 800 },
+                { text: '> Ticket automatisch afgesloten en gelogd', color: 'text-cyan-400', delay: 600 }
+            ]
+        },
+        'sales-lead': {
+            title: 'Sales Lead Scenario',
+            steps: [
+                { text: '> Nieuwe prospect via website formulier...', color: 'text-cyan-400', delay: 800 },
+                { text: '> AI analyseert bedrijfsprofiel: 50-200 medewerkers, tech sector', color: 'text-blue-400', delay: 1200 },
+                { text: '> LinkedIn profiel gescand: Beslisser geïdentificeerd (CFO)', color: 'text-purple-400', delay: 1000 },
+                { text: '> Lead score berekend: 87/100 - Hoge prioriteit', color: 'text-green-400', delay: 1000 },
+                { text: '> Relevante case studies geselecteerd uit database', color: 'text-blue-400', delay: 1200 },
+                { text: '> Gepersonaliseerde email samengesteld met ROI berekening', color: 'text-yellow-400', delay: 1200 },
+                { text: '> Email verstuurd + follow-up in CRM gepland (3 dagen)', color: 'text-green-400', delay: 1000 },
+                { text: '> Salesteam notificatie: "Hete lead - contact binnen 24 uur"', color: 'text-orange-400', delay: 800 }
+            ]
+        },
+        'inventory': {
+            title: 'Voorraad Alert Scenario',
+            steps: [
+                { text: '> Voorraad check: iPhone 15 Pro - Slechts 8 stuks over', color: 'text-orange-400', delay: 800 },
+                { text: '> Historische data geanalyseerd: Gemiddeld 25 verkopen/week', color: 'text-blue-400', delay: 1200 },
+                { text: '> Seizoenstrend gedetecteerd: Piek periode nadert (+40% verwacht)', color: 'text-yellow-400', delay: 1200 },
+                { text: '> Leverancier voorraad gecontroleerd: 250 stuks beschikbaar', color: 'text-cyan-400', delay: 1000 },
+                { text: '> Optimale bestelgrootte berekend: 50 stuks (€24,500)', color: 'text-purple-400', delay: 1200 },
+                { text: '> Leveringstijd gecontroleerd: 2 werkdagen', color: 'text-blue-400', delay: 1000 },
+                { text: '> Automatische bestelling geplaatst bij leverancier', color: 'text-green-400', delay: 1000 },
+                { text: '> Manager notificatie: "Voorraad aangevuld - levering vrijdag"', color: 'text-green-400', delay: 800 }
+            ]
+        }
+    };
+
+    // Scenario button click handlers
+    if (scenarioBtns) {
+        scenarioBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (simulationRunning) return;
+
+                const scenario = this.dataset.scenario;
+                currentScenario = scenario;
+
+                // Update button states
+                scenarioBtns.forEach(b => {
+                    b.classList.remove('active', 'border-cyan-500', 'bg-cyan-50');
+                    b.classList.add('border-gray-200');
+                });
+
+                this.classList.add('active', 'border-cyan-500', 'bg-cyan-50');
+                this.classList.remove('border-gray-200');
+
+                // Reset simulation display
+                resetSimulation();
+            });
+        });
+    }
+
+    // Start button click handler
+    if (startBtn) {
+        startBtn.addEventListener('click', function() {
+            if (simulationRunning) return;
+            startSimulation();
+        });
+    }
+
+    // Reset button click handler
+    if (resetBtn) {
+        resetBtn.addEventListener('click', function() {
+            resetSimulation();
+        });
+    }
+
+    // Function to start simulation
+    function startSimulation() {
+        if (!scenarios[currentScenario]) return;
+
+        simulationRunning = true;
+        startBtn.disabled = true;
+        startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>Simuleert...';
+
+        output.innerHTML = '<div class="text-green-400"># ' + scenarios[currentScenario].title + ' - Simulatie gestart</div>';
+
+        const steps = scenarios[currentScenario].steps;
+        let stepIndex = 0;
+
+        function executeStep() {
+            if (stepIndex < steps.length) {
+                const step = steps[stepIndex];
+                const stepDiv = document.createElement('div');
+                stepDiv.className = step.color + ' opacity-0 transition-opacity duration-300';
+                stepDiv.textContent = step.text;
+                output.appendChild(stepDiv);
+
+                // Animate in
+                setTimeout(() => {
+                    stepDiv.classList.remove('opacity-0');
+                }, 100);
+
+                stepIndex++;
+                setTimeout(executeStep, step.delay);
+            } else {
+                // Simulation complete
+                setTimeout(() => {
+                    const completeDiv = document.createElement('div');
+                    completeDiv.className = 'text-green-400 font-bold border-t border-gray-700 pt-2 mt-4';
+                    completeDiv.textContent = '# Simulatie voltooid - Agent klaar voor volgende taak';
+                    output.appendChild(completeDiv);
+
+                    startBtn.disabled = false;
+                    startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
+                    simulationRunning = false;
+                }, 1000);
+            }
+        }
+
+        executeStep();
+    }
+
+    // Function to reset simulation
+    function resetSimulation() {
+        simulationRunning = false;
+        if (startBtn) {
+            startBtn.disabled = false;
+            startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
+        }
+
+        if (output) {
+            // Show which scenario is currently selected
+            const scenarioTitle = scenarios[currentScenario].title;
+            let scenarioAction = 'klachten af te handelen';
+            if (currentScenario === 'sales-lead') {
+                scenarioAction = 'leads op te volgen';
+            } else if (currentScenario === 'inventory') {
+                scenarioAction = 'voorraad te beheren';
+            }
+
+            output.innerHTML = '<div class="text-gray-400"># Welkom bij AI Agent Simulatie</div>' +
+                              '<div class="text-cyan-400"># Geselecteerd scenario: ' + scenarioTitle + '</div>' +
+                              '<div class="text-yellow-400"># Klik op "Start Simulatie" om te zien hoe de AI-agent werkt</div>' +
+                              '<div class="text-gray-500 mt-4">Klaar om ' + scenarioAction + '...</div>';
+        }
+    }
+
     // Function to update dashboard for selected business type
     function updateDashboardForBusiness(businessType) {
         const config = businessConfigs[businessType];
@@ -1211,70 +1207,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-        startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2 " fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>Simuleert...';
-        
-        output.innerHTML = '<div class="text-green-400"># ' + scenarios[currentScenario].title + ' - Simulatie gestart</div>';
-        
-        const steps = scenarios[currentScenario].steps;
-        let stepIndex = 0;
-        
-        function executeStep() {
-            if (stepIndex < steps.length) {
-                const step = steps[stepIndex];
-                const stepDiv = document.createElement('div');
-                stepDiv.className = step.color + ' opacity-0 transition-opacity duration-300';
-                stepDiv.textContent = step.text;
-                output.appendChild(stepDiv);
-                
-                // Animate in
-                setTimeout(() => {
-                    stepDiv.classList.remove('opacity-0');
-                }, 100);
-                
-                stepIndex++;
-                setTimeout(executeStep, step.delay);
-            } else {
-                // Simulation complete
-                setTimeout(() => {
-                    const completeDiv = document.createElement('div');
-                    completeDiv.className = 'text-green-400 font-bold border-t border-gray-700 pt-2 mt-4';
-                    completeDiv.textContent = '# Simulatie voltooid - Agent klaar voor volgende taak';
-                    output.appendChild(completeDiv);
-                    
-                    startBtn.disabled = false;
-                    startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
-                    simulationRunning = false;
-                }, 1000);
-            }
-        }
-        
-        executeStep();
-    }
-    
-    function resetSimulation() {
-        simulationRunning = false;
-        if (startBtn) {
-            startBtn.disabled = false;
-            startBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>Start Simulatie';
-        }
-        
-        if (output) {
-            // Show which scenario is currently selected
-            const scenarioTitle = scenarios[currentScenario].title;
-            let scenarioAction = 'klachten af te handelen';
-            if (currentScenario === 'sales-lead') {
-                scenarioAction = 'leads op te volgen';
-            } else if (currentScenario === 'inventory') {
-                scenarioAction = 'voorraad te beheren';
-            }
-            
-            output.innerHTML = '<div class="text-gray-400"># Welkom bij AI Agent Simulatie</div>' +
-                              '<div class="text-cyan-400"># Geselecteerd scenario: ' + scenarioTitle + '</div>' +
-                              '<div class="text-yellow-400"># Klik op "Start Simulatie" om te zien hoe de AI-agent werkt</div>' +
-                              '<div class="text-gray-500 mt-4">Klaar om ' + scenarioAction + '...</div>';
-        }
-    }
-    
+
     // Business button click handlers
     if (businessBtns) {
         businessBtns.forEach(btn => {
@@ -1320,8 +1253,11 @@ document.addEventListener('DOMContentLoaded', function() {
             content.classList.remove('active');
         }
     });
-    
+
     // Initialize dashboard on page load
     updateDashboardForBusiness('retail');
+
+    // Initialize simulation display
+    resetSimulation();
 });
 </script>

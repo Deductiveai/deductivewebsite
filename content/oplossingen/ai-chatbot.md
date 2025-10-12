@@ -53,7 +53,7 @@ demo:
 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
 Intelligente 
 <span class="relative inline-block">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 animate-gradient">AI Chatbot</span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 animate-gradient">AI-chatbot</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full animate-pulse"></div>
 </span>
 </h1>
@@ -91,13 +91,13 @@ Moderne AI-chatbots gaan ver voorbij eenvoudige vraag-en-antwoord systemen. Onze
 <svg class="w-5 h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
-<span class="text-white">Technologie Overzicht</span>
+<span class="text-white">Technologie overzicht</span>
 </a>
 <a href="/contact" class="inline-flex items-center justify-center bg-white text-purple-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-purple-600">
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-Plan een Gratis Demo
+Plan een gratis demo
 </a>
 </div>
 </div>
@@ -132,7 +132,7 @@ Plan een Gratis Demo
 <span class="w-3 h-3 bg-red-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-red-700 font-semibold text-sm">Waarom oude chatbots falen</span>
 </div>
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Het Verschil Tussen Standaard en Intelligente Chatbots</h2>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Het verschil tussen standaard en intelligente chatbots</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
 Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijpt context, leert van gesprekken en geeft gepersonaliseerde hulp - net als uw beste klantenservice medewerker, maar dan 24/7 beschikbaar.
 </p>
@@ -156,14 +156,14 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 </svg>
 </div>
 <div>
-<h3 class="text-2xl sm:text-3xl font-bold text-gray-900">Traditionele Chatbots</h3>
+<h3 class="text-2xl sm:text-3xl font-bold text-gray-900">Traditionele chatbots</h3>
 <p class="text-orange-600 font-semibold text-base sm:text-lg">Beperkte mogelijkheden</p>
 </div>
 </div>
 
 <div class="space-y-6">
-<div class="flex items-start">
-<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
 </svg>
@@ -173,8 +173,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Kan alleen reageren met vooraf ingestelde teksten die vaak niet aansluiten bij de werkelijke vraag</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
 </svg>
@@ -184,8 +184,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Vergeet vorige berichten in het gesprek en begrijpt geen samenhangende conversaties</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
 </svg>
@@ -195,8 +195,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Elke wijziging moet door ontwikkelaars worden gedaan, wat tijd en kosten met zich meebrengt</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
 </svg>
@@ -232,8 +232,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 </div>
 
 <div class="space-y-6">
-<div class="flex items-start">
-<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
@@ -243,8 +243,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Begrijpt intentie, context en nuance zoals een ervaren klantenservice medewerker</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
@@ -254,8 +254,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Haalt live informatie uit uw CRM, voorraadsystemen en andere bedrijfsapplicaties</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
@@ -265,8 +265,8 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <p class="text-gray-600 text-lg leading-relaxed">Wordt automatisch slimmer van elke klantinteractie zonder handmatige programmering</p>
 </div>
 </div>
-<div class="flex items-start">
-<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
+<div class="flex gap-4">
+<div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-8">
 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
@@ -291,7 +291,7 @@ Misschien kent u chatbots die alleen standaard antwoorden geven. Onze AI begrijp
 <span class="w-3 h-3 bg-purple-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-purple-700 font-semibold text-sm">Geavanceerde AI-technologie</span>
 </div>
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hoe Werkt Onze AI-Chatbot?</h2>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hoe werkt onze AI-chatbot?</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
 Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos integreert met uw bestaande systemen.
 </p>
@@ -301,18 +301,18 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 mb-12 sm:mb-16">
 <!-- Links: Hoe Het Werkt -->
 <div class="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10 border border-gray-100">
-<h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Slim en Eenvoudig</h3>
+<h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Slim en eenvoudig</h3>
 <div class="space-y-6 sm:space-y-8">
 <div>
-<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Begrijpt Natuurlijke Taal</h4>
+<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Begrijpt natuurlijke taal</h4>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed">Net zoals u met een collega praat, begrijpt onze AI wat klanten bedoelen - ook als ze het anders formuleren</p>
 </div>
 <div>
-<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Leert van Uw Bedrijf</h4>
+<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Leert van uw bedrijf</h4>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed">We trainen de chatbot met uw FAQ's, productinfo en klantenservice procedures zodat hij uw bedrijf kent</p>
 </div>
 <div>
-<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Antwoordt Razendsnel</h4>
+<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Antwoordt razendsnel</h4>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed">Binnen seconden heeft uw klant een antwoord - geen wachtrijen, geen openingstijden, gewoon directe hulp</p>
 </div>
 </div>
@@ -320,7 +320,7 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 
 <!-- Rechts: Waar Integreert Het Mee -->
 <div class="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10 border border-gray-100">
-<h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Werkt Met Uw Systemen</h3>
+<h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Werkt met uw systemen</h3>
 <div class="space-y-6 sm:space-y-8">
 <div class="border-l-4 border-blue-500 pl-4 sm:pl-8">
 <h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Klantenadministratie</h4>
@@ -333,7 +333,7 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 </div>
 </div>
 <div class="border-l-4 border-green-500 pl-4 sm:pl-8">
-<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Webshop & Voorraad</h4>
+<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Webshop & voorraad</h4>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">Geeft live info over bestellingen, voorraad en producten rechtstreeks uit uw webshop</p>
 <div class="flex flex-wrap gap-2 sm:gap-3">
 <span class="bg-green-100 text-green-800 px-3 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-medium">Shopify</span>
@@ -343,7 +343,7 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 </div>
 </div>
 <div class="border-l-4 border-purple-500 pl-4 sm:pl-8">
-<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Alle Communicatiekanalen</h4>
+<h4 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Alle communicatiekanalen</h4>
 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">Klanten kunnen hulp krijgen via hun favoriete app - alles werkt door één systeem</p>
 <div class="flex flex-wrap gap-2 sm:gap-3">
 <span class="bg-purple-100 text-purple-800 px-3 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-medium">WhatsApp Business</span>
@@ -367,7 +367,7 @@ Ontdek op een begrijpelijke manier hoe onze chatbot uw klanten helpt en naadloos
 <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-blue-700 font-semibold text-sm">Bewezen resultaten</span>
 </div>
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Meetbare Resultaten</h2>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Meetbare resultaten</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
 Onze AI-chatbots leveren bewezen ROI door kostenreductie, verhoogde efficiëntie en verbeterde klanttevredenheid.
 </p>
@@ -434,13 +434,13 @@ Onze AI-chatbots leveren bewezen ROI door kostenreductie, verhoogde efficiëntie
 <svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-<span class="text-white">Plan een Demo</span>
+<span class="text-white">Plan een demo</span>
 </a>
 <a href="/pricing" class="inline-flex items-center justify-center bg-white text-purple-600 font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-purple-600 text-base sm:text-lg">
 <svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
 </svg>
-Bekijk Prijzen
+Bekijk prijzen
 </a>
 </div>
 </div>

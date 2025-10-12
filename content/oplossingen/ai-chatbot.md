@@ -87,11 +87,11 @@ Moderne AI-chatbots gaan ver voorbij eenvoudige vraag-en-antwoord systemen. Onze
 
 <!-- CTA Buttons -->
 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a href="#technologie-overzicht" class="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-4 px-8 rounded-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<a href="#technologie-overzicht" class="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-blue-600 font-semibold py-4 px-8 rounded-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+<svg class="w-5 h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
-Technologie Overzicht
+<span class="text-white">Technologie Overzicht</span>
 </a>
 <a href="/contact" class="inline-flex items-center justify-center bg-white text-purple-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-purple-600">
 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -430,11 +430,11 @@ Onze AI-chatbots leveren bewezen ROI door kostenreductie, verhoogde efficiëntie
 
 <div class="text-center mt-6 sm:mt-8">
 <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-<a href="/contact" class="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-base sm:text-lg">
-<svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<a href="/contact" class="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-blue-600 font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-base sm:text-lg">
+<svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-Plan een Demo
+<span class="text-white">Plan een Demo</span>
 </a>
 <a href="/pricing" class="inline-flex items-center justify-center bg-white text-purple-600 font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-purple-600 text-base sm:text-lg">
 <svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

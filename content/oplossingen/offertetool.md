@@ -28,7 +28,7 @@ stats:
     label: "beschikbaarheid"
     description: "Automatische offerte generatie"
   - number: "95%"
-    label: "Klant Tevredenheid"
+    label: "Klant tevredenheid"
     description: "Gemak van gebruik"
 demo:
   description: "Ontdek hoe onze chat-gebaseerde offertetool uw verkoopproces transformeert."
@@ -51,7 +51,7 @@ demo:
 
 <!-- Main Headline -->
 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-Chat-Gebaseerde 
+Chat-gebaseerde 
 <span class="relative inline-block">
 <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600 animate-gradient">Offertetool</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full animate-pulse"></div>
@@ -87,63 +87,18 @@ Revolutioneer uw verkoopproces met een AI-agent die automatisch offertes generee
 
 <!-- CTA Buttons -->
 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-<a href="#chat-demo" class="inline-flex items-center justify-center bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold py-4 px-8 rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<a href="#chat-demo" class="inline-flex items-center justify-center bg-gradient-to-r from-green-600 to-emerald-600 font-semibold py-4 px-8 rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+<svg class="w-5 h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
 </svg>
-Live Chat Demo
+<span class="text-white">Live Chat Demo</span>
 </a>
-<a href="/contact" class="inline-flex items-center justify-center bg-white text-green-600 font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-green-600">
-<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<a href="/contact" class="inline-flex items-center justify-center bg-white font-semibold py-4 px-8 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-green-600">
+<svg class="w-5 h-5 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 </svg>
-Plan een Gratis Demo
+<span class="text-green-600">Plan een Gratis Demo</span>
 </a>
-</div>
-</div>
-
-<!-- Multi-Channel Integration Preview -->
-<div class="max-w-6xl mx-auto mb-16">
-<div class="text-center mb-8">
-<div class="inline-flex items-center bg-green-50 rounded-full px-6 py-3 mb-6">
-<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
-<span class="text-green-700 font-semibold text-sm">Multi-channel integratie</span>
-</div>
-<h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Multi-Channel Integratie</h2>
-<p class="text-base sm:text-lg text-gray-600">Eén AI-agent, alle communicatiekanalen</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-<!-- WhatsApp -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
-<div class="flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4 mx-auto">
-<svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.690"/>
-</svg>
-</div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">WhatsApp Business</h3>
-<p class="text-sm sm:text-base text-gray-600 text-center">Klanten chatten direct via WhatsApp voor offertes</p>
-</div>
-<!-- Website Chat -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
-<div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4 mx-auto">
-<svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-</svg>
-</div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">Website Chatbot</h3>
-<p class="text-sm sm:text-base text-gray-600 text-center">Geïntegreerde chat widget op uw website</p>
-</div>
-<!-- Email -->
-<div class="channel-card bg-white rounded-xl shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300">
-<div class="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-full mb-4 mx-auto">
-<svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-</svg>
-</div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center">Email Integratie</h3>
-<p class="text-sm sm:text-base text-gray-600 text-center">Automatische offerte via email conversaties</p>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -156,7 +111,7 @@ Plan een Gratis Demo
 <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-blue-700 font-semibold text-sm">Live demonstratie</span>
 </div>
-<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Live Chat Demo</h2>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Live chat demo</h2>
 <p class="text-lg sm:text-xl text-gray-600">Zie hoe klanten via natuurlijke gesprekken offertes krijgen</p>
 </div>
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
@@ -223,7 +178,7 @@ Plan een Gratis Demo
 <section class="py-16 bg-white" id="backend-demo">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Backend Management Dashboard</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Backend management dashboard</h2>
 <p class="text-xl text-gray-600">Beheer producten, prijzen en arbeidskosten vanuit één centrale locatie</p>
 <div class="mt-4 p-4 bg-blue-50 rounded-lg inline-block">
 <p class="text-sm text-blue-800"><strong>💡 Tip:</strong> Selecteer een bedrijfstype hieronder om verschillende voorbeelden te zien. Alle waarden zijn volledig aanpasbaar.</p>
@@ -532,6 +487,61 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 </div>
 </section>
 
+<!-- Multi-channel Integratie Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+<div class="text-center mb-12">
+<div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-6 border border-gray-100">
+<span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-green-700 font-semibold text-sm">Multi-channel integratie</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Multi-channel integratie</h2>
+<p class="text-lg sm:text-xl text-gray-600">Bereik klanten waar ze zijn - op elk kanaal, altijd dezelfde kwaliteit</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- WhatsApp Business -->
+<div class="channel-card bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+</svg>
+</div>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">WhatsApp Business</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
+Direct contact via WhatsApp. Klanten kunnen vragen stellen, offertes aanvragen en alles regelen via hun favoriete chatapp.
+</p>
+</div>
+
+<!-- Website Chatbot -->
+<div class="channel-card bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+</svg>
+</div>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Website Chatbot</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
+Embedded chat widget op uw website. Bezoekers krijgen direct hulp en kunnen meteen offertes ontvangen zonder te vertrekken.
+</p>
+</div>
+
+<!-- Email Integratie -->
+<div class="channel-card bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
+<div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+</svg>
+</div>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Email integratie</h3>
+<p class="text-sm sm:text-base text-gray-600 text-center">
+Volledige email-integratie. Klanten kunnen vragen sturen via email en krijgen automatisch offertes met professionele PDF bijlagen.
+</p>
+</div>
+</div>
+</div>
+</section>
+
 <!-- How It All Works Together Section -->
 <section class="py-16 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -540,21 +550,21 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <span class="w-3 h-3 bg-orange-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-orange-700 font-semibold text-sm">Intelligente workflow</span>
 </div>
-<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Hoe Het Allemaal Samenwerkt</h2>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Hoe het allemaal samenwerkt</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">Een complex systeem dat het offerte-proces volledig automatiseert - maar voor Deductive is het eenvoudig in te stellen</p>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-stretch">
 <!-- Interactive Flow Diagram -->
 <div class="space-y-6">
 <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 h-full">
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Intelligente Offerte Engine</h3>
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Intelligente offerte engine</h3>
 <div class="space-y-4">
 <div class="flow-step active" data-step="1">
 <div class="flex items-center space-x-4 p-4 rounded-lg">
 <div class="w-8 h-8 bg-slate-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
 <div>
-<h4 class="font-semibold text-gray-900">Klant Start Gesprek</h4>
+<h4 class="font-semibold text-gray-900">Klant start gesprek</h4>
 <p class="text-sm text-gray-600">Via WhatsApp, website chat, of email</p>
 </div>
 </div>
@@ -563,7 +573,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <div class="flex items-center space-x-4 p-4 rounded-lg">
 <div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">2</div>
 <div>
-<h4 class="font-semibold text-gray-900">AI Analyseert Behoefte</h4>
+<h4 class="font-semibold text-gray-900">AI analyseert behoefte</h4>
 <p class="text-sm text-gray-600">Begrijpt complexiteit en vereisten</p>
 </div>
 </div>
@@ -572,7 +582,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <div class="flex items-center space-x-4 p-4 rounded-lg">
 <div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">3</div>
 <div>
-<h4 class="font-semibold text-gray-900">Slimme Prijsberekening</h4>
+<h4 class="font-semibold text-gray-900">Slimme prijsberekening</h4>
 <p class="text-sm text-gray-600">Combineert producten + modifiers + arbeidskosten</p>
 </div>
 </div>
@@ -581,7 +591,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <div class="flex items-center space-x-4 p-4 rounded-lg">
 <div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">4</div>
 <div>
-<h4 class="font-semibold text-gray-900">PDF Generatie & Verzending</h4>
+<h4 class="font-semibold text-gray-900">PDF generatie & verzending</h4>
 <p class="text-sm text-gray-600">Professionele offerte direct naar klant</p>
 </div>
 </div>
@@ -590,7 +600,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <div class="flex items-center space-x-4 p-4 rounded-lg">
 <div class="w-8 h-8 bg-gray-300 text-gray-600 rounded-full flex items-center justify-center text-sm font-bold">5</div>
 <div>
-<h4 class="font-semibold text-gray-900">Customer Portal Update</h4>
+<h4 class="font-semibold text-gray-900">Customer portal update</h4>
 <p class="text-sm text-gray-600">Alle activiteit zichtbaar voor opvolging</p>
 </div>
 </div>
@@ -602,7 +612,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <!-- Explanation Cards -->
 <div class="space-y-6">
 <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 h-full">
-<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Waarom Het Zo Krachtig Is</h3>
+<h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">Waarom het zo krachtig is</h3>
 <div class="space-y-6">
 <div class="complexity-card bg-white rounded-xl shadow-lg p-4 sm:p-6 border-l-4 border-orange-400">
 <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-4">
@@ -611,7 +621,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
 </div>
-<h4 class="text-base sm:text-lg font-semibold text-gray-900">Complexe Berekeningen</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Complexe berekeningen</h4>
 </div>
 <p class="text-gray-600 mb-4 text-sm sm:text-base">De AI-agent voert in realtime ingewikkelde berekeningen uit:</p>
 <div class="bg-gray-50 p-3 sm:p-4 rounded-lg overflow-x-auto">
@@ -628,7 +638,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
 </svg>
 </div>
-<h4 class="text-base sm:text-lg font-semibold text-gray-900">Naadloze Integratie</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Naadloze integratie</h4>
 </div>
 <p class="text-gray-600 mb-4 text-sm sm:text-base">Alles werkt perfect samen zonder technische hoofdpijn:</p>
 <div class="space-y-2">
@@ -654,7 +664,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
 </svg>
 </div>
-<h4 class="text-base sm:text-lg font-semibold text-gray-900">Deductive Maakt Het Eenvoudig</h4>
+<h4 class="text-base sm:text-lg font-semibold text-gray-900">Deductive maakt het eenvoudig</h4>
 </div>
 <p class="text-gray-600 mb-4 text-sm sm:text-base">Wat complex lijkt, is voor ons routine:</p>
 <div class="bg-green-50 p-3 sm:p-4 rounded-lg">
@@ -679,7 +689,7 @@ PDF-generatie, email-instellingen en automatische escalatie naar menselijke mede
 <span class="w-3 h-3 bg-gray-500 rounded-full mr-3 animate-pulse"></span>
 <span class="text-gray-700 font-semibold text-sm">Vakmanschap en kwaliteit</span>
 </div>
-<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Waarom Kwaliteit Ons Onderscheidt</h2>
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Waarom kwaliteit ons onderscheidt</h2>
 <p class="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-8">
 In een markt vol gehaaste oplossingen en oppervlakkige tools, kiezen wij bewust voor diepgaand vakmanschap. Onze offertetool is niet zomaar een chatbot - het is een intelligente verkoopassistent die uw bedrijf écht begrijpt.
 </p>
@@ -697,7 +707,7 @@ In een markt vol gehaaste oplossingen en oppervlakkige tools, kiezen wij bewust 
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 </svg>
 </div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Intelligente Gesprekken</h3>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Intelligente gesprekken</h3>
 <p class="text-sm sm:text-base text-gray-600 text-center">
 Geen robotachtige scripts maar natuurlijke conversaties die klanten begrijpen en waarderen. Onze AI snapt context en nuance.
 </p>
@@ -709,7 +719,7 @@ Geen robotachtige scripts maar natuurlijke conversaties die klanten begrijpen en
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
 </svg>
 </div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Betrouwbare Technologie</h3>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Betrouwbare technologie</h3>
 <p class="text-sm sm:text-base text-gray-600 text-center">
 Gebouwd op solide technische fundamenten met security, privacy en stabiliteit voorop. Geen experimentele software.
 </p>
@@ -721,7 +731,7 @@ Gebouwd op solide technische fundamenten met security, privacy en stabiliteit vo
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 </svg>
 </div>
-<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Persoonlijke Ondersteuning</h3>
+<h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-4 text-center">Persoonlijke ondersteuning</h3>
 <p class="text-sm sm:text-base text-gray-600 text-center">
 Volledige configuratie, training en doorlopende ondersteuning. Geen 'doe-het-zelf' aanpak maar echte partnership.
 </p>

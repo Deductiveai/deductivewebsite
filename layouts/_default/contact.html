@@ -328,7 +328,7 @@ Hier vindt u antwoorden op de meest gestelde vragen over onze AI-oplossingen en 
 
 <div class="max-w-5xl mx-auto">
 <div class="space-y-8">
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center mr-6 text-blue-600 font-bold text-lg">1</span>
@@ -343,7 +343,7 @@ Hoe snel krijg ik een reactie op mijn aanvraag?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-purple-100 rounded-2xl flex items-center justify-center mr-6 text-purple-600 font-bold text-lg">2</span>
@@ -358,7 +358,7 @@ Wat kosten jullie AI-oplossingen?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center mr-6 text-green-600 font-bold text-lg">3</span>
@@ -373,7 +373,7 @@ Kunnen we eerst een demo of proof-of-concept krijgen?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center mr-6 text-indigo-600 font-bold text-lg">4</span>
@@ -388,7 +388,7 @@ Hoe zit het met ondersteuning na oplevering?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center mr-6 text-orange-600 font-bold text-lg">5</span>
@@ -403,7 +403,7 @@ Kunnen jullie integreren met onze bestaande systemen?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-teal-100 rounded-2xl flex items-center justify-center mr-6 text-teal-600 font-bold text-lg">6</span>
@@ -418,7 +418,7 @@ Hoe lang duurt een typisch AI-project?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center mr-6 text-pink-600 font-bold text-lg">7</span>
@@ -433,7 +433,7 @@ Welke bedrijfsgroottes werken met Deductive?
 </div>
 </div>
 
-<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer" onclick="toggleFAQ(this)">
+<div class="faq-item bg-white rounded-3xl shadow-xl p-10 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 <div class="flex items-center justify-between">
 <h3 class="text-2xl font-bold text-gray-900 flex items-center">
 <span class="w-12 h-12 bg-red-100 rounded-2xl flex items-center justify-center mr-6 text-red-600 font-bold text-lg">8</span>
@@ -494,15 +494,23 @@ Sluiten
 }
 
 .faq-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out, opacity 0.3s ease-out;
-    opacity: 0;
+    display: none;
 }
 
 .faq-content.active {
-    max-height: 300px;
-    opacity: 1;
+    display: block;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .faq-arrow.rotate {
@@ -636,14 +644,13 @@ function toggleFAQ(element) {
     }
 }
 
-// Also add click event listeners as backup
+// Add click event listeners
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, setting up FAQ listeners'); // Debug log
-    
+
     // Add click listeners to all FAQ items
     document.querySelectorAll('.faq-item').forEach(item => {
-        item.addEventListener('click', function(e) {
-            e.preventDefault();
+        item.addEventListener('click', function() {
             toggleFAQ(this);
         });
     });

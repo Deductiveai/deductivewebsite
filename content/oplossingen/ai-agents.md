@@ -1,7 +1,7 @@
 ---
 title: "AI-agents"
 description: "Autonome AI-agents die complexe taken uitvoeren, processen automatiseren en intelligent beslissingen nemen voor verschillende bedrijfstypes."
-layout: "feature-nopose"
+layout: "feature"
 badge: "AI-agents"
 badgeColor: "#08d5f9"
 features:
@@ -36,47 +36,102 @@ demo:
 ---
 
 <!-- Hero Section -->
-<section class="py-20 bg-white">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-<div class="text-center">
-<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-AI-Agents voor Elk Bedrijf
+<section class="relative min-h-screen flex items-center bg-gradient-to-br from-blue-50 via-cyan-50 to-sky-50 overflow-hidden">
+<!-- Background Pattern -->
+<div class="absolute inset-0 bg-chat-pattern opacity-5"></div>
+
+<!-- Animated Blobs -->
+<div class="absolute top-20 right-10 w-72 h-72 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse"></div>
+<div class="absolute bottom-10 left-10 w-96 h-96 bg-gradient-to-tr from-cyan-400/20 to-sky-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+<div class="text-center mb-16">
+<!-- Trust Badge -->
+<div class="inline-flex items-center bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 mb-8 shadow-lg border border-gray-100">
+<span class="w-3 h-3 bg-cyan-500 rounded-full mr-3 animate-pulse"></span>
+<span class="text-gray-700 font-semibold text-sm">Automatiseer complexe bedrijfsprocessen met AI</span>
+</div>
+
+<!-- Main Headline -->
+<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+Autonome
+<span class="relative inline-block">
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 animate-gradient">AI-agents</span>
+<div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full animate-pulse"></div>
+</span>
 </h1>
-<p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-Transformeer uw bedrijfsprocessen met autonome AI-agents die zelfstandig beslissingen nemen, automatiseren en continu optimaliseren.
+
+<p class="text-xl sm:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
+Transformeer uw bedrijfsprocessen met intelligente AI-agents die zelfstandig werken, beslissingen nemen en 24/7 operationeel zijn.
 </p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-<a href="#ai-demo" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-Zie AI in Actie
+
+<!-- Social Proof Bullets -->
+<div class="flex flex-wrap justify-center gap-6 mb-12">
+<div class="flex items-center space-x-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+<svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700 font-medium">75% snellere processen</span>
+</div>
+<div class="flex items-center space-x-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+<svg class="w-5 h-5 text-cyan-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700 font-medium">90% foutreductie</span>
+</div>
+<div class="flex items-center space-x-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+<svg class="w-5 h-5 text-sky-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700 font-medium">24/7 beschikbaarheid</span>
+</div>
+</div>
+
+<!-- CTA Buttons -->
+<div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+<a href="#ai-demo" class="inline-flex items-center bg-gradient-to-r from-blue-600 to-cyan-600 px-8 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-cyan-700 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl">
+<svg class="w-5 h-5 mr-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+</svg>
+<span class="text-white">Zie AI-agents in actie</span>
 </a>
-<a href="/contact" class="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-Plan Gratis Demo
+<a href="/contact" class="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-blue-600">
+<svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+</svg>
+Plan een gesprek
 </a>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-<div>
-<div class="text-3xl font-bold text-gray-900 mb-2">75%</div>
-<div class="text-gray-600">Procesefficiëntie</div>
-</div>
-<div>
-<div class="text-3xl font-bold text-gray-900 mb-2">24/7</div>
-<div class="text-gray-600">Operationeel</div>
-</div>
-<div>
-<div class="text-3xl font-bold text-gray-900 mb-2">3x</div>
-<div class="text-gray-600">ROI Verbetering</div>
-</div>
 </div>
 </div>
 </div>
 </section>
 
+<style>
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+}
+
+.delay-1000 {
+    animation-delay: 1s;
+}
+</style>
+
 <!-- Live AI Demo Section -->
 <section class="py-20 bg-white" id="ai-demo">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Live AI Demo</h2>
-<p class="text-xl text-gray-600">Zie AI-Agents in Actie</p>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Live AI-demo</h2>
+<p class="text-xl text-gray-600">Zie AI-agents in actie</p>
 <p class="text-lg text-gray-500 mt-2">Ervaar real-time hoe een AI-agent complexe bedrijfssituaties oppakt en oplost - van eerste contact tot voltooide actie.</p>
 </div>
 
@@ -86,14 +141,14 @@ Plan Gratis Demo
 <h3 class="font-semibold text-lg text-white">AI-Agent Terminal</h3>
 <div class="flex items-center space-x-2">
 <div class="w-3 h-3 bg-green-400 rounded-full "></div>
-<span class="text-white text-sm">System Active</span>
+<span class="text-white text-sm">Systeem actief</span>
 </div>
 </div>
 </div>
 
 <div class="p-8">
 <div class="mb-8">
-<h3 class="text-lg font-semibold text-gray-900 mb-4">Kies een Scenario:</h3>
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Kies een scenario:</h3>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 <button class="scenario-btn active p-4 rounded-xl border-2 border-cyan-500 bg-cyan-50 transition-all duration-300 hover:shadow-md" data-scenario="customer-support">
 <div class="text-2xl mb-2">🎧</div>
@@ -102,12 +157,12 @@ Plan Gratis Demo
 </button>
 <button class="scenario-btn p-4 rounded-xl border-2 border-gray-200 hover:border-cyan-300 transition-all duration-300 hover:shadow-md" data-scenario="sales-lead">
 <div class="text-2xl mb-2">💼</div>
-<div class="font-semibold text-gray-900">Sales Lead</div>
+<div class="font-semibold text-gray-900">Sales lead</div>
 <div class="text-sm text-gray-600">Nieuwe prospect interesse</div>
 </button>
 <button class="scenario-btn p-4 rounded-xl border-2 border-gray-200 hover:border-cyan-300 transition-all duration-300 hover:shadow-md" data-scenario="inventory">
 <div class="text-2xl mb-2">📦</div>
-<div class="font-semibold text-gray-900">Voorraad Alert</div>
+<div class="font-semibold text-gray-900">Voorraad alert</div>
 <div class="text-sm text-gray-600">Stock level kritiek</div>
 </button>
 </div>
@@ -144,10 +199,10 @@ Reset
 </section>
 
 <!-- Comparison Section -->
-<section class="py-20 bg-gray-50">
+<section class="py-20 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Waarom AI-Agents?</h2>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Waarom AI-agents?</h2>
 <p class="text-xl text-gray-600">De digitale revolutie vraagt om slimme oplossingen. Ontdek het verschil tussen traditioneel werken en AI-gedreven automatisering.</p>
 </div>
 
@@ -186,7 +241,7 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
 </div>
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Met AI-Agents</h3>
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Met AI-agents</h3>
 <div class="space-y-4">
 <div class="flex items-center text-gray-700">
 <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
@@ -369,8 +424,8 @@ Reset
 <section class="py-20 bg-white overflow-hidden relative">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Universele Connectiviteit</h2>
-<p class="text-xl text-gray-600 mb-2">Integreert met Alles</p>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Universele connectiviteit</h2>
+<p class="text-xl text-gray-600 mb-2">Integreert met alles</p>
 <p class="text-lg text-gray-500">Onze AI-agents praten direct met uw bestaande systemen. Geen migratie, geen gedoe - gewoon naadloze integratie vanaf dag één.</p>
 </div>
 
@@ -447,7 +502,7 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2">Instant Setup</h3>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Directe installatie</h3>
 <p class="text-gray-600">Configuratie in minuten, niet weken. Onze AI-agents praten direct met uw systemen.</p>
 </div>
 
@@ -457,7 +512,7 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2">Veilige Verbindingen</h3>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Veilige verbindingen</h3>
 <p class="text-gray-600">Enterprise-grade beveiliging met end-to-end encryptie voor al uw gevoelige data.</p>
 </div>
 
@@ -467,16 +522,16 @@ Reset
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
 </svg>
 </div>
-<h3 class="text-xl font-semibold text-gray-900 mb-2">Realtime Sync</h3>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Realtime synchronisatie</h3>
 <p class="text-gray-600">Bidirectionele synchronisatie zorgt ervoor dat alle systemen altijd up-to-date zijn.</p>
 </div>
 </div>
 
 <div class="text-center bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg">
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Uw Systeem Er Niet Bij?</h3>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Uw systeem er niet bij?</h3>
 <p class="text-gray-600 mb-6">Geen probleem. Onze AI-agents kunnen met vrijwel elk systeem praten via REST APIs, webhooks of custom integraties. We bouwen binnen 48 uur een connectie voor u.</p>
-<a href="/contact" class="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-Bespreek Custom Integratie
+<a href="/contact" class="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 rounded-xl font-semibold hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+<span class="text-white">Bespreek Custom Integratie</span>
 </a>
 </div>
 </div>
@@ -488,8 +543,8 @@ Bespreek Custom Integratie
 
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Deductive Backend Dashboard</h2>
-<h3 class="text-2xl font-semibold text-blue-600 mb-4">Alles Komt Samen in Uw Dashboard</h3>
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Deductive backend dashboard</h2>
+<h3 class="text-2xl font-semibold text-blue-600 mb-4">Alles komt samen in uw dashboard</h3>
 <p class="text-xl text-gray-600 max-w-4xl mx-auto">
 Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanpassingen, en volledige controle over uw intelligente systemen - per bedrijfstype geoptimaliseerd.
 </p>
@@ -528,13 +583,13 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 <!-- Dashboard Header -->
 <div class="bg-gradient-to-r from-slate-800 to-slate-900 px-4 sm:px-6 py-4">
 <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-<h3 id="dashboard-title" class="font-semibold text-lg text-white mb-2 sm:mb-0">🛒 Retail Management Dashboard</h3>
+<h3 id="dashboard-title" class="font-semibold text-lg mb-2 sm:mb-0" style="color: white !important;">🛒 Retail Management Dashboard</h3>
 <div class="flex items-center space-x-4">
 <div class="flex items-center space-x-2">
 <div class="w-3 h-3 bg-green-400 rounded-full "></div>
 <span class="text-white text-sm">Live Actief</span>
 </div>
-<div class="flex items-center space-x-4 text-sm text-gray-600">
+<div class="flex items-center space-x-4 text-sm text-white">
 <span>Agents: <span id="active-agents-count" class="text-green-400 font-semibold">8</span></span>
 <span>Taken Vandaag: <span id="tasks-today-count" class="text-cyan-400 font-semibold">156</span></span>
 </div>
@@ -548,7 +603,7 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
 <div class="bg-blue-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Realtime Analytics</h4>
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Realtime analyses</h4>
 <svg class="w-5 h-5 lg:w-6 lg:h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
 </svg>
@@ -557,7 +612,7 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 </div>
 <div class="bg-green-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Agent Configuratie</h4>
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Agent configuratie</h4>
 <svg class="w-5 h-5 lg:w-6 lg:h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -567,7 +622,7 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 </div>
 <div class="bg-yellow-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Alert Management</h4>
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Alert management</h4>
 <svg class="w-5 h-5 lg:w-6 lg:h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.728-.833-2.498 0L4.316 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
 </svg>
@@ -576,7 +631,7 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 </div>
 <div class="bg-purple-50 p-4 lg:p-6 rounded-xl">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Security & Compliance</h4>
+<h4 class="font-semibold text-gray-900 text-sm lg:text-base">Beveiliging & compliance</h4>
 <svg class="w-5 h-5 lg:w-6 lg:h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
 </svg>
@@ -595,7 +650,7 @@ Beheer al uw AI-agents vanuit één krachtige backend. Realtime monitoring, aanp
 <!-- Activity Feed -->
 <div class="bg-gray-50 rounded-xl p-4 lg:p-6">
 <div class="flex items-center justify-between mb-4">
-<h4 class="font-semibold text-gray-900">Recente Activiteit</h4>
+<h4 class="font-semibold text-gray-900">Recente activiteit</h4>
 <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 </svg>
@@ -1130,9 +1185,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update agent cards
         if (agentCardsGrid) {
             agentCardsGrid.innerHTML = '';
-            config.agents.forEach(agent => {
+            config.agents.forEach((agent, index) => {
                 const agentCard = document.createElement('div');
-                agentCard.className = `bg-gradient-to-br ${agent.bgColor} rounded-xl p-4 lg:p-6 border ${agent.borderColor} transition-all duration-300 backdrop-blur-sm`;
+                agentCard.className = `bg-gradient-to-br ${agent.bgColor} rounded-xl p-4 lg:p-6 border ${agent.borderColor} transition-all duration-300 backdrop-blur-sm cursor-pointer hover:scale-105 hover:shadow-xl`;
                 agentCard.innerHTML = `
                     <div class="flex items-center justify-between mb-4">
                         <div class="flex items-center space-x-3">
@@ -1144,37 +1199,109 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <p class="text-xs text-gray-500">${agent.status}</p>
                             </div>
                         </div>
-                        <div class="w-3 h-3 bg-green-400 rounded-full "></div>
+                        <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
                     </div>
                     <div class="space-y-2 text-xs lg:text-sm">
-                        ${agent.metrics.map(metric => `
-                            <div class="flex justify-between">
+                        ${agent.metrics.map((metric, metricIndex) => `
+                            <div class="flex justify-between hover:bg-white/30 px-2 py-1 rounded cursor-pointer transition-colors metric-row" data-agent="${index}" data-metric="${metricIndex}">
                                 <span class="text-gray-600">${metric.label}</span>
                                 <span class="${metric.color || 'text-gray-900'} font-medium">${metric.value}</span>
                             </div>
                         `).join('')}
                     </div>
+                    <div class="mt-4 pt-4 border-t border-gray-200/30">
+                        <button class="text-xs text-blue-600 hover:text-blue-700 font-medium">Bekijk details →</button>
+                    </div>
                 `;
+
+                // Add click handler to the card
+                agentCard.addEventListener('click', (e) => {
+                    // Don't trigger if clicking on a metric row
+                    if (!e.target.closest('.metric-row')) {
+                        showAgentDetails(agent, businessType);
+                    }
+                });
+
                 agentCardsGrid.appendChild(agentCard);
+
+                // Add click handlers to metric rows
+                const metricRows = agentCard.querySelectorAll('.metric-row');
+                metricRows.forEach((row, metricIndex) => {
+                    row.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        showMetricDetails(agent, agent.metrics[metricIndex], businessType);
+                    });
+                });
             });
         }
         
         // Update activity feed
         if (activityFeed) {
             activityFeed.innerHTML = '';
-            config.activities.forEach(activity => {
+            config.activities.forEach((activity, index) => {
                 const activityItem = document.createElement('div');
-                activityItem.className = 'flex items-start space-x-3 p-3 rounded-lg bg-white/50 border border-gray-100';
+                activityItem.className = 'flex items-start space-x-3 p-3 rounded-lg bg-white/50 border border-gray-100 hover:bg-white hover:shadow-md transition-all cursor-pointer';
                 activityItem.innerHTML = `
                     <span class="${activity.color} text-lg">${activity.icon}</span>
                     <div class="flex-1 min-w-0">
                         <p class="text-sm text-gray-900">${activity.text}</p>
                         <p class="text-xs text-gray-500 mt-1">${activity.time}</p>
                     </div>
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
                 `;
+
+                // Add click handler
+                activityItem.addEventListener('click', () => {
+                    showActivityDetails(activity, businessType);
+                });
+
                 activityFeed.appendChild(activityItem);
             });
         }
+    }
+
+    // Function to show agent details
+    function showAgentDetails(agent, businessType) {
+        const message = `🤖 ${agent.name}\n\n` +
+                       `Status: ${agent.status}\n\n` +
+                       `Deze agent beheert specifiek voor ${businessType} bedrijven:\n\n` +
+                       agent.metrics.map(m => `• ${m.label} ${m.value}`).join('\n') +
+                       `\n\nKlik op individuele metrics voor meer details!`;
+        alert(message);
+    }
+
+    // Function to show metric details
+    function showMetricDetails(agent, metric, businessType) {
+        const metricInfo = {
+            'Items Gemonitord:': 'Dit toont het aantal items dat actief wordt gemonitord door de voorraad agent.',
+            'Auto Bestellingen:': 'Aantal automatische bestellingen die vandaag zijn geplaatst.',
+            'Kostenbesparing:': 'Totale kostenbesparing door geoptimaliseerde voorraad management.',
+            'Tickets Vandaag:': 'Aantal klantenservice tickets verwerkt vandaag.',
+            'Gem. Reactietijd:': 'Gemiddelde tijd om te reageren op klantverzoeken.',
+            'Tevredenheidsscore:': 'Klanttevredenheidsscore gebaseerd op feedback.',
+            'Verkoop Insights:': 'Aantal verkoop insights gegenereerd door AI analyse.',
+            'Trends Gedetecteerd:': 'Aantal markttrends geïdentificeerd deze week.',
+            'Omzet Toename:': 'Percentuele toename in omzet door AI optimalisaties.'
+        };
+
+        const info = metricInfo[metric.label] || 'Gedetailleerde informatie over deze metric.';
+        const message = `${agent.icon} ${agent.name}\n\n` +
+                       `📊 ${metric.label} ${metric.value}\n\n` +
+                       `${info}\n\n` +
+                       `Deze metric wordt realtime bijgewerkt voor ${businessType} bedrijven.`;
+        alert(message);
+    }
+
+    // Function to show activity details
+    function showActivityDetails(activity, businessType) {
+        const message = `${activity.icon} Activiteit Details\n\n` +
+                       `${activity.text}\n\n` +
+                       `Tijd: ${activity.time}\n\n` +
+                       `Deze actie werd automatisch uitgevoerd door uw ${businessType} AI agent systeem.\n\n` +
+                       `Klik op de agent kaarten voor meer configuratie opties!`;
+        alert(message);
     }
     
     // Backend button click handlers

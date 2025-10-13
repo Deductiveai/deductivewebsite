@@ -1,5 +1,5 @@
 # Base URL - automatically set based on environment
-baseURL = "https://deductive.nl/"
+baseURL = "/"
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
@@ -62,8 +62,8 @@ enableGitInfo = true
 
 # Enable sitemap generation
 enableRobotsTXT = true
-canonifyURLs = true
-relativeURLs = false
+canonifyURLs = false
+relativeURLs = true
 
 # SEO and sitemap configuration
 [sitemap]

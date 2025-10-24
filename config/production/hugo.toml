@@ -1,2 +1,2 @@
-# Production configuration for GitHub Pages
+# Production environment overrides
 baseURL = "https://deductiveai.github.io/deductivewebsite/"

@@ -1,2 +1,2 @@
-# Development configuration for local development
+# Development environment overrides
 baseURL = "http://localhost:1313/"

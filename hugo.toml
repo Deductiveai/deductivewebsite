@@ -1,5 +1,5 @@
-# Base URL - automatically set based on environment
-baseURL = "/"
+# Base URL - set for GitHub Pages subdirectory deployment
+baseURL = "https://deductiveai.github.io/deductivewebsite/"
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
@@ -62,8 +62,8 @@ enableGitInfo = true
 
 # Enable sitemap generation
 enableRobotsTXT = true
-canonifyURLs = false
-relativeURLs = true
+canonifyURLs = true
+relativeURLs = false
 
 # SEO and sitemap configuration
 [sitemap]

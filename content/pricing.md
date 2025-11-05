@@ -10,7 +10,7 @@ layout: "pricing"
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
 <div class="text-center mb-16">
 <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-Transparante <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">prijzen</span>
+Transparante prijzen
 </h1>
 <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
 Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gratis ondersteuning en geen verborgen kosten. Geen surprises, geen tijdverspilling - gewoon kwaliteit waar u op kunt rekenen.
@@ -60,7 +60,7 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 <input type="checkbox" id="billing-toggle" class="sr-only peer">
 <div class="w-14 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-purple-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-purple-600"></div>
 </label>
-<span class="text-gray-600">Jaarlijks <span class="text-green-600 font-semibold">(2 maanden gratis!)</span></span>
+<span class="text-gray-600">Jaarlijks <span class="text-green-600 font-semibold">(1 maand gratis!)</span></span>
 </div>
 </div>
 </div>
@@ -81,7 +81,7 @@ Kies de perfecte AI-oplossing voor uw bedrijf. Alle plannen bevatten 30 dagen gr
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
 <p class="text-gray-600 mb-4">Perfect voor kleine bedrijven</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="297" data-yearly="2475">297</span></span>
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="178" data-yearly="1958">178</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
 <p class="text-sm text-gray-500">Tot 1.000 gesprekken per maand</p>
@@ -128,7 +128,7 @@ Start Gratis Trial
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
 <p class="text-gray-600 mb-4">Voor groeiende bedrijven</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="597" data-yearly="4975">597</span></span>
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="358" data-yearly="3938">358</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
 <p class="text-sm text-gray-500">Tot 5.000 gesprekken per maand</p>
@@ -178,10 +178,9 @@ Start Gratis Trial
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
 <p class="text-gray-600 mb-4">Voor grote organisaties</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="1297" data-yearly="10807">1297</span></span>
-<span class="text-gray-600 ml-2 billing-period">/maand</span>
+<span class="text-4xl font-bold text-gray-900">Op aanvraag</span>
 </div>
-<p class="text-sm text-gray-500">Tot 25.000 gesprekken per maand</p>
+<p class="text-sm text-gray-500">Onbeperkte gesprekken</p>
 </div>
 
 <ul class="space-y-4 mb-8">
@@ -217,8 +216,8 @@ Start Gratis Trial
 </li>
 </ul>
 
-<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
-Contact Sales
+<a href="/contact" class="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-200 block text-center">
+Neem contact op
 </a>
 </div>
 </div>
@@ -230,155 +229,160 @@ Contact Sales
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 <div class="text-center mb-12">
 <h2 class="text-4xl font-bold text-gray-900 mb-4">AI-agents prijzen</h2>
-<p class="text-xl text-gray-600">Maatwerk prijzen voor autonome AI-oplossingen</p>
+<p class="text-xl text-gray-600">Maatwerk prijzen op basis van agent-capaciteiten</p>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<!-- Solo Plan -->
-<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
-<div class="mb-8">
-<h3 class="text-2xl font-bold text-gray-900 mb-2">Solo Agent</h3>
-<p class="text-gray-600 mb-4">Eén gespecialiseerde AI-agent</p>
-<div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="497" data-yearly="4142">497</span></span>
-<span class="text-gray-600 ml-2 billing-period">/maand</span>
-</div>
-<p class="text-sm text-gray-500">Tot 1.000 taken per maand</p>
-</div>
-
-<ul class="space-y-4 mb-8">
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">1 AI-agent</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Autonome taakuitvoering</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Standaard integraties</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Basis monitoring</span>
-</li>
-</ul>
-
-<a href="/contact" class="w-full bg-cyan-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-cyan-700 transition-colors duration-200 block text-center">
-Start Gratis Trial
-</a>
-</div>
-
-<!-- Team Plan -->
-<div class="bg-white rounded-2xl shadow-xl border-2 border-cyan-500 p-8 relative hover:shadow-2xl transition-all duration-300 transform scale-105">
+<!-- Custom Pricing Explanation -->
+<div class="max-w-5xl mx-auto">
+<div class="bg-white rounded-3xl shadow-2xl border-2 border-cyan-500 p-12 relative">
 <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-<span class="bg-cyan-500 text-white px-6 py-2 rounded-full text-sm font-semibold">Meest Populair</span>
-</div>
-<div class="mb-8">
-<h3 class="text-2xl font-bold text-gray-900 mb-2">Agent Team</h3>
-<p class="text-gray-600 mb-4">Meerdere gecoördineerde AI-agents</p>
-<div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="997" data-yearly="8309">997</span></span>
-<span class="text-gray-600 ml-2 billing-period">/maand</span>
-</div>
-<p class="text-sm text-gray-500">Tot 5.000 taken per maand</p>
+<span class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-full text-sm font-semibold shadow-lg">Op maat gemaakt</span>
 </div>
 
-<ul class="space-y-4 mb-8">
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+<div class="text-center mb-10">
+<div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl mb-6">
+<svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
 </svg>
-<span class="text-gray-700">Tot 5 AI-agents</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Agent coördinatie</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Geavanceerde workflows</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Realtime analytics</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Priority ondersteuning</span>
-</li>
-</ul>
+</div>
+<h3 class="text-3xl font-bold text-gray-900 mb-4">Flexibele prijsstelling</h3>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+AI-agents hebben geen vaste prijzen omdat elke agent unieke capaciteiten heeft. De prijs wordt bepaald door de complexiteit van de taken, het aantal integraties, de autonomie-graad en de specifieke functionaliteiten die uw agent nodig heeft.
+</p>
+</div>
 
-<a href="/contact" class="w-full bg-cyan-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-cyan-700 transition-colors duration-200 block text-center">
-Start Gratis Trial
+<!-- Ballpark Price -->
+<div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 mb-10 border border-cyan-200">
+<div class="text-center">
+<p class="text-sm font-semibold text-cyan-700 uppercase tracking-wide mb-3">Indicatieve prijsrange</p>
+<div class="flex items-center justify-center gap-4 mb-4">
+<span class="text-5xl font-bold text-gray-900">€300</span>
+<span class="text-3xl text-gray-400">-</span>
+<span class="text-5xl font-bold text-gray-900">€500</span>
+<span class="text-xl text-gray-600">/maand</span>
+</div>
+<p class="text-gray-600">De uiteindelijke prijs hangt af van de specifieke capaciteiten en functionaliteiten van uw AI-agent</p>
+</div>
+</div>
+
+<!-- Pricing Factors -->
+<div class="mb-10">
+<h4 class="text-xl font-bold text-gray-900 mb-6 text-center">Wat bepaalt de prijs van een AI-agent?</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex items-start space-x-4 bg-gray-50 rounded-xl p-6">
+<div class="flex-shrink-0">
+<div class="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center">
+<svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+</svg>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-gray-900 mb-2">Complexiteit van taken</h5>
+<p class="text-sm text-gray-600">Simpele data-verwerking tot complexe besluitvorming en multi-stap workflows</p>
+</div>
+</div>
+
+<div class="flex items-start space-x-4 bg-gray-50 rounded-xl p-6">
+<div class="flex-shrink-0">
+<div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+<svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-gray-900 mb-2">Aantal integraties</h5>
+<p class="text-sm text-gray-600">Hoeveel systemen, APIs en databases de agent moet aansluiten</p>
+</div>
+</div>
+
+<div class="flex items-start space-x-4 bg-gray-50 rounded-xl p-6">
+<div class="flex-shrink-0">
+<div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+<svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+</svg>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-gray-900 mb-2">Autonomie-graad</h5>
+<p class="text-sm text-gray-600">Hoeveel beslissingen de agent zelfstandig mag nemen zonder menselijke goedkeuring</p>
+</div>
+</div>
+
+<div class="flex items-start space-x-4 bg-gray-50 rounded-xl p-6">
+<div class="flex-shrink-0">
+<div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+<svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+</svg>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-gray-900 mb-2">Specifieke functionaliteiten</h5>
+<p class="text-sm text-gray-600">Extra mogelijkheden zoals machine learning, NLP, computer vision of real-time verwerking</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- What's Included -->
+<div class="bg-gray-50 rounded-2xl p-8 mb-10">
+<h4 class="text-xl font-bold text-gray-900 mb-6 text-center">Altijd inbegrepen</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Persoonlijke implementatie-begeleiding</span>
+</div>
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Real-time monitoring & analytics</span>
+</div>
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Continue optimalisatie & updates</span>
+</div>
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Technische ondersteuning</span>
+</div>
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Veilige data-verwerking</span>
+</div>
+<div class="flex items-center space-x-3">
+<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+<span class="text-gray-700">Maandelijks opzegbaar</span>
+</div>
+</div>
+</div>
+
+<!-- CTA -->
+<div class="text-center">
+<p class="text-gray-600 mb-6 text-lg">
+Wilt u weten wat een AI-agent voor uw specifieke situatie zou kosten?
+</p>
+<a href="/contact" class="inline-flex items-center justify-center bg-cyan-600 text-white font-semibold py-4 px-10 rounded-xl hover:bg-cyan-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background-color: #0891b2 !important; color: white !important;">
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+<span style="color: white !important;">Vraag offerte aan</span>
 </a>
+<p class="text-sm text-gray-500 mt-4">Vrijblijvend gesprek over uw specifieke wensen en een offerte op maat</p>
 </div>
-
-<!-- Enterprise Plan -->
-<div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 relative hover:shadow-2xl transition-all duration-300">
-<div class="mb-8">
-<h3 class="text-2xl font-bold text-gray-900 mb-2">Agent Factory</h3>
-<p class="text-gray-600 mb-4">Grootschalige AI-agents en workflows</p>
-<div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="2497" data-yearly="20807">2497</span></span>
-<span class="text-gray-600 ml-2 billing-period">/maand</span>
-</div>
-<p class="text-sm text-gray-500">Tot 25.000 taken per maand</p>
-</div>
-
-<ul class="space-y-4 mb-8">
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Tot 25 AI-agents</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Custom agent ontwikkeling</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Enterprise integraties</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">Dedicated infrastructure</span>
-</li>
-<li class="flex items-start">
-<svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-</svg>
-<span class="text-gray-700">24/7 dedicated support</span>
-</li>
-</ul>
-
-<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
-Contact Sales
-</a>
 </div>
 </div>
 </div>
@@ -399,7 +403,7 @@ Contact Sales
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Basic</h3>
 <p class="text-gray-600 mb-4">Voor startende ondernemers</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="197" data-yearly="1642">197</span></span>
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="246" data-yearly="2706">246</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
 <p class="text-sm text-gray-500">Tot 100 offertes per maand</p>
@@ -446,7 +450,7 @@ Start Gratis Trial
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Pro</h3>
 <p class="text-gray-600 mb-4">Voor groeiende bedrijven</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="397" data-yearly="3309">397</span></span>
+<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="496" data-yearly="5456">496</span></span>
 <span class="text-gray-600 ml-2 billing-period">/maand</span>
 </div>
 <p class="text-sm text-gray-500">Tot 500 offertes per maand</p>
@@ -496,10 +500,9 @@ Start Gratis Trial
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
 <p class="text-gray-600 mb-4">Voor grote sales teams</p>
 <div class="mb-4">
-<span class="text-4xl font-bold text-gray-900">€<span class="price-amount" data-monthly="797" data-yearly="6642">797</span></span>
-<span class="text-gray-600 ml-2 billing-period">/maand</span>
+<span class="text-4xl font-bold text-gray-900">Op aanvraag</span>
 </div>
-<p class="text-sm text-gray-500">Tot 2.500 offertes per maand</p>
+<p class="text-sm text-gray-500">Onbeperkte offertes</p>
 </div>
 
 <ul class="space-y-4 mb-8">
@@ -535,8 +538,8 @@ Start Gratis Trial
 </li>
 </ul>
 
-<a href="/contact" class="w-full bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 block text-center">
-Contact Sales
+<a href="/contact" class="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 block text-center">
+Neem contact op
 </a>
 </div>
 </div>

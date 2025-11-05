@@ -1,5 +1,5 @@
-# Base URL - set for GitHub Pages subdirectory deployment
-baseURL = "https://deductiveai.github.io/deductivewebsite/"
+# Base URL - set for production FTP deployment
+baseURL = "https://www.deductive.nl/"
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
@@ -108,10 +108,8 @@ paginatePath = "page"
   
   # Social Media Configuration
   [params.social]
-    discord = "https://discord.gg/deductive"
-    linkedin = "https://linkedin.com/company/deductive"
-    instagram = "https://instagram.com/deductive"
-    github = "https://github.com/deductive"
+    linkedin = "https://www.linkedin.com/company/deductiveai/"
+    instagram = "https://www.instagram.com/deductiveai/"
   
   [params.header]
     # Header background and border styles (optional)

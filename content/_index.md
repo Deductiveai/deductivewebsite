@@ -24,6 +24,14 @@ testimonials:
     title: "Kliniek Elsendael"
     avatar: "images/testimonial-1.svg"
     quote: "Deductive heeft ons geholpen onze processen drastisch te optimaliseren. Door hun AI-oplossingen hebben we onze administratieve taken met 70% kunnen verminderen en kunnen mijn medewerkers zich eindelijk richten op wat echt belangrijk is. Het implementatieproces verliep soepel en het resultaat overtrof onze verwachtingen."
+  - name: "Meer reviews volgen binnenkort"
+    title: "Tevreden klant"
+    avatar: "images/testimonial-2.svg"
+    quote: "Wij verzamelen actief feedback van onze klanten om hier te delen. Benieuwd naar wat onze andere klanten ervaren? Neem contact met ons op voor referenties."
+  - name: "Uw review hier?"
+    title: "Toekomstige klant"
+    avatar: "images/testimonial-3.svg"
+    quote: "Bent u benieuwd hoe AI uw organisatie kan transformeren? Plan een vrijblijvende demo en ontdek de mogelijkheden voor uw specifieke situatie."
 ---
 
 <!-- Enhanced Hero Section -->
@@ -281,7 +289,7 @@ Meer informatie
 <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8 leading-tight">
 Waarom organisaties voor 
 <span class="relative inline-block">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">Deductive</span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600"> Deductive</span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-full"></div>
 </span> 
 kiezen

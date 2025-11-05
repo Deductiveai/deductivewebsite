@@ -138,7 +138,7 @@ Plan een gesprek
 <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
 <div class="bg-gradient-to-r from-slate-800 to-slate-900 px-6 py-4">
 <div class="flex items-center justify-between">
-<h3 class="font-semibold text-lg text-white">AI-Agent Terminal</h3>
+<h3 class="font-semibold text-lg text-white" style="color: white !important;">AI-Agent Terminal</h3>
 <div class="flex items-center space-x-2">
 <div class="w-3 h-3 bg-green-400 rounded-full "></div>
 <span class="text-white text-sm">Systeem actief</span>

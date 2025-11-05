@@ -396,59 +396,6 @@ Van concept tot implementatie en doorlopende optimalisatie - wij staan naast u v
 </div>
 
 
-{{< process-timeline 
-    title="Van idee naar werkende AI-oplossing"
-    description="Onze bewezen aanpak voor succesvolle AI-implementatie in 4 duidelijke stappen"
->}}
-</section>
-
-<!-- Add counter animation script -->
-<script>
-// Counter animation for success metrics
-function animateCounters() {
-    const counters = document.querySelectorAll('.counter');
-    const speed = 200;
-
-    counters.forEach(counter => {
-        const animate = () => {
-            const value = +counter.getAttribute('data-target');
-            const data = +counter.innerText.replace('%', '');
-
-            const time = value / speed;
-            if (data < value) {
-                counter.innerText = Math.ceil(data + time) + '%';
-                setTimeout(animate, 1);
-            } else {
-                counter.innerText = value + '%';
-            }
-        }
-        animate();
-    });
-}
-
-// Trigger animation when section comes into view
-const observerOptions = {
-    threshold: 0.5
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            animateCounters();
-            observer.unobserve(entry.target);
-        }
-    });
-}, observerOptions);
-
-document.addEventListener('DOMContentLoaded', () => {
-    const metricsSection = document.querySelector('.bg-gradient-to-br.from-gray-900');
-    if (metricsSection) {
-        observer.observe(metricsSection);
-    }
-});
-</script>
-
-
 <!-- Interactive Sectoren Showcase -->
 <section class="py-20 bg-white">
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -1011,6 +958,59 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initial render
     renderSectors();
+});
+</script>
+
+
+{{< process-timeline
+    title="Van idee naar werkende AI-oplossing"
+    description="Onze bewezen aanpak voor succesvolle AI-implementatie in 4 duidelijke stappen"
+>}}
+</section>
+
+<!-- Add counter animation script -->
+<script>
+// Counter animation for success metrics
+function animateCounters() {
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200;
+
+    counters.forEach(counter => {
+        const animate = () => {
+            const value = +counter.getAttribute('data-target');
+            const data = +counter.innerText.replace('%', '');
+
+            const time = value / speed;
+            if (data < value) {
+                counter.innerText = Math.ceil(data + time) + '%';
+                setTimeout(animate, 1);
+            } else {
+                counter.innerText = value + '%';
+            }
+        }
+        animate();
+    });
+}
+
+// Trigger animation when section comes into view
+const observerOptions = {
+    threshold: 0.5
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            animateCounters();
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const metricsSection = document.querySelector('.bg-gradient-to-br.from-gray-900');
+    if (metricsSection) {
+        observer.observe(metricsSection);
+    }
 });
 </script>
 

@@ -22,7 +22,7 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive.
 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
 Waar 
 <span class="relative inline-block">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 animate-gradient">Logica</span>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 animate-gradient">Logica </span>
 <div class="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full animate-pulse"></div>
 </span>
 menselijkheid ontmoet

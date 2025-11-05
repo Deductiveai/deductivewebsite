@@ -149,46 +149,6 @@ paginatePath = "page"
         text = "Contact"
         url = "/contact"
 
-  # Blog configuration
-  [params.blog]
-    enable = true
-    title = "Latest Articles"
-    subtitle = "Learn more about web development and best practices"
-    
-    # Blog CTA configuration
-    [params.blog.cta]
-      enable = true  # Enable/disable CTA in blog posts
-    
-    # Sidebar configuration
-    [params.blog.sidebar]
-      # Recent articles section
-      [params.blog.sidebar.recent]
-        enable = true
-        title = "Recent Articles"
-        count = 5
-      
-      # Categories section
-      [params.blog.sidebar.categories]
-        enable = true
-        title = "Categories"
-      
-      # Tags section
-      [params.blog.sidebar.tags]
-        enable = true
-        title = "Popular Tags"
-        count = 20
-
-      # Subscribe form section
-      [params.blog.sidebar.subscribe]
-        enable = true
-        title = "Subscribe to Newsletter"
-        description = "Get the latest posts delivered right to your inbox"
-        action = "https://formspree.io/f/your-form-id"
-        emailName = "email"
-        buttonText = "Subscribe"
-        placeholder = "Enter your email"
-        disclaimer = "We respect your privacy. Unsubscribe at any time."
-
 # Module configuration removed - using traditional theme approach
 
 [build]
@@ -245,10 +205,6 @@ paginatePath = "page"
     url = "/pricing"
     weight = 2
   [[languages.nl.menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 3
-  [[languages.nl.menu.main]]
     name = "Bedrijf"
     weight = 4
     [languages.nl.menu.main.params]
@@ -275,10 +231,6 @@ paginatePath = "page"
     url = "/en/pricing"
     weight = 2
   [[languages.en.menu.main]]
-    name = "Blog"
-    url = "/en/blog"
-    weight = 3
-  [[languages.en.menu.main]]
     name = "Company"
     weight = 4
     [languages.en.menu.main.params]
@@ -302,10 +254,6 @@ paginatePath = "page"
   url = "/oplossingen/offertetool/"
   weight = 3
 
-[[menu.footer_column_2]]
-  name = "Blog"
-  url = "/blog"
-  weight = 1
 [[menu.footer_column_2]]
   name = "Over Ons"
   url = "/bedrijf"

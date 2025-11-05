@@ -777,7 +777,7 @@ Neem contact op
 </svg>
 </button>
 <div class="faq-answer hidden mt-4 text-gray-600">
-<p>Ja, er is een eenmalige setup kosten van €100 voor alle plannen. Deze kosten dekken de initiële configuratie, implementatie en 30 dagen ondersteuning om u te helpen aan de slag te gaan.</p>
+<p>Ja, er is een eenmalige setup kosten van €300 voor alle plannen. Deze kosten dekken de initiële configuratie, implementatie en 30 dagen ondersteuning om u te helpen aan de slag te gaan.</p>
 </div>
 </div>
 

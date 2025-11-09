@@ -86,7 +86,12 @@ Test onze AI
 </div>
 </div>
 
-<form id="modern-contact-form" class="space-y-8" novalidate>
+<form id="modern-contact-form" action="https://api.web3forms.com/submit" method="POST" class="space-y-8" novalidate>
+<!-- Web3Forms Access Key -->
+<input type="hidden" name="access_key" value="d4b4a918-7173-4771-9287-3f6a434be48b">
+<input type="hidden" name="subject" value="Nieuw contactformulier bericht van Deductive.nl">
+<input type="hidden" name="from_name" value="Deductive Contact Form">
+
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <div class="relative">
 <label for="voornaam" class="block text-sm font-bold text-gray-700 mb-3">Voornaam *</label>
@@ -214,7 +219,7 @@ Kies uw favoriete communicatiekanaal voor snelle service en persoonlijke onderst
 <div class="flex-1">
 <h3 class="text-2xl font-bold text-gray-900 mb-2">Direct Bellen</h3>
 <p class="text-gray-600 text-lg mb-3">Werkdagen 9:00 - 17:30</p>
-<p class="text-green-600 font-bold text-xl group-hover:text-green-700">+31 20 777 1234</p>
+<p class="text-green-600 font-bold text-xl group-hover:text-green-700">+31 6 40783101</p>
 </div>
 <svg class="w-6 h-6 text-gray-400 group-hover:text-green-600 group-hover:translate-x-2 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -525,17 +530,37 @@ document.addEventListener('DOMContentLoaded', function() {
             submitText.textContent = 'Verzenden...';
             loadingSpinner.classList.remove('hidden');
             submitBtn.disabled = true;
-            
-            // Simulate form submission (replace with actual form handling)
-            setTimeout(() => {
-                showSuccessModal();
-                form.reset();
-                
+
+            // Submit to Web3Forms
+            const formData = new FormData(form);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showSuccessModal();
+                    form.reset();
+                } else {
+                    showErrorModal('Er is iets misgegaan. Probeer het opnieuw of neem direct contact op via telefoon of email.');
+                }
+
                 // Reset button state
                 submitText.textContent = 'Verstuur Bericht';
                 loadingSpinner.classList.add('hidden');
                 submitBtn.disabled = false;
-            }, 2000);
+            })
+            .catch(error => {
+                console.error('Form submission error:', error);
+                showErrorModal('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.');
+
+                // Reset button state
+                submitText.textContent = 'Verstuur Bericht';
+                loadingSpinner.classList.add('hidden');
+                submitBtn.disabled = false;
+            });
         }
     });
 
@@ -591,6 +616,10 @@ document.addEventListener('DOMContentLoaded', function() {
 // Success modal functions
 function showSuccessModal() {
     document.getElementById('success-modal').classList.remove('hidden');
+}
+
+function showErrorModal(message) {
+    alert(message);
 }
 
 function closeModal() {
@@ -790,9 +819,9 @@ function generateAIResponse(userMessage) {
     } else if (message.includes('offerte') || message.includes('prijs') || message.includes('kosten')) {
         return 'Onze intelligente offertetool genereert automatisch gepersonaliseerde offertes, wat resulteert in 75% snellere offertes en 40% hogere conversies. Transparante prijzen staan op onze website!';
     } else if (message.includes('demo') || message.includes('proberen') || message.includes('test')) {
-        return 'Zeker! We plannen graag een persoonlijke demo waarin we onze oplossingen live demonstreren met uw eigen data. Vul het contactformulier in of bel +31 20 777 1234 voor een afspraak.';
+        return 'Zeker! We plannen graag een persoonlijke demo waarin we onze oplossingen live demonstreren met uw eigen data. Vul het contactformulier in of bel +31 6 40783101 voor een afspraak.';
     } else if (message.includes('contact') || message.includes('afspraak') || message.includes('bellen')) {
-        return 'U kunt direct contact opnemen via email (info@deductive.nl), telefoon (+31 20 777 1234) of het contactformulier op deze pagina. We reageren gegarandeerd binnen 24 uur!';
+        return 'U kunt direct contact opnemen via email (info@deductive.nl), telefoon (+31 6 40783101) of het contactformulier op deze pagina. We reageren gegarandeerd binnen 24 uur!';
     } else if (message.includes('hallo') || message.includes('hoi') || message.includes('dag') || message.includes('help')) {
         return 'Hallo! Leuk dat u interesse hebt in AI-oplossingen. Ik kan u helpen met informatie over chatbots, AI-agents, offertetools en integraties. Waar bent u specifiek in geïnteresseerd?';
     } else if (message.includes('integratie') || message.includes('koppelen') || message.includes('systeem')) {

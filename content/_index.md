@@ -3,8 +3,6 @@ title: Home
 client_logos:
   - name: "Github"
     logo: "images/logos/github.png"
-  - name: "AWS"
-    logo: "images/logos/aws.svg"
   - name: "OpenAI"
     logo: "images/logos/openai2.png"
   - name: "Anthropic"

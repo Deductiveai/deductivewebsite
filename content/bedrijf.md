@@ -79,8 +79,8 @@ Leer ons team kennen
 <div class="text-gray-600 font-medium">Opgericht</div>
 </div>
 <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
-<div class="text-3xl md:text-4xl font-bold text-purple-600 mb-2">50+</div>
-<div class="text-gray-600 font-medium">Tevreden klanten</div>
+<div class="text-3xl md:text-4xl font-bold text-purple-600 mb-2">5</div>
+<div class="text-gray-600 font-medium">Afgeronde projecten</div>
 </div>
 <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
 <div class="text-3xl md:text-4xl font-bold text-indigo-600 mb-2">98%</div>
@@ -278,28 +278,28 @@ Van separate tools naar
             </div>
 
             <p class="text-gray-600 leading-relaxed mb-6">
-                Daan brengt uitgebreide ervaring mee in platform development en software architectuur. Met een sterke achtergrond in full-stack development en cloud infrastructuur, leidt hij de technische ontwikkeling van ons geïntegreerde AI-platform.
+                Daan begon zijn carrière met een opleiding in software engineering, maar koos bewust voor een pad als brede generalist met specialisaties in IT infrastructuur, security en management. Tijdens zijn jaren in consultancy heeft hij zich ontwikkeld in verschillende rollen, waaronder Cloud Engineer, DevOps Engineer en Platform Engineer. Deze multidisciplinaire achtergrond stelt hem in staat om complexe technische uitdagingen vanuit verschillende perspectieven te benaderen en robuuste, schaalbare oplossingen te bouwen die zowel technisch solide als praktisch toepasbaar zijn.
             </p>
             
             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 border-l-4 border-blue-500 mb-6">
                 <p class="text-gray-700 italic leading-relaxed">
-                    "Ik geloof in het bouwen van technologie die intuïtief aanvoelt maar complex problemen oplost. 
+                    "Ik geloof in het bouwen van technologie die intuïtief aanvoelt maar complex problemen oplost.
                     Ons platform moet zo eenvoudig zijn dat elke ondernemer het kan gebruiken."
                 </p>
             </div>
 
             <div class="grid grid-cols-3 gap-4">
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-blue-600">10+</div>
-                    <div class="text-xs text-gray-600">Years Experience</div>
+                    <div class="text-2xl font-bold text-blue-600">7+</div>
+                    <div class="text-xs text-gray-600">Jaren in tech</div>
                 </div>
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-purple-600">50+</div>
-                    <div class="text-xs text-gray-600">Projects Led</div>
+                    <div class="text-2xl font-bold text-purple-600">3</div>
+                    <div class="text-xs text-gray-600">Specialisaties</div>
                 </div>
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-indigo-600">99%</div>
-                    <div class="text-xs text-gray-600">Uptime</div>
+                    <div class="text-2xl font-bold text-indigo-600">5+</div>
+                    <div class="text-xs text-gray-600">Projecten</div>
                 </div>
             </div>
         </div>
@@ -314,7 +314,7 @@ Van separate tools naar
             </div>
 
             <p class="text-gray-600 leading-relaxed mb-6">
-                Paul is een ervaren AI-specialist met diepgaande kennis van machine learning, natural language processing en conversational AI. Hij leidt de ontwikkeling van onze AI-algoritmen en zorgt ervoor dat onze oplossingen aan de voorhoede van technologische innovatie blijven.
+                Paul startte zijn carrière met een studie software engineering en bouwde een solide fundament in software en embedded engineering. Gedreven door zijn fascinatie voor kunstmatige intelligentie, verdiepte hij zich verder in dit vakgebied en volgt momenteel een master in Artificial Intelligence. Deze combinatie van praktische engineering-ervaring en geavanceerde AI-kennis stelt hem in staat om AI-systemen te ontwikkelen die niet alleen theoretisch krachtig zijn, maar ook praktisch toepasbaar en waardevol in real-world scenario's.
             </p>
             
             <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-2xl p-6 border-l-4 border-purple-500 mb-6">
@@ -326,16 +326,16 @@ Van separate tools naar
 
             <div class="grid grid-cols-3 gap-4">
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-purple-600">15+</div>
-                    <div class="text-xs text-gray-600">AI Models Built</div>
+                    <div class="text-2xl font-bold text-purple-600">2</div>
+                    <div class="text-xs text-gray-600">Engineering domeinen</div>
                 </div>
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-indigo-600">1M+</div>
-                    <div class="text-xs text-gray-600">Conversations</div>
+                    <div class="text-2xl font-bold text-indigo-600">MSc</div>
+                    <div class="text-xs text-gray-600">AI specialisatie</div>
                 </div>
                 <div class="text-center p-4 bg-gray-50 rounded-xl">
-                    <div class="text-2xl font-bold text-pink-600">95%</div>
-                    <div class="text-xs text-gray-600">Accuracy</div>
+                    <div class="text-2xl font-bold text-pink-600">5+</div>
+                    <div class="text-xs text-gray-600">Projecten</div>
                 </div>
             </div>
         </div>
@@ -345,8 +345,7 @@ Van separate tools naar
         <div class="bg-white rounded-3xl p-12 shadow-xl max-w-4xl mx-auto">
             <h3 class="text-3xl font-bold text-gray-900 mb-6">Samen bouwen aan de toekomst</h3>
             <p class="text-xl text-gray-600 leading-relaxed mb-8">
-                Daan en Paul combineren hun complementaire expertise om AI-technologie toegankelijk en krachtig te maken 
-                voor elke organisatie. Hun gedeelde visie en complementaire vaardigheden vormen de basis van Deductive's succes.
+                Daan en Paul kennen elkaar al meer dan 20 jaar en begonnen beiden hun carrière met een opleiding in software engineering. Hoewel hun paden zich later scheidden - Daan als generalist met focus op infrastructuur en platforms, Paul als specialist in AI - bleef hun gedeelde passie voor technologie en innovatie de rode draad. Bij Deductive combineren ze hun complementaire expertise om AI-technologie toegankelijk en krachtig te maken voor elke organisatie.
             </p>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -378,8 +377,8 @@ Van separate tools naar
                     </div>
                     <h4 class="text-lg font-semibold text-gray-900 mb-2">Bewezen resultaten</h4>
                     <div class="space-y-1">
-                        <p class="text-2xl font-bold text-green-600">50+</p>
-                        <p class="text-gray-600 text-sm">Tevreden klanten</p>
+                        <p class="text-2xl font-bold text-green-600">5</p>
+                        <p class="text-gray-600 text-sm">Afgeronde projecten</p>
                     </div>
                 </div>
             </div>
@@ -519,8 +518,8 @@ Van separate tools naar
                 <div class="text-gray-600 font-medium">Opgericht</div>
             </div>
             <div class="bg-white rounded-xl p-6 shadow-lg">
-                <div class="text-4xl font-bold text-green-600 mb-2">15+</div>
-                <div class="text-gray-600 font-medium">Tevreden klanten</div>
+                <div class="text-4xl font-bold text-green-600 mb-2">5</div>
+                <div class="text-gray-600 font-medium">Afgeronde projecten</div>
             </div>
             <div class="bg-white rounded-xl p-6 shadow-lg">
                 <div class="text-4xl font-bold text-purple-600 mb-2">3</div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}" class="h-full">
+<html lang="{{ .Site.LanguageCode | default "en" }}" class="h-full overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,7 +73,7 @@
         {{ end }}
     {{ end }}
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col overflow-x-hidden">
     <!-- Google Tag Manager (noscript) -->
     {{ if and hugo.IsProduction .Site.Params.googleTagManager }}
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManager }}"
@@ -128,7 +128,7 @@
     <script type="module">
         import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
         Chatbot.init({
-            chatflowid: "09c2f6dd-4fde-4a66-b83b-67062ab67b7c",
+            chatflowid: "ceb356ec-e071-4d99-ba6d-3cd48490e7c9",
             apiHost: "https://flowise-keb6.onrender.com",
             theme: {
                 button: {

@@ -7,8 +7,8 @@ description: "Leer meer over onze missie, ons team en de visie achter Deductive.
 <!-- Enhanced Hero Section -->
 <section class="relative min-h-screen flex items-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 overflow-hidden">
 <div class="absolute inset-0 bg-circuit-pattern opacity-10"></div>
-<div class="absolute top-20 right-10 w-72 h-72 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-<div class="absolute bottom-10 left-10 w-96 h-96 bg-gradient-to-tr from-indigo-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+<div class="absolute top-20 right-0 w-40 h-40 sm:w-72 sm:h-72 sm:right-10 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+<div class="absolute bottom-10 left-0 w-48 h-48 sm:w-96 sm:h-96 sm:left-10 bg-gradient-to-tr from-indigo-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
 
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
 <div class="text-center mb-16">
